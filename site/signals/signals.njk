@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: Signal feed
+nav: signals
+permalink: "signals/index.html"
+---
+<div class="section-header">
+  <div class="section-title">Signal feed — last 7 days ({{ signals.length }})</div>
+</div>
+
+<div class="signal-feed-list">
+  {% for s in signals %}
+  <div class="signal-entry">
+    <div class="signal-entry-top">
+      <span class="signal-type-badge {{ s.type }}">{{ s.type | replace("_", " ") }}</span>
+      <span class="signal-org"><a href="/org/{{ s.org }}/">{{ s.org }}</a></span>
+    </div>
+    <div class="signal-detail">
+      {% if s.framework %}{{ s.framework }} · {% endif %}{{ s.repo or "" }}
+      {% if s.url %}· <a href="{{ s.url }}" target="_blank" rel="noopener">source →</a>{% endif %}
+    </div>
+    <div class="signal-time">{{ s.ts }} · confidence: {{ s.confidence }}</div>
+  </div>
+  {% endfor %}
+</div>

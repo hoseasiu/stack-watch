@@ -1,0 +1,58 @@
+{
+  "slug": "glean",
+  "display_name": "Glean",
+  "github_org": "gleanwork",
+  "sector": "saas",
+  "first_detected": "2026-06-30",
+  "last_updated": "2026-06-30",
+  "frameworks": {
+    "crewai": {
+      "confidence": "high",
+      "first_seen": "2026-06-30",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gleanwork/glean-agent-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/gleanwork/glean-agent-toolkit/blob/main/pyproject.toml",
+          "detected": "2026-06-30"
+        }
+      ]
+    },
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-06-30",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gleanwork/glean-agent-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/gleanwork/glean-agent-toolkit/blob/main/pyproject.toml",
+          "detected": "2026-06-30"
+        }
+      ]
+    }
+  },
+  "model_providers": {
+    "openai": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gleanwork/glean-agent-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/gleanwork/glean-agent-toolkit/blob/main/pyproject.toml",
+          "detected": "2026-06-30"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 3,
+  "signal_history": [
+    { "date": "2026-06-30", "type": "dependency", "framework": "crewai" },
+    { "date": "2026-06-30", "type": "dependency", "framework": "openai_agents_sdk" },
+    { "date": "2026-06-30", "type": "dependency", "framework": "openai" }
+  ]
+}

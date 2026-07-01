@@ -1,0 +1,30 @@
+{
+  "slug": "scale-ai",
+  "display_name": "Scale AI",
+  "github_org": "scaleai",
+  "sector": "ai-infra",
+  "first_detected": "2026-06-30",
+  "last_updated": "2026-06-30",
+  "frameworks": {},
+  "model_providers": {},
+  "job_signals": [
+    {
+      "title": "AI Builder Intern",
+      "terms_matched": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "multi-agent", "RAG pipeline"],
+      "posted": "2026-06-06",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005"
+    },
+    {
+      "title": "GTM Systems Analyst",
+      "terms_matched": ["MCP server"],
+      "posted": "2026-05-18",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4688911005"
+    }
+  ],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    { "date": "2026-06-06", "type": "job_posting", "terms": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "multi-agent", "RAG pipeline"] },
+    { "date": "2026-05-18", "type": "job_posting", "terms": ["MCP server"] }
+  ]
+}

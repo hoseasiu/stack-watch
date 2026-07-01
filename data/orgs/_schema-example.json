@@ -1,0 +1,41 @@
+{
+  "slug": "acme-corp",
+  "display_name": "Acme Corp",
+  "github_org": "acme-corp",
+  "sector": "saas",
+  "first_detected": "2025-11-03",
+  "last_updated": "2026-06-27",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2025-11-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "acme-corp/agent-platform",
+          "file": "requirements.txt",
+          "url": "https://github.com/acme-corp/agent-platform/blob/main/requirements.txt",
+          "detected": "2025-11-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {
+    "anthropic": { "confidence": "high", "evidence": [] },
+    "openai": { "confidence": "medium", "evidence": [] }
+  },
+  "job_signals": [
+    {
+      "title": "Senior AI Engineer",
+      "terms_matched": ["LangGraph", "multi-agent"],
+      "posted": "2026-05-12",
+      "url": "https://example.com/jobs/senior-ai-engineer"
+    }
+  ],
+  "hf_models": [],
+  "signal_count": 4,
+  "signal_history": [
+    { "date": "2025-11-03", "type": "dependency", "framework": "langgraph" },
+    { "date": "2026-03-18", "type": "job_posting", "terms": ["LangGraph"] }
+  ]
+}

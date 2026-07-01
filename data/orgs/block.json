@@ -1,0 +1,36 @@
+{
+  "slug": "block",
+  "display_name": "Block",
+  "github_org": "block",
+  "sector": "fintech",
+  "first_detected": "2026-06-30",
+  "last_updated": "2026-06-30",
+  "frameworks": {},
+  "model_providers": {},
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config_file",
+        "repo": "block/kfsm",
+        "file": "AGENTS.md",
+        "url": "https://github.com/block/kfsm/blob/main/AGENTS.md",
+        "detected": "2026-06-30"
+      },
+      {
+        "type": "agent_config_file",
+        "repo": "block/ai-rules",
+        "file": "docs/agents.md",
+        "url": "https://github.com/block/ai-rules/blob/main/docs/agents.md",
+        "detected": "2026-06-30"
+      }
+    ]
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    { "date": "2026-06-30", "type": "agent_config", "file": "AGENTS.md" },
+    { "date": "2026-06-30", "type": "agent_config", "file": "docs/agents.md" }
+  ]
+}

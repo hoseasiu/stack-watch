@@ -1,0 +1,64 @@
+{
+  "slug": "cisco-outshift",
+  "display_name": "Cisco Outshift",
+  "github_org": "cisco-outshift-ai-agents",
+  "sector": "enterprise-software",
+  "first_detected": "2026-06-30",
+  "last_updated": "2026-06-30",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-06-30",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cisco-outshift-ai-agents/jira-agntcy-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/cisco-outshift-ai-agents/jira-agntcy-agent/blob/main/pyproject.toml",
+          "detected": "2026-06-30"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "cisco-outshift-ai-agents/jira-agntcy-agent",
+          "file": "eval/eval_requirements.txt",
+          "url": "https://github.com/cisco-outshift-ai-agents/jira-agntcy-agent/blob/main/eval/eval_requirements.txt",
+          "detected": "2026-06-30"
+        }
+      ]
+    }
+  },
+  "model_providers": {
+    "openai": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cisco-outshift-ai-agents/jira-agntcy-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/cisco-outshift-ai-agents/jira-agntcy-agent/blob/main/pyproject.toml",
+          "detected": "2026-06-30"
+        }
+      ]
+    },
+    "anthropic": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cisco-outshift-ai-agents/jira-agntcy-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/cisco-outshift-ai-agents/jira-agntcy-agent/blob/main/pyproject.toml",
+          "detected": "2026-06-30"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 3,
+  "signal_history": [
+    { "date": "2026-06-30", "type": "dependency", "framework": "langgraph" },
+    { "date": "2026-06-30", "type": "dependency", "framework": "openai" },
+    { "date": "2026-06-30", "type": "dependency", "framework": "anthropic" }
+  ]
+}

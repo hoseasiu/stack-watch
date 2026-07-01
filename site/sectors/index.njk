@@ -1,0 +1,37 @@
+---
+layout: base.njk
+title: Sectors
+nav: sectors
+permalink: "sectors/index.html"
+---
+<div class="methodology-bar">
+  <strong>Coverage notice:</strong> Sector coverage reflects which organizations have an
+  active public GitHub presence — it is not a representative sample of any industry.
+  Defense, healthcare, and finance are intentionally excluded; see
+  <a href="/methodology/">methodology</a>.
+</div>
+
+<div class="section-header">
+  <div class="section-title">Sectors ({{ sectorCounts.length }})</div>
+</div>
+
+{% if sectorCounts.length %}
+<table class="org-table">
+  <thead>
+    <tr>
+      <th>Sector</th>
+      <th style="width:120px">Orgs tracked</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in sectorCounts %}
+    <tr>
+      <td><span class="org-sector-badge">{{ s.sector }}</span></td>
+      <td><span class="signal-count">{{ s.count }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+  <div class="empty-state">No sector data yet.</div>
+{% endif %}

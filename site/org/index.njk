@@ -1,0 +1,44 @@
+---
+layout: base.njk
+title: Organizations
+nav: orgs
+permalink: "org/index.html"
+---
+<div class="section-header">
+  <div class="section-title">All organizations ({{ orgs.length }})</div>
+</div>
+
+<table class="org-table">
+  <thead>
+    <tr>
+      <th style="width:220px">Organization</th>
+      <th>Frameworks detected</th>
+      <th style="width:70px">Signals</th>
+      <th style="width:90px">Last signal</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for org in orgs %}
+    <tr>
+      <td>
+        <div class="org-name">
+          <a href="/org/{{ org.slug }}/">{{ org.display_name }}</a>
+          <span class="org-sector-badge">{{ org.sector }}</span>
+        </div>
+      </td>
+      <td>
+        <div class="framework-tags">
+          {% for slug, fw in org.frameworks %}
+            <span class="framework-tag accent">{{ slug }}</span>
+          {% endfor %}
+          {% if org.agent_config %}
+            <span class="framework-tag">agent-config</span>
+          {% endif %}
+        </div>
+      </td>
+      <td><span class="signal-count">{{ org.signal_count }}</span></td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">{{ org.last_updated }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

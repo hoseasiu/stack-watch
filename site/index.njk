@@ -1,0 +1,95 @@
+---
+layout: base.njk
+title: Dashboard
+nav: dashboard
+---
+<div class="stat-bar">
+  <div class="stat-cell">
+    <div class="stat-value"><span class="accent">{{ orgs.length }}</span></div>
+    <div class="stat-label">Orgs tracked</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value"><span class="accent">{{ signals.length }}</span></div>
+    <div class="stat-label">Signals (last 7d)</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value"><span class="accent">{{ frameworks.length }}</span></div>
+    <div class="stat-label">Frameworks detected</div>
+  </div>
+  <div class="stat-cell">
+    <div class="stat-value"><span class="accent">3</span></div>
+    <div class="stat-label">Signal types live</div>
+  </div>
+</div>
+
+<div class="methodology-bar">
+  <strong>Coverage notice:</strong> StackWatch tracks organizations with active public GitHub
+  presence — primarily tech companies, startups, and research institutions. Coverage of
+  defense, healthcare, and financial services is intentionally thin. All signals are inferred
+  from public sources; <a href="/methodology/">see methodology →</a>
+</div>
+
+<div class="section-header">
+  <div class="section-title">Organizations</div>
+  <a class="section-action" href="/org/">View all {{ orgs.length }} →</a>
+</div>
+
+<table class="org-table">
+  <thead>
+    <tr>
+      <th style="width:220px">Organization</th>
+      <th>Frameworks detected</th>
+      <th style="width:70px">Signals</th>
+      <th style="width:90px">Last signal</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for org in orgs %}
+    <tr>
+      <td>
+        <div class="org-name">
+          <a href="/org/{{ org.slug }}/">{{ org.display_name }}</a>
+          <span class="org-sector-badge">{{ org.sector }}</span>
+        </div>
+      </td>
+      <td>
+        <div class="framework-tags">
+          {% for slug, fw in org.frameworks %}
+            <span class="framework-tag accent">{{ slug }}</span>
+          {% endfor %}
+          {% if org.agent_config %}
+            <span class="framework-tag">agent-config</span>
+          {% endif %}
+          {% if not org.frameworks | length and not org.agent_config %}
+            <span class="framework-tag">—</span>
+          {% endif %}
+        </div>
+      </td>
+      <td><span class="signal-count">{{ org.signal_count }}</span></td>
+      <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">{{ org.last_updated }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="section-header">
+  <div class="section-title">Recent signal feed</div>
+  <a class="section-action" href="/signals/">View all →</a>
+</div>
+
+<div class="signal-feed-list">
+  {% for s in signals %}
+  {% if loop.index <= 10 %}
+  <div class="signal-entry">
+    <div class="signal-entry-top">
+      <span class="signal-type-badge {{ s.type }}">{{ s.type | replace("_", " ") }}</span>
+      <span class="signal-org">{{ s.org }}</span>
+    </div>
+    <div class="signal-detail">
+      {% if s.framework %}{{ s.framework }} · {% endif %}{{ s.repo or s.url }}
+    </div>
+    <div class="signal-time">{{ s.ts }} · confidence: {{ s.confidence }}</div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>

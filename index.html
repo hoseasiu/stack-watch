@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StackWatch — AI Infrastructure Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:        #FDFAF5;
+    --surface:   #F5F0E6;
+    --surface2:  #EDE8DA;
+    --border:    #DDD6C4;
+    --border2:   #CFC7B2;
+    --text:      #1C1A17;
+    --text2:     #6B6358;
+    --text3:     #A09488;
+    --accent:    #C4793A;
+    --accent-dim:#F0E4CC;
+    --green:     #3D8C5E;
+    --green-bg:  #E6F2EC;
+    --red:       #B84040;
+    --blue:      #3A6EA8;
+    --blue-bg:   #E6EEF7;
+    --mono:      'IBM Plex Mono', monospace;
+    --sans:      'DM Sans', sans-serif;
+    --serif:     'Instrument Serif', serif;
+  }
+
+  html { font-size: 14px; background: var(--bg); color: var(--text); font-family: var(--sans); }
+  body { min-height: 100vh; display: flex; flex-direction: column; }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ── HEADER ── */
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .logo-mark {
+    width: 22px; height: 22px;
+    background: var(--accent);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .logo-mark svg { width: 12px; height: 12px; fill: #FDFAF5; }
+
+  .logo-name {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 17px;
+    color: var(--text);
+    letter-spacing: 0.01em;
+    line-height: 1;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+  }
+
+  nav a {
+    font-size: 12.5px;
+    color: var(--text3);
+    font-weight: 500;
+  }
+  nav a:hover { color: var(--text); text-decoration: none; }
+  nav a.active { color: var(--text); }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .pulse-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+  }
+
+  .pulse-dot {
+    width: 7px; height: 7px;
+    background: var(--green);
+    border-radius: 50%;
+    animation: pulse 2.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+  }
+
+  /* ── LAYOUT ── */
+  .shell {
+    display: grid;
+    grid-template-columns: 210px 1fr 296px;
+    flex: 1;
+    min-height: 0;
+  }
+
+  /* ── LEFT SIDEBAR ── */
+  .sidebar {
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+    background: var(--bg);
+  }
+
+  .sidebar-section { margin-bottom: 2rem; }
+
+  .sidebar-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text3);
+    padding: 0 1.25rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.38rem 1.25rem;
+    font-size: 12.5px;
+    color: var(--text2);
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+
+  .sidebar-item:hover { background: var(--surface); color: var(--text); }
+  .sidebar-item.active { background: var(--surface); color: var(--accent); font-weight: 500; }
+
+  .sidebar-count {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+  }
+
+  /* ── MAIN ── */
+  main {
+    padding: 1.75rem 2rem;
+    overflow-y: auto;
+    min-width: 0;
+  }
+
+  /* ── STAT BAR ── */
+  .stat-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 1.75rem;
+  }
+
+  .stat-cell {
+    background: var(--surface);
+    padding: 1rem 1.25rem;
+  }
+
+  .stat-value {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+
+  .stat-value .accent { color: var(--accent); }
+
+  .stat-label {
+    font-size: 11px;
+    color: var(--text3);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: var(--mono);
+  }
+
+  .stat-delta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--green);
+    margin-top: 4px;
+  }
+
+  /* ── SECTION HEADER ── */
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .section-title {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text3);
+  }
+
+  .section-action { font-size: 12px; color: var(--text3); }
+  .section-action:hover { color: var(--accent); }
+
+  /* ── ORG TABLE ── */
+  .org-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    font-size: 12.5px;
+  }
+
+  .org-table th {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text3);
+    background: var(--surface);
+    padding: 0.6rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    font-weight: 400;
+  }
+
+  .org-table td {
+    padding: 0.72rem 1rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+    color: var(--text2);
+  }
+
+  .org-table tr:last-child td { border-bottom: none; }
+  .org-table tbody tr:hover td { background: var(--surface); }
+
+  .org-name {
+    color: var(--text);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .org-sector-badge {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: var(--surface2);
+    color: var(--text3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .framework-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+
+  .framework-tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: 1px solid var(--border2);
+    color: var(--text2);
+    white-space: nowrap;
+    background: var(--bg);
+  }
+
+  .framework-tag.accent {
+    border-color: #C4793A;
+    color: var(--accent);
+    background: var(--accent-dim);
+  }
+
+  .confidence-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .confidence-dot.high   { background: var(--green); }
+  .confidence-dot.medium { background: var(--accent); }
+  .confidence-dot.low    { background: var(--border2); }
+
+  .signal-count { font-family: var(--mono); font-size: 12px; color: var(--text); }
+
+  .provider-icons { display: flex; gap: 4px; align-items: center; }
+
+  .provider-chip {
+    font-family: var(--mono);
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    background: var(--surface2);
+    color: var(--text3);
+    border: 1px solid var(--border);
+  }
+
+  .provider-chip.anthropic { background: #FAF0E6; color: #A0561A; border-color: #E8C8A0; }
+  .provider-chip.openai    { background: #E8F4EC; color: #2D7A4A; border-color: #A8D8BC; }
+  .provider-chip.google    { background: #E8EEF8; color: #2D568A; border-color: #A8C0DC; }
+  .provider-chip.self      { background: #F0EAF8; color: #6040A0; border-color: #C8B0E0; }
+
+  /* ── FRAMEWORK ADOPTION BARS ── */
+  .framework-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  .framework-cell {
+    background: var(--surface);
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .framework-cell-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .framework-cell-name { font-family: var(--mono); font-size: 12px; color: var(--text); }
+  .framework-cell-count { font-family: var(--mono); font-size: 11px; color: var(--text3); }
+
+  .bar-track {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .bar-fill { height: 100%; background: var(--accent); border-radius: 2px; }
+  .bar-fill.blue  { background: var(--blue); }
+  .bar-fill.green { background: var(--green); }
+
+  .framework-cell-meta {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--text3);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .delta-up   { color: var(--green); }
+  .delta-down { color: var(--red); }
+
+  /* ── SEARCH BAR ── */
+  .search-row { margin-bottom: 1.4rem; display: flex; gap: 8px; }
+
+  .search-input {
+    flex: 1;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 0.55rem 0.9rem;
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--text);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .search-input::placeholder { color: var(--text3); }
+  .search-input:focus { border-color: var(--accent); }
+
+  .filter-btn {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 0 0.9rem;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .filter-btn:hover { border-color: var(--border2); color: var(--text); }
+  .filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+
+  /* ── METHODOLOGY NOTICE ── */
+  .methodology-bar {
+    margin-bottom: 1.75rem;
+    padding: 0.8rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 5px;
+    font-size: 12.5px;
+    color: var(--text2);
+    line-height: 1.55;
+  }
+  .methodology-bar strong { color: var(--text); font-weight: 500; }
+
+  /* ── RIGHT PANEL — SIGNAL FEED ── */
+  .signal-panel {
+    border-left: 1px solid var(--border);
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+  }
+
+  .signal-panel-header {
+    padding: 0.9rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    background: var(--surface);
+  }
+
+  .signal-panel-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .signal-feed { overflow-y: auto; flex: 1; padding: 0.25rem 0; }
+
+  .signal-entry {
+    padding: 0.7rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    transition: background 0.1s;
+  }
+  .signal-entry:hover { background: var(--surface); }
+  .signal-entry:last-child { border-bottom: none; }
+
+  .signal-entry-top {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 3px;
+  }
+
+  .signal-type-badge {
+    font-family: var(--mono);
+    font-size: 9px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    flex-shrink: 0;
+    border: 1px solid transparent;
+  }
+
+  .signal-type-badge.dep { background: var(--green-bg); color: var(--green); border-color: #B0D8C0; }
+  .signal-type-badge.job { background: var(--accent-dim); color: var(--accent); border-color: #DEC8A0; }
+  .signal-type-badge.hf  { background: var(--blue-bg); color: var(--blue); border-color: #A8C0DC; }
+  .signal-type-badge.cfg { background: #F0EAF8; color: #6040A0; border-color: #C8B0E0; }
+
+  .signal-org {
+    font-size: 12.5px;
+    color: var(--text);
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .signal-detail {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--text2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 3px;
+  }
+
+  .signal-time {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--text3);
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 0.9rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text3);
+    font-family: var(--mono);
+    background: var(--surface);
+  }
+
+  /* ── SCROLLBAR ── */
+  ::-webkit-scrollbar { width: 4px; height: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pulse-dot { animation: none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="logo">
+    <div class="logo-mark">
+      <svg viewBox="0 0 12 12"><circle cx="3" cy="3" r="2"/><circle cx="9" cy="3" r="2"/><circle cx="3" cy="9" r="2"/><circle cx="9" cy="9" r="2"/></svg>
+    </div>
+    <span class="logo-name">StackWatch</span>
+  </div>
+  <nav>
+    <a href="#" class="active">Dashboard</a>
+    <a href="#">Organizations</a>
+    <a href="#">Frameworks</a>
+    <a href="#">Sectors</a>
+    <a href="#">Signals</a>
+    <a href="#">Methodology</a>
+  </nav>
+  <div class="header-right">
+    <div class="pulse-indicator">
+      <div class="pulse-dot"></div>
+      Updated 2h ago
+    </div>
+  </div>
+</header>
+
+<!-- ── MAIN SHELL ── -->
+<div class="shell">
+
+  <!-- ── LEFT SIDEBAR ── -->
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Sector</div>
+      <div class="sidebar-item active">All sectors <span class="sidebar-count">1,847</span></div>
+      <div class="sidebar-item">SaaS / Cloud <span class="sidebar-count">612</span></div>
+      <div class="sidebar-item">Developer Tools <span class="sidebar-count">408</span></div>
+      <div class="sidebar-item">Fintech <span class="sidebar-count">187</span></div>
+      <div class="sidebar-item">Research / Academia <span class="sidebar-count">341</span></div>
+      <div class="sidebar-item">E-commerce <span class="sidebar-count">144</span></div>
+      <div class="sidebar-item">Media / Content <span class="sidebar-count">98</span></div>
+      <div class="sidebar-item">Other <span class="sidebar-count">57</span></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Framework</div>
+      <div class="sidebar-item">LangGraph <span class="sidebar-count">503</span></div>
+      <div class="sidebar-item">OpenAI Agents SDK <span class="sidebar-count">389</span></div>
+      <div class="sidebar-item">CrewAI <span class="sidebar-count">271</span></div>
+      <div class="sidebar-item">AutoGen <span class="sidebar-count">218</span></div>
+      <div class="sidebar-item">LlamaIndex <span class="sidebar-count">196</span></div>
+      <div class="sidebar-item">Pydantic AI <span class="sidebar-count">144</span></div>
+      <div class="sidebar-item">Mastra <span class="sidebar-count">87</span></div>
+      <div class="sidebar-item">smolagents <span class="sidebar-count">64</span></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Model Provider</div>
+      <div class="sidebar-item">Anthropic <span class="sidebar-count">711</span></div>
+      <div class="sidebar-item">OpenAI <span class="sidebar-count">904</span></div>
+      <div class="sidebar-item">Google <span class="sidebar-count">388</span></div>
+      <div class="sidebar-item">Self-hosted <span class="sidebar-count">302</span></div>
+      <div class="sidebar-item">DeepSeek <span class="sidebar-count">143</span></div>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-label">Confidence</div>
+      <div class="sidebar-item"><span class="confidence-dot high"></span> &nbsp;High only <span class="sidebar-count">892</span></div>
+      <div class="sidebar-item"><span class="confidence-dot medium"></span> &nbsp;Medium+ <span class="sidebar-count">1,441</span></div>
+    </div>
+  </aside>
+
+  <!-- ── MAIN CONTENT ── -->
+  <main>
+
+    <!-- Stat bar -->
+    <div class="stat-bar">
+      <div class="stat-cell">
+        <div class="stat-value">1,<span class="accent">847</span></div>
+        <div class="stat-label">Orgs tracked</div>
+        <div class="stat-delta">↑ 63 this week</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-value">14,<span class="accent">209</span></div>
+        <div class="stat-label">Signals collected</div>
+        <div class="stat-delta">↑ 1,842 this week</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-value"><span class="accent">503</span></div>
+        <div class="stat-label">LangGraph orgs</div>
+        <div class="stat-delta">↑ 28 this week</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-value"><span class="accent">143</span></div>
+        <div class="stat-label">DeepSeek detected</div>
+        <div class="stat-delta">↑ 19 this week</div>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div class="search-row">
+      <input class="search-input" type="text" placeholder="Search orgs, frameworks, repos…">
+      <button class="filter-btn active">dep</button>
+      <button class="filter-btn active">job</button>
+      <button class="filter-btn active">hf</button>
+      <button class="filter-btn active">cfg</button>
+    </div>
+
+    <!-- Methodology notice -->
+    <div class="methodology-bar">
+      <strong>Coverage notice:</strong> StackWatch tracks organizations with active public GitHub presence — primarily tech companies, startups, and research institutions. Coverage of defense, healthcare, and financial services is intentionally excluded. All signals are inferred from public sources; <a href="#">see methodology →</a>
+    </div>
+
+    <!-- Org table -->
+    <div class="section-header">
+      <div class="section-title">Recently active organizations</div>
+      <a class="section-action" href="#">View all 1,847 →</a>
+    </div>
+
+    <table class="org-table">
+      <thead>
+        <tr>
+          <th style="width:240px">Organization</th>
+          <th>Frameworks detected</th>
+          <th>Providers</th>
+          <th style="width:70px">Signals</th>
+          <th style="width:80px">Confidence</th>
+          <th style="width:90px">Last signal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div class="org-name">Replit <span class="org-sector-badge">dev-tools</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag accent">langgraph</span><span class="framework-tag">openai-agents</span><span class="framework-tag">pydantic-ai</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip anthropic">claude</span><span class="provider-chip openai">oai</span></div></td>
+          <td><span class="signal-count">47</span></td>
+          <td><span class="confidence-dot high"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">2h ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Hugging Face <span class="org-sector-badge">research</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag accent">smolagents</span><span class="framework-tag">langgraph</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip self">local</span><span class="provider-chip anthropic">claude</span></div></td>
+          <td><span class="signal-count">93</span></td>
+          <td><span class="confidence-dot high"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">5h ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Klarna <span class="org-sector-badge">fintech</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag accent">langgraph</span><span class="framework-tag">pydantic-ai</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip openai">oai</span></div></td>
+          <td><span class="signal-count">31</span></td>
+          <td><span class="confidence-dot high"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">8h ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Notion <span class="org-sector-badge">saas</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag">openai-agents</span><span class="framework-tag">llamaindex</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip anthropic">claude</span><span class="provider-chip openai">oai</span></div></td>
+          <td><span class="signal-count">18</span></td>
+          <td><span class="confidence-dot medium"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">12h ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Elastic <span class="org-sector-badge">dev-tools</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag accent">langgraph</span><span class="framework-tag">llamaindex</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip anthropic">claude</span><span class="provider-chip google">goog</span></div></td>
+          <td><span class="signal-count">26</span></td>
+          <td><span class="confidence-dot high"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">14h ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Linear <span class="org-sector-badge">dev-tools</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag">mastra</span><span class="framework-tag">openai-agents</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip anthropic">claude</span></div></td>
+          <td><span class="signal-count">9</span></td>
+          <td><span class="confidence-dot medium"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">1d ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Stanford NLP Group <span class="org-sector-badge">research</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag">autogen</span><span class="framework-tag">langgraph</span><span class="framework-tag">llamaindex</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip self">local</span><span class="provider-chip openai">oai</span></div></td>
+          <td><span class="signal-count">38</span></td>
+          <td><span class="confidence-dot high"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">1d ago</td>
+        </tr>
+        <tr>
+          <td><div class="org-name">Vercel <span class="org-sector-badge">dev-tools</span></div></td>
+          <td><div class="framework-tags"><span class="framework-tag">mastra</span><span class="framework-tag">openai-agents</span></div></td>
+          <td><div class="provider-icons"><span class="provider-chip anthropic">claude</span><span class="provider-chip openai">oai</span><span class="provider-chip google">goog</span></div></td>
+          <td><span class="signal-count">22</span></td>
+          <td><span class="confidence-dot medium"></span></td>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--text3)">2d ago</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Framework adoption -->
+    <div class="section-header">
+      <div class="section-title">Framework adoption</div>
+      <a class="section-action" href="#">View all frameworks →</a>
+    </div>
+
+    <div class="framework-grid">
+      <div class="framework-cell">
+        <div class="framework-cell-header">
+          <span class="framework-cell-name">LangGraph</span>
+          <span class="framework-cell-count">503 orgs</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:87%"></div></div>
+        <div class="framework-cell-meta">
+          <span>Top framework</span>
+          <span class="delta-up">↑ 28 this week</span>
+        </div>
+      </div>
+      <div class="framework-cell">
+        <div class="framework-cell-header">
+          <span class="framework-cell-name">OpenAI Agents SDK</span>
+          <span class="framework-cell-count">389 orgs</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill blue" style="width:67%"></div></div>
+        <div class="framework-cell-meta">
+          <span>Launched Jan 2026</span>
+          <span class="delta-up">↑ 41 this week</span>
+        </div>
+      </div>
+      <div class="framework-cell">
+        <div class="framework-cell-header">
+          <span class="framework-cell-name">CrewAI</span>
+          <span class="framework-cell-count">271 orgs</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill green" style="width:47%"></div></div>
+        <div class="framework-cell-meta">
+          <span>Multi-agent workflows</span>
+          <span class="delta-up">↑ 7 this week</span>
+        </div>
+      </div>
+      <div class="framework-cell">
+        <div class="framework-cell-header">
+          <span class="framework-cell-name">AutoGen</span>
+          <span class="framework-cell-count">218 orgs</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill blue" style="width:38%"></div></div>
+        <div class="framework-cell-meta">
+          <span>Research-heavy</span>
+          <span class="delta-down">↓ 3 this week</span>
+        </div>
+      </div>
+      <div class="framework-cell">
+        <div class="framework-cell-header">
+          <span class="framework-cell-name">LlamaIndex</span>
+          <span class="framework-cell-count">196 orgs</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:34%;background:#7A5AAA"></div></div>
+        <div class="framework-cell-meta">
+          <span>RAG + retrieval</span>
+          <span class="delta-up">↑ 5 this week</span>
+        </div>
+      </div>
+      <div class="framework-cell">
+        <div class="framework-cell-header">
+          <span class="framework-cell-name">Pydantic AI</span>
+          <span class="framework-cell-count">144 orgs</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill green" style="width:25%"></div></div>
+        <div class="framework-cell-meta">
+          <span>Fast-growing</span>
+          <span class="delta-up">↑ 22 this week</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── RIGHT PANEL: SIGNAL FEED ── -->
+  <aside class="signal-panel">
+    <div class="signal-panel-header">
+      <div class="signal-panel-title">
+        <div class="pulse-dot"></div>
+        Signal feed
+      </div>
+      <span style="font-family:var(--mono);font-size:10px;color:var(--text3)">live</span>
+    </div>
+    <div class="signal-feed">
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge dep">dep</span><span class="signal-org">Mistral AI</span></div>
+        <div class="signal-detail">langgraph==0.2.28 in agents/requirements.txt</div>
+        <div class="signal-time">2 min ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge job">job</span><span class="signal-org">Shopify</span></div>
+        <div class="signal-detail">"LangGraph, multi-agent" · Sr. AI Engineer</div>
+        <div class="signal-time">18 min ago · greenhouse</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge cfg">cfg</span><span class="signal-org">Stripe</span></div>
+        <div class="signal-detail">CLAUDE.md added to stripe/pay-agent</div>
+        <div class="signal-time">34 min ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge hf">hf</span><span class="signal-org">Allen Institute for AI</span></div>
+        <div class="signal-detail">Fine-tune: Llama-3.1-70B · research-agent-v2</div>
+        <div class="signal-time">51 min ago · huggingface</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge dep">dep</span><span class="signal-org">Loom</span></div>
+        <div class="signal-detail">pydantic-ai==0.0.14 in pyproject.toml</div>
+        <div class="signal-time">1h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge job">job</span><span class="signal-org">Duolingo</span></div>
+        <div class="signal-detail">"MCP, agentic AI" · AI Product Engineer</div>
+        <div class="signal-time">1h ago · greenhouse</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge dep">dep</span><span class="signal-org">Cohere</span></div>
+        <div class="signal-detail">crewai==0.86.0 in requirements.txt</div>
+        <div class="signal-time">2h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge cfg">cfg</span><span class="signal-org">Sourcegraph</span></div>
+        <div class="signal-detail">.cursor/rules updated · 4 agent rules</div>
+        <div class="signal-time">2h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge dep">dep</span><span class="signal-org">Weights &amp; Biases</span></div>
+        <div class="signal-detail">smolagents==1.0.2 in agent-eval/setup.py</div>
+        <div class="signal-time">3h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge hf">hf</span><span class="signal-org">MIT CSAIL</span></div>
+        <div class="signal-detail">New model card: csail/reasoning-agent-base</div>
+        <div class="signal-time">3h ago · huggingface</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge job">job</span><span class="signal-org">Figma</span></div>
+        <div class="signal-detail">"LangGraph, tool use" · AI Platform Lead</div>
+        <div class="signal-time">4h ago · greenhouse</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge dep">dep</span><span class="signal-org">Scale AI</span></div>
+        <div class="signal-detail">langgraph==0.2.31 in evals/requirements.txt</div>
+        <div class="signal-time">5h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge dep">dep</span><span class="signal-org">Perplexity AI</span></div>
+        <div class="signal-detail">deepseek in requirements.txt</div>
+        <div class="signal-time">6h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge cfg">cfg</span><span class="signal-org">GitHub</span></div>
+        <div class="signal-detail">AGENTS.md added to github/copilot-agent</div>
+        <div class="signal-time">7h ago · github</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge job">job</span><span class="signal-org">Intercom</span></div>
+        <div class="signal-detail">"multi-agent, Claude" · Staff AI Engineer</div>
+        <div class="signal-time">8h ago · greenhouse</div>
+      </div>
+
+      <div class="signal-entry">
+        <div class="signal-entry-top"><span class="signal-type-badge hf">hf</span><span class="signal-org">CMU LTI</span></div>
+        <div class="signal-detail">Fine-tune: Mistral-7B · dialog-agent-v3</div>
+        <div class="signal-time">9h ago · huggingface</div>
+      </div>
+
+    </div>
+  </aside>
+
+</div>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <span>StackWatch · open-source · <a href="#">github.com/stackwatch</a></span>
+  <span>Data updated 2026-06-28 04:11 UTC · 1,847 orgs · 14,209 signals</span>
+  <span><a href="#">Methodology</a> · <a href="#">Data license</a> · signals inferred from public sources only</span>
+</footer>
+
+</body>
+</html>
