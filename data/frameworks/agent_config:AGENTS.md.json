@@ -1,0 +1,31 @@
+{
+  "slug": "agent_config:AGENTS.md",
+  "orgs": [
+    {
+      "slug": "arize-ai",
+      "display_name": "Arize-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "d-o-c-labs",
+      "display_name": "D-o-c-labs",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "joto-ai",
+      "display_name": "JOTO-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "mapbox",
+      "display_name": "mapbox",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    }
+  ],
+  "signal_history": [],
+  "org_count": 4
+}

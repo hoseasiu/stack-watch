@@ -1,0 +1,33 @@
+{
+  "slug": "googlecloudplatform",
+  "display_name": "GoogleCloudPlatform",
+  "github_org": "GoogleCloudPlatform",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "GoogleCloudPlatform/agentsmithy",
+          "file": "requirements.txt",
+          "url": "https://github.com/GoogleCloudPlatform/agentsmithy/blob/c3ca56e713e263ce80039d55941397bf1977718a/agent_bar_v2/app_utils/.requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

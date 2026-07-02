@@ -1,127 +1,127 @@
 {
-  "slug": "openai_agents_sdk",
+  "slug": "smolagents",
   "orgs": [
     {
-      "slug": "glean",
-      "display_name": "Glean",
-      "confidence": "high",
-      "first_seen": "2026-06-30"
-    },
-    {
-      "slug": "ai45lab",
-      "display_name": "AI45Lab",
+      "slug": "agentops-ai",
+      "display_name": "AgentOps-AI",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "datawhalechina",
-      "display_name": "datawhalechina",
+      "slug": "apify",
+      "display_name": "apify",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "guestrin-lab",
-      "display_name": "guestrin-lab",
+      "slug": "arize-ai",
+      "display_name": "Arize-ai",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "instavm",
-      "display_name": "instavm",
+      "slug": "aws-samples",
+      "display_name": "aws-samples",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "latiotech",
-      "display_name": "latiotech",
+      "slug": "d-o-c-labs",
+      "display_name": "D-o-c-labs",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "masslab-sii",
-      "display_name": "MassLab-SII",
+      "slug": "gradio-app",
+      "display_name": "gradio-app",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "mle-dojo",
-      "display_name": "MLE-Dojo",
+      "slug": "kungfuai",
+      "display_name": "kungfuai",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "purcl",
-      "display_name": "PurCL",
+      "slug": "mapbox",
+      "display_name": "mapbox",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "qx-labs",
-      "display_name": "qx-labs",
+      "slug": "nndl",
+      "display_name": "nndl",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "securityfortech",
-      "display_name": "securityfortech",
+      "slug": "raga-ai-hub",
+      "display_name": "raga-ai-hub",
       "confidence": "high",
       "first_seen": "2026-07-02"
     },
     {
-      "slug": "wandb",
-      "display_name": "wandb",
+      "slug": "sentient-agi",
+      "display_name": "sentient-agi",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "skillrepos",
+      "display_name": "skillrepos",
       "confidence": "high",
       "first_seen": "2026-07-02"
     }
   ],
   "signal_history": [
     {
-      "date": "2026-06-30",
-      "org": "glean"
+      "date": "2026-07-02",
+      "org": "agentops-ai"
     },
     {
       "date": "2026-07-02",
-      "org": "ai45lab"
+      "org": "apify"
     },
     {
       "date": "2026-07-02",
-      "org": "datawhalechina"
+      "org": "arize-ai"
     },
     {
       "date": "2026-07-02",
-      "org": "guestrin-lab"
+      "org": "aws-samples"
     },
     {
       "date": "2026-07-02",
-      "org": "instavm"
+      "org": "d-o-c-labs"
     },
     {
       "date": "2026-07-02",
-      "org": "latiotech"
+      "org": "gradio-app"
     },
     {
       "date": "2026-07-02",
-      "org": "masslab-sii"
+      "org": "kungfuai"
     },
     {
       "date": "2026-07-02",
-      "org": "mle-dojo"
+      "org": "mapbox"
     },
     {
       "date": "2026-07-02",
-      "org": "purcl"
+      "org": "nndl"
     },
     {
       "date": "2026-07-02",
-      "org": "qx-labs"
+      "org": "raga-ai-hub"
     },
     {
       "date": "2026-07-02",
-      "org": "securityfortech"
+      "org": "sentient-agi"
     },
     {
       "date": "2026-07-02",
-      "org": "wandb"
+      "org": "skillrepos"
     }
   ],
   "org_count": 12

@@ -1,0 +1,33 @@
+{
+  "slug": "agentbay-ai",
+  "display_name": "agentbay-ai",
+  "github_org": "agentbay-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "agentbay-ai/wuying-agentbay-sdk",
+          "file": "requirements.txt",
+          "url": "https://github.com/agentbay-ai/wuying-agentbay-sdk/blob/8e2fa8f20981c826eb5d247bc6701d52570e104a/cookbook/codespace/codestral-data-analysis-python/mistral_requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

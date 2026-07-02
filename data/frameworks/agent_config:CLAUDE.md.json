@@ -1,0 +1,37 @@
+{
+  "slug": "agent_config:CLAUDE.md",
+  "orgs": [
+    {
+      "slug": "arize-ai",
+      "display_name": "Arize-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "hud-evals",
+      "display_name": "hud-evals",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "joto-ai",
+      "display_name": "JOTO-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "mapbox",
+      "display_name": "mapbox",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "respanai",
+      "display_name": "respanai",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    }
+  ],
+  "signal_history": [],
+  "org_count": 5
+}

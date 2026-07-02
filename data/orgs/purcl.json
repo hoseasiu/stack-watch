@@ -1,0 +1,34 @@
+{
+  "slug": "purcl",
+  "display_name": "PurCL",
+  "github_org": "PurCL",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "PurCL/ASTRA",
+          "file": "requirements.txt",
+          "url": "https://github.com/PurCL/ASTRA/blob/4ca9d35784f3912fa144d97680f2fa8301be5f67/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

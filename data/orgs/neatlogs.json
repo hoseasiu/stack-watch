@@ -1,0 +1,40 @@
+{
+  "slug": "neatlogs",
+  "display_name": "neatlogs",
+  "github_org": "neatlogs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "neatlogs/neatlogs",
+          "file": "requirements.txt",
+          "url": "https://github.com/neatlogs/neatlogs/blob/dbd3aa6cc623ab950b32de299787709fa17f8980/examples/sdk_examples/50_requirements.txt",
+          "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "neatlogs/neatlogs",
+          "file": "requirements.txt",
+          "url": "https://github.com/neatlogs/neatlogs/blob/dbd3aa6cc623ab950b32de299787709fa17f8980/examples/sdk_examples/49_requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

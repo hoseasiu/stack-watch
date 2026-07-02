@@ -1,0 +1,34 @@
+{
+  "slug": "gradio-app",
+  "display_name": "gradio-app",
+  "github_org": "gradio-app",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gradio-app/fastrtc",
+          "file": "requirements.txt",
+          "url": "https://github.com/gradio-app/fastrtc/blob/f9395ea2c6515bcb52230de19362ca73e1661855/demo/talk_to_smolagents/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    }
+  ]
+}

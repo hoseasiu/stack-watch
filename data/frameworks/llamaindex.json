@@ -6,13 +6,93 @@
       "display_name": "SambaNova Systems",
       "confidence": "high",
       "first_seen": "2026-06-30"
+    },
+    {
+      "slug": "agiresearch",
+      "display_name": "agiresearch",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "cabcode-id",
+      "display_name": "cabcode-id",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "hud-evals",
+      "display_name": "hud-evals",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "jeff-app-com",
+      "display_name": "jeff-app-com",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "project-baize",
+      "display_name": "project-baize",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "qmiai",
+      "display_name": "QmiAI",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "run-llama",
+      "display_name": "run-llama",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "snorkel-marlin-repos",
+      "display_name": "snorkel-marlin-repos",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
     }
   ],
   "signal_history": [
     {
       "date": "2026-06-30",
       "org": "sambanova"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "agiresearch"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "cabcode-id"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "hud-evals"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "jeff-app-com"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "project-baize"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "qmiai"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "run-llama"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "snorkel-marlin-repos"
     }
   ],
-  "org_count": 1
+  "org_count": 9
 }

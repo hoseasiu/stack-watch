@@ -1,0 +1,47 @@
+{
+  "slug": "inference-sh",
+  "display_name": "inference-sh",
+  "github_org": "inference-sh",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "inference-sh/grid",
+          "file": "requirements.txt",
+          "url": "https://github.com/inference-sh/grid/blob/4049c3eb2f62f5b25e4e36dc738a8e812c852d99/api/google/gcp/vertex/veo-3/requirements.txt.compiled",
+          "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "inference-sh/grid",
+          "file": "requirements.txt",
+          "url": "https://github.com/inference-sh/grid/blob/4049c3eb2f62f5b25e4e36dc738a8e812c852d99/api/google/gcp/vertex/veo-2/requirements.txt.compiled",
+          "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "inference-sh/grid",
+          "file": "requirements.txt",
+          "url": "https://github.com/inference-sh/grid/blob/4049c3eb2f62f5b25e4e36dc738a8e812c852d99/api/google/gcp/vertex/veo-3-1/requirements.txt.compiled",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

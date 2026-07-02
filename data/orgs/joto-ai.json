@@ -1,0 +1,66 @@
+{
+  "slug": "joto-ai",
+  "display_name": "JOTO-AI",
+  "github_org": "JOTO-AI",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "dify": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "JOTO-AI/SchemaRAG-dify-plugin",
+          "file": "pyproject.toml",
+          "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/8d347773e04edca0e6f601e50089322851b6ea7b/pyproject.toml",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "JOTO-AI/SchemaRAG-dify-plugin",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/main/CLAUDE.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "JOTO-AI/SchemaRAG-dify-plugin",
+          "file": "AGENTS.md",
+          "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/main/AGENTS.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "dify"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "JOTO-AI/SchemaRAG-dify-plugin"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "datawhalechina",
+  "display_name": "datawhalechina",
+  "github_org": "datawhalechina",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "datawhalechina/wow-agent",
+          "file": "requirements.txt",
+          "url": "https://github.com/datawhalechina/wow-agent/blob/0f63e005de574b7866c360aa3a2a2b238b48fc9e/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

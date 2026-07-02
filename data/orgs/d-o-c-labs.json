@@ -1,0 +1,53 @@
+{
+  "slug": "d-o-c-labs",
+  "display_name": "D-o-c-labs",
+  "github_org": "D-o-c-labs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "D-o-c-labs/Doc-Home-ops",
+          "file": "requirements.txt",
+          "url": "https://github.com/D-o-c-labs/Doc-Home-ops/blob/a37330d83de6db215ad95c26c8abbff755191af6/.archive/open-webui/pipelines/config/deepresearch_requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "D-o-c-labs/Doc-Home-ops",
+          "file": "AGENTS.md",
+          "url": "https://github.com/D-o-c-labs/Doc-Home-ops/blob/main/AGENTS.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "D-o-c-labs/Doc-Home-ops"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "qmiai",
+  "display_name": "QmiAI",
+  "github_org": "QmiAI",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "QmiAI/Qmedia",
+          "file": "requirements.txt",
+          "url": "https://github.com/QmiAI/Qmedia/blob/c890b2543ac5984f2c48789b5191a16374c09083/mmrag_server/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "opencsgs",
+  "display_name": "OpenCSGs",
+  "github_org": "OpenCSGs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "OpenCSGs/csghub-dataflow",
+          "file": "requirements.txt",
+          "url": "https://github.com/OpenCSGs/csghub-dataflow/blob/db986cc1c856b6e95e3458722a0024716bb906e7/docker/apiserver_requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

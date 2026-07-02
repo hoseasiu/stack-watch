@@ -1,0 +1,33 @@
+{
+  "slug": "dwani-ai",
+  "display_name": "dwani-ai",
+  "github_org": "dwani-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "dwani-ai/llm-recipes",
+          "file": "requirements.txt",
+          "url": "https://github.com/dwani-ai/llm-recipes/blob/138690d323cb2112062a2ec1c72de817fd740d6e/python/fine-tuning/onnx-requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

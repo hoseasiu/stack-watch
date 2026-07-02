@@ -1,0 +1,33 @@
+{
+  "slug": "packtpublishing",
+  "display_name": "PacktPublishing",
+  "github_org": "PacktPublishing",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "PacktPublishing/Generative-AI-for-Data-Science",
+          "file": "requirements.txt",
+          "url": "https://github.com/PacktPublishing/Generative-AI-for-Data-Science/blob/2d093498876d75892b2f2a864ce8b34bb5938086/Requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

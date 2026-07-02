@@ -1,0 +1,212 @@
+{
+  "sector": "unclassified",
+  "orgs": [
+    {
+      "slug": "agentbay-ai",
+      "display_name": "agentbay-ai"
+    },
+    {
+      "slug": "agentops-ai",
+      "display_name": "AgentOps-AI"
+    },
+    {
+      "slug": "agiresearch",
+      "display_name": "agiresearch"
+    },
+    {
+      "slug": "ai45lab",
+      "display_name": "AI45Lab"
+    },
+    {
+      "slug": "apify",
+      "display_name": "apify"
+    },
+    {
+      "slug": "arize-ai",
+      "display_name": "Arize-ai"
+    },
+    {
+      "slug": "aws-samples",
+      "display_name": "aws-samples"
+    },
+    {
+      "slug": "cabcode-id",
+      "display_name": "cabcode-id"
+    },
+    {
+      "slug": "cmjatai",
+      "display_name": "cmjatai"
+    },
+    {
+      "slug": "d-o-c-labs",
+      "display_name": "D-o-c-labs"
+    },
+    {
+      "slug": "datawhalechina",
+      "display_name": "datawhalechina"
+    },
+    {
+      "slug": "dwani-ai",
+      "display_name": "dwani-ai"
+    },
+    {
+      "slug": "googlecloudplatform",
+      "display_name": "GoogleCloudPlatform"
+    },
+    {
+      "slug": "gradio-app",
+      "display_name": "gradio-app"
+    },
+    {
+      "slug": "gskinnerteam",
+      "display_name": "gskinnerTeam"
+    },
+    {
+      "slug": "guestrin-lab",
+      "display_name": "guestrin-lab"
+    },
+    {
+      "slug": "hud-evals",
+      "display_name": "hud-evals"
+    },
+    {
+      "slug": "inference-sh",
+      "display_name": "inference-sh"
+    },
+    {
+      "slug": "instavm",
+      "display_name": "instavm"
+    },
+    {
+      "slug": "jeff-app-com",
+      "display_name": "jeff-app-com"
+    },
+    {
+      "slug": "joto-ai",
+      "display_name": "JOTO-AI"
+    },
+    {
+      "slug": "kungfuai",
+      "display_name": "kungfuai"
+    },
+    {
+      "slug": "kvcache-ai",
+      "display_name": "kvcache-ai"
+    },
+    {
+      "slug": "langgenius",
+      "display_name": "langgenius"
+    },
+    {
+      "slug": "latiotech",
+      "display_name": "latiotech"
+    },
+    {
+      "slug": "mapbox",
+      "display_name": "mapbox"
+    },
+    {
+      "slug": "masslab-sii",
+      "display_name": "MassLab-SII"
+    },
+    {
+      "slug": "mle-dojo",
+      "display_name": "MLE-Dojo"
+    },
+    {
+      "slug": "neatlogs",
+      "display_name": "neatlogs"
+    },
+    {
+      "slug": "nndl",
+      "display_name": "nndl"
+    },
+    {
+      "slug": "opencsgs",
+      "display_name": "OpenCSGs"
+    },
+    {
+      "slug": "packtpublishing",
+      "display_name": "PacktPublishing"
+    },
+    {
+      "slug": "project-baize",
+      "display_name": "project-baize"
+    },
+    {
+      "slug": "purcl",
+      "display_name": "PurCL"
+    },
+    {
+      "slug": "qmiai",
+      "display_name": "QmiAI"
+    },
+    {
+      "slug": "qx-labs",
+      "display_name": "qx-labs"
+    },
+    {
+      "slug": "raga-ai-hub",
+      "display_name": "raga-ai-hub"
+    },
+    {
+      "slug": "respanai",
+      "display_name": "respanai"
+    },
+    {
+      "slug": "run-llama",
+      "display_name": "run-llama"
+    },
+    {
+      "slug": "securityfortech",
+      "display_name": "securityfortech"
+    },
+    {
+      "slug": "sentient-agi",
+      "display_name": "sentient-agi"
+    },
+    {
+      "slug": "skillrepos",
+      "display_name": "skillrepos"
+    },
+    {
+      "slug": "snorkel-marlin-repos",
+      "display_name": "snorkel-marlin-repos"
+    },
+    {
+      "slug": "wandb",
+      "display_name": "wandb"
+    },
+    {
+      "slug": "wortai",
+      "display_name": "wortai"
+    }
+  ],
+  "org_count": 45,
+  "top_frameworks": [
+    {
+      "slug": "smolagents",
+      "count": 12
+    },
+    {
+      "slug": "openai_agents_sdk",
+      "count": 11
+    },
+    {
+      "slug": "llamaindex",
+      "count": 8
+    },
+    {
+      "slug": "agent_config:CLAUDE.md",
+      "count": 5
+    },
+    {
+      "slug": "agent_config:AGENTS.md",
+      "count": 4
+    },
+    {
+      "slug": "dify",
+      "count": 3
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "hud-evals",
+  "display_name": "hud-evals",
+  "github_org": "hud-evals",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "hud-evals/zerodaybench-mlflow-clone",
+          "file": "requirements.txt",
+          "url": "https://github.com/hud-evals/zerodaybench-mlflow-clone/blob/ab9d9816f1b67ad6567811d7e023b4dd377998a4/requirements/extra-ml-requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "hud-evals/zerodaybench-mlflow-clone",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/hud-evals/zerodaybench-mlflow-clone/blob/main/CLAUDE.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "hud-evals/zerodaybench-mlflow-clone"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "qx-labs",
+  "display_name": "qx-labs",
+  "github_org": "qx-labs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "qx-labs/agents-deep-research",
+          "file": "requirements.txt",
+          "url": "https://github.com/qx-labs/agents-deep-research/blob/5e7f4b2321b20bf04c72a405688ab9980887c603/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

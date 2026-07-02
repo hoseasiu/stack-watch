@@ -1,0 +1,34 @@
+{
+  "slug": "apify",
+  "display_name": "apify",
+  "github_org": "apify",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "apify/actor-templates",
+          "file": "requirements.txt",
+          "url": "https://github.com/apify/actor-templates/blob/3e0cf4e2d07eb44a749e172b24ed3c86b27d9dd7/templates/python-smolagents/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    }
+  ]
+}

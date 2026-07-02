@@ -1,0 +1,34 @@
+{
+  "slug": "agiresearch",
+  "display_name": "agiresearch",
+  "github_org": "agiresearch",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "agiresearch/OpenAGI",
+          "file": "requirements.txt",
+          "url": "https://github.com/agiresearch/OpenAGI/blob/26c119e55b8d6ad4bae96cd4e5901c1567a82aaa/pyopenagi/agents/example/rag_agent/meta_requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

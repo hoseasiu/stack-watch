@@ -1,0 +1,33 @@
+{
+  "slug": "wortai",
+  "display_name": "wortai",
+  "github_org": "wortai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "wortai/deep-research-agent",
+          "file": "requirements.txt",
+          "url": "https://github.com/wortai/deep-research-agent/blob/bcc057500af4586c0e4606c4a37f5db01b3e1be4/server/render_requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

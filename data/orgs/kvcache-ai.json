@@ -1,0 +1,33 @@
+{
+  "slug": "kvcache-ai",
+  "display_name": "kvcache-ai",
+  "github_org": "kvcache-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "kvcache-ai/TrEnv-X",
+          "file": "requirements.txt",
+          "url": "https://github.com/kvcache-ai/TrEnv-X/blob/8bb02dc99df909f065322b576812401657680311/packages/fc-rootfs/owl-requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

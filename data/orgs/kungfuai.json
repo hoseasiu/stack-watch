@@ -1,0 +1,34 @@
+{
+  "slug": "kungfuai",
+  "display_name": "kungfuai",
+  "github_org": "kungfuai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "kungfuai/CVlization",
+          "file": "requirements.txt",
+          "url": "https://github.com/kungfuai/CVlization/blob/7684b7ec5a2a093ff2f2a67e838dba1f6b387075/examples/agentic/tool_use/smolagents_data_analyst/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    }
+  ]
+}
