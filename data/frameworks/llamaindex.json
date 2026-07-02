@@ -1,0 +1,18 @@
+{
+  "slug": "llamaindex",
+  "orgs": [
+    {
+      "slug": "sambanova",
+      "display_name": "SambaNova Systems",
+      "confidence": "high",
+      "first_seen": "2026-06-30"
+    }
+  ],
+  "signal_history": [
+    {
+      "date": "2026-06-30",
+      "org": "sambanova"
+    }
+  ],
+  "org_count": 1
+}

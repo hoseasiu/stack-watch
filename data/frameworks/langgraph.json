@@ -1,0 +1,28 @@
+{
+  "slug": "langgraph",
+  "orgs": [
+    {
+      "slug": "cisco-outshift",
+      "display_name": "Cisco Outshift",
+      "confidence": "high",
+      "first_seen": "2026-06-30"
+    },
+    {
+      "slug": "sambanova",
+      "display_name": "SambaNova Systems",
+      "confidence": "high",
+      "first_seen": "2026-06-30"
+    }
+  ],
+  "signal_history": [
+    {
+      "date": "2026-06-30",
+      "org": "cisco-outshift"
+    },
+    {
+      "date": "2026-06-30",
+      "org": "sambanova"
+    }
+  ],
+  "org_count": 2
+}

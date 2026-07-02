@@ -96,29 +96,46 @@ triggered — needs Pages enabled in repo settings first.
 
 Goal: automate org/framework discovery from real GitHub data, replacing hand-curation.
 
-- [ ] `pipeline/utils.py`: shared helpers — GitHub GraphQL client w/ auth token from env,
-      JSON read/write helpers for the `data/` store, idempotent signal-feed appenders
-      (dedupe by repo+framework+date before appending to `data/signals/{date}.jsonl`)
-- [ ] `pipeline/github_collector.py`:
-      - GitHub Search API / GraphQL to find repos with dependency-file hits against
-        `FRAMEWORK_SIGNALS` and `MODEL_PROVIDER_SIGNALS` (see CLAUDE.md)
-      - Parse `requirements.txt`, `pyproject.toml`, `package.json` content
-      - Check for presence of `AGENT_CONFIG_FILES`
-      - Map repo owner -> org slug (document the ambiguity call in code comments per
-        CLAUDE.md's "Org attribution" limitation — org-owned repos only by default,
-        skip individual-contributor repos unless there's a clear org affiliation signal)
-      - Respect rate limits (5000 req/hr authenticated) — batch via GraphQL, backoff on
-        secondary rate limit errors
-      - Write/update `data/orgs/{slug}.json`, append to signal feed
-- [ ] `pipeline/build_aggregates.py`: roll up org signals into `data/frameworks/*.json`
-      and `data/sectors/*.json` (sector assignment can start manual/lookup-table based)
-- [ ] `.github/workflows/collect.yml`: nightly cron + workflow_dispatch, runs collector
+- [x] `pipeline/utils.py`: shared helpers — stdlib-only GitHub REST/GraphQL client
+      (auth token from `GITHUB_TOKEN` env, backoff on 403/429), JSON read/write helpers
+      for the `data/` store, idempotent signal-feed appender (dedupe by
+      org+type+framework+repo+url before appending to `data/signals/{date}.jsonl`),
+      and org-profile helpers (`add_framework_evidence`, `add_model_provider_evidence`,
+      `add_signal_history` — each dedupes by evidence URL / full record before mutating)
+- [x] `pipeline/github_collector.py`:
+      - GitHub code search (`/search/code`) to find repos with dependency-file hits
+        against `FRAMEWORK_SIGNALS` and `MODEL_PROVIDER_SIGNALS` (see CLAUDE.md),
+        searching `requirements.txt`/`pyproject.toml` for Python frameworks + model
+        providers and `package.json` for JS frameworks (mastra, n8n)
+      - Checks for presence of `AGENT_CONFIG_FILES`, scoped to repos already
+        discovered via dependency search (bounds API usage vs. a separate broad scan)
+      - Maps repo owner -> org slug; only creates/updates a profile when the GitHub
+        API reports the owner's account `type` as `"Organization"` (individual-
+        contributor repos are skipped) — see module docstring for the ambiguity
+        call, per CLAUDE.md's "Org attribution" limitation. Also carries a small,
+        explicitly non-exhaustive denylist of known defense/healthcare/finance
+        GitHub orgs as a scope safety net.
+      - Rate limiting: single stdlib HTTP client throttles to >=1s between requests
+        and backs off on `Retry-After`/403/429; caps total repos inspected per run
+        (`MAX_REPOS_TOTAL`) to keep nightly runtime bounded
+      - Write/update `data/orgs/{slug}.json`, append to signal feed — idempotency
+        verified (re-running against the same hits produces zero new evidence/signal
+        entries)
+- [x] `pipeline/build_aggregates.py`: rolls up org signals into `data/frameworks/*.json`
+      and `data/sectors/*.json`. Sector assignment uses a manual lookup table
+      (`SECTOR_OVERRIDES`) applied only to orgs left `"unclassified"` by the
+      collector — hand-curated Phase 1 seed profiles' sectors are never overwritten
+- [x] `.github/workflows/collect.yml`: nightly cron + workflow_dispatch, runs collector
       then `build_aggregates.py`, auto-commits `data/**` via git-auto-commit-action
-- [ ] Update `site/_data/` sourcing if needed so 11ty picks up pipeline-generated data
-      the same way it picked up hand-curated seed data
+- [x] `site/_data/` sourcing already reads `data/orgs/*.json` dynamically from disk
+      (Phase 1), so no changes were needed for it to pick up pipeline-written profiles
+      the same way it read hand-curated ones — confirmed via a full `npm run build`
 
 Done when: a manual `workflow_dispatch` run populates `data/orgs/` with 50+ orgs from
-live GitHub data and the site rebuilds correctly from that output.
+live GitHub data and the site rebuilds correctly from that output. Collector logic
+verified locally (mocked GitHub client — real run requires a `GITHUB_TOKEN` and has
+not yet been executed against the live API; a `workflow_dispatch` run against the
+real API is the remaining step to hit the 50+ org target).
 
 ---
 

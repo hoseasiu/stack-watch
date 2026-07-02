@@ -1,0 +1,20 @@
+{
+  "sector": "saas",
+  "orgs": [
+    {
+      "slug": "glean",
+      "display_name": "Glean"
+    }
+  ],
+  "org_count": 1,
+  "top_frameworks": [
+    {
+      "slug": "crewai",
+      "count": 1
+    },
+    {
+      "slug": "openai_agents_sdk",
+      "count": 1
+    }
+  ]
+}

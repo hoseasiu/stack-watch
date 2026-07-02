@@ -1,0 +1,16 @@
+{
+  "sector": "enterprise-software",
+  "orgs": [
+    {
+      "slug": "cisco-outshift",
+      "display_name": "Cisco Outshift"
+    }
+  ],
+  "org_count": 1,
+  "top_frameworks": [
+    {
+      "slug": "langgraph",
+      "count": 1
+    }
+  ]
+}

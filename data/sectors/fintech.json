@@ -1,0 +1,11 @@
+{
+  "sector": "fintech",
+  "orgs": [
+    {
+      "slug": "block",
+      "display_name": "Block"
+    }
+  ],
+  "org_count": 1,
+  "top_frameworks": []
+}

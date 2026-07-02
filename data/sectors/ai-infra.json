@@ -1,0 +1,28 @@
+{
+  "sector": "ai-infra",
+  "orgs": [
+    {
+      "slug": "sambanova",
+      "display_name": "SambaNova Systems"
+    },
+    {
+      "slug": "scale-ai",
+      "display_name": "Scale AI"
+    }
+  ],
+  "org_count": 2,
+  "top_frameworks": [
+    {
+      "slug": "langgraph",
+      "count": 1
+    },
+    {
+      "slug": "crewai",
+      "count": 1
+    },
+    {
+      "slug": "llamaindex",
+      "count": 1
+    }
+  ]
+}
