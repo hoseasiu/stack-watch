@@ -35,8 +35,99 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 2,
+  "hf_models": [
+    {
+      "id": "PurCL/longcodeart-ep0.3-block200-26m",
+      "name": "PurCL/longcodeart-ep0.3-block200-26m",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/longcodeart-ep0.3-block200-26m",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/casp-moco-lmpa-c-only",
+      "name": "PurCL/casp-moco-lmpa-c-only",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/casp-moco-lmpa-c-only",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/src_prober_codellama-7b-last1unfreeze",
+      "name": "PurCL/src_prober_codellama-7b-last1unfreeze",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/src_prober_codellama-7b-last1unfreeze",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/src_prober_codellama-34b-last1unfreeze",
+      "name": "PurCL/src_prober_codellama-34b-last1unfreeze",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/src_prober_codellama-34b-last1unfreeze",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/src_prober_codellama-13b-last1unfreeze",
+      "name": "PurCL/src_prober_codellama-13b-last1unfreeze",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/src_prober_codellama-13b-last1unfreeze",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/codeart-binsim",
+      "name": "PurCL/codeart-binsim",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/codeart-binsim",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/codeart-26m",
+      "name": "PurCL/codeart-26m",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/codeart-26m",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/codeart-26m-mfc-2f-100c",
+      "name": "PurCL/codeart-26m-mfc-2f-100c",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/codeart-26m-mfc-2f-100c",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/codeart-26m-ti-O0",
+      "name": "PurCL/codeart-26m-ti-O0",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/codeart-26m-ti-O0",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "PurCL/codeart-3m",
+      "name": "PurCL/codeart-3m",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/PurCL/codeart-3m",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -47,6 +138,56 @@
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/longcodeart-ep0.3-block200-26m"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/casp-moco-lmpa-c-only"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/src_prober_codellama-7b-last1unfreeze"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/src_prober_codellama-34b-last1unfreeze"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/src_prober_codellama-13b-last1unfreeze"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/codeart-binsim"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/codeart-26m"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/codeart-26m-mfc-2f-100c"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/codeart-26m-ti-O0"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "PurCL/codeart-3m"
     }
   ]
 }

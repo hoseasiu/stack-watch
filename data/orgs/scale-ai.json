@@ -4,27 +4,622 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-03",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
     {
       "title": "AI Builder Intern",
-      "terms_matched": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "multi-agent", "RAG pipeline"],
+      "terms_matched": [
+        "LangGraph",
+        "LangChain",
+        "AutoGen",
+        "CrewAI",
+        "multi-agent",
+        "RAG pipeline"
+      ],
       "posted": "2026-06-06",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703343005"
     },
     {
       "title": "GTM Systems Analyst",
-      "terms_matched": ["MCP server"],
+      "terms_matched": [
+        "MCP server"
+      ],
       "posted": "2026-05-18",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4688911005"
+    },
+    {
+      "title": "AI Applications Ops Lead, GPS",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-01-30",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654510005"
+    },
+    {
+      "title": "Applied AI Engineer, Global Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2024-05-01",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4413992005"
+    },
+    {
+      "title": "Deployment Engineering Manager, Enterprise",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-07-11",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4568601005"
+    },
+    {
+      "title": "Deployment Strategist ",
+      "terms_matched": [
+        "agentic AI",
+        "RAG pipeline"
+      ],
+      "posted": "2026-06-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709157005"
+    },
+    {
+      "title": "Director, Forward Deployed Engineering",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-06",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4690504005"
+    },
+    {
+      "title": "Director of Technology & Systems",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-13",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4695171005"
+    },
+    {
+      "title": "Engineering Manager, Global Public Sector",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-08-11",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4595555005"
+    },
+    {
+      "title": "Engineering Manager, Saudi Arabia",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-25",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709132005"
+    },
+    {
+      "title": "Engineering Manager, UAE",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-25",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709129005"
+    },
+    {
+      "title": "Enterprise Account Executive (Financial Services)",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-04-28",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689917005"
+    },
+    {
+      "title": "Enterprise Account Executive (Healthcare & Life Sciences)",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-04-28",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4689919005"
+    },
+    {
+      "title": "Finance Systems & Automations Manager",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-12",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4688021005"
+    },
+    {
+      "title": "Frontier Agents Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-03-05",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4536659005"
+    },
+    {
+      "title": "Frontier Agents Engineer",
+      "terms_matched": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ],
+      "posted": "2026-05-15",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694861005"
+    },
+    {
+      "title": "Head of Finance Systems & Automation",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-04-08",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4683055005"
+    },
+    {
+      "title": "Head of Healthcare GTM",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-30",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708811005"
+    },
+    {
+      "title": "Infrastructure Software Engineer, Enterprise GenAI",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-02-23",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4665557005"
+    },
+    {
+      "title": "Lead Counsel, Commercial",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-06-11",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4704553005"
+    },
+    {
+      "title": "Lead Counsel, Global Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-05-07",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4691603005"
+    },
+    {
+      "title": "Machine Learning Engineer, Global Public Sector",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2024-05-01",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4413274005"
+    },
+    {
+      "title": "Machine Learning Engineer, Platform",
+      "terms_matched": [
+        "RAG pipeline",
+        "vector database"
+      ],
+      "posted": "2026-07-02",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711544005"
+    },
+    {
+      "title": "Machine Learning Fellow - Human Frontier Collective (Canada)",
+      "terms_matched": [
+        "LangChain"
+      ],
+      "posted": "2026-02-12",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4661650005"
+    },
+    {
+      "title": "Machine Learning Fellow - Human Frontier Collective (UK)",
+      "terms_matched": [
+        "LangChain"
+      ],
+      "posted": "2026-02-12",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4661647005"
+    },
+    {
+      "title": "Machine Learning Fellow - Human Frontier Collective (US)",
+      "terms_matched": [
+        "LangChain"
+      ],
+      "posted": "2026-02-12",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4660340005"
+    },
+    {
+      "title": "Machine Learning Research Engineer, Agents - Enterprise GenAI",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2025-10-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625344005"
+    },
+    {
+      "title": "Machine Learning Systems Research Engineer, Agent Post-training - Enterprise GenAI",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2025-10-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625341005"
+    },
+    {
+      "title": "ML Research Engineer, ML Systems",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2025-03-10",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4534631005"
+    },
+    {
+      "title": "Principal AI Ops Architect, GPS",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-03-10",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4671740005"
+    },
+    {
+      "title": "Principal Architect",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2025-08-22",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599202005"
+    },
+    {
+      "title": "Product Manager of AI Applications, Global Public Sector",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-01-16",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4650514005"
+    },
+    {
+      "title": "Product Manager of AI Applications, Global Public Sector",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-09-03",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4589749005"
+    },
+    {
+      "title": "Research Scientist, Agent Robustness",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-03-20",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4675684005"
+    },
+    {
+      "title": "Senior AI Product Manager, Finance Agents",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-09-23",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611776005"
+    },
+    {
+      "title": "Senior AI Product Manager, Healthcare Agents",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709281005"
+    },
+    {
+      "title": "Senior Engineering Manager, Defense",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-25",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4709123005"
+    },
+    {
+      "title": "Senior Frontier Agent Engineering Manager, Enterprise",
+      "terms_matched": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ],
+      "posted": "2026-01-27",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4602177005"
+    },
+    {
+      "title": "Senior Frontier Agents Engineer",
+      "terms_matched": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ],
+      "posted": "2026-05-15",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694863005"
+    },
+    {
+      "title": " Senior Software Engineer,  Full-Stack – Scale GP",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2025-12-05",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4637484005"
+    },
+    {
+      "title": "Senior Staff Frontier Agents Engineer",
+      "terms_matched": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ],
+      "posted": "2026-05-15",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694869005"
+    },
+    {
+      "title": "Senior/Staff Machine Learning Research Engineer, General Agents, Enterprise GenAI",
+      "terms_matched": [
+        "AI agent",
+        "multi-agent",
+        "tool use"
+      ],
+      "posted": "2026-02-10",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4658162005"
+    },
+    {
+      "title": "Senior / Staff Machine Learning Research Scientist, Agents",
+      "terms_matched": [
+        "LangGraph",
+        "AI agent"
+      ],
+      "posted": "2024-10-25",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4488520005"
+    },
+    {
+      "title": "Software Engineer (Backend), Enterprise",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-11-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4630032005"
+    },
+    {
+      "title": "Software Engineer, Data Infrastructure",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-06-22",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4708221005"
+    },
+    {
+      "title": "Software Engineer, Enterprise",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-03-04",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4536653005"
+    },
+    {
+      "title": "Software Engineer, Enterprise AI",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2025-01-07",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4513943005"
+    },
+    {
+      "title": "Software Engineer, Platform ",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-06-08",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703527005"
+    },
+    {
+      "title": "Staff Frontier Agents Engineer ",
+      "terms_matched": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ],
+      "posted": "2026-05-15",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4694865005"
+    },
+    {
+      "title": "Staff Infrastructure Software Engineer, Enterprise AI",
+      "terms_matched": [
+        "multi-agent",
+        "vector database",
+        "AI orchestration"
+      ],
+      "posted": "2025-08-20",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4599700005"
+    },
+    {
+      "title": "Staff Machine Learning Research Engineer, Agent Post-training - Enterprise GenAI",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2025-10-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625337005"
+    },
+    {
+      "title": "Staff Product Manager, Agentic Platform",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2025-10-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005"
+    },
+    {
+      "title": "Staff Software Engineer, Enterprise GenAI",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2025-05-27",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4569678005"
+    },
+    {
+      "title": "Staff Software Engineer, Full-Stack - Enterprise Gen AI",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-02-13",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4529529005"
+    },
+    {
+      "title": "Strategic Capture Lead, Homeland Security & Federal Law Enforcement",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-06-17",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4706127005"
+    },
+    {
+      "title": "Tech Lead Manager- MLRE, ML Systems",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2025-10-10",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4618046005"
+    },
+    {
+      "title": "Technical Program Manager, Platform ",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-06-04",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703275005"
     }
   ],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 15,
   "signal_history": [
-    { "date": "2026-06-06", "type": "job_posting", "terms": ["LangGraph", "LangChain", "AutoGen", "CrewAI", "multi-agent", "RAG pipeline"] },
-    { "date": "2026-05-18", "type": "job_posting", "terms": ["MCP server"] }
+    {
+      "date": "2026-06-06",
+      "type": "job_posting",
+      "terms": [
+        "LangGraph",
+        "LangChain",
+        "AutoGen",
+        "CrewAI",
+        "multi-agent",
+        "RAG pipeline"
+      ]
+    },
+    {
+      "date": "2026-05-18",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "vector database"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "RAG pipeline"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "RAG pipeline",
+        "vector database"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "LangChain"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "multi-agent",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "LangGraph",
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent",
+        "vector database",
+        "AI orchestration"
+      ]
+    }
   ]
 }

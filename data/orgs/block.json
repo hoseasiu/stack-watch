@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-03",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -26,11 +26,197 @@
       }
     ]
   },
-  "job_signals": [],
+  "job_signals": [
+    {
+      "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-06-09",
+      "url": "http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008"
+    },
+    {
+      "title": "Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-06-09",
+      "url": "http://block.xyz/careers/jobs/5108009008?gh_jid=5108009008"
+    },
+    {
+      "title": "Compliance Technology Program Lead",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-27",
+      "url": "http://block.xyz/careers/jobs/5225220008?gh_jid=5225220008"
+    },
+    {
+      "title": "Principal Engineer, AI Systems",
+      "terms_matched": [
+        "multi-agent",
+        "tool use"
+      ],
+      "posted": "2026-06-09",
+      "url": "http://block.xyz/careers/jobs/5243410008?gh_jid=5243410008"
+    },
+    {
+      "title": "Senior Business Systems Engineer",
+      "terms_matched": [
+        "MCP server",
+        "Claude Code"
+      ],
+      "posted": "2025-10-23",
+      "url": "http://block.xyz/careers/jobs/4962872008?gh_jid=4962872008"
+    },
+    {
+      "title": "Senior Data Engineer, Risk",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-02",
+      "url": "http://block.xyz/careers/jobs/5281312008?gh_jid=5281312008"
+    },
+    {
+      "title": "Senior Data Scientist, AI & Model Risk ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-06-02",
+      "url": "http://block.xyz/careers/jobs/5239527008?gh_jid=5239527008"
+    },
+    {
+      "title": "Senior Data Scientist, AI & Model Risk ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-06-02",
+      "url": "http://block.xyz/careers/jobs/5221040008?gh_jid=5221040008"
+    },
+    {
+      "title": "Senior Machine Learning Engineer, Model Risk Management",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-03",
+      "url": "http://block.xyz/careers/jobs/5198097008?gh_jid=5198097008"
+    },
+    {
+      "title": "Senior ML/AI Modeler, Risk Automation Machine Learning",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-04",
+      "url": "http://block.xyz/careers/jobs/5198103008?gh_jid=5198103008"
+    },
+    {
+      "title": "Senior Security Engineer, Platform Security",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-02",
+      "url": "http://block.xyz/careers/jobs/5231316008?gh_jid=5231316008"
+    },
+    {
+      "title": "Software Engineer, Finance Applications",
+      "terms_matched": [
+        "AI agent",
+        "Model Context Protocol",
+        "Claude Code"
+      ],
+      "posted": "2026-04-28",
+      "url": "http://block.xyz/careers/jobs/4888459008?gh_jid=4888459008"
+    },
+    {
+      "title": "Staff Android Software Engineer, Cash App Consumer Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-01",
+      "url": "http://block.xyz/careers/jobs/5238423008?gh_jid=5238423008"
+    },
+    {
+      "title": "Staff Android Software Engineer, Cash App Consumer Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2025-10-07",
+      "url": "http://block.xyz/careers/jobs/4884159008?gh_jid=4884159008"
+    },
+    {
+      "title": "Staff Machine Learning Engineer, Underwriting and Credit",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-15",
+      "url": "http://block.xyz/careers/jobs/5198104008?gh_jid=5198104008"
+    }
+  ],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 9,
   "signal_history": [
-    { "date": "2026-06-30", "type": "agent_config", "file": "AGENTS.md" },
-    { "date": "2026-06-30", "type": "agent_config", "file": "docs/agents.md" }
+    {
+      "date": "2026-06-30",
+      "type": "agent_config",
+      "file": "AGENTS.md"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "agent_config",
+      "file": "docs/agents.md"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "Model Context Protocol",
+        "Claude Code"
+      ]
+    }
   ]
 }

@@ -1,0 +1,108 @@
+{
+  "slug": "vercel",
+  "display_name": "Vercel",
+  "github_org": "vercel",
+  "sector": "dev-tools",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {},
+  "model_providers": {},
+  "job_signals": [
+    {
+      "title": "Forward-Deployed Engineer",
+      "terms_matched": [
+        "MCP server",
+        "Model Context Protocol",
+        "tool use"
+      ],
+      "posted": "2026-01-22",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5778418004"
+    },
+    {
+      "title": "Forward-Deployed Engineer ",
+      "terms_matched": [
+        "MCP server",
+        "Model Context Protocol",
+        "tool use"
+      ],
+      "posted": "2026-01-07",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5752684004"
+    },
+    {
+      "title": "Senior Manager, Corporate Accounting",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-02-25",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5810285004"
+    },
+    {
+      "title": "Senior Product Designer",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-09",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5735407004"
+    },
+    {
+      "title": "Software Engineer, eve",
+      "terms_matched": [
+        "AI agent",
+        "multi-agent"
+      ],
+      "posted": "2026-06-20",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6098390004"
+    },
+    {
+      "title": "Software Engineer, Workflows",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-02-12",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5798416004"
+    },
+    {
+      "title": "Staff Accountant",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-04-16",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5972966004"
+    }
+  ],
+  "hf_models": [],
+  "signal_count": 4,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Model Context Protocol",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "multi-agent"
+      ]
+    }
+  ]
+}

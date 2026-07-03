@@ -1,0 +1,664 @@
+{
+  "slug": "anthropic",
+  "display_name": "Anthropic",
+  "github_org": "anthropics",
+  "sector": "ai-lab",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {},
+  "model_providers": {},
+  "job_signals": [
+    {
+      "title": "Anthropic Fellows Program",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-12-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5023394008"
+    },
+    {
+      "title": "Anthropic Fellows Program, AI Security",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-12-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5030244008"
+    },
+    {
+      "title": "Anthropic Fellows Program, ML Systems & Performance",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-04-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183051008"
+    },
+    {
+      "title": "Applied AI Architect, Commercial",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5192805008"
+    },
+    {
+      "title": "Applied AI Architect, Government Technology",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-03-05",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5140405008"
+    },
+    {
+      "title": "Applied AI Architect Lead, EMEA Commercial",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-05",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5201715008"
+    },
+    {
+      "title": "Applied AI Architect, Public Sector",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5227643008"
+    },
+    {
+      "title": "Applied AI Architect, State and Local Government",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-03-05",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5140403008"
+    },
+    {
+      "title": "Beneficial Deployments Customer Success Manager, Scaled Partnerships ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5225812008"
+    },
+    {
+      "title": "Customer Success Manager, Beneficial Deployments - Global Development",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5262637008"
+    },
+    {
+      "title": "Customer Success Manager, Digital Native Business",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5062733008"
+    },
+    {
+      "title": "Customer Success Manager, Higher Education",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-07",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5175932008"
+    },
+    {
+      "title": "Customer Success Manager, Industries",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5068570008"
+    },
+    {
+      "title": "Customer Success Manager, Public Sector",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-15",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5262369008"
+    },
+    {
+      "title": "Customer Success Manager, Scaled",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174700008"
+    },
+    {
+      "title": "Customer Success Manager, Strategics",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-23",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5082455008"
+    },
+    {
+      "title": "Customer Success Programs Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5226954008"
+    },
+    {
+      "title": "Data Engineering Manager, Product",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-02-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5125387008"
+    },
+    {
+      "title": "Design Engineer, Web",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-05-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5223916008"
+    },
+    {
+      "title": "Engineering Manager, Enterprise",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5255912008"
+    },
+    {
+      "title": "Engineering Manager, GRC Platform",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2025-11-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4980335008"
+    },
+    {
+      "title": "Enterprise Community Lead",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231468008"
+    },
+    {
+      "title": "[Expression of Interest] Research Engineer / Scientist, Alignment - London",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2025-03-31",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4610158008"
+    },
+    {
+      "title": "Finance Systems Engineer, Revenue",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-13",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5186669008"
+    },
+    {
+      "title": "Finance Systems Integration Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-03-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5155195008"
+    },
+    {
+      "title": "Head of ANZ, Applied AI",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5184077008"
+    },
+    {
+      "title": "Head of Applied AI Architecture, Beneficial Deployments",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5192104008"
+    },
+    {
+      "title": "Lead Data Scientist, Platform Product",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-25",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5116820008"
+    },
+    {
+      "title": "Manager, Applied AI Engineering,  Beneficial Deployments (Life Sciences)",
+      "terms_matched": [
+        "MCP server",
+        "Claude Code"
+      ],
+      "posted": "2026-06-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5277834008"
+    },
+    {
+      "title": "Manager of Applied AI Architecture, Enterprise Tech",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5222289008"
+    },
+    {
+      "title": "Manager of Applied AI Architecture, Enterprise Tech (Cyber)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5197538008"
+    },
+    {
+      "title": "Manager of Applied AI Architecture, Partnerships",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-01",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5173031008"
+    },
+    {
+      "title": "Mid-Market Account Executive, Industries",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-09-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4931772008"
+    },
+    {
+      "title": "Mid-Market Account Executive, Tech",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-01-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5077996008"
+    },
+    {
+      "title": "Model Performance Software Engineer, Claude Code",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-02-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5098025008"
+    },
+    {
+      "title": "Product Manager, Claude Code Model Performance ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-04",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5247640008"
+    },
+    {
+      "title": "Product Manager, Developer Productivity",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5220143008"
+    },
+    {
+      "title": "Product Operations Manager, Feedback Loops",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5179882008"
+    },
+    {
+      "title": "Research Engineer, Machine Learning (Reinforcement Learning)",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-02-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008"
+    },
+    {
+      "title": "Research Engineer, Machine Learning (Reinforcement Learning) ",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2025-04-01",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4613568008"
+    },
+    {
+      "title": "Research Engineer, Rule of Law",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5278065008"
+    },
+    {
+      "title": "Research Engineer / Scientist, Alignment",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2025-04-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4631822008"
+    },
+    {
+      "title": "Research Engineer, Universes",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-01-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5061517008"
+    },
+    {
+      "title": "Research Lead, Training Insights",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-03-06",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139654008"
+    },
+    {
+      "title": "Safeguards Enforcement Analyst, Safety Evaluations",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-03-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5137183008"
+    },
+    {
+      "title": "Senior Software Engineer, Full-stack",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174743008"
+    },
+    {
+      "title": "Senior Staff Software Engineer, API",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-02-26",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5134895008"
+    },
+    {
+      "title": "Software Engineer, RL Data",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-06-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5238606008"
+    },
+    {
+      "title": "Software Engineer, Safeguards Foundations (Internal Tooling)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5191433008"
+    },
+    {
+      "title": "Software Engineer, Safeguards Infrastructure ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074908008"
+    },
+    {
+      "title": "Staff+ Application Security Engineer",
+      "terms_matched": [
+        "multi-agent",
+        "Claude Code"
+      ],
+      "posted": "2025-01-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4502508008"
+    },
+    {
+      "title": "Staff Research Engineer, Discovery Team",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2025-04-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4593216008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Backend",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-04-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174755008"
+    },
+    {
+      "title": "Staff Software Engineer, Billing Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-03-10",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5146298008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Databases",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-03-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5151069008"
+    },
+    {
+      "title": "Staff Software Engineer, Developer Productivity (CI/CD) - Claude Code",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5271428008"
+    },
+    {
+      "title": "Staff Software Engineer, Developer Productivity (Dev Environments) - Claude Code",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5271426008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Enterprise",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-01",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5288742008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Full-stack",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174747008"
+    },
+    {
+      "title": "Staff Software Engineer, People Products",
+      "terms_matched": [
+        "Model Context Protocol"
+      ],
+      "posted": "2026-02-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119468008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5157847008"
+    },
+    {
+      "title": "Staff Software Engineer, Safeguards Evals ",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-06-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251671008"
+    },
+    {
+      "title": "Support Engineer",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5228463008"
+    },
+    {
+      "title": "Technical Program Manager, Apps Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251609008"
+    },
+    {
+      "title": "Technical Specialist, Claude Code",
+      "terms_matched": [
+        "agentic AI",
+        "multi-agent",
+        "MCP server",
+        "Claude Code"
+      ],
+      "posted": "2026-04-23",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5197597008"
+    },
+    {
+      "title": "Technical Specialist, Claude Code",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-25",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198999008"
+    },
+    {
+      "title": "Threat Collections Engineer",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-01-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074937008"
+    }
+  ],
+  "hf_models": [
+    {
+      "id": "anthropics/efficientnet-b3-base",
+      "name": "anthropics/efficientnet-b3-base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/anthropics/efficientnet-b3-base",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 13,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "vector database"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "multi-agent",
+        "MCP server",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "anthropics/efficientnet-b3-base"
+    }
+  ]
+}

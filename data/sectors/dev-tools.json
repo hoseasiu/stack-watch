@@ -1,0 +1,11 @@
+{
+  "sector": "dev-tools",
+  "orgs": [
+    {
+      "slug": "vercel",
+      "display_name": "Vercel"
+    }
+  ],
+  "org_count": 1,
+  "top_frameworks": []
+}

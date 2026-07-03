@@ -1,0 +1,11 @@
+{
+  "sector": "ai-lab",
+  "orgs": [
+    {
+      "slug": "anthropic",
+      "display_name": "Anthropic"
+    }
+  ],
+  "org_count": 1,
+  "top_frameworks": []
+}

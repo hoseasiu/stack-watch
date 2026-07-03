@@ -22,13 +22,42 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "EmergenceAI/RAG-response-generation-model-v1",
+      "name": "EmergenceAI/RAG-response-generation-model-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/EmergenceAI/RAG-response-generation-model-v1",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "EmergenceAI/RAG-response-generation-model-v2",
+      "name": "EmergenceAI/RAG-response-generation-model-v2",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/EmergenceAI/RAG-response-generation-model-v2",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "EmergenceAI/RAG-response-generation-model-v1"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "EmergenceAI/RAG-response-generation-model-v2"
     }
   ]
 }

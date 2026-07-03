@@ -22,13 +22,154 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "TheAgenticAI/Agentic-V4",
+      "name": "TheAgenticAI/Agentic-V4",
+      "library": "peft",
+      "base_model": "Nexusflow/Athene-V2-Agent",
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Agentic-V4",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/Agentic-V3",
+      "name": "TheAgenticAI/Agentic-V3",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Agentic-V3",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/Agentic-V6",
+      "name": "TheAgenticAI/Agentic-V6",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Agentic-V6",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/Agentic-V7",
+      "name": "TheAgenticAI/Agentic-V7",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Agentic-V7",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/LLAMA-3.3-70B-Reasoning",
+      "name": "TheAgenticAI/LLAMA-3.3-70B-Reasoning",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/LLAMA-3.3-70B-Reasoning",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/llama-3-reasoning-preview-27-jan",
+      "name": "TheAgenticAI/llama-3-reasoning-preview-27-jan",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/llama-3-reasoning-preview-27-jan",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/Llama-New-V2",
+      "name": "TheAgenticAI/Llama-New-V2",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Llama-New-V2",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/Agentic-Turbo-2-3-2025",
+      "name": "TheAgenticAI/Agentic-Turbo-2-3-2025",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Agentic-Turbo-2-3-2025",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/Agentic-V6-Turbo",
+      "name": "TheAgenticAI/Agentic-V6-Turbo",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/Agentic-V6-Turbo",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "TheAgenticAI/EAGLE1-LLAMA-3.3-70B",
+      "name": "TheAgenticAI/EAGLE1-LLAMA-3.3-70B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/TheAgenticAI/EAGLE1-LLAMA-3.3-70B",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Agentic-V4"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Agentic-V3"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Agentic-V6"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Agentic-V7"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/LLAMA-3.3-70B-Reasoning"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/llama-3-reasoning-preview-27-jan"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Llama-New-V2"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Agentic-Turbo-2-3-2025"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/Agentic-V6-Turbo"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "TheAgenticAI/EAGLE1-LLAMA-3.3-70B"
     }
   ]
 }

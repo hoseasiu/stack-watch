@@ -22,13 +22,154 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "allenai/tmax-27b",
+      "name": "allenai/tmax-27b",
+      "library": null,
+      "base_model": "Qwen/Qwen3.6-27B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/tmax-27b",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/OlmoEarth-v1-Base",
+      "name": "allenai/OlmoEarth-v1-Base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1-Base",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/OlmoEarth-v1_2-Nano",
+      "name": "allenai/OlmoEarth-v1_2-Nano",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Nano",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/OlmoEarth-v1_2-Base",
+      "name": "allenai/OlmoEarth-v1_2-Base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Base",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/olmOCR-2-7B-1025-FP8",
+      "name": "allenai/olmOCR-2-7B-1025-FP8",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/olmOCR-2-7B-1025-FP8",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/wildguard",
+      "name": "allenai/wildguard",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/wildguard",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/OLMoE-1B-7B-0125",
+      "name": "allenai/OLMoE-1B-7B-0125",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0125",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/olmOCR-2-7B-1025",
+      "name": "allenai/olmOCR-2-7B-1025",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/olmOCR-2-7B-1025",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/OlmoEarth-v1-Large",
+      "name": "allenai/OlmoEarth-v1-Large",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1-Large",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/tmax-9b",
+      "name": "allenai/tmax-9b",
+      "library": null,
+      "base_model": "Qwen/Qwen3.5-9B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/tmax-9b",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/tmax-27b"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/OlmoEarth-v1-Base"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/OlmoEarth-v1_2-Nano"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/OlmoEarth-v1_2-Base"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/olmOCR-2-7B-1025-FP8"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/wildguard"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/OLMoE-1B-7B-0125"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/olmOCR-2-7B-1025"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/OlmoEarth-v1-Large"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "allenai/tmax-9b"
     }
   ]
 }

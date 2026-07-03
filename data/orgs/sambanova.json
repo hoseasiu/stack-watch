@@ -67,9 +67,19 @@
       ]
     }
   },
-  "job_signals": [],
+  "job_signals": [
+    {
+      "title": "ML Features Solutions Engineer",
+      "terms_matched": [
+        "tool use",
+        "function calling"
+      ],
+      "posted": "2026-03-04",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=5819022004"
+    }
+  ],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -95,6 +105,14 @@
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "tool use",
+        "function calling"
+      ]
     }
   ]
 }

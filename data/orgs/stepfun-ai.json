@@ -22,13 +22,154 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "stepfun-ai/Step-3.7-Flash",
+      "name": "stepfun-ai/Step-3.7-Flash",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Step-3.7-Flash-GGUF",
+      "name": "stepfun-ai/Step-3.7-Flash-GGUF",
+      "library": "gguf",
+      "base_model": "stepfun-ai/Step-3.7-Flash",
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Step-3.7-Flash-NVFP4",
+      "name": "stepfun-ai/Step-3.7-Flash-NVFP4",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-NVFP4",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/GOT-OCR2_0",
+      "name": "stepfun-ai/GOT-OCR2_0",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/GOT-OCR2_0",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Step-Audio-Chat",
+      "name": "stepfun-ai/Step-Audio-Chat",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-Audio-Chat",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Step-Audio-2-mini",
+      "name": "stepfun-ai/Step-Audio-2-mini",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-Audio-2-mini",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Step-Audio-EditX",
+      "name": "stepfun-ai/Step-Audio-EditX",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-Audio-EditX",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/GOT-OCR-2.0-hf",
+      "name": "stepfun-ai/GOT-OCR-2.0-hf",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/GOT-OCR-2.0-hf",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Step1X-Edit",
+      "name": "stepfun-ai/Step1X-Edit",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step1X-Edit",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "stepfun-ai/Qwen2.5-32B-DialogueReason",
+      "name": "stepfun-ai/Qwen2.5-32B-DialogueReason",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Qwen2.5-32B-DialogueReason",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-3.7-Flash"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-3.7-Flash-GGUF"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-3.7-Flash-NVFP4"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/GOT-OCR2_0"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-Audio-Chat"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-Audio-2-mini"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-Audio-EditX"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/GOT-OCR-2.0-hf"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step1X-Edit"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "stepfun-ai/Qwen2.5-32B-DialogueReason"
     }
   ]
 }

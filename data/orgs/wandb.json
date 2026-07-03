@@ -4,7 +4,7 @@
   "github_org": "wandb",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -22,13 +22,154 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "wandb/Mixtral-8x7b-Remixtral",
+      "name": "wandb/Mixtral-8x7b-Remixtral",
+      "library": "peft",
+      "base_model": "mistralai/Mixtral-8x7B-v0.1",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/Mixtral-8x7b-Remixtral",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/gemma-7b-zephyr-sft",
+      "name": "wandb/gemma-7b-zephyr-sft",
+      "library": "transformers",
+      "base_model": "google/gemma-7b",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/gemma-7b-zephyr-sft",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/gemma-7b-zephyr-dpo",
+      "name": "wandb/gemma-7b-zephyr-dpo",
+      "library": "transformers",
+      "base_model": "wandb/gemma-7b-zephyr-sft",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/gemma-7b-zephyr-dpo",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/gemma-2b-zephyr-sft",
+      "name": "wandb/gemma-2b-zephyr-sft",
+      "library": "transformers",
+      "base_model": "google/gemma-2b",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/gemma-2b-zephyr-sft",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/gemma-2b-zephyr-dpo",
+      "name": "wandb/gemma-2b-zephyr-dpo",
+      "library": "transformers",
+      "base_model": "wandb/gemma-2b-zephyr-sft",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/gemma-2b-zephyr-dpo",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/mistral-7b-zephyr-sft",
+      "name": "wandb/mistral-7b-zephyr-sft",
+      "library": "transformers",
+      "base_model": "mistralai/Mistral-7B-v0.1",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/mistral-7b-zephyr-sft",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/mistral-7b-zephyr-dpo",
+      "name": "wandb/mistral-7b-zephyr-dpo",
+      "library": "transformers",
+      "base_model": "wandb/mistral-7b-zephyr-sft",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/mistral-7b-zephyr-dpo",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/pruned_mistral",
+      "name": "wandb/pruned_mistral",
+      "library": "transformers",
+      "base_model": "mistralai/Mistral-7B-v0.1",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/pruned_mistral",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/Mistral-7B-v0.2",
+      "name": "wandb/Mistral-7B-v0.2",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/Mistral-7B-v0.2",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "wandb/zephyr-orpo-7b-v0.2",
+      "name": "wandb/zephyr-orpo-7b-v0.2",
+      "library": "transformers",
+      "base_model": "wandb/Mistral-7B-v0.2",
+      "confidence": "medium",
+      "url": "https://huggingface.co/wandb/zephyr-orpo-7b-v0.2",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-07-02",
       "type": "dependency",
       "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/Mixtral-8x7b-Remixtral"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/gemma-7b-zephyr-sft"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/gemma-7b-zephyr-dpo"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/gemma-2b-zephyr-sft"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/gemma-2b-zephyr-dpo"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/mistral-7b-zephyr-sft"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/mistral-7b-zephyr-dpo"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/pruned_mistral"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/Mistral-7B-v0.2"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "wandb/zephyr-orpo-7b-v0.2"
     }
   ]
 }

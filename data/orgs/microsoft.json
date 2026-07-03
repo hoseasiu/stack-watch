@@ -90,6 +90,7 @@
       ]
     }
   },
+  "model_providers": {},
   "agent_config": {
     "confidence": "high",
     "evidence": [
@@ -123,10 +124,100 @@
       }
     ]
   },
-  "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 4,
+  "hf_models": [
+    {
+      "id": "microsoft/GELab-Zero-4B-preview-Sico-Evolution",
+      "name": "microsoft/GELab-Zero-4B-preview-Sico-Evolution",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/GELab-Zero-4B-preview-Sico-Evolution",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/VibeVoice-ASR",
+      "name": "microsoft/VibeVoice-ASR",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/bitnet-b1.58-2B-4T",
+      "name": "microsoft/bitnet-b1.58-2B-4T",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/bitnet-b1.58-2B-4T",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/VibeVoice-1.5B",
+      "name": "microsoft/VibeVoice-1.5B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/VibeVoice-1.5B",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/Phi-4-mini-instruct",
+      "name": "microsoft/Phi-4-mini-instruct",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/TRELLIS.2-4B",
+      "name": "microsoft/TRELLIS.2-4B",
+      "library": "trellis2",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/TRELLIS.2-4B",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/harrier-oss-v1-0.6b",
+      "name": "microsoft/harrier-oss-v1-0.6b",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/harrier-oss-v1-0.6b",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/Florence-2-base",
+      "name": "microsoft/Florence-2-base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Florence-2-base",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/phi-4",
+      "name": "microsoft/phi-4",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/HARC",
+      "name": "microsoft/HARC",
+      "library": "peft",
+      "base_model": "Qwen/Qwen2.5-7B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/HARC",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 14,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -150,6 +241,56 @@
       "type": "agent_config",
       "framework": null,
       "repo": "microsoft/AIOpsLab"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/GELab-Zero-4B-preview-Sico-Evolution"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/VibeVoice-ASR"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/bitnet-b1.58-2B-4T"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/VibeVoice-1.5B"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/Phi-4-mini-instruct"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/TRELLIS.2-4B"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/harrier-oss-v1-0.6b"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/Florence-2-base"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/phi-4"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "microsoft/HARC"
     }
   ]
 }

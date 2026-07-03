@@ -29,13 +29,154 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "SALT-NLP/FLANG-ELECTRA",
+      "name": "SALT-NLP/FLANG-ELECTRA",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/FLANG-ELECTRA",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/FLANG-BERT",
+      "name": "SALT-NLP/FLANG-BERT",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/FLANG-BERT",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/FLANG-SpanBERT",
+      "name": "SALT-NLP/FLANG-SpanBERT",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/FLANG-SpanBERT",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/FLANG-DistilBERT",
+      "name": "SALT-NLP/FLANG-DistilBERT",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/FLANG-DistilBERT",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/FLANG-Roberta",
+      "name": "SALT-NLP/FLANG-Roberta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/FLANG-Roberta",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/LLaVAR_delta",
+      "name": "SALT-NLP/LLaVAR_delta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/LLaVAR_delta",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/Design2Code-18B-v0",
+      "name": "SALT-NLP/Design2Code-18B-v0",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/Design2Code-18B-v0",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/CultureBank-Summarizer",
+      "name": "SALT-NLP/CultureBank-Summarizer",
+      "library": "peft",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/CultureBank-Summarizer",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/CultureBank-Extractor",
+      "name": "SALT-NLP/CultureBank-Extractor",
+      "library": "peft",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/CultureBank-Extractor",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "SALT-NLP/CultureBank-Question-Generator",
+      "name": "SALT-NLP/CultureBank-Question-Generator",
+      "library": "peft",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/SALT-NLP/CultureBank-Question-Generator",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/FLANG-ELECTRA"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/FLANG-BERT"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/FLANG-SpanBERT"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/FLANG-DistilBERT"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/FLANG-Roberta"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/LLaVAR_delta"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/Design2Code-18B-v0"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/CultureBank-Summarizer"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/CultureBank-Extractor"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "SALT-NLP/CultureBank-Question-Generator"
     }
   ]
 }

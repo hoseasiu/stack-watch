@@ -2,15 +2,23 @@
   "sector": "ai-infra",
   "orgs": [
     {
+      "slug": "fireworks-ai",
+      "display_name": "Fireworks AI"
+    },
+    {
       "slug": "sambanova",
       "display_name": "SambaNova Systems"
     },
     {
       "slug": "scale-ai",
       "display_name": "Scale AI"
+    },
+    {
+      "slug": "together-ai",
+      "display_name": "Together AI"
     }
   ],
-  "org_count": 2,
+  "org_count": 4,
   "top_frameworks": [
     {
       "slug": "langgraph",

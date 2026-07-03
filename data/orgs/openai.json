@@ -34,8 +34,99 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 2,
+  "hf_models": [
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "openai/gpt-oss-20b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/gpt-oss-20b",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/whisper-large-v3",
+      "name": "openai/whisper-large-v3",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "openai/gpt-oss-120b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/privacy-filter",
+      "name": "openai/privacy-filter",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/privacy-filter",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/whisper-large-v3-turbo",
+      "name": "openai/whisper-large-v3-turbo",
+      "library": "transformers",
+      "base_model": "openai/whisper-large-v3",
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-large-v3-turbo",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/clip-vit-base-patch32",
+      "name": "openai/clip-vit-base-patch32",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/clip-vit-base-patch32",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/clip-vit-large-patch14",
+      "name": "openai/clip-vit-large-patch14",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/clip-vit-large-patch14",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/whisper-base",
+      "name": "openai/whisper-base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-base",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/whisper-small",
+      "name": "openai/whisper-small",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-small",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/whisper-medium",
+      "name": "openai/whisper-medium",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-medium",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -47,6 +138,56 @@
       "type": "agent_config",
       "framework": null,
       "repo": "openai/openai-guardrails-python"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/gpt-oss-20b"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/whisper-large-v3"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/gpt-oss-120b"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/privacy-filter"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/whisper-large-v3-turbo"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/clip-vit-base-patch32"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/clip-vit-large-patch14"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/whisper-base"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/whisper-small"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "openai/whisper-medium"
     }
   ]
 }

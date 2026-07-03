@@ -1,0 +1,319 @@
+{
+  "slug": "fireworks-ai",
+  "display_name": "Fireworks AI",
+  "github_org": "fw-ai",
+  "sector": "ai-infra",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {},
+  "model_providers": {},
+  "job_signals": [
+    {
+      "title": "AI Field Engineer - AI Natives",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-09",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4280748009"
+    },
+    {
+      "title": "AI Field Engineer - Enterprise",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-11",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4284317009"
+    },
+    {
+      "title": "AI Field Engineer - Microsoft Foundry",
+      "terms_matched": [
+        "LangChain",
+        "function calling"
+      ],
+      "posted": "2026-06-11",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4283962009"
+    },
+    {
+      "title": "AI Native Account Executive",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-04-30",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4236670009"
+    },
+    {
+      "title": "AI Native - Strategic, Account Executive",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-05",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4274911009"
+    },
+    {
+      "title": "Applied Machine Learning Engineer",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-05-09",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4001304009"
+    },
+    {
+      "title": "AWS Partner Development Manager",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-22",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4289036009"
+    },
+    {
+      "title": "Brand Design Lead",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-29",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4301646009"
+    },
+    {
+      "title": "Enterprise Account Executive",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-05",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4277696009"
+    },
+    {
+      "title": "Field Marketing Manager, Startups",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-05-22",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4256942009"
+    },
+    {
+      "title": "Forward Deployed Product Manager",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-07-14",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4008626009"
+    },
+    {
+      "title": "Head of Marketing Operations",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-05-27",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4260883009"
+    },
+    {
+      "title": "Head of Sales Development",
+      "terms_matched": [
+        "Claude Code",
+        "function calling"
+      ],
+      "posted": "2026-06-30",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4303213009"
+    },
+    {
+      "title": "Head of Sales Strategy & Analytics",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-11",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4280810009"
+    },
+    {
+      "title": "Head of Systems Integrators",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-19",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4288917009"
+    },
+    {
+      "title": "Member of Technical Staff",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-11",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4284300009"
+    },
+    {
+      "title": "Member of Technical Staff, AI Training Infrastructure",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-04-21",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4000408009"
+    },
+    {
+      "title": "Member of Technical Staff, Cloud Infrastructure",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-06-20",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4005894009"
+    },
+    {
+      "title": "Member of Technical Staff, Data Platform Engineer",
+      "terms_matched": [
+        "LangChain",
+        "function calling"
+      ],
+      "posted": "2026-04-07",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4210320009"
+    },
+    {
+      "title": "Member of Technical Staff, Evals & Post-Training Product",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-10-30",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4053672009"
+    },
+    {
+      "title": "Member of Technical Staff- Full Stack Software Engineer",
+      "terms_matched": [
+        "LangChain",
+        "function calling",
+        "vector database",
+        "AI orchestration"
+      ],
+      "posted": "2026-06-05",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4257324009"
+    },
+    {
+      "title": "Member of Technical Staff, Performance Optimization",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-05-06",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4001152009"
+    },
+    {
+      "title": "Member of Technical Staff, Research",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-04-17",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4000239009"
+    },
+    {
+      "title": "Member of Technical Staff, Software Engineer",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-03-08",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4177932009"
+    },
+    {
+      "title": "Microsoft Partner Sales Manager",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-25",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4299212009"
+    },
+    {
+      "title": "Paid Growth Marketer",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-11",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4283894009"
+    },
+    {
+      "title": "Revenue Accounting Lead",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-05-18",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4251648009"
+    },
+    {
+      "title": "Security Engineer",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-01-20",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4106639009"
+    },
+    {
+      "title": "Senior GTM Recruiter",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-03-31",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4204968009"
+    },
+    {
+      "title": "Social and Community Manager ",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-26",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4299816009"
+    },
+    {
+      "title": " Software Engineer, AI Infrastructure",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-11-05",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4056271009"
+    },
+    {
+      "title": "Sr Field Marketing Manager ",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-05-22",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4257105009"
+    },
+    {
+      "title": "Technical Web Lead",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-29",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4301675009"
+    }
+  ],
+  "hf_models": [],
+  "signal_count": 4,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "LangChain",
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code",
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "LangChain",
+        "function calling",
+        "vector database",
+        "AI orchestration"
+      ]
+    }
+  ]
+}

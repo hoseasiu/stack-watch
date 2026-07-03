@@ -1,0 +1,205 @@
+{
+  "slug": "together-ai",
+  "display_name": "Together AI",
+  "github_org": "togethercomputer",
+  "sector": "ai-infra",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {},
+  "model_providers": {},
+  "job_signals": [
+    {
+      "title": "Frontier Agents Intern (Fall 2026)",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-06-12",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5157380007"
+    },
+    {
+      "title": "GTM Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-02",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5178712007"
+    },
+    {
+      "title": "Senior Platform Engineer, Voice AI",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-03-30",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5093344007"
+    },
+    {
+      "title": "Staff Platform Engineer, Voice AI",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-05-19",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5142176007"
+    }
+  ],
+  "hf_models": [
+    {
+      "id": "togethercomputer/GPT-JT-6B-v0",
+      "name": "togethercomputer/GPT-JT-6B-v0",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-JT-6B-v0",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/GPT-JT-6B-v1",
+      "name": "togethercomputer/GPT-JT-6B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-JT-6B-v1",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "name": "togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/GPT-JT-Moderation-6B",
+      "name": "togethercomputer/GPT-JT-Moderation-6B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-JT-Moderation-6B",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/Pythia-Chat-Base-7B",
+      "name": "togethercomputer/Pythia-Chat-Base-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-7B-Base",
+      "name": "togethercomputer/RedPajama-INCITE-7B-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-7B-Chat",
+      "name": "togethercomputer/RedPajama-INCITE-7B-Chat",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "name": "togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "name": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 12,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-JT-6B-v0"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-JT-6B-v1"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-NeoXT-Chat-Base-20B"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-JT-Moderation-6B"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/Pythia-Chat-Base-7B"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-7B-Base"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-Base-3B-v1"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-7B-Chat"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-Chat-3B-v1"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1"
+    }
+  ]
+}

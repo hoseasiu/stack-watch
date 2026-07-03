@@ -4,7 +4,7 @@
   "github_org": "inference-sh",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-03",
   "frameworks": {},
   "model_providers": {
     "google": {
@@ -35,13 +35,126 @@
     }
   },
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "inference-sh/remade-ai-wan2.1-i2v-effects",
+      "name": "inference-sh/remade-ai-wan2.1-i2v-effects",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/remade-ai-wan2.1-i2v-effects",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/remade-ai-wan2.1-t2v-effects",
+      "name": "inference-sh/remade-ai-wan2.1-t2v-effects",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/remade-ai-wan2.1-t2v-effects",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/diff-rythm-g2p-chinese-model",
+      "name": "inference-sh/diff-rythm-g2p-chinese-model",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/diff-rythm-g2p-chinese-model",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/Wan2.2-TI2V-5B-Diffusers",
+      "name": "inference-sh/Wan2.2-TI2V-5B-Diffusers",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/Wan2.2-TI2V-5B-Diffusers",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/Wan2.2-I2V-A14B-LightX2V-Diffusers",
+      "name": "inference-sh/Wan2.2-I2V-A14B-LightX2V-Diffusers",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/Wan2.2-I2V-A14B-LightX2V-Diffusers",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/Wan2.2-T2V-A14B-LightX2V-Diffusers",
+      "name": "inference-sh/Wan2.2-T2V-A14B-LightX2V-Diffusers",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/Wan2.2-T2V-A14B-LightX2V-Diffusers",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/Wan2.2-TI2V-5B-LightX2V-Diffusers",
+      "name": "inference-sh/Wan2.2-TI2V-5B-LightX2V-Diffusers",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/Wan2.2-TI2V-5B-LightX2V-Diffusers",
+      "detected": "2026-07-03"
+    },
+    {
+      "id": "inference-sh/CausVid",
+      "name": "inference-sh/CausVid",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/inference-sh/CausVid",
+      "detected": "2026-07-03"
+    }
+  ],
+  "signal_count": 9,
   "signal_history": [
     {
       "date": "2026-07-02",
       "type": "dependency",
       "framework": "google"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/remade-ai-wan2.1-i2v-effects"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/remade-ai-wan2.1-t2v-effects"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/diff-rythm-g2p-chinese-model"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/Wan2.2-TI2V-5B-Diffusers"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/Wan2.2-I2V-A14B-LightX2V-Diffusers"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/Wan2.2-T2V-A14B-LightX2V-Diffusers"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/Wan2.2-TI2V-5B-LightX2V-Diffusers"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "hf_model",
+      "model": "inference-sh/CausVid"
     }
   ]
 }
