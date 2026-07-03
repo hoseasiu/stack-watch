@@ -143,17 +143,31 @@ real API is the remaining step to hit the 50+ org target).
 
 Goal: broaden signal types beyond GitHub; light up the signal feed page.
 
-- [ ] `pipeline/huggingface_collector.py`: HF Hub API scan for model cards with org
-      affiliation + base model + framework metadata; write into org profiles' `hf_models`
-- [ ] `pipeline/jobs_collector.py`: start with Greenhouse's public API (structured JSON,
-      no auth) against a curated list of employer boards; match `AGENTIC_JOB_TERMS`;
-      write into org profiles' `job_signals`
-- [ ] Wire both into `collect.yml` alongside the GitHub step
-- [ ] `site/signals/signals.njk`: filterable feed page reading last 7 days of
-      `data/signals/*.jsonl`, filterable by signal type / confidence / framework
+- [x] `pipeline/huggingface_collector.py`: HF Hub API scan for model cards, scoped to HF
+      namespaces matching a `github_org` login already on file (no reliable "org vs.
+      individual" signal on HF the way GitHub has one, so this stays bounded to orgs
+      already corroborated by the GitHub collector — a real coverage gap, documented in
+      the module docstring). Writes `id`/base_model/library into `hf_models`, confidence
+      `medium` per CLAUDE.md's confidence table.
+- [x] `pipeline/jobs_collector.py`: Greenhouse's public board API (structured JSON, no
+      auth) against `CURATED_BOARDS` — a small, manually verified list (7 boards,
+      HTTP-200-checked before being hardcoded), same pattern as build_aggregates.py's
+      `SECTOR_OVERRIDES`. Matches `AGENTIC_JOB_TERMS` against job title + HTML-unescaped
+      description; writes matches into `job_signals`, confidence `medium`.
+- [x] Wired both into `collect.yml` alongside the GitHub + build_aggregates steps
+- [x] `site/signals/signals.njk`: client-side filter controls (type / confidence /
+      framework dropdowns, framework options sourced from `_data/frameworks.js`) over
+      the existing last-7-days feed list; verified in-browser that combined filters
+      narrow the visible count correctly
+- [x] `site/org/org.njk`: `hf_models` section upgraded from a bare name to the same
+      confidence-dot + evidence-link pattern as frameworks/model_providers/job_signals
+      (was a placeholder from Phase 1 that predated this signal type existing)
 
-Done when: signal feed page shows a mix of dependency, model-card, and job-posting
-signal types with correct confidence badges.
+Done when: signal feed page shows a mix of dependency, hf_model, and job-posting
+signal types with correct confidence badges. ✅ Verified locally: both collectors run
+idempotently against live APIs (zero new entries on a second run), `npm run build`
+succeeds, and the signals page was checked in a local preview server with filters
+tested end-to-end (type+framework combo narrowed 449 entries to 12 correctly).
 
 ---
 

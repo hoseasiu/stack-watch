@@ -5,12 +5,43 @@ nav: signals
 permalink: "signals/index.html"
 ---
 <div class="section-header">
-  <div class="section-title">Signal feed — last 7 days ({{ signals.length }})</div>
+  <div class="section-title">Signal feed — last 7 days (<span id="signal-visible-count">{{ signals.length }}</span> of {{ signals.length }})</div>
 </div>
 
-<div class="signal-feed-list">
+<div class="signal-filters">
+  <label>
+    <span class="filter-label">Type</span>
+    <select id="filter-type">
+      <option value="">All types</option>
+      <option value="dependency">Dependency</option>
+      <option value="agent_config">Agent config</option>
+      <option value="job_posting">Job posting</option>
+      <option value="hf_model">HF model</option>
+    </select>
+  </label>
+  <label>
+    <span class="filter-label">Confidence</span>
+    <select id="filter-confidence">
+      <option value="">All confidence</option>
+      <option value="high">High</option>
+      <option value="medium">Medium</option>
+      <option value="low">Low</option>
+    </select>
+  </label>
+  <label>
+    <span class="filter-label">Framework</span>
+    <select id="filter-framework">
+      <option value="">All frameworks</option>
+      {% for fw in frameworks %}
+      <option value="{{ fw.slug }}">{{ fw.slug }}</option>
+      {% endfor %}
+    </select>
+  </label>
+</div>
+
+<div class="signal-feed-list" id="signal-feed-list">
   {% for s in signals %}
-  <div class="signal-entry">
+  <div class="signal-entry" data-type="{{ s.type }}" data-confidence="{{ s.confidence }}" data-framework="{{ s.framework or '' }}">
     <div class="signal-entry-top">
       <span class="signal-type-badge {{ s.type }}">{{ s.type | replace("_", " ") }}</span>
       <span class="signal-org"><a href="{{ ('/org/' + s.org + '/') | url }}">{{ s.org }}</a></span>
@@ -23,3 +54,39 @@ permalink: "signals/index.html"
   </div>
   {% endfor %}
 </div>
+
+<div class="empty-state" id="signal-empty-state" hidden>No signals match these filters.</div>
+
+<script>
+(function () {
+  var typeFilter = document.getElementById("filter-type");
+  var confidenceFilter = document.getElementById("filter-confidence");
+  var frameworkFilter = document.getElementById("filter-framework");
+  var entries = Array.prototype.slice.call(document.querySelectorAll("#signal-feed-list .signal-entry"));
+  var countEl = document.getElementById("signal-visible-count");
+  var emptyState = document.getElementById("signal-empty-state");
+
+  function applyFilters() {
+    var type = typeFilter.value;
+    var confidence = confidenceFilter.value;
+    var framework = frameworkFilter.value;
+    var visible = 0;
+
+    entries.forEach(function (entry) {
+      var matches =
+        (!type || entry.dataset.type === type) &&
+        (!confidence || entry.dataset.confidence === confidence) &&
+        (!framework || entry.dataset.framework === framework);
+      entry.hidden = !matches;
+      if (matches) visible++;
+    });
+
+    countEl.textContent = visible;
+    emptyState.hidden = visible !== 0;
+  }
+
+  typeFilter.addEventListener("change", applyFilters);
+  confidenceFilter.addEventListener("change", applyFilters);
+  frameworkFilter.addEventListener("change", applyFilters);
+})();
+</script>

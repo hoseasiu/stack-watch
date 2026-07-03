@@ -108,7 +108,16 @@ eleventyComputed:
 
 {% if org.hf_models | length %}
   {% for m in org.hf_models %}
-  <div class="evidence-card">{{ m.name }}</div>
+  <div class="evidence-card">
+    <div class="evidence-card-header">
+      <span class="evidence-card-title">{{ m.name }}</span>
+      <span class="confidence-label"><span class="confidence-dot {{ m.confidence }}"></span>{{ m.confidence }} confidence</span>
+    </div>
+    <div class="evidence-item">
+      model card{% if m.base_model %} · fine-tuned from {{ m.base_model }}{% endif %}{% if m.library %} · {{ m.library }}{% endif %} ·
+      <a href="{{ m.url }}" target="_blank" rel="noopener">view model card →<span class="sr-only"> (opens in new tab)</span></a>
+    </div>
+  </div>
   {% endfor %}
 {% else %}
   <div class="empty-state">No HuggingFace model card signals detected yet.</div>

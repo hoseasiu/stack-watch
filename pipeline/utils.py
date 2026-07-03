@@ -121,6 +121,22 @@ def add_agent_config_evidence(org: dict, confidence: str, evidence: dict) -> boo
     return True
 
 
+def add_job_signal(org: dict, job: dict) -> bool:
+    """Adds a job-posting signal to an org profile, deduping by posting URL."""
+    if any(j.get("url") == job.get("url") for j in org["job_signals"]):
+        return False
+    org["job_signals"].append(job)
+    return True
+
+
+def add_hf_model(org: dict, model: dict) -> bool:
+    """Adds a HuggingFace model-card signal to an org profile, deduping by model id."""
+    if any(m.get("id") == model.get("id") for m in org["hf_models"]):
+        return False
+    org["hf_models"].append(model)
+    return True
+
+
 def add_signal_history(org: dict, date: str, type_: str, **fields: Any) -> bool:
     record = {"date": date, "type": type_, **fields}
     if record in org["signal_history"]:
