@@ -22,7 +22,7 @@ permalink: "org/index.html"
     <tr>
       <td>
         <div class="org-name">
-          <a href="/org/{{ org.slug }}/">{{ org.display_name }}</a>
+          <a href="{{ ('/org/' + org.slug + '/') | url }}">{{ org.display_name }}</a>
           <span class="org-sector-badge">{{ org.sector }}</span>
         </div>
       </td>

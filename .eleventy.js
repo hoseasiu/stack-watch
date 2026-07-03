@@ -8,5 +8,6 @@ module.exports = function (eleventyConfig) {
       includes: "_includes",
       data: "_data",
     },
+    pathPrefix: "/stack-watch/",
   };
 };

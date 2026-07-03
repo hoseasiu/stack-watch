@@ -26,12 +26,12 @@ nav: dashboard
   <strong>Coverage notice:</strong> StackWatch tracks organizations with active public GitHub
   presence — primarily tech companies, startups, and research institutions. Coverage of
   defense, healthcare, and financial services is intentionally thin. All signals are inferred
-  from public sources; <a href="/methodology/">see methodology →</a>
+  from public sources; <a href="{{ '/methodology/' | url }}">see methodology →</a>
 </div>
 
 <div class="section-header">
   <div class="section-title">Organizations</div>
-  <a class="section-action" href="/org/">View all {{ orgs.length }} →</a>
+  <a class="section-action" href="{{ '/org/' | url }}">View all {{ orgs.length }} →</a>
 </div>
 
 <table class="org-table">
@@ -48,7 +48,7 @@ nav: dashboard
     <tr>
       <td>
         <div class="org-name">
-          <a href="/org/{{ org.slug }}/">{{ org.display_name }}</a>
+          <a href="{{ ('/org/' + org.slug + '/') | url }}">{{ org.display_name }}</a>
           <span class="org-sector-badge">{{ org.sector }}</span>
         </div>
       </td>
@@ -74,7 +74,7 @@ nav: dashboard
 
 <div class="section-header">
   <div class="section-title">Recent signal feed</div>
-  <a class="section-action" href="/signals/">View all →</a>
+  <a class="section-action" href="{{ '/signals/' | url }}">View all →</a>
 </div>
 
 <div class="signal-feed-list">

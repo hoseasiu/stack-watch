@@ -13,7 +13,7 @@ permalink: "signals/index.html"
   <div class="signal-entry">
     <div class="signal-entry-top">
       <span class="signal-type-badge {{ s.type }}">{{ s.type | replace("_", " ") }}</span>
-      <span class="signal-org"><a href="/org/{{ s.org }}/">{{ s.org }}</a></span>
+      <span class="signal-org"><a href="{{ ('/org/' + s.org + '/') | url }}">{{ s.org }}</a></span>
     </div>
     <div class="signal-detail">
       {% if s.framework %}{{ s.framework }} · {% endif %}{{ s.repo or "" }}

@@ -6,24 +6,24 @@
 <title>{{ title or "StackWatch" }} — AI Infrastructure Intelligence</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/static/style.css">
+<link rel="stylesheet" href="{{ '/static/style.css' | url }}">
 </head>
 <body>
 
 <header>
-  <a class="logo" href="/">
+  <a class="logo" href="{{ '/' | url }}">
     <div class="logo-mark">
       <svg viewBox="0 0 12 12"><circle cx="3" cy="3" r="2"/><circle cx="9" cy="3" r="2"/><circle cx="3" cy="9" r="2"/><circle cx="9" cy="9" r="2"/></svg>
     </div>
     <span class="logo-name">StackWatch</span>
   </a>
   <nav>
-    <a href="/" class="{{ 'active' if nav == 'dashboard' }}">Dashboard</a>
-    <a href="/org/" class="{{ 'active' if nav == 'orgs' }}">Organizations</a>
-    <a href="/tech/" class="{{ 'active' if nav == 'tech' }}">Frameworks</a>
-    <a href="/sectors/" class="{{ 'active' if nav == 'sectors' }}">Sectors</a>
-    <a href="/signals/" class="{{ 'active' if nav == 'signals' }}">Signals</a>
-    <a href="/methodology/" class="{{ 'active' if nav == 'methodology' }}">Methodology</a>
+    <a href="{{ '/' | url }}" class="{{ 'active' if nav == 'dashboard' }}">Dashboard</a>
+    <a href="{{ '/org/' | url }}" class="{{ 'active' if nav == 'orgs' }}">Organizations</a>
+    <a href="{{ '/tech/' | url }}" class="{{ 'active' if nav == 'tech' }}">Frameworks</a>
+    <a href="{{ '/sectors/' | url }}" class="{{ 'active' if nav == 'sectors' }}">Sectors</a>
+    <a href="{{ '/signals/' | url }}" class="{{ 'active' if nav == 'signals' }}">Signals</a>
+    <a href="{{ '/methodology/' | url }}" class="{{ 'active' if nav == 'methodology' }}">Methodology</a>
   </nav>
   <div class="header-right">
     <div class="pulse-indicator">
@@ -40,7 +40,7 @@
 <footer>
   <span>StackWatch · open-source · <a href="https://github.com/">github.com/stackwatch</a></span>
   <span>{{ orgs.length }} orgs · {{ signals.length }} signals (last 7d)</span>
-  <span><a href="/methodology/">Methodology</a> · signals inferred from public sources only</span>
+  <span><a href="{{ '/methodology/' | url }}">Methodology</a> · signals inferred from public sources only</span>
 </footer>
 
 </body>
