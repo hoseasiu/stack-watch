@@ -1,0 +1,34 @@
+{
+  "slug": "pachterlab",
+  "display_name": "pachterlab",
+  "github_org": "pachterlab",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "pachterlab/seqspec",
+          "file": "pyproject.toml",
+          "url": "https://github.com/pachterlab/seqspec/blob/0771046233fdf93542253c28ecda75054b730080/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

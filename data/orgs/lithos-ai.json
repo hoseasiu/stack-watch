@@ -1,0 +1,53 @@
+{
+  "slug": "lithos-ai",
+  "display_name": "lithos-ai",
+  "github_org": "lithos-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "lithos-ai/motus",
+          "file": "pyproject.toml",
+          "url": "https://github.com/lithos-ai/motus/blob/1433400566700f439d4c301ef27c22468958e8e7/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "lithos-ai/motus",
+          "file": "AGENTS.md",
+          "url": "https://github.com/lithos-ai/motus/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "lithos-ai/motus"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "massgen",
+  "display_name": "massgen",
+  "github_org": "massgen",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "massgen/MassGen",
+          "file": "pyproject.toml",
+          "url": "https://github.com/massgen/MassGen/blob/007bd8579298d7dc3ff2a43c378e27a284902f22/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "massgen/MassGen",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/massgen/MassGen/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "massgen/MassGen",
+          "file": "AGENTS.md",
+          "url": "https://github.com/massgen/MassGen/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "massgen/MassGen"
+    }
+  ]
+}

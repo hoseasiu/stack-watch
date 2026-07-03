@@ -1,0 +1,41 @@
+{
+  "slug": "salt-nlp",
+  "display_name": "SALT-NLP",
+  "github_org": "SALT-NLP",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "SALT-NLP/collaborative-gym",
+          "file": "requirements.txt",
+          "url": "https://github.com/SALT-NLP/collaborative-gym/blob/c34b3a83b48b87dc7c4d4dd9862a6fe3e5dd4af6/requirements.txt",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "SALT-NLP/collaborative-gym",
+          "file": "pyproject.toml",
+          "url": "https://github.com/SALT-NLP/collaborative-gym/blob/c34b3a83b48b87dc7c4d4dd9862a6fe3e5dd4af6/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "poly186-ai-dao",
+  "display_name": "Poly186-AI-DAO",
+  "github_org": "Poly186-AI-DAO",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Poly186-AI-DAO/PolyGPT-alpha",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Poly186-AI-DAO/PolyGPT-alpha/blob/796e0ce5afc0a9041ca5b8ca4269f8d3735453de/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

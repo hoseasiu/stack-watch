@@ -1,0 +1,34 @@
+{
+  "slug": "usc-fortis",
+  "display_name": "USC-FORTIS",
+  "github_org": "USC-FORTIS",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "USC-FORTIS/AD-AGENT",
+          "file": "requirements.txt",
+          "url": "https://github.com/USC-FORTIS/AD-AGENT/blob/f14a9c065ca84e21dd78abf95db7d96b9460c2ba/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

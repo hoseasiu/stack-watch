@@ -1,0 +1,34 @@
+{
+  "slug": "agentcoinorg",
+  "display_name": "agentcoinorg",
+  "github_org": "agentcoinorg",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "agentcoinorg/AutoTx",
+          "file": "pyproject.toml",
+          "url": "https://github.com/agentcoinorg/AutoTx/blob/b8783065314b4ea55301d34254f92c7228bb769b/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

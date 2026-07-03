@@ -1,0 +1,162 @@
+{
+  "slug": "microsoft",
+  "display_name": "microsoft",
+  "github_org": "microsoft",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/OptiGuide",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/OptiGuide/blob/419cf7b9eee20b6af036abf15152fa775b20c951/milp-evolve/requirements.txt",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/AgenticCookBook",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/AgenticCookBook/blob/32c6b754cff666962b6cd4679a2bdd9183fbe28e/requirements.txt",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/OpenAIWorkshop",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/OpenAIWorkshop/blob/9c91bf73faa035b31120c143a68a852014138e29/mcp/requirements.txt",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/autogen",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/autogen/blob/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/packages/autogen-agentchat/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/autogen",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/autogen/blob/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/packages/autogen-ext/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/semantic-kernel",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/semantic-kernel/blob/e6c9673684ca03621885083faff1644e1f42695e/python/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-lightning",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-lightning/blob/0b40cb724a0ad4f944810f8514884051777bb38b/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/54a2c5227817530d400200601f647b7f71ace298/policy-engine/sdk/python/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/ACV",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/ACV/blob/994ac15db6fff8a5131bbf5a26e84e352e676796/misc/DoVer/src/autogen-agentchat/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/AIOpsLab",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/AIOpsLab/blob/80901cc77de13a8fb35dc0e3feff78ca09fd6ae4/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/autogen",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/autogen/blob/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/packages/autogen-core/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "microsoft/agent-lightning",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/microsoft/agent-lightning/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "agent_config",
+          "repo": "microsoft/AIOpsLab",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/microsoft/AIOpsLab/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "microsoft/agent-lightning",
+          "file": "AGENTS.md",
+          "url": "https://github.com/microsoft/agent-lightning/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "agent_config",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "AGENTS.md",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 4,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "microsoft/agent-lightning"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "microsoft/agent-governance-toolkit"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "microsoft/AIOpsLab"
+    }
+  ]
+}

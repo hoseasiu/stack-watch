@@ -1,0 +1,34 @@
+{
+  "slug": "neural-maze",
+  "display_name": "neural-maze",
+  "github_org": "neural-maze",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "neural-maze/ava-whatsapp-agent-course",
+          "file": "pyproject.toml",
+          "url": "https://github.com/neural-maze/ava-whatsapp-agent-course/blob/338fd6870df9097165fceb3bbfc3cb0c95e584cd/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "sfu-db",
+  "display_name": "sfu-db",
+  "github_org": "sfu-db",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "sfu-db/CleanAgent",
+          "file": "requirements.txt",
+          "url": "https://github.com/sfu-db/CleanAgent/blob/66c10c2c1d141e7d63946f80a3f660e072d5bbe0/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

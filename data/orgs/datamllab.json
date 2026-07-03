@@ -1,0 +1,34 @@
+{
+  "slug": "datamllab",
+  "display_name": "datamllab",
+  "github_org": "datamllab",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "datamllab/ltsm",
+          "file": "requirements.txt",
+          "url": "https://github.com/datamllab/ltsm/blob/fd875027eab23f130a531828ac8f6c4e808787dd/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

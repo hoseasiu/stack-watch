@@ -1,0 +1,34 @@
+{
+  "slug": "ai-citizen",
+  "display_name": "AI-Citizen",
+  "github_org": "AI-Citizen",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "AI-Citizen/SolidGPT",
+          "file": "requirements.txt",
+          "url": "https://github.com/AI-Citizen/SolidGPT/blob/f39ee7da341bbcda6cea926eece7b087307588e6/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

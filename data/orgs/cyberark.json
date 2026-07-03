@@ -1,0 +1,34 @@
+{
+  "slug": "cyberark",
+  "display_name": "cyberark",
+  "github_org": "cyberark",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cyberark/agent-guard",
+          "file": "requirements.txt",
+          "url": "https://github.com/cyberark/agent-guard/blob/f084f178e93990602017499de36ef0f86eb54992/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "theagenticai",
+  "display_name": "TheAgenticAI",
+  "github_org": "TheAgenticAI",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "TheAgenticAI/TheAgenticBrowser",
+          "file": "requirements.txt",
+          "url": "https://github.com/TheAgenticAI/TheAgenticBrowser/blob/71daa285d65584333e0c69b963360f8b74fd980f/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

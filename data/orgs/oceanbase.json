@@ -1,0 +1,34 @@
+{
+  "slug": "oceanbase",
+  "display_name": "oceanbase",
+  "github_org": "oceanbase",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "oceanbase/obdiag",
+          "file": "pyproject.toml",
+          "url": "https://github.com/oceanbase/obdiag/blob/e912c589b580353ae60d9e6ef789a67a0e666942/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

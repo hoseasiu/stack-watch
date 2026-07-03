@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-03",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "base-requirements.txt",
           "url": "https://github.com/sambanova/ai-starter-kit/blob/main/base-requirements.txt",
           "detected": "2026-06-30"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/ai-starter-kit",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/ai-starter-kit/blob/83a1d30b0b0a55353b3cb0d77258276d1e3d066f/base-requirements.txt",
+          "detected": "2026-07-03"
         }
       ]
     },
@@ -62,11 +69,32 @@
   },
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 4,
+  "signal_count": 5,
   "signal_history": [
-    { "date": "2026-06-30", "type": "dependency", "framework": "langgraph" },
-    { "date": "2026-06-30", "type": "dependency", "framework": "crewai" },
-    { "date": "2026-06-30", "type": "dependency", "framework": "llamaindex" },
-    { "date": "2026-06-30", "type": "dependency", "framework": "openai" }
+    {
+      "date": "2026-06-30",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "dependency",
+      "framework": "crewai"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-06-30",
+      "type": "dependency",
+      "framework": "openai"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
   ]
 }

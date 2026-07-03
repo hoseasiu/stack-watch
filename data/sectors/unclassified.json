@@ -6,6 +6,10 @@
       "display_name": "agentbay-ai"
     },
     {
+      "slug": "agentcoinorg",
+      "display_name": "agentcoinorg"
+    },
+    {
       "slug": "agentops-ai",
       "display_name": "AgentOps-AI"
     },
@@ -14,8 +18,20 @@
       "display_name": "agiresearch"
     },
     {
+      "slug": "ai-citizen",
+      "display_name": "AI-Citizen"
+    },
+    {
       "slug": "ai45lab",
       "display_name": "AI45Lab"
+    },
+    {
+      "slug": "aisbreaker",
+      "display_name": "aisbreaker"
+    },
+    {
+      "slug": "allenai",
+      "display_name": "allenai"
     },
     {
       "slug": "apify",
@@ -26,8 +42,20 @@
       "display_name": "Arize-ai"
     },
     {
+      "slug": "arklexai",
+      "display_name": "arklexai"
+    },
+    {
       "slug": "aws-samples",
       "display_name": "aws-samples"
+    },
+    {
+      "slug": "azure",
+      "display_name": "Azure"
+    },
+    {
+      "slug": "azure-samples",
+      "display_name": "Azure-Samples"
     },
     {
       "slug": "cabcode-id",
@@ -38,16 +66,56 @@
       "display_name": "cmjatai"
     },
     {
+      "slug": "corpus-os",
+      "display_name": "Corpus-OS"
+    },
+    {
+      "slug": "cruiseresearchgroup",
+      "display_name": "cruiseresearchgroup"
+    },
+    {
+      "slug": "cyberark",
+      "display_name": "cyberark"
+    },
+    {
       "slug": "d-o-c-labs",
       "display_name": "D-o-c-labs"
+    },
+    {
+      "slug": "dataelement",
+      "display_name": "dataelement"
+    },
+    {
+      "slug": "datamllab",
+      "display_name": "datamllab"
     },
     {
       "slug": "datawhalechina",
       "display_name": "datawhalechina"
     },
     {
+      "slug": "diagridio",
+      "display_name": "diagridio"
+    },
+    {
       "slug": "dwani-ai",
       "display_name": "dwani-ai"
+    },
+    {
+      "slug": "e2b-dev",
+      "display_name": "e2b-dev"
+    },
+    {
+      "slug": "emergenceai",
+      "display_name": "EmergenceAI"
+    },
+    {
+      "slug": "fsoft-ai4code",
+      "display_name": "FSoft-AI4Code"
+    },
+    {
+      "slug": "gleanwork",
+      "display_name": "gleanwork"
     },
     {
       "slug": "googlecloudplatform",
@@ -68,6 +136,10 @@
     {
       "slug": "hud-evals",
       "display_name": "hud-evals"
+    },
+    {
+      "slug": "iflytek",
+      "display_name": "iflytek"
     },
     {
       "slug": "inference-sh",
@@ -94,6 +166,10 @@
       "display_name": "kvcache-ai"
     },
     {
+      "slug": "langchain-ai",
+      "display_name": "langchain-ai"
+    },
+    {
       "slug": "langgenius",
       "display_name": "langgenius"
     },
@@ -102,12 +178,24 @@
       "display_name": "latiotech"
     },
     {
+      "slug": "lithos-ai",
+      "display_name": "lithos-ai"
+    },
+    {
       "slug": "mapbox",
       "display_name": "mapbox"
     },
     {
+      "slug": "massgen",
+      "display_name": "massgen"
+    },
+    {
       "slug": "masslab-sii",
       "display_name": "MassLab-SII"
+    },
+    {
+      "slug": "microsoft",
+      "display_name": "microsoft"
     },
     {
       "slug": "mle-dojo",
@@ -118,16 +206,60 @@
       "display_name": "neatlogs"
     },
     {
+      "slug": "neosaastech",
+      "display_name": "neosaastech"
+    },
+    {
+      "slug": "neural-maze",
+      "display_name": "neural-maze"
+    },
+    {
       "slug": "nndl",
       "display_name": "nndl"
+    },
+    {
+      "slug": "nordquant",
+      "display_name": "nordquant"
+    },
+    {
+      "slug": "nvidia",
+      "display_name": "NVIDIA"
+    },
+    {
+      "slug": "oceanbase",
+      "display_name": "oceanbase"
+    },
+    {
+      "slug": "openagents-org",
+      "display_name": "openagents-org"
+    },
+    {
+      "slug": "openai",
+      "display_name": "openai"
     },
     {
       "slug": "opencsgs",
       "display_name": "OpenCSGs"
     },
     {
+      "slug": "pachterlab",
+      "display_name": "pachterlab"
+    },
+    {
       "slug": "packtpublishing",
       "display_name": "PacktPublishing"
+    },
+    {
+      "slug": "panaversity",
+      "display_name": "panaversity"
+    },
+    {
+      "slug": "paywithextend",
+      "display_name": "paywithextend"
+    },
+    {
+      "slug": "poly186-ai-dao",
+      "display_name": "Poly186-AI-DAO"
     },
     {
       "slug": "project-baize",
@@ -142,6 +274,10 @@
       "display_name": "QmiAI"
     },
     {
+      "slug": "quantaalpha",
+      "display_name": "QuantaAlpha"
+    },
+    {
       "slug": "qx-labs",
       "display_name": "qx-labs"
     },
@@ -154,8 +290,20 @@
       "display_name": "respanai"
     },
     {
+      "slug": "rhesis-ai",
+      "display_name": "rhesis-ai"
+    },
+    {
       "slug": "run-llama",
       "display_name": "run-llama"
+    },
+    {
+      "slug": "sagemindai",
+      "display_name": "SageMindAI"
+    },
+    {
+      "slug": "salt-nlp",
+      "display_name": "SALT-NLP"
     },
     {
       "slug": "securityfortech",
@@ -166,6 +314,10 @@
       "display_name": "sentient-agi"
     },
     {
+      "slug": "sfu-db",
+      "display_name": "sfu-db"
+    },
+    {
       "slug": "skillrepos",
       "display_name": "skillrepos"
     },
@@ -174,35 +326,79 @@
       "display_name": "snorkel-marlin-repos"
     },
     {
+      "slug": "spillwavesolutions",
+      "display_name": "SpillwaveSolutions"
+    },
+    {
+      "slug": "splx-ai",
+      "display_name": "splx-ai"
+    },
+    {
+      "slug": "stepfun-ai",
+      "display_name": "stepfun-ai"
+    },
+    {
+      "slug": "theagenticai",
+      "display_name": "TheAgenticAI"
+    },
+    {
+      "slug": "trusera",
+      "display_name": "Trusera"
+    },
+    {
+      "slug": "unitycatalog",
+      "display_name": "unitycatalog"
+    },
+    {
+      "slug": "usc-fortis",
+      "display_name": "USC-FORTIS"
+    },
+    {
+      "slug": "vectorize-io",
+      "display_name": "vectorize-io"
+    },
+    {
       "slug": "wandb",
       "display_name": "wandb"
     },
     {
       "slug": "wortai",
       "display_name": "wortai"
+    },
+    {
+      "slug": "zenml-io",
+      "display_name": "zenml-io"
     }
   ],
-  "org_count": 45,
+  "org_count": 92,
   "top_frameworks": [
     {
-      "slug": "smolagents",
-      "count": 12
+      "slug": "autogen",
+      "count": 33
     },
     {
       "slug": "openai_agents_sdk",
-      "count": 11
+      "count": 23
+    },
+    {
+      "slug": "agent_config:AGENTS.md",
+      "count": 14
+    },
+    {
+      "slug": "agent_config:CLAUDE.md",
+      "count": 13
+    },
+    {
+      "slug": "smolagents",
+      "count": 12
     },
     {
       "slug": "llamaindex",
       "count": 8
     },
     {
-      "slug": "agent_config:CLAUDE.md",
-      "count": 5
-    },
-    {
-      "slug": "agent_config:AGENTS.md",
-      "count": 4
+      "slug": "langgraph",
+      "count": 8
     },
     {
       "slug": "dify",

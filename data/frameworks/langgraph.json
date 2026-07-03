@@ -12,6 +12,54 @@
       "display_name": "SambaNova Systems",
       "confidence": "high",
       "first_seen": "2026-06-30"
+    },
+    {
+      "slug": "aisbreaker",
+      "display_name": "aisbreaker",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "kvcache-ai",
+      "display_name": "kvcache-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "langchain-ai",
+      "display_name": "langchain-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "neatlogs",
+      "display_name": "neatlogs",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "neosaastech",
+      "display_name": "neosaastech",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "neural-maze",
+      "display_name": "neural-maze",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "oceanbase",
+      "display_name": "oceanbase",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "usc-fortis",
+      "display_name": "USC-FORTIS",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
     }
   ],
   "signal_history": [
@@ -22,7 +70,43 @@
     {
       "date": "2026-06-30",
       "org": "sambanova"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "aisbreaker"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "kvcache-ai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "langchain-ai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "neatlogs"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "neosaastech"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "neural-maze"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "oceanbase"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "sambanova"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "usc-fortis"
     }
   ],
-  "org_count": 2
+  "org_count": 10
 }

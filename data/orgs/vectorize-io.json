@@ -1,0 +1,66 @@
+{
+  "slug": "vectorize-io",
+  "display_name": "vectorize-io",
+  "github_org": "vectorize-io",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "vectorize-io/hindsight",
+          "file": "pyproject.toml",
+          "url": "https://github.com/vectorize-io/hindsight/blob/ba158c9cdbc577e72f7b22a4608f97cad66972b7/hindsight-integrations/autogen/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "vectorize-io/hindsight",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/vectorize-io/hindsight/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "vectorize-io/hindsight",
+          "file": "AGENTS.md",
+          "url": "https://github.com/vectorize-io/hindsight/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "vectorize-io/hindsight"
+    }
+  ]
+}

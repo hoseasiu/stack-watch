@@ -30,8 +30,56 @@
       "display_name": "respanai",
       "confidence": "high",
       "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "arklexai",
+      "display_name": "arklexai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "massgen",
+      "display_name": "massgen",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "microsoft",
+      "display_name": "microsoft",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "neosaastech",
+      "display_name": "neosaastech",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "rhesis-ai",
+      "display_name": "rhesis-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "spillwavesolutions",
+      "display_name": "SpillwaveSolutions",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "vectorize-io",
+      "display_name": "vectorize-io",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "zenml-io",
+      "display_name": "zenml-io",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
     }
   ],
   "signal_history": [],
-  "org_count": 5
+  "org_count": 13
 }
