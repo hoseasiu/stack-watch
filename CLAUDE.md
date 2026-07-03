@@ -237,6 +237,11 @@ Key design decisions to preserve in 11ty templates (see companion prototype `ind
 - Display font: `Instrument Serif` italic (wordmark only)
 - Confidence indicators: colored dots, never just text
 
+**Type scale** — root `html` font-size is `15px`. The dense terminal feel should come from layout (borders, tight row padding, uppercase mono labels), not from shrinking type below a comfortable reading floor:
+- Body/data text (table rows, signal entries, methodology copy, prose): 13–16px
+- Secondary labels (nav, metadata, evidence items): 12–13.5px
+- Smallest decorative tags (badges, chips, uppercase section labels): 10.5px floor, don't go smaller
+
 ---
 
 ## GitHub Actions workflow

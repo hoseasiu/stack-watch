@@ -21,7 +21,7 @@
   --serif:     'Instrument Serif', serif;
 }
 
-html { font-size: 14px; background: var(--bg); color: var(--text); font-family: var(--sans); }
+html { font-size: 15px; background: var(--bg); color: var(--text); font-family: var(--sans); }
 body { min-height: 100vh; display: flex; flex-direction: column; }
 
 a { color: var(--accent); text-decoration: none; }
@@ -58,14 +58,14 @@ header {
 .logo-name {
   font-family: var(--serif);
   font-style: italic;
-  font-size: 17px;
+  font-size: 18px;
   color: var(--text);
   letter-spacing: 0.01em;
   line-height: 1;
 }
 
 nav { display: flex; align-items: center; gap: 1.75rem; }
-nav a { font-size: 12.5px; color: var(--text3); font-weight: 500; }
+nav a { font-size: 13.5px; color: var(--text3); font-weight: 500; }
 nav a:hover { color: var(--text); text-decoration: none; }
 nav a.active { color: var(--text); }
 
@@ -76,7 +76,7 @@ nav a.active { color: var(--text); }
   align-items: center;
   gap: 6px;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text3);
 }
 
@@ -108,7 +108,7 @@ nav a.active { color: var(--text); }
 
 .stat-value {
   font-family: var(--mono);
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   color: var(--text);
   letter-spacing: -0.02em;
@@ -118,7 +118,7 @@ nav a.active { color: var(--text); }
 .stat-value .accent { color: var(--accent); }
 
 .stat-label {
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text3);
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -135,13 +135,13 @@ nav a.active { color: var(--text); }
 
 .section-title {
   font-family: var(--mono);
-  font-size: 10.5px;
+  font-size: 12px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--text3);
 }
 
-.section-action { font-size: 12px; color: var(--text3); }
+.section-action { font-size: 13px; color: var(--text3); }
 .section-action:hover { color: var(--accent); }
 
 /* ── ORG TABLE ── */
@@ -152,12 +152,12 @@ nav a.active { color: var(--text); }
   border-radius: 7px;
   overflow: hidden;
   margin-bottom: 2rem;
-  font-size: 12.5px;
+  font-size: 14px;
 }
 
 .org-table th {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11.5px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--text3);
@@ -182,7 +182,7 @@ nav a.active { color: var(--text); }
 
 .org-sector-badge {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   padding: 2px 6px;
   border-radius: 3px;
   background: var(--surface2);
@@ -195,7 +195,7 @@ nav a.active { color: var(--text); }
 
 .framework-tag {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   padding: 2px 6px;
   border-radius: 3px;
   border: 1px solid var(--border2);
@@ -210,15 +210,15 @@ nav a.active { color: var(--text); }
 .confidence-dot.medium { background: var(--accent); }
 .confidence-dot.low    { background: var(--border2); }
 
-.confidence-label { font-family: var(--mono); font-size: 11px; color: var(--text2); display: inline-flex; align-items: center; gap: 5px; }
+.confidence-label { font-family: var(--mono); font-size: 12.5px; color: var(--text2); display: inline-flex; align-items: center; gap: 5px; }
 
-.signal-count { font-family: var(--mono); font-size: 12px; color: var(--text); }
+.signal-count { font-family: var(--mono); font-size: 13px; color: var(--text); }
 
 .provider-icons { display: flex; gap: 4px; align-items: center; }
 
 .provider-chip {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   padding: 2px 5px;
   border-radius: 3px;
   background: var(--surface2);
@@ -238,7 +238,7 @@ nav a.active { color: var(--text); }
   border: 1px solid var(--border);
   border-left: 3px solid var(--accent);
   border-radius: 5px;
-  font-size: 12.5px;
+  font-size: 14px;
   color: var(--text2);
   line-height: 1.55;
 }
@@ -255,7 +255,7 @@ nav a.active { color: var(--text); }
 
 .signal-type-badge {
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 10.5px;
   padding: 1px 5px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -268,14 +268,14 @@ nav a.active { color: var(--text); }
 .signal-type-badge.hf_model      { background: var(--blue-bg); color: var(--blue); border-color: #A8C0DC; }
 .signal-type-badge.agent_config  { background: #F0EAF8; color: #6040A0; border-color: #C8B0E0; }
 
-.signal-org { font-size: 12.5px; color: var(--text); font-weight: 500; }
-.signal-detail { font-family: var(--mono); font-size: 10.5px; color: var(--text2); margin-bottom: 3px; word-break: break-all; }
-.signal-time { font-family: var(--mono); font-size: 10px; color: var(--text3); }
+.signal-org { font-size: 14px; color: var(--text); font-weight: 500; }
+.signal-detail { font-family: var(--mono); font-size: 12px; color: var(--text2); margin-bottom: 3px; word-break: break-all; }
+.signal-time { font-family: var(--mono); font-size: 11px; color: var(--text3); }
 
 /* ── ORG PROFILE PAGE ── */
 .org-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 0.4rem; flex-wrap: wrap; gap: 0.5rem; }
-.org-title { font-size: 26px; font-weight: 600; color: var(--text); }
-.org-meta { font-family: var(--mono); font-size: 12px; color: var(--text3); margin-bottom: 1.75rem; }
+.org-title { font-size: 28px; font-weight: 600; color: var(--text); }
+.org-meta { font-family: var(--mono); font-size: 13px; color: var(--text3); margin-bottom: 1.75rem; }
 
 .evidence-card {
   border: 1px solid var(--border);
@@ -285,18 +285,18 @@ nav a.active { color: var(--text); }
   background: var(--surface);
 }
 .evidence-card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.6rem; }
-.evidence-card-title { font-family: var(--mono); font-size: 13px; color: var(--text); font-weight: 500; }
-.evidence-item { font-family: var(--mono); font-size: 11.5px; color: var(--text2); padding: 0.35rem 0; border-top: 1px solid var(--border); }
+.evidence-card-title { font-family: var(--mono); font-size: 14.5px; color: var(--text); font-weight: 500; }
+.evidence-item { font-family: var(--mono); font-size: 13px; color: var(--text2); padding: 0.35rem 0; border-top: 1px solid var(--border); }
 .evidence-item:first-of-type { border-top: none; }
 .evidence-item a { color: var(--text2); }
 .evidence-item a:hover { color: var(--accent); }
 
-.empty-state { color: var(--text3); font-size: 12.5px; font-style: italic; padding: 1rem 0; }
+.empty-state { color: var(--text3); font-size: 14px; font-style: italic; padding: 1rem 0; }
 
 /* ── PROSE (methodology page) ── */
-.prose { max-width: 720px; line-height: 1.65; font-size: 14.5px; }
-.prose h1 { font-size: 24px; margin-bottom: 1rem; }
-.prose h2 { font-size: 16px; margin: 1.75rem 0 0.6rem; color: var(--text); }
+.prose { max-width: 720px; line-height: 1.65; font-size: 16px; }
+.prose h1 { font-size: 26px; margin-bottom: 1rem; }
+.prose h2 { font-size: 18px; margin: 1.75rem 0 0.6rem; color: var(--text); }
 .prose p { margin-bottom: 0.9rem; color: var(--text2); }
 .prose ol, .prose ul { margin: 0 0 0.9rem 1.4rem; color: var(--text2); }
 .prose li { margin-bottom: 0.4rem; }
@@ -310,7 +310,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 12px;
   color: var(--text3);
   font-family: var(--mono);
   background: var(--surface);
