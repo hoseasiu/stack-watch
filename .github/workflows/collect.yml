@@ -2,7 +2,7 @@ name: Nightly collection
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # 2am UTC nightly
+    - cron: '0 2 * * 2'   # 2am UTC on Tuesdays
   workflow_dispatch:        # manual trigger
 
 jobs:
