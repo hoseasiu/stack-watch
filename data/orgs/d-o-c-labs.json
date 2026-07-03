@@ -18,20 +18,19 @@
           "detected": "2026-07-02"
         }
       ]
-    },
-    "agent_config:AGENTS.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-02",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "D-o-c-labs/Doc-Home-ops",
-          "file": "AGENTS.md",
-          "url": "https://github.com/D-o-c-labs/Doc-Home-ops/blob/main/AGENTS.md",
-          "detected": "2026-07-02"
-        }
-      ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "D-o-c-labs/Doc-Home-ops",
+        "file": "AGENTS.md",
+        "url": "https://github.com/D-o-c-labs/Doc-Home-ops/blob/main/AGENTS.md",
+        "detected": "2026-07-02"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],

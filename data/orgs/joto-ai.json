@@ -18,33 +18,26 @@
           "detected": "2026-07-02"
         }
       ]
-    },
-    "agent_config:CLAUDE.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-02",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "JOTO-AI/SchemaRAG-dify-plugin",
-          "file": "CLAUDE.md",
-          "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/main/CLAUDE.md",
-          "detected": "2026-07-02"
-        }
-      ]
-    },
-    "agent_config:AGENTS.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-02",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "JOTO-AI/SchemaRAG-dify-plugin",
-          "file": "AGENTS.md",
-          "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/main/AGENTS.md",
-          "detected": "2026-07-02"
-        }
-      ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "JOTO-AI/SchemaRAG-dify-plugin",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/main/CLAUDE.md",
+        "detected": "2026-07-02"
+      },
+      {
+        "type": "agent_config",
+        "repo": "JOTO-AI/SchemaRAG-dify-plugin",
+        "file": "AGENTS.md",
+        "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/main/AGENTS.md",
+        "detected": "2026-07-02"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],

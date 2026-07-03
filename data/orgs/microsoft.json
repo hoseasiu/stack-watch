@@ -88,47 +88,40 @@
           "detected": "2026-07-03"
         }
       ]
-    },
-    "agent_config:CLAUDE.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-03",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "microsoft/agent-lightning",
-          "file": "CLAUDE.md",
-          "url": "https://github.com/microsoft/agent-lightning/blob/main/CLAUDE.md",
-          "detected": "2026-07-03"
-        },
-        {
-          "type": "agent_config",
-          "repo": "microsoft/AIOpsLab",
-          "file": "CLAUDE.md",
-          "url": "https://github.com/microsoft/AIOpsLab/blob/main/CLAUDE.md",
-          "detected": "2026-07-03"
-        }
-      ]
-    },
-    "agent_config:AGENTS.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-03",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "microsoft/agent-lightning",
-          "file": "AGENTS.md",
-          "url": "https://github.com/microsoft/agent-lightning/blob/main/AGENTS.md",
-          "detected": "2026-07-03"
-        },
-        {
-          "type": "agent_config",
-          "repo": "microsoft/agent-governance-toolkit",
-          "file": "AGENTS.md",
-          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/main/AGENTS.md",
-          "detected": "2026-07-03"
-        }
-      ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "microsoft/agent-lightning",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/microsoft/agent-lightning/blob/main/CLAUDE.md",
+        "detected": "2026-07-03"
+      },
+      {
+        "type": "agent_config",
+        "repo": "microsoft/AIOpsLab",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/microsoft/AIOpsLab/blob/main/CLAUDE.md",
+        "detected": "2026-07-03"
+      },
+      {
+        "type": "agent_config",
+        "repo": "microsoft/agent-lightning",
+        "file": "AGENTS.md",
+        "url": "https://github.com/microsoft/agent-lightning/blob/main/AGENTS.md",
+        "detected": "2026-07-03"
+      },
+      {
+        "type": "agent_config",
+        "repo": "microsoft/agent-governance-toolkit",
+        "file": "AGENTS.md",
+        "url": "https://github.com/microsoft/agent-governance-toolkit/blob/main/AGENTS.md",
+        "detected": "2026-07-03"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],
