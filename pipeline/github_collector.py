@@ -25,6 +25,7 @@ import sys
 
 from utils import (
     GitHubClient,
+    add_agent_config_evidence,
     add_framework_evidence,
     add_model_provider_evidence,
     add_signal_history,
@@ -186,14 +187,10 @@ def process_agent_configs(client: GitHubClient, seen_repos: dict[str, dict], new
                 "url": f"https://github.com/{full_name}/blob/main/{filename}",
                 "detected": today(),
             }
-            key = f"agent_config:{filename}"
-            entry = org["frameworks"].get(key)
-            if entry and any(e.get("url") == evidence["url"] for e in entry["evidence"]):
+            if not add_agent_config_evidence(org, "high", evidence):
                 continue
-            org["frameworks"].setdefault(key, {"confidence": "high", "first_seen": today(), "evidence": []})
-            org["frameworks"][key]["evidence"].append(evidence)
-            changed = add_signal_history(org, today(), "agent_config", framework=None, repo=full_name)
-            changed_any = changed_any or changed
+            changed_any = True
+            add_signal_history(org, today(), "agent_config", framework=None, repo=full_name)
             new_signals.append({
                 "ts": f"{today()}T00:00:00Z",
                 "org": org_slug,

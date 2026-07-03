@@ -107,6 +107,20 @@ def add_model_provider_evidence(org: dict, provider_slug: str, confidence: str, 
     return True
 
 
+def add_agent_config_evidence(org: dict, confidence: str, evidence: dict) -> bool:
+    """Agent config file presence (CLAUDE.md/AGENTS.md/...) is its own signal
+    type per CLAUDE.md's signal taxonomy -- distinct from a framework
+    dependency hit, so it lives in its own `agent_config` field rather than
+    being keyed into `frameworks` (which is iterated as framework slugs
+    elsewhere, e.g. build_aggregates.py's per-framework rollup).
+    """
+    entry = org.setdefault("agent_config", {"confidence": confidence, "evidence": []})
+    if _evidence_exists(entry["evidence"], evidence["url"]):
+        return False
+    entry["evidence"].append(evidence)
+    return True
+
+
 def add_signal_history(org: dict, date: str, type_: str, **fields: Any) -> bool:
     record = {"date": date, "type": type_, **fields}
     if record in org["signal_history"]:
