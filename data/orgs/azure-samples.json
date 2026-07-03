@@ -45,27 +45,26 @@
           "detected": "2026-07-03"
         }
       ]
-    },
-    "agent_config:AGENTS.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-03",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "Azure-Samples/python-ai-agent-frameworks-demos",
-          "file": "AGENTS.md",
-          "url": "https://github.com/Azure-Samples/python-ai-agent-frameworks-demos/blob/main/AGENTS.md",
-          "detected": "2026-07-03"
-        },
-        {
-          "type": "agent_config",
-          "repo": "Azure-Samples/AI-Gateway",
-          "file": "AGENTS.md",
-          "url": "https://github.com/Azure-Samples/AI-Gateway/blob/main/AGENTS.md",
-          "detected": "2026-07-03"
-        }
-      ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "Azure-Samples/python-ai-agent-frameworks-demos",
+        "file": "AGENTS.md",
+        "url": "https://github.com/Azure-Samples/python-ai-agent-frameworks-demos/blob/main/AGENTS.md",
+        "detected": "2026-07-03"
+      },
+      {
+        "type": "agent_config",
+        "repo": "Azure-Samples/AI-Gateway",
+        "file": "AGENTS.md",
+        "url": "https://github.com/Azure-Samples/AI-Gateway/blob/main/AGENTS.md",
+        "detected": "2026-07-03"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],

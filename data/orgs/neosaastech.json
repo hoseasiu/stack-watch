@@ -18,20 +18,19 @@
           "detected": "2026-07-03"
         }
       ]
-    },
-    "agent_config:CLAUDE.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-03",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "neosaastech/neosaas",
-          "file": "CLAUDE.md",
-          "url": "https://github.com/neosaastech/neosaas/blob/main/CLAUDE.md",
-          "detected": "2026-07-03"
-        }
-      ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "neosaastech/neosaas",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/neosaastech/neosaas/blob/main/CLAUDE.md",
+        "detected": "2026-07-03"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],

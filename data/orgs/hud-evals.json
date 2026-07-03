@@ -18,20 +18,19 @@
           "detected": "2026-07-02"
         }
       ]
-    },
-    "agent_config:CLAUDE.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-02",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "hud-evals/zerodaybench-mlflow-clone",
-          "file": "CLAUDE.md",
-          "url": "https://github.com/hud-evals/zerodaybench-mlflow-clone/blob/main/CLAUDE.md",
-          "detected": "2026-07-02"
-        }
-      ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "hud-evals/zerodaybench-mlflow-clone",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/hud-evals/zerodaybench-mlflow-clone/blob/main/CLAUDE.md",
+        "detected": "2026-07-02"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],

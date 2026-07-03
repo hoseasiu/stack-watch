@@ -19,32 +19,6 @@
         }
       ]
     },
-    "agent_config:CLAUDE.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-02",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "Arize-ai/openinference",
-          "file": "CLAUDE.md",
-          "url": "https://github.com/Arize-ai/openinference/blob/main/CLAUDE.md",
-          "detected": "2026-07-02"
-        }
-      ]
-    },
-    "agent_config:AGENTS.md": {
-      "confidence": "high",
-      "first_seen": "2026-07-02",
-      "evidence": [
-        {
-          "type": "agent_config",
-          "repo": "Arize-ai/openinference",
-          "file": "AGENTS.md",
-          "url": "https://github.com/Arize-ai/openinference/blob/main/AGENTS.md",
-          "detected": "2026-07-02"
-        }
-      ]
-    },
     "autogen": {
       "confidence": "high",
       "first_seen": "2026-07-03",
@@ -58,6 +32,25 @@
         }
       ]
     }
+  },
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "Arize-ai/openinference",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/Arize-ai/openinference/blob/main/CLAUDE.md",
+        "detected": "2026-07-02"
+      },
+      {
+        "type": "agent_config",
+        "repo": "Arize-ai/openinference",
+        "file": "AGENTS.md",
+        "url": "https://github.com/Arize-ai/openinference/blob/main/AGENTS.md",
+        "detected": "2026-07-02"
+      }
+    ]
   },
   "model_providers": {},
   "job_signals": [],
