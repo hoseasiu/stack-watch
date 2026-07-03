@@ -1,0 +1,48 @@
+{
+  "slug": "panaversity",
+  "display_name": "panaversity",
+  "github_org": "panaversity",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "panaversity/learn-agentic-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/panaversity/learn-agentic-ai/blob/dd7426f65b2452062fdb6d27661c018eaf751baa/backup_recent/07a_autogen_microsoft/05_teams/teams/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "panaversity/learn-agentic-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/panaversity/learn-agentic-ai/blob/dd7426f65b2452062fdb6d27661c018eaf751baa/backup_recent/07a_autogen_microsoft/03_tool_calling/toolcalling/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "panaversity/learn-agentic-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/panaversity/learn-agentic-ai/blob/dd7426f65b2452062fdb6d27661c018eaf751baa/backup_recent/08a_autogen_conversational_ai/01_agent_team/chatbot/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

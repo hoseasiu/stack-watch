@@ -1,0 +1,34 @@
+{
+  "slug": "aws-samples",
+  "display_name": "aws-samples",
+  "github_org": "aws-samples",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "aws-samples/fsi-genai-bootcamp",
+          "file": "requirements.txt",
+          "url": "https://github.com/aws-samples/fsi-genai-bootcamp/blob/446d8f9018e70883359ad2bfaf1cbcf859cf7f28/03_agents/99_misc/01_smolagents_intro/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    }
+  ]
+}

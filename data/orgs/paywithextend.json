@@ -1,0 +1,34 @@
+{
+  "slug": "paywithextend",
+  "display_name": "paywithextend",
+  "github_org": "paywithextend",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "paywithextend/extend-ai-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/paywithextend/extend-ai-toolkit/blob/f32290d81168c9c90e3b841cec05daf803dec66c/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

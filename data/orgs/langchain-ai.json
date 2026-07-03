@@ -1,0 +1,34 @@
+{
+  "slug": "langchain-ai",
+  "display_name": "langchain-ai",
+  "github_org": "langchain-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "langchain-ai/memory-template",
+          "file": "pyproject.toml",
+          "url": "https://github.com/langchain-ai/memory-template/blob/c4e05d4c5c519256eb70ab1be763c81df03040ed/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

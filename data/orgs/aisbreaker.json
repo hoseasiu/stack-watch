@@ -1,0 +1,34 @@
+{
+  "slug": "aisbreaker",
+  "display_name": "aisbreaker",
+  "github_org": "aisbreaker",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "aisbreaker/flexi-rag",
+          "file": "pyproject.toml",
+          "url": "https://github.com/aisbreaker/flexi-rag/blob/d721a1b9353af9ebfef1b8cd5bea9133497f2282/pyproject.toml.NOT_USED",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

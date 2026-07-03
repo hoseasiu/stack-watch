@@ -1,0 +1,33 @@
+{
+  "slug": "gskinnerteam",
+  "display_name": "gskinnerTeam",
+  "github_org": "gskinnerTeam",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gskinnerTeam/flutter-hatcha-app",
+          "file": "requirements.txt",
+          "url": "https://github.com/gskinnerTeam/flutter-hatcha-app/blob/02b8d5b6f9942a0070c2902b61ea5a27a58267fc/agents/hatcha_agent/app_utils/.requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

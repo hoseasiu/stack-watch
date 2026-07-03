@@ -1,0 +1,53 @@
+{
+  "slug": "respanai",
+  "display_name": "respanai",
+  "github_org": "respanai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "dify": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "respanai/respan",
+          "file": "pyproject.toml",
+          "url": "https://github.com/respanai/respan/blob/a0e21e37d86fcaec45f11a474570d0784a92710d/python-sdks/instrumentations/respan-instrumentation-dify/pyproject.toml",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "respanai/respan",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/respanai/respan/blob/main/CLAUDE.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "dify"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "respanai/respan"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "snorkel-marlin-repos",
+  "display_name": "snorkel-marlin-repos",
+  "github_org": "snorkel-marlin-repos",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "snorkel-marlin-repos/mlflow_mlflow_pr_17052_735356f1-c348-4dd0-90cc-a0162c9b7871",
+          "file": "requirements.txt",
+          "url": "https://github.com/snorkel-marlin-repos/mlflow_mlflow_pr_17052_735356f1-c348-4dd0-90cc-a0162c9b7871/blob/f3fc2f5d095f68bd244abba9ab69dda46a5abc3c/requirements/extra-ml-requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

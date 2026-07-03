@@ -1,0 +1,128 @@
+{
+  "slug": "smolagents",
+  "orgs": [
+    {
+      "slug": "agentops-ai",
+      "display_name": "AgentOps-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "apify",
+      "display_name": "apify",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "arize-ai",
+      "display_name": "Arize-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "aws-samples",
+      "display_name": "aws-samples",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "d-o-c-labs",
+      "display_name": "D-o-c-labs",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "gradio-app",
+      "display_name": "gradio-app",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "kungfuai",
+      "display_name": "kungfuai",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "mapbox",
+      "display_name": "mapbox",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "nndl",
+      "display_name": "nndl",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "raga-ai-hub",
+      "display_name": "raga-ai-hub",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "sentient-agi",
+      "display_name": "sentient-agi",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "skillrepos",
+      "display_name": "skillrepos",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    }
+  ],
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "org": "agentops-ai"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "apify"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "aws-samples"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "d-o-c-labs"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "gradio-app"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "kungfuai"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "mapbox"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "nndl"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "raga-ai-hub"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "sentient-agi"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "skillrepos"
+    }
+  ],
+  "org_count": 12
+}

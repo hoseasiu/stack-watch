@@ -1,0 +1,53 @@
+{
+  "slug": "arklexai",
+  "display_name": "arklexai",
+  "github_org": "arklexai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "arklexai/Agent-First-Organization",
+          "file": "pyproject.toml",
+          "url": "https://github.com/arklexai/Agent-First-Organization/blob/ea22ff3e0c44b613408e688a3044209a64db35a9/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "arklexai/Agent-First-Organization",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/arklexai/Agent-First-Organization/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "arklexai/Agent-First-Organization"
+    }
+  ]
+}

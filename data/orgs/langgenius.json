@@ -1,0 +1,34 @@
+{
+  "slug": "langgenius",
+  "display_name": "langgenius",
+  "github_org": "langgenius",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "dify": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "langgenius/dify-python-sdk",
+          "file": "pyproject.toml",
+          "url": "https://github.com/langgenius/dify-python-sdk/blob/a3ce501021906e23535c268f0b60fea3864864a6/pyproject.toml",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "dify"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "openai",
+  "display_name": "openai",
+  "github_org": "openai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "openai/openai-guardrails-python",
+          "file": "pyproject.toml",
+          "url": "https://github.com/openai/openai-guardrails-python/blob/54206241a1fdf52e3f9a2a6bffca1af4f54a911d/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "openai/openai-guardrails-python",
+          "file": "AGENTS.md",
+          "url": "https://github.com/openai/openai-guardrails-python/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "openai/openai-guardrails-python"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "arize-ai",
+  "display_name": "Arize-ai",
+  "github_org": "Arize-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Arize-ai/openinference",
+          "file": "requirements.txt",
+          "url": "https://github.com/Arize-ai/openinference/blob/a5c0ef8f7db3dbc886713781ad503de82589942e/python/instrumentation/openinference-instrumentation-smolagents/examples/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "Arize-ai/openinference",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/Arize-ai/openinference/blob/main/CLAUDE.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "Arize-ai/openinference",
+          "file": "AGENTS.md",
+          "url": "https://github.com/Arize-ai/openinference/blob/main/AGENTS.md",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Arize-ai/openinference",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Arize-ai/openinference/blob/0433526b048474195b4f354e5df6bfea2db4804d/python/instrumentation/openinference-instrumentation-autogen-agentchat/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 3,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-07-02",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "Arize-ai/openinference"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

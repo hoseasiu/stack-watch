@@ -1,0 +1,52 @@
+{
+  "slug": "raga-ai-hub",
+  "display_name": "raga-ai-hub",
+  "github_org": "raga-ai-hub",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "raga-ai-hub/RagaAI-Catalyst",
+          "file": "requirements.txt",
+          "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst/blob/ab67893310891140211280a496402003e52cdab5/examples/smolagents/most_upvoted_paper/requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    },
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "raga-ai-hub/RagaAI-Catalyst",
+          "file": "requirements.txt",
+          "url": "https://github.com/raga-ai-hub/RagaAI-Catalyst/blob/ab67893310891140211280a496402003e52cdab5/examples/openai_agents_sdk/youtube_summary_agent/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

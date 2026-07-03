@@ -1,0 +1,98 @@
+{
+  "slug": "azure-samples",
+  "display_name": "Azure-Samples",
+  "github_org": "Azure-Samples",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/python-ai-agent-frameworks-demos",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Azure-Samples/python-ai-agent-frameworks-demos/blob/2484d3786778a1767de0fa93c13b34439aceb1f6/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/healthcare-agent-orchestrator",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/healthcare-agent-orchestrator/blob/f9abf14177c0c7c6817a990f45ffa19b3a4cd51b/src/requirements.txt",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/AI-Gateway",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Azure-Samples/AI-Gateway/blob/a73fef363c41a91e5bb6efb1c9eb3555fb66af25/pyproject.toml",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/dream-team",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Azure-Samples/dream-team/blob/2ab7d90b3b6a64ed59a5164db9f586232fa9714d/backend/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "Azure-Samples/python-ai-agent-frameworks-demos",
+          "file": "AGENTS.md",
+          "url": "https://github.com/Azure-Samples/python-ai-agent-frameworks-demos/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        },
+        {
+          "type": "agent_config",
+          "repo": "Azure-Samples/AI-Gateway",
+          "file": "AGENTS.md",
+          "url": "https://github.com/Azure-Samples/AI-Gateway/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 4,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "Azure-Samples/python-ai-agent-frameworks-demos"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "Azure-Samples/AI-Gateway"
+    }
+  ]
+}

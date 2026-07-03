@@ -1,0 +1,34 @@
+{
+  "slug": "e2b-dev",
+  "display_name": "e2b-dev",
+  "github_org": "e2b-dev",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "e2b-dev/e2b-cookbook",
+          "file": "pyproject.toml",
+          "url": "https://github.com/e2b-dev/e2b-cookbook/blob/65d76b7376c4961fabd6ad341f31de98ad0a91df/examples/autogen-python/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

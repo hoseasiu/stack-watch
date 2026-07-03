@@ -1,0 +1,53 @@
+{
+  "slug": "neosaastech",
+  "display_name": "neosaastech",
+  "github_org": "neosaastech",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "neosaastech/neosaas",
+          "file": "requirements.txt",
+          "url": "https://github.com/neosaastech/neosaas/blob/3382fc1bb3e9875ab374b3ff2662421e1429dc3b/scripts/langgraph-requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "neosaastech/neosaas",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/neosaastech/neosaas/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "neosaastech/neosaas"
+    }
+  ]
+}

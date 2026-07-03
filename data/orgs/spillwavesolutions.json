@@ -1,0 +1,66 @@
+{
+  "slug": "spillwavesolutions",
+  "display_name": "SpillwaveSolutions",
+  "github_org": "SpillwaveSolutions",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "SpillwaveSolutions/agent-brain",
+          "file": "requirements.txt",
+          "url": "https://github.com/SpillwaveSolutions/agent-brain/blob/535ad41fc662b2dddecf3e675ba3f67cdf6854a7/framework-matrix/autogen/requirements.txt",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "SpillwaveSolutions/agent-brain",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/SpillwaveSolutions/agent-brain/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:AGENTS.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "SpillwaveSolutions/agent-brain",
+          "file": "AGENTS.md",
+          "url": "https://github.com/SpillwaveSolutions/agent-brain/blob/main/AGENTS.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "SpillwaveSolutions/agent-brain"
+    }
+  ]
+}

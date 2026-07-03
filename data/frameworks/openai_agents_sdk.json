@@ -6,13 +6,247 @@
       "display_name": "Glean",
       "confidence": "high",
       "first_seen": "2026-06-30"
+    },
+    {
+      "slug": "ai45lab",
+      "display_name": "AI45Lab",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "datawhalechina",
+      "display_name": "datawhalechina",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "guestrin-lab",
+      "display_name": "guestrin-lab",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "instavm",
+      "display_name": "instavm",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "latiotech",
+      "display_name": "latiotech",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "masslab-sii",
+      "display_name": "MassLab-SII",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "mle-dojo",
+      "display_name": "MLE-Dojo",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "purcl",
+      "display_name": "PurCL",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "qx-labs",
+      "display_name": "qx-labs",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "securityfortech",
+      "display_name": "securityfortech",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "wandb",
+      "display_name": "wandb",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "arklexai",
+      "display_name": "arklexai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "azure-samples",
+      "display_name": "Azure-Samples",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "diagridio",
+      "display_name": "diagridio",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "gleanwork",
+      "display_name": "gleanwork",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "lithos-ai",
+      "display_name": "lithos-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "nordquant",
+      "display_name": "nordquant",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "openai",
+      "display_name": "openai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "pachterlab",
+      "display_name": "pachterlab",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "paywithextend",
+      "display_name": "paywithextend",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "raga-ai-hub",
+      "display_name": "raga-ai-hub",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "splx-ai",
+      "display_name": "splx-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "stepfun-ai",
+      "display_name": "stepfun-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
     }
   ],
   "signal_history": [
     {
       "date": "2026-06-30",
       "org": "glean"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "ai45lab"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "datawhalechina"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "guestrin-lab"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "instavm"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "latiotech"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "masslab-sii"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "mle-dojo"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "purcl"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "qx-labs"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "securityfortech"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "wandb"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "ai45lab"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "arklexai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "gleanwork"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "lithos-ai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "nordquant"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "openai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "pachterlab"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "paywithextend"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "raga-ai-hub"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "splx-ai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "stepfun-ai"
     }
   ],
-  "org_count": 1
+  "org_count": 24
 }

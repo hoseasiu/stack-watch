@@ -1,0 +1,34 @@
+{
+  "slug": "skillrepos",
+  "display_name": "skillrepos",
+  "github_org": "skillrepos",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "skillrepos/ai-aip",
+          "file": "requirements.txt",
+          "url": "https://github.com/skillrepos/ai-aip/blob/63ac02e4f411bbe595981698e0efe15cf333e450/requirements/requirements.txt.new",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    }
+  ]
+}

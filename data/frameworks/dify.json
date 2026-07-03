@@ -1,0 +1,38 @@
+{
+  "slug": "dify",
+  "orgs": [
+    {
+      "slug": "joto-ai",
+      "display_name": "JOTO-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "langgenius",
+      "display_name": "langgenius",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "respanai",
+      "display_name": "respanai",
+      "confidence": "high",
+      "first_seen": "2026-07-02"
+    }
+  ],
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "org": "joto-ai"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "langgenius"
+    },
+    {
+      "date": "2026-07-02",
+      "org": "respanai"
+    }
+  ],
+  "org_count": 3
+}

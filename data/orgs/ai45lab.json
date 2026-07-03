@@ -1,0 +1,46 @@
+{
+  "slug": "ai45lab",
+  "display_name": "AI45Lab",
+  "github_org": "AI45Lab",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "AI45Lab/OpenRT",
+          "file": "requirements.txt",
+          "url": "https://github.com/AI45Lab/OpenRT/blob/365652f52c05c63324687ae69d4350499db9264c/requirements.txt",
+          "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "AI45Lab/OpenRT",
+          "file": "pyproject.toml",
+          "url": "https://github.com/AI45Lab/OpenRT/blob/365652f52c05c63324687ae69d4350499db9264c/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

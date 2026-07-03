@@ -1,0 +1,33 @@
+{
+  "slug": "cmjatai",
+  "display_name": "cmjatai",
+  "github_org": "cmjatai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cmjatai/cmj",
+          "file": "requirements.txt",
+          "url": "https://github.com/cmjatai/cmj/blob/5e0c4b2b64ba9ba440bcc6758d35866fb2a52898/requirements/ia-requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

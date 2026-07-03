@@ -1,0 +1,338 @@
+{
+  "slug": "autogen",
+  "orgs": [
+    {
+      "slug": "agentcoinorg",
+      "display_name": "agentcoinorg",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "ai-citizen",
+      "display_name": "AI-Citizen",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "allenai",
+      "display_name": "allenai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "arize-ai",
+      "display_name": "Arize-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "azure-samples",
+      "display_name": "Azure-Samples",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "azure",
+      "display_name": "Azure",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "corpus-os",
+      "display_name": "Corpus-OS",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "cruiseresearchgroup",
+      "display_name": "cruiseresearchgroup",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "cyberark",
+      "display_name": "cyberark",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "dataelement",
+      "display_name": "dataelement",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "datamllab",
+      "display_name": "datamllab",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "e2b-dev",
+      "display_name": "e2b-dev",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "emergenceai",
+      "display_name": "EmergenceAI",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "fsoft-ai4code",
+      "display_name": "FSoft-AI4Code",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "iflytek",
+      "display_name": "iflytek",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "massgen",
+      "display_name": "massgen",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "microsoft",
+      "display_name": "microsoft",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "nvidia",
+      "display_name": "NVIDIA",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "openagents-org",
+      "display_name": "openagents-org",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "panaversity",
+      "display_name": "panaversity",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "poly186-ai-dao",
+      "display_name": "Poly186-AI-DAO",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "purcl",
+      "display_name": "PurCL",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "quantaalpha",
+      "display_name": "QuantaAlpha",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "rhesis-ai",
+      "display_name": "rhesis-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "sagemindai",
+      "display_name": "SageMindAI",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "salt-nlp",
+      "display_name": "SALT-NLP",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "sfu-db",
+      "display_name": "sfu-db",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "spillwavesolutions",
+      "display_name": "SpillwaveSolutions",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "theagenticai",
+      "display_name": "TheAgenticAI",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "trusera",
+      "display_name": "Trusera",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "unitycatalog",
+      "display_name": "unitycatalog",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "vectorize-io",
+      "display_name": "vectorize-io",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "zenml-io",
+      "display_name": "zenml-io",
+      "confidence": "high",
+      "first_seen": "2026-07-03"
+    }
+  ],
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "org": "agentcoinorg"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "ai-citizen"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "allenai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "azure"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "corpus-os"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "cruiseresearchgroup"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "cyberark"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "dataelement"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "datamllab"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "e2b-dev"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "emergenceai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "fsoft-ai4code"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "iflytek"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "massgen"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "nvidia"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "openagents-org"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "panaversity"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "poly186-ai-dao"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "purcl"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "quantaalpha"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "rhesis-ai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "sagemindai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "salt-nlp"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "sfu-db"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "spillwavesolutions"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "theagenticai"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "trusera"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "unitycatalog"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-07-03",
+      "org": "zenml-io"
+    }
+  ],
+  "org_count": 33
+}

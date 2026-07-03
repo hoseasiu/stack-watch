@@ -1,0 +1,34 @@
+{
+  "slug": "cabcode-id",
+  "display_name": "cabcode-id",
+  "github_org": "cabcode-id",
+  "sector": "unclassified",
+  "first_detected": "2026-07-02",
+  "last_updated": "2026-07-02",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-02",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cabcode-id/TALAS",
+          "file": "requirements.txt",
+          "url": "https://github.com/cabcode-id/TALAS/blob/3b69260d3eb242d2414b8e81ddd8a57816e03c21/Production/archived-requirements.txt",
+          "detected": "2026-07-02"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "rhesis-ai",
+  "display_name": "rhesis-ai",
+  "github_org": "rhesis-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-03",
+  "last_updated": "2026-07-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "rhesis-ai/rhesis",
+          "file": "pyproject.toml",
+          "url": "https://github.com/rhesis-ai/rhesis/blob/46ed9c7450679bce26d67e5d1a19166c8f9c2f53/sdk/pyproject.toml",
+          "detected": "2026-07-03"
+        }
+      ]
+    },
+    "agent_config:CLAUDE.md": {
+      "confidence": "high",
+      "first_seen": "2026-07-03",
+      "evidence": [
+        {
+          "type": "agent_config",
+          "repo": "rhesis-ai/rhesis",
+          "file": "CLAUDE.md",
+          "url": "https://github.com/rhesis-ai/rhesis/blob/main/CLAUDE.md",
+          "detected": "2026-07-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "rhesis-ai/rhesis"
+    }
+  ]
+}
