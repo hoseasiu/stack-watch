@@ -31,7 +31,7 @@ eleventyComputed:
     {% for e in fw.evidence %}
     <div class="evidence-item">
       {{ e.type | replace("_", " ") }} · {{ e.repo }}{% if e.file %} · {{ e.file }}{% endif %} ·
-      <a href="{{ e.url }}" target="_blank" rel="noopener">view source →</a>
+      <a href="{{ e.url }}" target="_blank" rel="noopener">view source →<span class="sr-only"> (opens in new tab)</span></a>
     </div>
     {% endfor %}
   </div>
@@ -54,7 +54,7 @@ eleventyComputed:
     {% for e in mp.evidence %}
     <div class="evidence-item">
       {{ e.type | replace("_", " ") }} · {{ e.repo }}{% if e.file %} · {{ e.file }}{% endif %} ·
-      <a href="{{ e.url }}" target="_blank" rel="noopener">view source →</a>
+      <a href="{{ e.url }}" target="_blank" rel="noopener">view source →<span class="sr-only"> (opens in new tab)</span></a>
     </div>
     {% endfor %}
   </div>
@@ -94,7 +94,7 @@ eleventyComputed:
     </div>
     <div class="evidence-item">
       terms matched: {{ j.terms_matched | join(", ") }} · posted {{ j.posted }} ·
-      <a href="{{ j.url }}" target="_blank" rel="noopener">view posting →</a>
+      <a href="{{ j.url }}" target="_blank" rel="noopener">view posting →<span class="sr-only"> (opens in new tab)</span></a>
     </div>
   </div>
   {% endfor %}

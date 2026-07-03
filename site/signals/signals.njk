@@ -17,7 +17,7 @@ permalink: "signals/index.html"
     </div>
     <div class="signal-detail">
       {% if s.framework %}{{ s.framework }} · {% endif %}{{ s.repo or "" }}
-      {% if s.url %}· <a href="{{ s.url }}" target="_blank" rel="noopener">source →</a>{% endif %}
+      {% if s.url %}· <a href="{{ s.url }}" target="_blank" rel="noopener">source →<span class="sr-only"> (opens in new tab)</span></a>{% endif %}
     </div>
     <div class="signal-time">{{ s.ts }} · confidence: {{ s.confidence }}</div>
   </div>

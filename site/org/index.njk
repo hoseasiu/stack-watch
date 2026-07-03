@@ -8,13 +8,14 @@ permalink: "org/index.html"
   <div class="section-title">All organizations ({{ orgs.length }})</div>
 </div>
 
+<div class="table-wrap">
 <table class="org-table">
   <thead>
     <tr>
-      <th style="width:220px">Organization</th>
-      <th>Frameworks detected</th>
-      <th style="width:70px">Signals</th>
-      <th style="width:90px">Last signal</th>
+      <th scope="col" style="width:220px">Organization</th>
+      <th scope="col">Frameworks detected</th>
+      <th scope="col" style="width:70px">Signals</th>
+      <th scope="col" style="width:90px">Last signal</th>
     </tr>
   </thead>
   <tbody>
@@ -42,3 +43,4 @@ permalink: "org/index.html"
     {% endfor %}
   </tbody>
 </table>
+</div>

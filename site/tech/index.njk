@@ -9,11 +9,12 @@ permalink: "tech/index.html"
 </div>
 
 {% if frameworks.length %}
+<div class="table-wrap">
 <table class="org-table">
   <thead>
     <tr>
-      <th>Framework</th>
-      <th style="width:120px">Orgs detected</th>
+      <th scope="col">Framework</th>
+      <th scope="col" style="width:120px">Orgs detected</th>
     </tr>
   </thead>
   <tbody>
@@ -25,6 +26,7 @@ permalink: "tech/index.html"
     {% endfor %}
   </tbody>
 </table>
+</div>
 {% else %}
   <div class="empty-state">No framework signals detected yet.</div>
 {% endif %}

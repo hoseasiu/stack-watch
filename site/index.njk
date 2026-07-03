@@ -34,13 +34,14 @@ nav: dashboard
   <a class="section-action" href="{{ '/org/' | url }}">View all {{ orgs.length }} →</a>
 </div>
 
+<div class="table-wrap">
 <table class="org-table">
   <thead>
     <tr>
-      <th style="width:220px">Organization</th>
-      <th>Frameworks detected</th>
-      <th style="width:70px">Signals</th>
-      <th style="width:90px">Last signal</th>
+      <th scope="col" style="width:220px">Organization</th>
+      <th scope="col">Frameworks detected</th>
+      <th scope="col" style="width:70px">Signals</th>
+      <th scope="col" style="width:90px">Last signal</th>
     </tr>
   </thead>
   <tbody>
@@ -71,6 +72,7 @@ nav: dashboard
     {% endfor %}
   </tbody>
 </table>
+</div>
 
 <div class="section-header">
   <div class="section-title">Recent signal feed</div>

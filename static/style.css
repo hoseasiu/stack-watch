@@ -4,14 +4,16 @@
   --bg:        #FDFAF5;
   --surface:   #F5F0E6;
   --surface2:  #EDE8DA;
-  --border:    #DDD6C4;
-  --border2:   #CFC7B2;
+  --border:    #928873;
+  --border2:   #8A8070;
   --text:      #1C1A17;
   --text2:     #6B6358;
-  --text3:     #A09488;
+  --text3:     #6E6355;
   --accent:    #C4793A;
+  --accent-text:#8A5219;
   --accent-dim:#F0E4CC;
   --green:     #3D8C5E;
+  --green-text:#2E7048;
   --green-bg:  #E6F2EC;
   --red:       #B84040;
   --blue:      #3A6EA8;
@@ -24,8 +26,33 @@
 html { font-size: 15px; background: var(--bg); color: var(--text); font-family: var(--sans); }
 body { min-height: 100vh; display: flex; flex-direction: column; }
 
-a { color: var(--accent); text-decoration: none; }
+a { color: var(--accent-text); text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+/* ── ACCESSIBILITY UTILITIES ── */
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+  z-index: 200;
+  background: var(--accent-text);
+  color: #FDFAF5;
+  padding: 0.6rem 1rem;
+  font-family: var(--mono);
+  font-size: 13px;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus { left: 0; }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 
 /* ── HEADER ── */
 header {
@@ -64,10 +91,18 @@ header {
   line-height: 1;
 }
 
-nav { display: flex; align-items: center; gap: 1.75rem; }
-nav a { font-size: 13.5px; color: var(--text3); font-weight: 500; }
+nav { display: flex; align-items: stretch; gap: 1.75rem; height: 100%; }
+nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 13.5px;
+  color: var(--text3);
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
 nav a:hover { color: var(--text); text-decoration: none; }
-nav a.active { color: var(--text); }
+nav a.active { color: var(--text); border-bottom-color: var(--accent); }
 
 .header-right { display: flex; align-items: center; gap: 1rem; }
 
@@ -142,7 +177,7 @@ nav a.active { color: var(--text); }
 }
 
 .section-action { font-size: 13px; color: var(--text3); }
-.section-action:hover { color: var(--accent); }
+.section-action:hover { color: var(--accent-text); }
 
 /* ── ORG TABLE ── */
 .org-table {
@@ -169,7 +204,7 @@ nav a.active { color: var(--text); }
 }
 
 .org-table td {
-  padding: 0.72rem 1rem;
+  padding: 0.85rem 1rem;
   border-bottom: 1px solid var(--border);
   vertical-align: middle;
   color: var(--text2);
@@ -203,7 +238,7 @@ nav a.active { color: var(--text); }
   white-space: nowrap;
   background: var(--bg);
 }
-.framework-tag.accent { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.framework-tag.accent { border-color: var(--accent); color: var(--accent-text); background: var(--accent-dim); }
 
 .confidence-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
 .confidence-dot.high   { background: var(--green); }
@@ -263,8 +298,8 @@ nav a.active { color: var(--text); }
   flex-shrink: 0;
   border: 1px solid transparent;
 }
-.signal-type-badge.dependency    { background: var(--green-bg); color: var(--green); border-color: #B0D8C0; }
-.signal-type-badge.job_posting   { background: var(--accent-dim); color: var(--accent); border-color: #DEC8A0; }
+.signal-type-badge.dependency    { background: var(--green-bg); color: var(--green-text); border-color: #B0D8C0; }
+.signal-type-badge.job_posting   { background: var(--accent-dim); color: var(--accent-text); border-color: #DEC8A0; }
 .signal-type-badge.hf_model      { background: var(--blue-bg); color: var(--blue); border-color: #A8C0DC; }
 .signal-type-badge.agent_config  { background: #F0EAF8; color: #6040A0; border-color: #C8B0E0; }
 
@@ -319,3 +354,36 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) { .pulse-dot { animation: none; } }
+
+/* ── TABLE SCROLL WRAPPER (narrow viewports) ── */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.table-wrap .org-table { margin-bottom: 0; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 720px) {
+  header {
+    flex-wrap: wrap;
+    height: auto;
+    min-height: 50px;
+    padding: 0.6rem 1rem;
+    row-gap: 0.5rem;
+  }
+  nav {
+    order: 3;
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+    gap: 1.25rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  nav a { flex-shrink: 0; height: 36px; }
+  .header-right { order: 2; }
+  .page { padding: 1.25rem 1rem; }
+  .stat-bar { grid-template-columns: repeat(2, 1fr); }
+  .org-header { flex-direction: column; align-items: flex-start; }
+  footer { flex-direction: column; align-items: flex-start; gap: 0.35rem; padding: 0.9rem 1rem; }
+}
+
+@media (max-width: 420px) {
+  .stat-bar { grid-template-columns: 1fr; }
+}

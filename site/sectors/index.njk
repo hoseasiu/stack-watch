@@ -16,11 +16,12 @@ permalink: "sectors/index.html"
 </div>
 
 {% if sectorCounts.length %}
+<div class="table-wrap">
 <table class="org-table">
   <thead>
     <tr>
-      <th>Sector</th>
-      <th style="width:120px">Orgs tracked</th>
+      <th scope="col">Sector</th>
+      <th scope="col" style="width:120px">Orgs tracked</th>
     </tr>
   </thead>
   <tbody>
@@ -32,6 +33,7 @@ permalink: "sectors/index.html"
     {% endfor %}
   </tbody>
 </table>
+</div>
 {% else %}
   <div class="empty-state">No sector data yet.</div>
 {% endif %}

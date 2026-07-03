@@ -10,20 +10,22 @@
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
+
 <header>
   <a class="logo" href="{{ '/' | url }}">
     <div class="logo-mark">
-      <svg viewBox="0 0 12 12"><circle cx="3" cy="3" r="2"/><circle cx="9" cy="3" r="2"/><circle cx="3" cy="9" r="2"/><circle cx="9" cy="9" r="2"/></svg>
+      <svg viewBox="0 0 12 12" aria-hidden="true"><circle cx="3" cy="3" r="2"/><circle cx="9" cy="3" r="2"/><circle cx="3" cy="9" r="2"/><circle cx="9" cy="9" r="2"/></svg>
     </div>
     <span class="logo-name">StackWatch</span>
   </a>
   <nav>
-    <a href="{{ '/' | url }}" class="{{ 'active' if nav == 'dashboard' }}">Dashboard</a>
-    <a href="{{ '/org/' | url }}" class="{{ 'active' if nav == 'orgs' }}">Organizations</a>
-    <a href="{{ '/tech/' | url }}" class="{{ 'active' if nav == 'tech' }}">Frameworks</a>
-    <a href="{{ '/sectors/' | url }}" class="{{ 'active' if nav == 'sectors' }}">Sectors</a>
-    <a href="{{ '/signals/' | url }}" class="{{ 'active' if nav == 'signals' }}">Signals</a>
-    <a href="{{ '/methodology/' | url }}" class="{{ 'active' if nav == 'methodology' }}">Methodology</a>
+    <a href="{{ '/' | url }}" class="{{ 'active' if nav == 'dashboard' }}"{% if nav == 'dashboard' %} aria-current="page"{% endif %}>Dashboard</a>
+    <a href="{{ '/org/' | url }}" class="{{ 'active' if nav == 'orgs' }}"{% if nav == 'orgs' %} aria-current="page"{% endif %}>Organizations</a>
+    <a href="{{ '/tech/' | url }}" class="{{ 'active' if nav == 'tech' }}"{% if nav == 'tech' %} aria-current="page"{% endif %}>Frameworks</a>
+    <a href="{{ '/sectors/' | url }}" class="{{ 'active' if nav == 'sectors' }}"{% if nav == 'sectors' %} aria-current="page"{% endif %}>Sectors</a>
+    <a href="{{ '/signals/' | url }}" class="{{ 'active' if nav == 'signals' }}"{% if nav == 'signals' %} aria-current="page"{% endif %}>Signals</a>
+    <a href="{{ '/methodology/' | url }}" class="{{ 'active' if nav == 'methodology' }}"{% if nav == 'methodology' %} aria-current="page"{% endif %}>Methodology</a>
   </nav>
   <div class="header-right">
     <div class="pulse-indicator">
@@ -33,9 +35,9 @@
   </div>
 </header>
 
-<div class="page">
+<main class="page" id="main">
 {{ content | safe }}
-</div>
+</main>
 
 <footer>
   <span>StackWatch · open-source · <a href="https://github.com/">github.com/stackwatch</a></span>
