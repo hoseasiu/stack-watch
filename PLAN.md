@@ -204,13 +204,19 @@ detail pages.
 
 Goal: placeholder now, real collector once the registry ships.
 
-- [ ] `pipeline/eu_aiact_collector.py`: stub that no-ops with a clear TODO and a comment
-      linking to where the registry announcement should be checked
-- [ ] Do not build scraping logic against a registry structure that doesn't exist yet —
-      wait for the actual launch and inspect the real API/site before writing code
+- [x] `pipeline/eu_aiact_collector.py`: stub that no-ops, printing a status line, with a
+      module docstring pointing to where the registry announcement should be checked
+      (digital-strategy.ec.europa.eu AI Act page) and an explicit note not to build
+      scraping logic until the real structure is known
+- [x] Do not build scraping logic against a registry structure that doesn't exist yet —
+      confirmed still unpublished as of 2026-07-04; left as a no-op
+- [x] Wired into `collect.yml` as a no-op step (runs, prints, exits 0) so the workflow
+      shape doesn't need to change again when the registry goes live — just swap the
+      module body
 
 Done when: stub exists and is excluded from the nightly workflow (or runs as a no-op
-without erroring) until reactivated.
+without erroring) until reactivated. ✅ Verified `python pipeline/eu_aiact_collector.py`
+runs cleanly and prints its no-op status.
 
 ---
 

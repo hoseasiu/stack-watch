@@ -21,6 +21,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: python pipeline/huggingface_collector.py
       - run: python pipeline/jobs_collector.py
+      - run: python pipeline/eu_aiact_collector.py  # no-op until registry launches (Aug 2026+)
       - run: python pipeline/build_aggregates.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
