@@ -11,7 +11,7 @@ eleventyComputed:
 ---
 <div class="org-header">
   <div class="org-title">{{ org.display_name }}</div>
-  <span class="org-sector-badge">{{ org.sector }}</span>
+  <a href="{{ ('/sectors/' + org.sector + '/') | url }}"><span class="org-sector-badge">{{ org.sector }}</span></a>
 </div>
 <div class="org-meta">
   github.com/{{ org.github_org }} · first detected {{ org.first_detected }} · last updated {{ org.last_updated }} · {{ org.signal_count }} signals
@@ -25,7 +25,7 @@ eleventyComputed:
   {% for slug, fw in org.frameworks %}
   <div class="evidence-card">
     <div class="evidence-card-header">
-      <span class="evidence-card-title">{{ slug }}</span>
+      <span class="evidence-card-title"><a href="{{ ('/tech/' + slug + '/') | url }}">{{ slug }}</a></span>
       <span class="confidence-label"><span class="confidence-dot {{ fw.confidence }}"></span>{{ fw.confidence }} confidence</span>
     </div>
     {% for e in fw.evidence %}
