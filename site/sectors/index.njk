@@ -27,7 +27,7 @@ permalink: "sectors/index.html"
   <tbody>
     {% for s in sectorCounts %}
     <tr>
-      <td><span class="org-sector-badge">{{ s.sector }}</span></td>
+      <td><a href="{{ ('/sectors/' + s.sector + '/') | url }}"><span class="org-sector-badge">{{ s.sector }}</span></a></td>
       <td><span class="signal-count">{{ s.count }}</span></td>
     </tr>
     {% endfor %}

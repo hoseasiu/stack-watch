@@ -175,16 +175,28 @@ tested end-to-end (type+framework combo narrowed 449 entries to 12 correctly).
 
 Goal: aggregate views on top of the by-now-real data store.
 
-- [ ] `site/sectors/sectors.njk`: sector explorer reading `data/sectors/*.json` —
-      per-sector org counts and top frameworks. Apply the coverage disclaimer from
-      CLAUDE.md's "Known limitations" #1 wherever a thin-coverage sector is shown
-- [ ] `site/tech/tech.njk` (paginated per framework): adoption-over-time view reading
-      `data/frameworks/{slug}.json`'s signal history — simple SVG/canvas sparkline or
-      table, no charting library dependency unless one is already justified
-- [ ] Cross-link: org profile -> framework pages -> sector pages
+- [x] `site/sectors/sectors.njk`: paginated per-sector detail page (one per
+      `data/sectors/{slug}.json`) — org count, top frameworks (linked to `/tech/{slug}/`),
+      full org list (linked to `/org/{slug}/`). Carries the same coverage-notice bar as
+      the sector index for every sector, since the disclaimer applies across the board
+      (all tracked sectors reflect GitHub-presence bias, not just visibly thin ones).
+      `site/sectors/index.njk` (the existing listing page) now links each sector row to
+      its detail page.
+- [x] `site/tech/tech.njk` (paginated per framework, reading `data/frameworks/{slug}.json`):
+      adoption-over-time view as an inline SVG bar sparkline (monthly signal counts,
+      computed in `site/_data/frameworkDetails.js` from `signal_history` — no charting
+      library) plus a table of detected orgs (confidence + first-seen, linked to
+      `/org/{slug}/`). `site/tech/index.njk` now links each framework row to its detail
+      page.
+- [x] Cross-link: org profile's sector badge -> `/sectors/{slug}/`; each framework name
+      in org profile's evidence cards -> `/tech/{slug}/`; framework/sector detail pages
+      link back to org profiles.
 
 Done when: navigating homepage -> sector -> framework -> org and back works with no
-dead links, using real pipeline-generated data.
+dead links, using real pipeline-generated data. ✅ Verified in a local preview server:
+`/tech/langgraph/` and `/sectors/saas/` render correctly with working sparkline/tables,
+and `/org/glean/` cross-links resolve to the correct `/tech/crewai/` and `/sectors/saas/`
+detail pages.
 
 ---
 

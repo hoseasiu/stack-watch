@@ -1,0 +1,75 @@
+---
+layout: base.njk
+nav: sectors
+pagination:
+  data: sectorDetails
+  size: 1
+  alias: sec
+permalink: "sectors/{{ sec.sector }}/"
+eleventyComputed:
+  title: "{{ sec.sector }}"
+---
+<div class="methodology-bar">
+  <strong>Coverage notice:</strong> this reflects organizations with an active public
+  GitHub presence, not a representative sample of the {{ sec.sector }} sector. See
+  <a href="{{ '/methodology/' | url }}">methodology</a>.
+</div>
+
+<div class="org-header">
+  <div class="org-title">{{ sec.sector }}</div>
+</div>
+<div class="org-meta">
+  {{ sec.org_count }} organization{% if sec.org_count != 1 %}s{% endif %} tracked
+</div>
+
+<div class="section-header">
+  <div class="section-title">Top frameworks</div>
+</div>
+
+{% if sec.top_frameworks | length %}
+<div class="table-wrap">
+<table class="org-table">
+  <thead>
+    <tr>
+      <th scope="col">Framework</th>
+      <th scope="col" style="width:120px">Orgs</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for fw in sec.top_frameworks %}
+    <tr>
+      <td class="org-name"><a href="{{ ('/tech/' + fw.slug + '/') | url }}">{{ fw.slug }}</a></td>
+      <td><span class="signal-count">{{ fw.count }}</span></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+  <div class="empty-state">No framework signals detected yet.</div>
+{% endif %}
+
+<div class="section-header">
+  <div class="section-title">Organizations</div>
+</div>
+
+{% if sec.orgs | length %}
+<div class="table-wrap">
+<table class="org-table">
+  <thead>
+    <tr>
+      <th scope="col">Organization</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for o in sec.orgs %}
+    <tr>
+      <td class="org-name"><a href="{{ ('/org/' + o.slug + '/') | url }}">{{ o.display_name }}</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
+{% else %}
+  <div class="empty-state">No organizations in this sector yet.</div>
+{% endif %}
