@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -495,10 +495,20 @@
       ],
       "posted": "2026-06-04",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4703275005"
+    },
+    {
+      "title": "Engineering Manager, Agent Oversight",
+      "terms_matched": [
+        "agentic AI",
+        "multi-agent",
+        "tool use"
+      ],
+      "posted": "2025-10-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625271005"
     }
   ],
   "hf_models": [],
-  "signal_count": 15,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -619,6 +629,15 @@
         "multi-agent",
         "vector database",
         "AI orchestration"
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "multi-agent",
+        "tool use"
       ]
     }
   ]

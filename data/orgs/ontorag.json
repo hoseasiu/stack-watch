@@ -1,0 +1,52 @@
+{
+  "slug": "ontorag",
+  "display_name": "ontorag",
+  "github_org": "ontorag",
+  "sector": "unclassified",
+  "first_detected": "2026-07-07",
+  "last_updated": "2026-07-07",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-07",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ontorag/ontorag",
+          "file": "requirements.txt",
+          "url": "https://github.com/ontorag/ontorag/blob/27d94c39f9fcac5340c75aaa449f0afb362b0d29/_requirements.txt",
+          "detected": "2026-07-07"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "ontorag/ontorag"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "ontorag/ontorag",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/ontorag/ontorag/blob/main/CLAUDE.md",
+        "detected": "2026-07-07"
+      }
+    ]
+  }
+}

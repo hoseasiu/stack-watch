@@ -60,6 +60,12 @@
       "display_name": "USC-FORTIS",
       "confidence": "high",
       "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "cisco-outshift-ai-agents",
+      "display_name": "cisco-outshift-ai-agents",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
     }
   ],
   "signal_history": [
@@ -106,7 +112,11 @@
     {
       "date": "2026-07-03",
       "org": "usc-fortis"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "cisco-outshift-ai-agents"
     }
   ],
-  "org_count": 10
+  "org_count": 11
 }

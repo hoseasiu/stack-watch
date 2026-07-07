@@ -1,0 +1,34 @@
+{
+  "slug": "aplbrain",
+  "display_name": "aplbrain",
+  "github_org": "aplbrain",
+  "sector": "unclassified",
+  "first_detected": "2026-07-07",
+  "last_updated": "2026-07-07",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-07",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "aplbrain/bossdb-rag-chatbot",
+          "file": "requirements.txt",
+          "url": "https://github.com/aplbrain/bossdb-rag-chatbot/blob/19ab26718aa1be44db68532c142cb2fcd833c4be/strict_requirements.txt",
+          "detected": "2026-07-07"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

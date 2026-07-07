@@ -38,6 +38,10 @@
       "display_name": "apify"
     },
     {
+      "slug": "aplbrain",
+      "display_name": "aplbrain"
+    },
+    {
       "slug": "arize-ai",
       "display_name": "Arize-ai"
     },
@@ -58,8 +62,20 @@
       "display_name": "Azure-Samples"
     },
     {
+      "slug": "build-on-aws",
+      "display_name": "build-on-aws"
+    },
+    {
       "slug": "cabcode-id",
       "display_name": "cabcode-id"
+    },
+    {
+      "slug": "cewebbr",
+      "display_name": "cewebbr"
+    },
+    {
+      "slug": "cisco-outshift-ai-agents",
+      "display_name": "cisco-outshift-ai-agents"
     },
     {
       "slug": "cmjatai",
@@ -110,8 +126,16 @@
       "display_name": "EmergenceAI"
     },
     {
+      "slug": "freedomintelligence",
+      "display_name": "FreedomIntelligence"
+    },
+    {
       "slug": "fsoft-ai4code",
       "display_name": "FSoft-AI4Code"
+    },
+    {
+      "slug": "future-agi",
+      "display_name": "future-agi"
     },
     {
       "slug": "gleanwork",
@@ -228,6 +252,10 @@
     {
       "slug": "oceanbase",
       "display_name": "oceanbase"
+    },
+    {
+      "slug": "ontorag",
+      "display_name": "ontorag"
     },
     {
       "slug": "openagents-org",
@@ -370,7 +398,7 @@
       "display_name": "zenml-io"
     }
   ],
-  "org_count": 92,
+  "org_count": 99,
   "top_frameworks": [
     {
       "slug": "autogen",
@@ -378,19 +406,19 @@
     },
     {
       "slug": "openai_agents_sdk",
-      "count": 23
+      "count": 25
+    },
+    {
+      "slug": "llamaindex",
+      "count": 13
     },
     {
       "slug": "smolagents",
       "count": 12
     },
     {
-      "slug": "llamaindex",
-      "count": 8
-    },
-    {
       "slug": "langgraph",
-      "count": 8
+      "count": 9
     },
     {
       "slug": "dify",

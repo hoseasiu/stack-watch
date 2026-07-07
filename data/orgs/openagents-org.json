@@ -4,7 +4,7 @@
   "github_org": "openagents-org",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/openagents-org/openagents/blob/470cc85674aec5c5c40de8995e3c18f3cba781bb/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "openagents-org/openagents",
+          "file": "pyproject.toml",
+          "url": "https://github.com/openagents-org/openagents/blob/4b418ad528dc546a8383a89751feef9a8de07921/pyproject.toml",
+          "detected": "2026-07-07"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-07",
       "type": "dependency",
       "framework": "autogen"
     }

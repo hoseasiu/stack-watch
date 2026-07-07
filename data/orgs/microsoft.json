@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -215,9 +215,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/HARC",
       "detected": "2026-07-03"
+    },
+    {
+      "id": "microsoft/phi-2",
+      "name": "microsoft/phi-2",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/phi-2",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "microsoft/harrier-oss-v1-270m",
+      "name": "microsoft/harrier-oss-v1-270m",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/harrier-oss-v1-270m",
+      "detected": "2026-07-07"
     }
   ],
-  "signal_count": 14,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -291,6 +309,16 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "microsoft/HARC"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "microsoft/phi-2"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "microsoft/harrier-oss-v1-270m"
     }
   ]
 }

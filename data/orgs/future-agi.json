@@ -1,0 +1,91 @@
+{
+  "slug": "future-agi",
+  "display_name": "future-agi",
+  "github_org": "future-agi",
+  "sector": "unclassified",
+  "first_detected": "2026-07-07",
+  "last_updated": "2026-07-07",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-07",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "future-agi/traceAI",
+          "file": "requirements.txt",
+          "url": "https://github.com/future-agi/traceAI/blob/c624d4b2ecb7614b2056eda061911d43f6eb9635/python/frameworks/openai-agents/test-requirements.txt",
+          "detected": "2026-07-07"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "future-agi/protect-toxicity-text",
+      "name": "future-agi/protect-toxicity-text",
+      "library": "peft",
+      "base_model": "google/gemma-3n-E4B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/future-agi/protect-toxicity-text",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "future-agi/protect-privacy-text",
+      "name": "future-agi/protect-privacy-text",
+      "library": "peft",
+      "base_model": "google/gemma-3n-E4B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/future-agi/protect-privacy-text",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "future-agi/protect-prompt-injection-text",
+      "name": "future-agi/protect-prompt-injection-text",
+      "library": "peft",
+      "base_model": "google/gemma-3n-E4B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/future-agi/protect-prompt-injection-text",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "future-agi/protect-sexism-text",
+      "name": "future-agi/protect-sexism-text",
+      "library": "peft",
+      "base_model": "google/gemma-3n-E4B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/future-agi/protect-sexism-text",
+      "detected": "2026-07-07"
+    }
+  ],
+  "signal_count": 5,
+  "signal_history": [
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "future-agi/protect-toxicity-text"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "future-agi/protect-privacy-text"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "future-agi/protect-prompt-injection-text"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "future-agi/protect-sexism-text"
+    }
+  ]
+}

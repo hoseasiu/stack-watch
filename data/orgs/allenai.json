@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -112,9 +112,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/tmax-9b",
       "detected": "2026-07-03"
+    },
+    {
+      "id": "allenai/Olmo-3-1025-7B",
+      "name": "allenai/Olmo-3-1025-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-1025-7B",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "allenai/Olmo-3-7B-Instruct",
+      "name": "allenai/Olmo-3-7B-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-7B-Instruct-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "allenai/specter2",
+      "name": "allenai/specter2",
+      "library": "adapter-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/specter2",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "allenai/longformer-base-4096",
+      "name": "allenai/longformer-base-4096",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/longformer-base-4096",
+      "detected": "2026-07-07"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -170,6 +206,26 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "allenai/tmax-9b"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-1025-7B"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-7B-Instruct"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "allenai/specter2"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "allenai/longformer-base-4096"
     }
   ]
 }

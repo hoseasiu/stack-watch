@@ -54,6 +54,36 @@
       "display_name": "snorkel-marlin-repos",
       "confidence": "high",
       "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "aplbrain",
+      "display_name": "aplbrain",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "build-on-aws",
+      "display_name": "build-on-aws",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "cewebbr",
+      "display_name": "cewebbr",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "freedomintelligence",
+      "display_name": "FreedomIntelligence",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "ontorag",
+      "display_name": "ontorag",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
     }
   ],
   "signal_history": [
@@ -92,7 +122,31 @@
     {
       "date": "2026-07-02",
       "org": "snorkel-marlin-repos"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "aplbrain"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "build-on-aws"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "cewebbr"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "freedomintelligence"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "ontorag"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "sambanova"
     }
   ],
-  "org_count": 9
+  "org_count": 14
 }

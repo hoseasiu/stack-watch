@@ -4,7 +4,7 @@
   "github_org": "Arize-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "smolagents": {
       "confidence": "high",
@@ -31,6 +31,19 @@
           "detected": "2026-07-03"
         }
       ]
+    },
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-07",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Arize-ai/openinference",
+          "file": "requirements.txt",
+          "url": "https://github.com/Arize-ai/openinference/blob/a22e71817c5139cba790e544da1320d7b8517c31/python/instrumentation/openinference-instrumentation-openai-agents/test-requirements.txt",
+          "detected": "2026-07-07"
+        }
+      ]
     }
   },
   "agent_config": {
@@ -55,7 +68,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -72,6 +85,11 @@
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
     }
   ]
 }

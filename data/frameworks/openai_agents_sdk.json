@@ -144,6 +144,18 @@
       "display_name": "stepfun-ai",
       "confidence": "high",
       "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "arize-ai",
+      "display_name": "Arize-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "future-agi",
+      "display_name": "future-agi",
+      "confidence": "high",
+      "first_seen": "2026-07-07"
     }
   ],
   "signal_history": [
@@ -246,7 +258,15 @@
     {
       "date": "2026-07-03",
       "org": "stepfun-ai"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-07-07",
+      "org": "future-agi"
     }
   ],
-  "org_count": 24
+  "org_count": 26
 }

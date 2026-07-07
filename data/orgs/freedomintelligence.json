@@ -1,0 +1,175 @@
+{
+  "slug": "freedomintelligence",
+  "display_name": "FreedomIntelligence",
+  "github_org": "FreedomIntelligence",
+  "sector": "unclassified",
+  "first_detected": "2026-07-07",
+  "last_updated": "2026-07-07",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-07-07",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "FreedomIntelligence/Apollo",
+          "file": "requirements.txt",
+          "url": "https://github.com/FreedomIntelligence/Apollo/blob/505c48e82207b36cf3921df61fcd58895fb6ca4e/requirements.txt",
+          "detected": "2026-07-07"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "FreedomIntelligence/BlenderLLM",
+      "name": "FreedomIntelligence/BlenderLLM",
+      "library": null,
+      "base_model": "Qwen/Qwen2.5-7B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/BlenderLLM",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/chimera-chat-7b-delta",
+      "name": "FreedomIntelligence/chimera-chat-7b-delta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/chimera-chat-7b-delta",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/chimera-chat-13b-delta",
+      "name": "FreedomIntelligence/chimera-chat-13b-delta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/chimera-chat-13b-delta",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/phoenix-chat-7b",
+      "name": "FreedomIntelligence/phoenix-chat-7b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/phoenix-chat-7b",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/chimera-inst-chat-7b-delta",
+      "name": "FreedomIntelligence/chimera-inst-chat-7b-delta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/chimera-inst-chat-7b-delta",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/chimera-inst-chat-13b-delta",
+      "name": "FreedomIntelligence/chimera-inst-chat-13b-delta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/chimera-inst-chat-13b-delta",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/phoenix-inst-chat-7b",
+      "name": "FreedomIntelligence/phoenix-inst-chat-7b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/phoenix-inst-chat-7b-int4",
+      "name": "FreedomIntelligence/phoenix-inst-chat-7b-int4",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b-int4",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/phoenix-inst-chat-7b-v1.1",
+      "name": "FreedomIntelligence/phoenix-inst-chat-7b-v1.1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b-v1.1",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-13b-delta",
+      "name": "FreedomIntelligence/HuatuoGPT-13b-delta",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-13b-delta",
+      "detected": "2026-07-07"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/BlenderLLM"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/chimera-chat-7b-delta"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/chimera-chat-13b-delta"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/phoenix-chat-7b"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/chimera-inst-chat-7b-delta"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/chimera-inst-chat-13b-delta"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/phoenix-inst-chat-7b"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/phoenix-inst-chat-7b-int4"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/phoenix-inst-chat-7b-v1.1"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-13b-delta"
+    }
+  ]
+}

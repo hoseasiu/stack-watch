@@ -4,7 +4,7 @@
   "github_org": "fw-ai",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -277,10 +277,26 @@
       ],
       "posted": "2026-06-29",
       "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4301675009"
+    },
+    {
+      "title": "Business Development Representative (BDR)",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2025-07-16",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4006906009"
+    },
+    {
+      "title": "Senior GRC Specialist",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-07-06",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4304520009"
     }
   ],
   "hf_models": [],
-  "signal_count": 4,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -313,6 +329,13 @@
         "function calling",
         "vector database",
         "AI orchestration"
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "type": "job_posting",
+      "terms": [
+        "function calling"
       ]
     }
   ]

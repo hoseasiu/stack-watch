@@ -4,7 +4,7 @@
   "github_org": "NVIDIA",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit/blob/201f3dcc9dbf0ee3518830d660e75c90b065958b/packages/nvidia_nat_autogen/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "NVIDIA/NeMo-Agent-Toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit/blob/9a2830413c7682f0d2989aae788ebce56ae5ad34/packages/nvidia_nat_autogen/pyproject.toml",
+          "detected": "2026-07-07"
         }
       ]
     }
@@ -35,7 +42,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -47,6 +54,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "NVIDIA/NeMo-Agent-Toolkit"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ]
 }

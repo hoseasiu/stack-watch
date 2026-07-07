@@ -1,0 +1,34 @@
+{
+  "slug": "cisco-outshift-ai-agents",
+  "display_name": "cisco-outshift-ai-agents",
+  "github_org": "cisco-outshift-ai-agents",
+  "sector": "unclassified",
+  "first_detected": "2026-07-07",
+  "last_updated": "2026-07-07",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-07",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cisco-outshift-ai-agents/jira-agntcy-agent",
+          "file": "requirements.txt",
+          "url": "https://github.com/cisco-outshift-ai-agents/jira-agntcy-agent/blob/621635e9da61fa9101c20c88592c804847999ff2/eval/eval_requirements.txt",
+          "detected": "2026-07-07"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

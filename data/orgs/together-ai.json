@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -132,9 +132,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
       "detected": "2026-07-03"
+    },
+    {
+      "id": "togethercomputer/StripedHyena-Nous-7B",
+      "name": "togethercomputer/StripedHyena-Nous-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/StripedHyena-Nous-7B",
+      "detected": "2026-07-07"
     }
   ],
-  "signal_count": 12,
+  "signal_count": 13,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -200,6 +209,11 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "togethercomputer/StripedHyena-Nous-7B"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "Azure-Samples",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -43,6 +43,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Azure-Samples/dream-team/blob/2ab7d90b3b6a64ed59a5164db9f586232fa9714d/backend/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/AI-Gateway",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Azure-Samples/AI-Gateway/blob/7ef2909f99b4ca33461650ba469a394f1e4a16bd/pyproject.toml",
+          "detected": "2026-07-07"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/AI-Gateway",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Azure-Samples/AI-Gateway/blob/7ef2909f99b4ca33461650ba469a394f1e4a16bd/labs/mcp-a2a-agents/src/a2a_servers/a2a_ag_mcp_agent/pyproject.toml",
+          "detected": "2026-07-07"
         }
       ]
     }
@@ -69,7 +83,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 4,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -92,6 +106,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "Azure-Samples/AI-Gateway"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ]
 }

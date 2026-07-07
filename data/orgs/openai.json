@@ -4,7 +4,7 @@
   "github_org": "openai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-07",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -124,9 +124,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/openai/whisper-medium",
       "detected": "2026-07-03"
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-120b",
+      "name": "openai/gpt-oss-safeguard-120b",
+      "library": "transformers",
+      "base_model": "openai/gpt-oss-120b",
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/gpt-oss-safeguard-120b",
+      "detected": "2026-07-07"
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-20b",
+      "name": "openai/gpt-oss-safeguard-20b",
+      "library": "transformers",
+      "base_model": "openai/gpt-oss-20b",
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
+      "detected": "2026-07-07"
     }
   ],
-  "signal_count": 12,
+  "signal_count": 14,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -188,6 +206,16 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "openai/whisper-medium"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "openai/gpt-oss-safeguard-120b"
+    },
+    {
+      "date": "2026-07-07",
+      "type": "hf_model",
+      "model": "openai/gpt-oss-safeguard-20b"
     }
   ]
 }
