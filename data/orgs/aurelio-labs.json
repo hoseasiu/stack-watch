@@ -1,0 +1,51 @@
+{
+  "slug": "aurelio-labs",
+  "display_name": "aurelio-labs",
+  "github_org": "aurelio-labs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "aurelio-labs/semantic-router",
+          "file": "pyproject.toml",
+          "url": "https://github.com/aurelio-labs/semantic-router/blob/df9722ad75f63020390f649a646b0bc0c4653ade/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "aurelio-labs/semantic-router"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "aurelio-labs/semantic-router",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/aurelio-labs/semantic-router/blob/main/CLAUDE.md",
+        "detected": "2026-07-14"
+      }
+    ]
+  }
+}

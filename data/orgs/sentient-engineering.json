@@ -1,0 +1,33 @@
+{
+  "slug": "sentient-engineering",
+  "display_name": "sentient-engineering",
+  "github_org": "sentient-engineering",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "sentient-engineering/sentient",
+          "file": "pyproject.toml",
+          "url": "https://github.com/sentient-engineering/sentient/blob/43dc0b1259ecca3f2560572704878322b02bdf66/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

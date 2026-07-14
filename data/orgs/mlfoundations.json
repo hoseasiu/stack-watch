@@ -1,0 +1,174 @@
+{
+  "slug": "mlfoundations",
+  "display_name": "mlfoundations",
+  "github_org": "mlfoundations",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "mlfoundations/evalchemy",
+          "file": "pyproject.toml",
+          "url": "https://github.com/mlfoundations/evalchemy/blob/6ed674159b37f740f2353a86f596f49f6ac13c19/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "mlfoundations/open_lm_1B",
+      "name": "mlfoundations/open_lm_1B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/open_lm_1B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/open_lm_7B_1.25T",
+      "name": "mlfoundations/open_lm_7B_1.25T",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/open_lm_7B_1.25T",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/scaling",
+      "name": "mlfoundations/scaling",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/scaling",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/tabula-8b",
+      "name": "mlfoundations/tabula-8b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/tabula-8b",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/dclm-7b-it",
+      "name": "mlfoundations/dclm-7b-it",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/dclm-7b-it",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/dclm-it-quantized",
+      "name": "mlfoundations/dclm-it-quantized",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/dclm-it-quantized",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/fasttext-oh-eli5",
+      "name": "mlfoundations/fasttext-oh-eli5",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/fasttext-oh-eli5",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/dclm-fasttext-variants",
+      "name": "mlfoundations/dclm-fasttext-variants",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/dclm-fasttext-variants",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/Gelato-UI-TARS-1.5-7B",
+      "name": "mlfoundations/Gelato-UI-TARS-1.5-7B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/Gelato-UI-TARS-1.5-7B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/Gelato-30B-A3B",
+      "name": "mlfoundations/Gelato-30B-A3B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-VL-30B-A3B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/Gelato-30B-A3B",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/open_lm_1B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/open_lm_7B_1.25T"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/scaling"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/tabula-8b"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/dclm-7b-it"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/dclm-it-quantized"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/fasttext-oh-eli5"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/dclm-fasttext-variants"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/Gelato-UI-TARS-1.5-7B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mlfoundations/Gelato-30B-A3B"
+    }
+  ]
+}

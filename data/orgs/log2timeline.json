@@ -1,0 +1,33 @@
+{
+  "slug": "log2timeline",
+  "display_name": "log2timeline",
+  "github_org": "log2timeline",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "log2timeline/dftimewolf",
+          "file": "pyproject.toml",
+          "url": "https://github.com/log2timeline/dftimewolf/blob/496d7bd4f37f1beed7c562cc1a614fa7ece79a71/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

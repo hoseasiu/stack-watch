@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -40,6 +40,22 @@
       ],
       "posted": "2026-05-19",
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5142176007"
+    },
+    {
+      "title": "Associate, Infrastructure Strategy & Operations",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-06-02",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5152193007"
+    },
+    {
+      "title": "Senior Developer Productivity Engineer",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2025-06-25",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/4774159007"
     }
   ],
   "hf_models": [
@@ -141,9 +157,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/StripedHyena-Nous-7B",
       "detected": "2026-07-07"
+    },
+    {
+      "id": "togethercomputer/evo-1-131k-base",
+      "name": "togethercomputer/evo-1-131k-base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/evo-1-131k-base",
+      "detected": "2026-07-14"
     }
   ],
-  "signal_count": 13,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -214,6 +239,18 @@
       "date": "2026-07-07",
       "type": "hf_model",
       "model": "togethercomputer/StripedHyena-Nous-7B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "togethercomputer/evo-1-131k-base"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
     }
   ]
 }

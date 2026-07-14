@@ -4,7 +4,7 @@
   "github_org": "respanai",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "dify": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/respanai/respan/blob/a0e21e37d86fcaec45f11a474570d0784a92710d/python-sdks/instrumentations/respan-instrumentation-dify/pyproject.toml",
           "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "respanai/respan-example-projects",
+          "file": "requirements.txt",
+          "url": "https://github.com/respanai/respan-example-projects/blob/ccd4699ffab055e8540a40936781f96af3e6f815/python/tracing/dify/requirements.txt",
+          "detected": "2026-07-14"
         }
       ]
     }
@@ -35,7 +42,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -47,6 +54,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "respanai/respan"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "dify"
     }
   ]
 }

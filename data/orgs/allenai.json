@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -148,9 +148,54 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/longformer-base-4096",
       "detected": "2026-07-07"
+    },
+    {
+      "id": "allenai/Olmo-3-1125-32B",
+      "name": "allenai/Olmo-3-1125-32B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-1125-32B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "allenai/Olmo-3-7B-Think",
+      "name": "allenai/Olmo-3-7B-Think",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-7B-Think-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Think",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "allenai/Olmo-3.1-32B-Think",
+      "name": "allenai/Olmo-3.1-32B-Think",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-32B-Think-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3.1-32B-Think",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "allenai/SERA-8B",
+      "name": "allenai/SERA-8B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/SERA-8B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "allenai/OLMoE-1B-7B-0125-Instruct",
+      "name": "allenai/OLMoE-1B-7B-0125-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/OLMoE-1B-7B-0125-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0125-Instruct",
+      "detected": "2026-07-14"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -226,6 +271,31 @@
       "date": "2026-07-07",
       "type": "hf_model",
       "model": "allenai/longformer-base-4096"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-1125-32B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-7B-Think"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3.1-32B-Think"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "allenai/SERA-8B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "allenai/OLMoE-1B-7B-0125-Instruct"
     }
   ]
 }

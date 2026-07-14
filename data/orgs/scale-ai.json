@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -505,10 +505,42 @@
       ],
       "posted": "2025-10-31",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4625271005"
+    },
+    {
+      "title": "Deployment Strategist ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713532005"
+    },
+    {
+      "title": "Sr Staff ML Forward Deployed Engineer, Enterprise GenAI",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-07-07",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4712145005"
+    },
+    {
+      "title": "Staff Software Engineer, Full Stack - Gen AI ",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713608005"
+    },
+    {
+      "title": "Technical Program Manager, Platform",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-07-07",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711995005"
     }
   ],
   "hf_models": [],
-  "signal_count": 16,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -638,6 +670,20 @@
         "agentic AI",
         "multi-agent",
         "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "vector database"
       ]
     }
   ]

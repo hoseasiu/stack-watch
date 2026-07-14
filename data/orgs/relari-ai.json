@@ -1,0 +1,33 @@
+{
+  "slug": "relari-ai",
+  "display_name": "relari-ai",
+  "github_org": "relari-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "relari-ai/continuous-eval",
+          "file": "pyproject.toml",
+          "url": "https://github.com/relari-ai/continuous-eval/blob/d224f0e9350fe9c9f62968764980e68382766656/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

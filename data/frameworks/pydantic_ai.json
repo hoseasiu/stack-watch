@@ -1,0 +1,88 @@
+{
+  "slug": "pydantic_ai",
+  "orgs": [
+    {
+      "slug": "alex-templates",
+      "display_name": "ALEX-TEMPLATES",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "fuzzylabs",
+      "display_name": "fuzzylabs",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "gramps-project",
+      "display_name": "gramps-project",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "kayba-ai",
+      "display_name": "kayba-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "shotgun-sh",
+      "display_name": "shotgun-sh",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "tencentmusic",
+      "display_name": "tencentmusic",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "the-momentum",
+      "display_name": "the-momentum",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "vstorm-co",
+      "display_name": "vstorm-co",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
+    }
+  ],
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "org": "alex-templates"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "fuzzylabs"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "gramps-project"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "kayba-ai"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "shotgun-sh"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "tencentmusic"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "the-momentum"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "vstorm-co"
+    }
+  ],
+  "org_count": 8
+}

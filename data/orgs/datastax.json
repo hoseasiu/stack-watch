@@ -1,0 +1,48 @@
+{
+  "slug": "datastax",
+  "display_name": "datastax",
+  "github_org": "datastax",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "datastax/astra-assistants-api",
+          "file": "pyproject.toml",
+          "url": "https://github.com/datastax/astra-assistants-api/blob/6328c717fa9e3803b692329eb9899553aec08b2c/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "datastax/llamaindex-colbert",
+      "name": "datastax/llamaindex-colbert",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/datastax/llamaindex-colbert",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "datastax/llamaindex-colbert"
+    }
+  ]
+}

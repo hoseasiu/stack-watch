@@ -1,0 +1,33 @@
+{
+  "slug": "hewlettpackard",
+  "display_name": "HewlettPackard",
+  "github_org": "HewlettPackard",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "HewlettPackard/llmesh",
+          "file": "pyproject.toml",
+          "url": "https://github.com/HewlettPackard/llmesh/blob/a1a843f3cb0eb11e9964a7425fb99239f450b52b/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

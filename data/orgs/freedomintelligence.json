@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -112,9 +112,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-13b-delta",
       "detected": "2026-07-07"
+    },
+    {
+      "id": "FreedomIntelligence/AceGPT-v2-70B-Chat",
+      "name": "FreedomIntelligence/AceGPT-v2-70B-Chat",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/AceGPT-v2-70B-Chat",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-3-32B",
+      "name": "FreedomIntelligence/HuatuoGPT-3-32B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-32B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-32B",
+      "detected": "2026-07-14"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 13,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -170,6 +188,16 @@
       "date": "2026-07-07",
       "type": "hf_model",
       "model": "FreedomIntelligence/HuatuoGPT-13b-delta"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/AceGPT-v2-70B-Chat"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-3-32B"
     }
   ]
 }

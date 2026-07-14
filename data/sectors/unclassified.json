@@ -30,6 +30,14 @@
       "display_name": "aisbreaker"
     },
     {
+      "slug": "alan-turing-institute",
+      "display_name": "alan-turing-institute"
+    },
+    {
+      "slug": "alex-templates",
+      "display_name": "ALEX-TEMPLATES"
+    },
+    {
       "slug": "allenai",
       "display_name": "allenai"
     },
@@ -42,12 +50,24 @@
       "display_name": "aplbrain"
     },
     {
+      "slug": "aqora-io",
+      "display_name": "aqora-io"
+    },
+    {
+      "slug": "argilla-io",
+      "display_name": "argilla-io"
+    },
+    {
       "slug": "arize-ai",
       "display_name": "Arize-ai"
     },
     {
       "slug": "arklexai",
       "display_name": "arklexai"
+    },
+    {
+      "slug": "aurelio-labs",
+      "display_name": "aurelio-labs"
     },
     {
       "slug": "aws-samples",
@@ -82,6 +102,10 @@
       "display_name": "cmjatai"
     },
     {
+      "slug": "compolis",
+      "display_name": "compolis"
+    },
+    {
       "slug": "corpus-os",
       "display_name": "Corpus-OS"
     },
@@ -106,6 +130,10 @@
       "display_name": "datamllab"
     },
     {
+      "slug": "datastax",
+      "display_name": "datastax"
+    },
+    {
       "slug": "datawhalechina",
       "display_name": "datawhalechina"
     },
@@ -114,12 +142,20 @@
       "display_name": "diagridio"
     },
     {
+      "slug": "downtimelabs",
+      "display_name": "downtimelabs"
+    },
+    {
       "slug": "dwani-ai",
       "display_name": "dwani-ai"
     },
     {
       "slug": "e2b-dev",
       "display_name": "e2b-dev"
+    },
+    {
+      "slug": "emcie-co",
+      "display_name": "emcie-co"
     },
     {
       "slug": "emergenceai",
@@ -138,6 +174,10 @@
       "display_name": "future-agi"
     },
     {
+      "slug": "fuzzylabs",
+      "display_name": "fuzzylabs"
+    },
+    {
       "slug": "gleanwork",
       "display_name": "gleanwork"
     },
@@ -150,12 +190,20 @@
       "display_name": "gradio-app"
     },
     {
+      "slug": "gramps-project",
+      "display_name": "gramps-project"
+    },
+    {
       "slug": "gskinnerteam",
       "display_name": "gskinnerTeam"
     },
     {
       "slug": "guestrin-lab",
       "display_name": "guestrin-lab"
+    },
+    {
+      "slug": "hewlettpackard",
+      "display_name": "HewlettPackard"
     },
     {
       "slug": "hud-evals",
@@ -182,6 +230,10 @@
       "display_name": "JOTO-AI"
     },
     {
+      "slug": "kayba-ai",
+      "display_name": "kayba-ai"
+    },
+    {
       "slug": "kungfuai",
       "display_name": "kungfuai"
     },
@@ -198,12 +250,24 @@
       "display_name": "langgenius"
     },
     {
+      "slug": "lastmile-ai",
+      "display_name": "lastmile-ai"
+    },
+    {
       "slug": "latiotech",
       "display_name": "latiotech"
     },
     {
       "slug": "lithos-ai",
       "display_name": "lithos-ai"
+    },
+    {
+      "slug": "livecodebench",
+      "display_name": "LiveCodeBench"
+    },
+    {
+      "slug": "log2timeline",
+      "display_name": "log2timeline"
     },
     {
       "slug": "mapbox",
@@ -222,8 +286,24 @@
       "display_name": "microsoft"
     },
     {
+      "slug": "miromindai",
+      "display_name": "MiroMindAI"
+    },
+    {
+      "slug": "mistralai",
+      "display_name": "mistralai"
+    },
+    {
       "slug": "mle-dojo",
       "display_name": "MLE-Dojo"
+    },
+    {
+      "slug": "mlfoundations",
+      "display_name": "mlfoundations"
+    },
+    {
+      "slug": "myshell-ai",
+      "display_name": "myshell-ai"
     },
     {
       "slug": "neatlogs",
@@ -314,12 +394,24 @@
       "display_name": "raga-ai-hub"
     },
     {
+      "slug": "redis",
+      "display_name": "redis"
+    },
+    {
+      "slug": "relari-ai",
+      "display_name": "relari-ai"
+    },
+    {
       "slug": "respanai",
       "display_name": "respanai"
     },
     {
       "slug": "rhesis-ai",
       "display_name": "rhesis-ai"
+    },
+    {
+      "slug": "rocky-exchange",
+      "display_name": "Rocky-exchange"
     },
     {
       "slug": "run-llama",
@@ -342,8 +434,16 @@
       "display_name": "sentient-agi"
     },
     {
+      "slug": "sentient-engineering",
+      "display_name": "sentient-engineering"
+    },
+    {
       "slug": "sfu-db",
       "display_name": "sfu-db"
+    },
+    {
+      "slug": "shotgun-sh",
+      "display_name": "shotgun-sh"
     },
     {
       "slug": "skillrepos",
@@ -354,6 +454,10 @@
       "display_name": "snorkel-marlin-repos"
     },
     {
+      "slug": "sotopia-lab",
+      "display_name": "sotopia-lab"
+    },
+    {
       "slug": "spillwavesolutions",
       "display_name": "SpillwaveSolutions"
     },
@@ -362,8 +466,20 @@
       "display_name": "splx-ai"
     },
     {
+      "slug": "stanford-crfm",
+      "display_name": "stanford-crfm"
+    },
+    {
       "slug": "stepfun-ai",
       "display_name": "stepfun-ai"
+    },
+    {
+      "slug": "tencentmusic",
+      "display_name": "tencentmusic"
+    },
+    {
+      "slug": "the-momentum",
+      "display_name": "the-momentum"
     },
     {
       "slug": "theagenticai",
@@ -378,12 +494,24 @@
       "display_name": "unitycatalog"
     },
     {
+      "slug": "upsonic",
+      "display_name": "Upsonic"
+    },
+    {
       "slug": "usc-fortis",
       "display_name": "USC-FORTIS"
     },
     {
       "slug": "vectorize-io",
       "display_name": "vectorize-io"
+    },
+    {
+      "slug": "vegu-ai",
+      "display_name": "vegu-ai"
+    },
+    {
+      "slug": "vstorm-co",
+      "display_name": "vstorm-co"
     },
     {
       "slug": "wandb",
@@ -398,7 +526,7 @@
       "display_name": "zenml-io"
     }
   ],
-  "org_count": 99,
+  "org_count": 131,
   "top_frameworks": [
     {
       "slug": "autogen",
@@ -421,8 +549,12 @@
       "count": 9
     },
     {
+      "slug": "pydantic_ai",
+      "count": 8
+    },
+    {
       "slug": "dify",
-      "count": 3
+      "count": 4
     }
   ]
 }

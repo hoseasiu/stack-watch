@@ -18,6 +18,12 @@
       "display_name": "respanai",
       "confidence": "high",
       "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "rocky-exchange",
+      "display_name": "Rocky-exchange",
+      "confidence": "high",
+      "first_seen": "2026-07-14"
     }
   ],
   "signal_history": [
@@ -32,7 +38,19 @@
     {
       "date": "2026-07-02",
       "org": "respanai"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "joto-ai"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "respanai"
+    },
+    {
+      "date": "2026-07-14",
+      "org": "rocky-exchange"
     }
   ],
-  "org_count": 3
+  "org_count": 4
 }

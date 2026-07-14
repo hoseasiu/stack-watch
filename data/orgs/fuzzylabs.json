@@ -1,0 +1,52 @@
+{
+  "slug": "fuzzylabs",
+  "display_name": "fuzzylabs",
+  "github_org": "fuzzylabs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-07-14",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "fuzzylabs/sre-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/fuzzylabs/sre-agent/blob/6fe7329f41a8a89d24fd4fe59e169469e8bc99a8/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "fuzzylabs/sre-agent"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "fuzzylabs/sre-agent",
+        "file": "AGENTS.md",
+        "url": "https://github.com/fuzzylabs/sre-agent/blob/main/AGENTS.md",
+        "detected": "2026-07-14"
+      }
+    ]
+  }
+}

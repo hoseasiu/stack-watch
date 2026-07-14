@@ -1,0 +1,34 @@
+{
+  "slug": "alex-templates",
+  "display_name": "ALEX-TEMPLATES",
+  "github_org": "ALEX-TEMPLATES",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-07-14",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ALEX-TEMPLATES/python-simple",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ALEX-TEMPLATES/python-simple/blob/3bdd0ef0237034998ec66d8a3d8d8a95397a8633/pyproject.toml.exmple",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    }
+  ]
+}

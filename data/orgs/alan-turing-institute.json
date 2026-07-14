@@ -1,0 +1,174 @@
+{
+  "slug": "alan-turing-institute",
+  "display_name": "alan-turing-institute",
+  "github_org": "alan-turing-institute",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "alan-turing-institute/prompto",
+          "file": "pyproject.toml",
+          "url": "https://github.com/alan-turing-institute/prompto/blob/b90ded6d3481ee505db5963a7d6bbcd49f4c22d0/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli",
+      "name": "alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1-14B",
+      "name": "alan-turing-institute/t0-s1-14B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1-14B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1.1-1.5B",
+      "name": "alan-turing-institute/t0-s1.1-1.5B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1.1-1.5B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1.1-3B",
+      "name": "alan-turing-institute/t0-s1.1-3B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1.1-3B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1.1-7B",
+      "name": "alan-turing-institute/t0-s1.1-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1.1-7B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1-1.5B",
+      "name": "alan-turing-institute/t0-s1-1.5B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1-1.5B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1-3B",
+      "name": "alan-turing-institute/t0-s1-3B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1-3B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1-7B",
+      "name": "alan-turing-institute/t0-s1-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1-7B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-s1-32B",
+      "name": "alan-turing-institute/t0-s1-32B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-s1-32B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "alan-turing-institute/t0-1.1-k5-32B",
+      "name": "alan-turing-institute/t0-1.1-k5-32B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/alan-turing-institute/t0-1.1-k5-32B",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1-14B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1.1-1.5B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1.1-3B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1.1-7B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1-1.5B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1-3B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1-7B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-s1-32B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "alan-turing-institute/t0-1.1-k5-32B"
+    }
+  ]
+}

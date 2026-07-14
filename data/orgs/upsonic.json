@@ -1,0 +1,51 @@
+{
+  "slug": "upsonic",
+  "display_name": "Upsonic",
+  "github_org": "Upsonic",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Upsonic/Upsonic",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Upsonic/Upsonic/blob/101f0313b0ddb96cd4078354879b2ff57005db29/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "Upsonic/Upsonic"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "Upsonic/Upsonic",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/Upsonic/Upsonic/blob/main/CLAUDE.md",
+        "detected": "2026-07-14"
+      }
+    ]
+  }
+}

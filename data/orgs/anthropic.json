@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-14",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -550,6 +550,80 @@
       ],
       "posted": "2026-01-20",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074937008"
+    },
+    {
+      "title": "Data Operations Manager, Human Data",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-06-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5238460008"
+    },
+    {
+      "title": "Engineering Manager, Connectivity - London",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5309805008"
+    },
+    {
+      "title": "Finance Systems Integration Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5315789008"
+    },
+    {
+      "title": "Red Team Engineer, Safeguards",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-07-10",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5320469008"
+    },
+    {
+      "title": "Research Product Manager, Labs",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-26",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5096878008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Databases",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-07-07",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5301750008"
+    },
+    {
+      "title": "Staff Software Engineer, Labs: Applied AI",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5304425008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Safeguards Review Tooling",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-13",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5342935008"
+    },
+    {
+      "title": "Technical Enablement Lead, Claude Platform",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-07-10",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311465008"
     }
   ],
   "hf_models": [
@@ -563,7 +637,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 13,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -659,6 +733,42 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "anthropics/efficientnet-b3-base"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "type": "job_posting",
+      "terms": [
+        "vector database"
+      ]
     }
   ]
 }

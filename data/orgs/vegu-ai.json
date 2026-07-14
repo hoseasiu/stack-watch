@@ -1,0 +1,33 @@
+{
+  "slug": "vegu-ai",
+  "display_name": "vegu-ai",
+  "github_org": "vegu-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "vegu-ai/talemate",
+          "file": "pyproject.toml",
+          "url": "https://github.com/vegu-ai/talemate/blob/c12a82930e913816fdac21aedada1962ac45c3d7/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    }
+  ]
+}

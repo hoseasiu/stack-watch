@@ -1,0 +1,33 @@
+{
+  "slug": "compolis",
+  "display_name": "compolis",
+  "github_org": "compolis",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "compolis/GABM",
+          "file": "pyproject.toml",
+          "url": "https://github.com/compolis/GABM/blob/b4a8efe4d0a8239c1f910887ee105fa4df2b6f16/pyproject.toml.template",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

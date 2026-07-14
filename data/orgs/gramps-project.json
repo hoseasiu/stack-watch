@@ -1,0 +1,52 @@
+{
+  "slug": "gramps-project",
+  "display_name": "gramps-project",
+  "github_org": "gramps-project",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-07-14",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gramps-project/gramps-web-api",
+          "file": "pyproject.toml",
+          "url": "https://github.com/gramps-project/gramps-web-api/blob/2078267cb8c5ab8cc79057764c076d313c2d5505/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "gramps-project/gramps-web-api"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "gramps-project/gramps-web-api",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/gramps-project/gramps-web-api/blob/main/CLAUDE.md",
+        "detected": "2026-07-14"
+      }
+    ]
+  }
+}

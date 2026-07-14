@@ -4,7 +4,7 @@
   "github_org": "JOTO-AI",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "dify": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/8d347773e04edca0e6f601e50089322851b6ea7b/pyproject.toml",
           "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "JOTO-AI/SchemaRAG-dify-plugin",
+          "file": "requirements.txt",
+          "url": "https://github.com/JOTO-AI/SchemaRAG-dify-plugin/blob/8d347773e04edca0e6f601e50089322851b6ea7b/requirements.txt",
+          "detected": "2026-07-14"
         }
       ]
     }
@@ -42,7 +49,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -54,6 +61,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "JOTO-AI/SchemaRAG-dify-plugin"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "dify"
     }
   ]
 }

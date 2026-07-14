@@ -1,0 +1,174 @@
+{
+  "slug": "stanford-crfm",
+  "display_name": "stanford-crfm",
+  "github_org": "stanford-crfm",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "stanford-crfm/helm",
+          "file": "pyproject.toml",
+          "url": "https://github.com/stanford-crfm/helm/blob/63754d05db6f874e41a395880fb573890a13e791/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "stanford-crfm/alias-gpt2-small-x21",
+      "name": "stanford-crfm/alias-gpt2-small-x21",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/alias-gpt2-small-x21",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/arwen-gpt2-medium-x21",
+      "name": "stanford-crfm/arwen-gpt2-medium-x21",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/arwen-gpt2-medium-x21",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/battlestar-gpt2-small-x49",
+      "name": "stanford-crfm/battlestar-gpt2-small-x49",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/battlestar-gpt2-small-x49",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/beren-gpt2-medium-x49",
+      "name": "stanford-crfm/beren-gpt2-medium-x49",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/beren-gpt2-medium-x49",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/caprica-gpt2-small-x81",
+      "name": "stanford-crfm/caprica-gpt2-small-x81",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/caprica-gpt2-small-x81",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/celebrimbor-gpt2-medium-x81",
+      "name": "stanford-crfm/celebrimbor-gpt2-medium-x81",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/celebrimbor-gpt2-medium-x81",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/darkmatter-gpt2-small-x343",
+      "name": "stanford-crfm/darkmatter-gpt2-small-x343",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/darkmatter-gpt2-small-x343",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/durin-gpt2-medium-x343",
+      "name": "stanford-crfm/durin-gpt2-medium-x343",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/durin-gpt2-medium-x343",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/eowyn-gpt2-medium-x777",
+      "name": "stanford-crfm/eowyn-gpt2-medium-x777",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/eowyn-gpt2-medium-x777",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/expanse-gpt2-small-x777",
+      "name": "stanford-crfm/expanse-gpt2-small-x777",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/expanse-gpt2-small-x777",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/alias-gpt2-small-x21"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/arwen-gpt2-medium-x21"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/battlestar-gpt2-small-x49"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/beren-gpt2-medium-x49"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/caprica-gpt2-small-x81"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/celebrimbor-gpt2-medium-x81"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/darkmatter-gpt2-small-x343"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/durin-gpt2-medium-x343"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/eowyn-gpt2-medium-x777"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "stanford-crfm/expanse-gpt2-small-x777"
+    }
+  ]
+}

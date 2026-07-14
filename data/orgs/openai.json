@@ -4,7 +4,7 @@
   "github_org": "openai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -142,9 +142,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/openai/gpt-oss-safeguard-20b",
       "detected": "2026-07-07"
+    },
+    {
+      "id": "openai/whisper-tiny",
+      "name": "openai/whisper-tiny",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-tiny",
+      "detected": "2026-07-14"
     }
   ],
-  "signal_count": 14,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -216,6 +225,11 @@
       "date": "2026-07-07",
       "type": "hf_model",
       "model": "openai/gpt-oss-safeguard-20b"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "openai/whisper-tiny"
     }
   ]
 }

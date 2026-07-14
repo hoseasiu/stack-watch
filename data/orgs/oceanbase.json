@@ -4,7 +4,7 @@
   "github_org": "oceanbase",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -20,15 +20,33 @@
       ]
     }
   },
-  "model_providers": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "oceanbase/powermem",
+          "file": "pyproject.toml",
+          "url": "https://github.com/oceanbase/powermem/blob/cf439fe780dc74a5a17dea4c97f73d3dea9ada3f/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
     }
   ]
 }

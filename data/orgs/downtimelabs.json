@@ -1,0 +1,33 @@
+{
+  "slug": "downtimelabs",
+  "display_name": "downtimelabs",
+  "github_org": "downtimelabs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "downtimelabs/medclerk-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/downtimelabs/medclerk-ai/blob/31dfc3029d6a29551eea6a56b02431a622269d37/pyproject.toml.backup",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "aqora-io",
+  "display_name": "aqora-io",
+  "github_org": "aqora-io",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "aqora-io/cli",
+          "file": "pyproject.toml",
+          "url": "https://github.com/aqora-io/cli/blob/56d052d7d56b3a2b4c4b346fb1f0b9a83ad9bafa/template/assets/dataset_marimo/pyproject.toml.hbs",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}

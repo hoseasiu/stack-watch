@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -233,9 +233,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/harrier-oss-v1-270m",
       "detected": "2026-07-07"
+    },
+    {
+      "id": "microsoft/harrier-oss-v1-27b",
+      "name": "microsoft/harrier-oss-v1-27b",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/harrier-oss-v1-27b",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "microsoft/Florence-2-large",
+      "name": "microsoft/Florence-2-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Florence-2-large",
+      "detected": "2026-07-14"
     }
   ],
-  "signal_count": 16,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -319,6 +337,16 @@
       "date": "2026-07-07",
       "type": "hf_model",
       "model": "microsoft/harrier-oss-v1-270m"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "microsoft/harrier-oss-v1-27b"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "microsoft/Florence-2-large"
     }
   ]
 }

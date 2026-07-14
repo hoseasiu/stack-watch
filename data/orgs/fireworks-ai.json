@@ -4,7 +4,7 @@
   "github_org": "fw-ai",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-14",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -293,10 +293,18 @@
       ],
       "posted": "2026-07-06",
       "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4304520009"
+    },
+    {
+      "title": "MTS, Research Engineer",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-07-07",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4308305009"
     }
   ],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -333,6 +341,13 @@
     },
     {
       "date": "2026-07-07",
+      "type": "job_posting",
+      "terms": [
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-07-14",
       "type": "job_posting",
       "terms": [
         "function calling"

@@ -1,0 +1,192 @@
+{
+  "slug": "redis",
+  "display_name": "redis",
+  "github_org": "redis",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "redis/redis-vl-python",
+          "file": "pyproject.toml",
+          "url": "https://github.com/redis/redis-vl-python/blob/788f368721043e3c5b8de16c7654355ac5f1d7af/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "redis/langcache-embed-medical-v1",
+      "name": "redis/langcache-embed-medical-v1",
+      "library": "sentence-transformers",
+      "base_model": "Alibaba-NLP/gte-modernbert-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-medical-v1",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-v1",
+      "name": "redis/langcache-embed-v1",
+      "library": "sentence-transformers",
+      "base_model": "Alibaba-NLP/gte-modernbert-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-v1",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-v2",
+      "name": "redis/langcache-embed-v2",
+      "library": "sentence-transformers",
+      "base_model": "redis/langcache-embed-v1",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-v2",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-reranker-v1-bce",
+      "name": "redis/langcache-reranker-v1-bce",
+      "library": "sentence-transformers",
+      "base_model": "Alibaba-NLP/gte-reranker-modernbert-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-reranker-v1-bce",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-v3-experimental",
+      "name": "redis/langcache-embed-v3-experimental",
+      "library": "sentence-transformers",
+      "base_model": "Alibaba-NLP/gte-modernbert-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-v3-experimental",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-experimental",
+      "name": "redis/langcache-embed-experimental",
+      "library": "sentence-transformers",
+      "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-experimental",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-v3-mini-experimental",
+      "name": "redis/langcache-embed-v3-mini-experimental",
+      "library": "sentence-transformers",
+      "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-v3-mini-experimental",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-v3-small",
+      "name": "redis/langcache-embed-v3-small",
+      "library": "sentence-transformers",
+      "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-v3-small",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-embed-v3-mini-l12-experimental",
+      "name": "redis/langcache-embed-v3-mini-l12-experimental",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-embed-v3-mini-l12-experimental",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "redis/langcache-reranker-v2-bce",
+      "name": "redis/langcache-reranker-v2-bce",
+      "library": "sentence-transformers",
+      "base_model": "Alibaba-NLP/gte-reranker-modernbert-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/redis/langcache-reranker-v2-bce",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 12,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "redis/redis-vl-python"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-medical-v1"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-v1"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-v2"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-reranker-v1-bce"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-v3-experimental"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-experimental"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-v3-mini-experimental"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-v3-small"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-embed-v3-mini-l12-experimental"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "redis/langcache-reranker-v2-bce"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "redis/redis-vl-python",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/redis/redis-vl-python/blob/main/CLAUDE.md",
+        "detected": "2026-07-14"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "shotgun-sh",
+  "display_name": "shotgun-sh",
+  "github_org": "shotgun-sh",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-07-14",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "shotgun-sh/shotgun",
+          "file": "pyproject.toml",
+          "url": "https://github.com/shotgun-sh/shotgun/blob/4d344d5a46aafc815de441ff670d4131187f33e6/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "shotgun-sh/shotgun"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "shotgun-sh/shotgun",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/shotgun-sh/shotgun/blob/main/CLAUDE.md",
+        "detected": "2026-07-14"
+      }
+    ]
+  }
+}

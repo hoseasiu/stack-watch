@@ -1,0 +1,34 @@
+{
+  "slug": "rocky-exchange",
+  "display_name": "Rocky-exchange",
+  "github_org": "Rocky-exchange",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {
+    "dify": {
+      "confidence": "high",
+      "first_seen": "2026-07-14",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Rocky-exchange/binance_tradingbot_rocky",
+          "file": "requirements.txt",
+          "url": "https://github.com/Rocky-exchange/binance_tradingbot_rocky/blob/63c379dd34d2f87e7280742fbc367fce24aece96/requirements.txt",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "dify"
+    }
+  ]
+}

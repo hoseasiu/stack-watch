@@ -1,0 +1,181 @@
+{
+  "slug": "mistralai",
+  "display_name": "mistralai",
+  "github_org": "mistralai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "mistralai/workflows-starter-app",
+          "file": "pyproject.toml",
+          "url": "https://github.com/mistralai/workflows-starter-app/blob/57f0ada0b381df00d763b05f9291fcbffe8ffe65/template/pyproject.toml.jinja",
+          "detected": "2026-07-14"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "mistralai/search-starter-app",
+          "file": "pyproject.toml",
+          "url": "https://github.com/mistralai/search-starter-app/blob/734449cb77e274c1f42bf934166312f00407def1/template/pyproject.toml.jinja",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "mistralai/Leanstral-1.5-119B-A6B",
+      "name": "mistralai/Leanstral-1.5-119B-A6B",
+      "library": "vllm",
+      "base_model": "mistralai/Leanstral-2603",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "name": "mistralai/Mistral-7B-Instruct-v0.3",
+      "library": "vllm",
+      "base_model": "mistralai/Mistral-7B-v0.3",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Voxtral-4B-TTS-2603",
+      "name": "mistralai/Voxtral-4B-TTS-2603",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-3B-Base-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Voxtral-4B-TTS-2603",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "name": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-3B-Base-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Mistral-Medium-3.5-128B",
+      "name": "mistralai/Mistral-Medium-3.5-128B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Ministral-3-14B-Instruct-2512",
+      "name": "mistralai/Ministral-3-14B-Instruct-2512",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-14B-Base-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "name": "mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "library": "vllm",
+      "base_model": "mistralai/Mistral-Small-3.1-24B-Base-2503",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Devstral-Small-2-24B-Instruct-2512",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Ministral-3-8B-Instruct-2512",
+      "name": "mistralai/Ministral-3-8B-Instruct-2512",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-8B-Base-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Ministral-3-8B-Instruct-2512",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Ministral-3-3B-Instruct-2512",
+      "name": "mistralai/Ministral-3-3B-Instruct-2512",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-3B-Base-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
+      "name": "mistralai/Mistral-Small-4-119B-2603-NVFP4",
+      "library": null,
+      "base_model": "mistralai/Mistral-Small-4-119B-2603",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-Small-4-119B-2603-NVFP4",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Leanstral-1.5-119B-A6B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-7B-Instruct-v0.3"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Voxtral-4B-TTS-2603"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Voxtral-Mini-4B-Realtime-2602"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-Medium-3.5-128B"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Ministral-3-14B-Instruct-2512"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Devstral-Small-2-24B-Instruct-2512"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Ministral-3-8B-Instruct-2512"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Ministral-3-3B-Instruct-2512"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-Small-4-119B-2603-NVFP4"
+    }
+  ]
+}

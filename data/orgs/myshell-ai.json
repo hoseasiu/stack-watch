@@ -1,0 +1,174 @@
+{
+  "slug": "myshell-ai",
+  "display_name": "myshell-ai",
+  "github_org": "myshell-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "mistral": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "myshell-ai/AIlice",
+          "file": "pyproject.toml",
+          "url": "https://github.com/myshell-ai/AIlice/blob/63a22105cdf8c0d297af332010f46e4153bbc1ec/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "myshell-ai/OpenVoiceV2",
+      "name": "myshell-ai/OpenVoiceV2",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/OpenVoiceV2",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/OpenVoice",
+      "name": "myshell-ai/OpenVoice",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/OpenVoice",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-English",
+      "name": "myshell-ai/MeloTTS-English",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-English",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-English-v2",
+      "name": "myshell-ai/MeloTTS-English-v2",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-English-v2",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-Spanish",
+      "name": "myshell-ai/MeloTTS-Spanish",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-Spanish",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-French",
+      "name": "myshell-ai/MeloTTS-French",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-French",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-Chinese",
+      "name": "myshell-ai/MeloTTS-Chinese",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-Chinese",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-Japanese",
+      "name": "myshell-ai/MeloTTS-Japanese",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-Japanese",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-Korean",
+      "name": "myshell-ai/MeloTTS-Korean",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-Korean",
+      "detected": "2026-07-14"
+    },
+    {
+      "id": "myshell-ai/MeloTTS-English-v3",
+      "name": "myshell-ai/MeloTTS-English-v3",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/myshell-ai/MeloTTS-English-v3",
+      "detected": "2026-07-14"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "mistral"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/OpenVoiceV2"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/OpenVoice"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-English"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-English-v2"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-Spanish"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-French"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-Chinese"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-Japanese"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-Korean"
+    },
+    {
+      "date": "2026-07-14",
+      "type": "hf_model",
+      "model": "myshell-ai/MeloTTS-English-v3"
+    }
+  ]
+}

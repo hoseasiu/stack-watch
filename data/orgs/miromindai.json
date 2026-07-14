@@ -1,0 +1,33 @@
+{
+  "slug": "miromindai",
+  "display_name": "MiroMindAI",
+  "github_org": "MiroMindAI",
+  "sector": "unclassified",
+  "first_detected": "2026-07-14",
+  "last_updated": "2026-07-14",
+  "frameworks": {},
+  "model_providers": {
+    "google": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "MiroMindAI/MiroFlow",
+          "file": "pyproject.toml",
+          "url": "https://github.com/MiroMindAI/MiroFlow/blob/fca7b4a7fda30e5a17b5c7b73d780738a925869f/pyproject.toml",
+          "detected": "2026-07-14"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-14",
+      "type": "dependency",
+      "framework": "google"
+    }
+  ]
+}
