@@ -1,0 +1,59 @@
+{
+  "slug": "mlflow",
+  "display_name": "mlflow",
+  "github_org": "mlflow",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "mlflow/mlflow",
+          "file": "requirements.txt",
+          "url": "https://github.com/mlflow/mlflow/blob/4c1f89ce06fe75fdb63512868160b7635683c834/requirements/extra-ml-requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "mlflow/mlflow"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "mlflow/mlflow",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/mlflow/mlflow/blob/main/CLAUDE.md",
+        "detected": "2026-07-21"
+      },
+      {
+        "type": "agent_config",
+        "repo": "mlflow/mlflow",
+        "file": "AGENTS.md",
+        "url": "https://github.com/mlflow/mlflow/blob/main/AGENTS.md",
+        "detected": "2026-07-21"
+      }
+    ]
+  }
+}

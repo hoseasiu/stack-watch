@@ -1,0 +1,41 @@
+{
+  "slug": "theagentark",
+  "display_name": "TheAgentArk",
+  "github_org": "TheAgentArk",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "TheAgentArk/Toucan",
+          "file": "requirements.txt",
+          "url": "https://github.com/TheAgentArk/Toucan/blob/a1976dea7688c0f36533aa6e3a3fa4c27e017b4b/requirements.txt",
+          "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "TheAgentArk/Toucan",
+          "file": "pyproject.toml",
+          "url": "https://github.com/TheAgentArk/Toucan/blob/a1976dea7688c0f36533aa6e3a3fa4c27e017b4b/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

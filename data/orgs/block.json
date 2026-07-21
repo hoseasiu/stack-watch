@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-21",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -150,10 +150,34 @@
       ],
       "posted": "2026-06-15",
       "url": "http://block.xyz/careers/jobs/5198104008?gh_jid=5198104008"
+    },
+    {
+      "title": "Data Scientist",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-07-20",
+      "url": "http://block.xyz/careers/jobs/5318944008?gh_jid=5318944008"
+    },
+    {
+      "title": "GTM Strategy & Operations - Global Account Management ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-16",
+      "url": "http://block.xyz/careers/jobs/5294486008?gh_jid=5294486008"
+    },
+    {
+      "title": "Senior Machine Learning Engineer, Applied AI Quality",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-15",
+      "url": "http://block.xyz/careers/jobs/5243440008?gh_jid=5243440008"
     }
   ],
   "hf_models": [],
-  "signal_count": 9,
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -216,6 +240,20 @@
         "AI agent",
         "Model Context Protocol",
         "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

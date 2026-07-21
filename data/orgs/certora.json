@@ -1,0 +1,34 @@
+{
+  "slug": "certora",
+  "display_name": "Certora",
+  "github_org": "Certora",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Certora/CertoraProver",
+          "file": "requirements.txt",
+          "url": "https://github.com/Certora/CertoraProver/blob/aeb463b2b88d45900c60fd94d44908622994f04d/scripts/python_lint/python_lint_requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

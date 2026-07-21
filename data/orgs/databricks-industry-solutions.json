@@ -1,0 +1,34 @@
+{
+  "slug": "databricks-industry-solutions",
+  "display_name": "databricks-industry-solutions",
+  "github_org": "databricks-industry-solutions",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "databricks-industry-solutions/dbxmetagen",
+          "file": "requirements.txt",
+          "url": "https://github.com/databricks-industry-solutions/dbxmetagen/blob/0e971e3632dbccc28f4528bb4f33f212830bd2b8/apps/dbxmetagen-app/app/requirements.txt.template",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

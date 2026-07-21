@@ -1,0 +1,34 @@
+{
+  "slug": "lemony-ai",
+  "display_name": "lemony-ai",
+  "github_org": "lemony-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "lemony-ai/cascadeflow",
+          "file": "pyproject.toml",
+          "url": "https://github.com/lemony-ai/cascadeflow/blob/f61a1ebd8d07a722a0fc4753db7767473f4fecc8/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

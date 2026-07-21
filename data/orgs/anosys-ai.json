@@ -1,0 +1,34 @@
+{
+  "slug": "anosys-ai",
+  "display_name": "Anosys-AI",
+  "github_org": "Anosys-AI",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Anosys-AI/anosys-sdk",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Anosys-AI/anosys-sdk/blob/9ba3297c07bf5e4ee093924c852bf4727bcc10e0/packages/python/openai_agents/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

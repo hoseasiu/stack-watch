@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/sambanova/ai-starter-kit/blob/83a1d30b0b0a55353b3cb0d77258276d1e3d066f/base-requirements.txt",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/ai-starter-kit",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/ai-starter-kit/blob/b5c076640e08c2a2b13529709db373ef80f339c1/base-requirements.txt",
+          "detected": "2026-07-21"
         }
       ]
     },
@@ -83,10 +90,30 @@
       ],
       "posted": "2026-03-04",
       "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=5819022004"
+    },
+    {
+      "title": "Forward Deployment Engineer",
+      "terms_matched": [
+        "LangChain",
+        "multi-agent",
+        "RAG pipeline"
+      ],
+      "posted": "2026-07-14",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6115604004"
+    },
+    {
+      "title": "Forward Deployment Engineer",
+      "terms_matched": [
+        "LangChain",
+        "multi-agent",
+        "RAG pipeline"
+      ],
+      "posted": "2026-07-14",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6115612004"
     }
   ],
   "hf_models": [],
-  "signal_count": 7,
+  "signal_count": 9,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -125,6 +152,20 @@
       "date": "2026-07-07",
       "type": "dependency",
       "framework": "llamaindex"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "LangChain",
+        "multi-agent",
+        "RAG pipeline"
+      ]
     }
   ]
 }

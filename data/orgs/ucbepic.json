@@ -1,0 +1,34 @@
+{
+  "slug": "ucbepic",
+  "display_name": "ucbepic",
+  "github_org": "ucbepic",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ucbepic/docetl",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ucbepic/docetl/blob/4b8cbe491757eceffe92e3e10d49a1d7a058216a/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -193,9 +193,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0125-Instruct",
       "detected": "2026-07-14"
+    },
+    {
+      "id": "allenai/OLMoE-1B-7B-0924",
+      "name": "allenai/OLMoE-1B-7B-0924",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0924",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "allenai/OLMoE-1B-7B-0924-Instruct",
+      "name": "allenai/OLMoE-1B-7B-0924-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/OLMoE-1B-7B-0924-SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0924-Instruct",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "allenai/OLMo-2-0425-1B-early-training",
+      "name": "allenai/OLMo-2-0425-1B-early-training",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-0425-1B-early-training",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "allenai/OLMoASR",
+      "name": "allenai/OLMoASR",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoASR",
+      "detected": "2026-07-21"
     }
   ],
-  "signal_count": 20,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -296,6 +332,26 @@
       "date": "2026-07-14",
       "type": "hf_model",
       "model": "allenai/OLMoE-1B-7B-0125-Instruct"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "allenai/OLMoE-1B-7B-0924"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "allenai/OLMoE-1B-7B-0924-Instruct"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-0425-1B-early-training"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "allenai/OLMoASR"
     }
   ]
 }

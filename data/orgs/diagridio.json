@@ -4,7 +4,7 @@
   "github_org": "diagridio",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/diagridio/catalyst-quickstarts/blob/481127c6e3f91b3e7cc65c5c0cfe1133f7461261/agents/openai-agents/requirements.txt",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "diagridio/catalyst-quickstarts",
+          "file": "requirements.txt",
+          "url": "https://github.com/diagridio/catalyst-quickstarts/blob/0ebd77e69d3db638b70ae5b39d8ae1625a495830/agents/openai-agents/requirements.txt",
+          "detected": "2026-07-21"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

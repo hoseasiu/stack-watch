@@ -198,6 +198,42 @@
       "display_name": "zenml-io",
       "confidence": "high",
       "first_seen": "2026-07-03"
+    },
+    {
+      "slug": "agentops-ai",
+      "display_name": "AgentOps-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "agiresearch",
+      "display_name": "agiresearch",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "disclosure-campaign",
+      "display_name": "Disclosure-Campaign",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "edyoda",
+      "display_name": "edyoda",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "mlflow",
+      "display_name": "mlflow",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "ridgesai",
+      "display_name": "ridgesai",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
     }
   ],
   "signal_history": [
@@ -356,7 +392,35 @@
     {
       "date": "2026-07-07",
       "org": "vectorize-io"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "agentops-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "agiresearch"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "disclosure-campaign"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "edyoda"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "mlflow"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "ridgesai"
     }
   ],
-  "org_count": 33
+  "org_count": 39
 }

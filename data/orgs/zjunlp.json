@@ -1,0 +1,175 @@
+{
+  "slug": "zjunlp",
+  "display_name": "zjunlp",
+  "github_org": "zjunlp",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "zjunlp/MemBase",
+          "file": "requirements.txt",
+          "url": "https://github.com/zjunlp/MemBase/blob/dd32938985cf6c51409cf0dce01cf4b240cf6217/envs/rag_requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "zjunlp/OntoProtein",
+      "name": "zjunlp/OntoProtein",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/OntoProtein",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/KnowPrompt",
+      "name": "zjunlp/KnowPrompt",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/KnowPrompt",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/MolGen-large",
+      "name": "zjunlp/MolGen-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/MolGen-large",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/KGEditor",
+      "name": "zjunlp/KGEditor",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/KGEditor",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/MolGen-large-opt",
+      "name": "zjunlp/MolGen-large-opt",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/MolGen-large-opt",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/mt5-ie",
+      "name": "zjunlp/mt5-ie",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/mt5-ie",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/llama-7b-lora-ie",
+      "name": "zjunlp/llama-7b-lora-ie",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/llama-7b-lora-ie",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/alpaca-7b-lora-ie",
+      "name": "zjunlp/alpaca-7b-lora-ie",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/alpaca-7b-lora-ie",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/alpaca-13b-lora-ie",
+      "name": "zjunlp/alpaca-13b-lora-ie",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/alpaca-13b-lora-ie",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/zhixi-13b-lora",
+      "name": "zjunlp/zhixi-13b-lora",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/zhixi-13b-lora",
+      "detected": "2026-07-21"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/OntoProtein"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/KnowPrompt"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/MolGen-large"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/KGEditor"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/MolGen-large-opt"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/mt5-ie"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/llama-7b-lora-ie"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/alpaca-7b-lora-ie"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/alpaca-13b-lora-ie"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "zjunlp/zhixi-13b-lora"
+    }
+  ]
+}

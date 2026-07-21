@@ -4,7 +4,7 @@
   "github_org": "stepfun-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -139,9 +139,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stepfun-ai/stepvideo-t2v-turbo",
       "detected": "2026-07-07"
+    },
+    {
+      "id": "stepfun-ai/Step-Audio-2-mini-Base",
+      "name": "stepfun-ai/Step-Audio-2-mini-Base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-Audio-2-mini-Base",
+      "detected": "2026-07-21"
     }
   ],
-  "signal_count": 14,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -212,6 +221,11 @@
       "date": "2026-07-07",
       "type": "hf_model",
       "model": "stepfun-ai/stepvideo-t2v-turbo"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-Audio-2-mini-Base"
     }
   ]
 }

@@ -156,6 +156,138 @@
       "display_name": "future-agi",
       "confidence": "high",
       "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "agentops-ai",
+      "display_name": "AgentOps-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "anosys-ai",
+      "display_name": "Anosys-AI",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "ath-maas",
+      "display_name": "ATH-MaaS",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "betterdb-inc",
+      "display_name": "BetterDB-inc",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "celestoai",
+      "display_name": "CelestoAI",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "coinbase",
+      "display_name": "coinbase",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "composiohq",
+      "display_name": "ComposioHQ",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "datus-ai",
+      "display_name": "Datus-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "dominodatalab",
+      "display_name": "dominodatalab",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "evalssment",
+      "display_name": "EvAlssment",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "goat-sdk",
+      "display_name": "goat-sdk",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "lemony-ai",
+      "display_name": "lemony-ai",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "microsoft",
+      "display_name": "microsoft",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "open-telemetry",
+      "display_name": "open-telemetry",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "pocketpaw",
+      "display_name": "pocketpaw",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "rllm-org",
+      "display_name": "rllm-org",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "salesforceairesearch",
+      "display_name": "SalesforceAIResearch",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "temporalio",
+      "display_name": "temporalio",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "the-commit-company",
+      "display_name": "The-Commit-Company",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "theagentark",
+      "display_name": "TheAgentArk",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "ucbepic",
+      "display_name": "ucbepic",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "vectorize-io",
+      "display_name": "vectorize-io",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
     }
   ],
   "signal_history": [
@@ -266,7 +398,111 @@
     {
       "date": "2026-07-07",
       "org": "future-agi"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "agentops-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "anosys-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "ath-maas"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "celestoai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "coinbase"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "datus-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "dominodatalab"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "goat-sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "lemony-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "open-telemetry"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "pocketpaw"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "rllm-org"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "salesforceairesearch"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "temporalio"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "the-commit-company"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "theagentark"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "ucbepic"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "wandb"
     }
   ],
-  "org_count": 26
+  "org_count": 48
 }

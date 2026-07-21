@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -624,6 +624,54 @@
       ],
       "posted": "2026-07-10",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311465008"
+    },
+    {
+      "title": "Finance Systems Engineer, Revenue",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5355526008"
+    },
+    {
+      "title": "Manager, Account Executive - Enterprise Sales",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-04-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5175782008"
+    },
+    {
+      "title": "Research Scientist, Life Sciences (Computational)",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5357739008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Safeguards",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2025-10-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4951844008"
+    },
+    {
+      "title": "Startup Partnerships - France & Southern Europe ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-03-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5131095008"
+    },
+    {
+      "title": "Strategic Account Executive, Cybersecurity",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5075093008"
     }
   ],
   "hf_models": [
@@ -637,7 +685,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 18,
+  "signal_count": 21,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -768,6 +816,27 @@
       "type": "job_posting",
       "terms": [
         "vector database"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
       ]
     }
   ]

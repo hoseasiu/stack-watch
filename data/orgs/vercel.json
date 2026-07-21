@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -77,10 +77,42 @@
       ],
       "posted": "2026-07-10",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6112845004"
+    },
+    {
+      "title": "Growth Marketing Manager, Discoverability ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-20",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6119988004"
+    },
+    {
+      "title": "Product Security Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-06-25",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6102343004"
+    },
+    {
+      "title": "Security Software Engineer, Open Source Frameworks",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-16",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117204004"
+    },
+    {
+      "title": "Senior Security Software Engineer, v0",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-16",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004"
     }
   ],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -119,6 +151,20 @@
       "terms": [
         "AI agent",
         "MCP server"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

@@ -1,0 +1,59 @@
+{
+  "slug": "datus-ai",
+  "display_name": "Datus-ai",
+  "github_org": "Datus-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Datus-ai/Datus-agent",
+          "file": "requirements.txt",
+          "url": "https://github.com/Datus-ai/Datus-agent/blob/06017a24259ebdc6312e4a2cc55231ae69c55c17/requirements.txt",
+          "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Datus-ai/Datus-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Datus-ai/Datus-agent/blob/06017a24259ebdc6312e4a2cc55231ae69c55c17/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "Datus-ai/Datus-agent"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "Datus-ai/Datus-agent",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/Datus-ai/Datus-agent/blob/main/CLAUDE.md",
+        "detected": "2026-07-21"
+      }
+    ]
+  }
+}

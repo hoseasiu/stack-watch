@@ -1,0 +1,34 @@
+{
+  "slug": "rllm-org",
+  "display_name": "rllm-org",
+  "github_org": "rllm-org",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "rllm-org/rllm",
+          "file": "pyproject.toml",
+          "url": "https://github.com/rllm-org/rllm/blob/cd9ea0eca082bcc701ee4df464446288ccb02c1f/cookbooks/agent_frameworks/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

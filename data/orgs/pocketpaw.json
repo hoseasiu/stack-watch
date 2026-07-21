@@ -1,0 +1,59 @@
+{
+  "slug": "pocketpaw",
+  "display_name": "pocketpaw",
+  "github_org": "pocketpaw",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "pocketpaw/pocketpaw",
+          "file": "pyproject.toml",
+          "url": "https://github.com/pocketpaw/pocketpaw/blob/3d881a7e466295020598f0154e884a0a34890185/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "pocketpaw/pocketpaw"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "pocketpaw/pocketpaw",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/pocketpaw/pocketpaw/blob/main/CLAUDE.md",
+        "detected": "2026-07-21"
+      },
+      {
+        "type": "agent_config",
+        "repo": "pocketpaw/pocketpaw",
+        "file": "AGENTS.md",
+        "url": "https://github.com/pocketpaw/pocketpaw/blob/main/AGENTS.md",
+        "detected": "2026-07-21"
+      }
+    ]
+  }
+}

@@ -30,6 +30,10 @@
       "display_name": "aisbreaker"
     },
     {
+      "slug": "akamai-developers",
+      "display_name": "akamai-developers"
+    },
+    {
       "slug": "alan-turing-institute",
       "display_name": "alan-turing-institute"
     },
@@ -40,6 +44,10 @@
     {
       "slug": "allenai",
       "display_name": "allenai"
+    },
+    {
+      "slug": "anosys-ai",
+      "display_name": "Anosys-AI"
     },
     {
       "slug": "apify",
@@ -66,6 +74,10 @@
       "display_name": "arklexai"
     },
     {
+      "slug": "ath-maas",
+      "display_name": "ATH-MaaS"
+    },
+    {
       "slug": "aurelio-labs",
       "display_name": "aurelio-labs"
     },
@@ -82,12 +94,24 @@
       "display_name": "Azure-Samples"
     },
     {
+      "slug": "betterdb-inc",
+      "display_name": "BetterDB-inc"
+    },
+    {
       "slug": "build-on-aws",
       "display_name": "build-on-aws"
     },
     {
       "slug": "cabcode-id",
       "display_name": "cabcode-id"
+    },
+    {
+      "slug": "celestoai",
+      "display_name": "CelestoAI"
+    },
+    {
+      "slug": "certora",
+      "display_name": "Certora"
     },
     {
       "slug": "cewebbr",
@@ -102,8 +126,16 @@
       "display_name": "cmjatai"
     },
     {
+      "slug": "coinbase",
+      "display_name": "coinbase"
+    },
+    {
       "slug": "compolis",
       "display_name": "compolis"
+    },
+    {
+      "slug": "composiohq",
+      "display_name": "ComposioHQ"
     },
     {
       "slug": "corpus-os",
@@ -122,6 +154,10 @@
       "display_name": "D-o-c-labs"
     },
     {
+      "slug": "databricks-industry-solutions",
+      "display_name": "databricks-industry-solutions"
+    },
+    {
       "slug": "dataelement",
       "display_name": "dataelement"
     },
@@ -138,12 +174,28 @@
       "display_name": "datawhalechina"
     },
     {
+      "slug": "datus-ai",
+      "display_name": "Datus-ai"
+    },
+    {
       "slug": "diagridio",
       "display_name": "diagridio"
     },
     {
+      "slug": "disclosure-campaign",
+      "display_name": "Disclosure-Campaign"
+    },
+    {
+      "slug": "dominodatalab",
+      "display_name": "dominodatalab"
+    },
+    {
       "slug": "downtimelabs",
       "display_name": "downtimelabs"
+    },
+    {
+      "slug": "dryvist",
+      "display_name": "dryvist"
     },
     {
       "slug": "dwani-ai",
@@ -154,12 +206,20 @@
       "display_name": "e2b-dev"
     },
     {
+      "slug": "edyoda",
+      "display_name": "edyoda"
+    },
+    {
       "slug": "emcie-co",
       "display_name": "emcie-co"
     },
     {
       "slug": "emergenceai",
       "display_name": "EmergenceAI"
+    },
+    {
+      "slug": "evalssment",
+      "display_name": "EvAlssment"
     },
     {
       "slug": "freedomintelligence",
@@ -180,6 +240,10 @@
     {
       "slug": "gleanwork",
       "display_name": "gleanwork"
+    },
+    {
+      "slug": "goat-sdk",
+      "display_name": "goat-sdk"
     },
     {
       "slug": "googlecloudplatform",
@@ -258,6 +322,10 @@
       "display_name": "latiotech"
     },
     {
+      "slug": "lemony-ai",
+      "display_name": "lemony-ai"
+    },
+    {
       "slug": "lithos-ai",
       "display_name": "lithos-ai"
     },
@@ -296,6 +364,10 @@
     {
       "slug": "mle-dojo",
       "display_name": "MLE-Dojo"
+    },
+    {
+      "slug": "mlflow",
+      "display_name": "mlflow"
     },
     {
       "slug": "mlfoundations",
@@ -338,6 +410,10 @@
       "display_name": "ontorag"
     },
     {
+      "slug": "open-telemetry",
+      "display_name": "open-telemetry"
+    },
+    {
       "slug": "openagents-org",
       "display_name": "openagents-org"
     },
@@ -348,6 +424,10 @@
     {
       "slug": "opencsgs",
       "display_name": "OpenCSGs"
+    },
+    {
+      "slug": "oracle-devrel",
+      "display_name": "oracle-devrel"
     },
     {
       "slug": "pachterlab",
@@ -364,6 +444,10 @@
     {
       "slug": "paywithextend",
       "display_name": "paywithextend"
+    },
+    {
+      "slug": "pocketpaw",
+      "display_name": "pocketpaw"
     },
     {
       "slug": "poly186-ai-dao",
@@ -410,6 +494,14 @@
       "display_name": "rhesis-ai"
     },
     {
+      "slug": "ridgesai",
+      "display_name": "ridgesai"
+    },
+    {
+      "slug": "rllm-org",
+      "display_name": "rllm-org"
+    },
+    {
       "slug": "rocky-exchange",
       "display_name": "Rocky-exchange"
     },
@@ -420,6 +512,10 @@
     {
       "slug": "sagemindai",
       "display_name": "SageMindAI"
+    },
+    {
+      "slug": "salesforceairesearch",
+      "display_name": "SalesforceAIResearch"
     },
     {
       "slug": "salt-nlp",
@@ -474,12 +570,24 @@
       "display_name": "stepfun-ai"
     },
     {
+      "slug": "temporalio",
+      "display_name": "temporalio"
+    },
+    {
       "slug": "tencentmusic",
       "display_name": "tencentmusic"
     },
     {
+      "slug": "the-commit-company",
+      "display_name": "The-Commit-Company"
+    },
+    {
       "slug": "the-momentum",
       "display_name": "the-momentum"
+    },
+    {
+      "slug": "theagentark",
+      "display_name": "TheAgentArk"
     },
     {
       "slug": "theagenticai",
@@ -488,6 +596,10 @@
     {
       "slug": "trusera",
       "display_name": "Trusera"
+    },
+    {
+      "slug": "ucbepic",
+      "display_name": "ucbepic"
     },
     {
       "slug": "unitycatalog",
@@ -524,17 +636,25 @@
     {
       "slug": "zenml-io",
       "display_name": "zenml-io"
-    }
-  ],
-  "org_count": 131,
-  "top_frameworks": [
-    {
-      "slug": "autogen",
-      "count": 33
     },
     {
+      "slug": "zjunlp",
+      "display_name": "zjunlp"
+    }
+  ],
+  "org_count": 160,
+  "top_frameworks": [
+    {
       "slug": "openai_agents_sdk",
-      "count": 25
+      "count": 47
+    },
+    {
+      "slug": "autogen",
+      "count": 39
+    },
+    {
+      "slug": "langgraph",
+      "count": 17
     },
     {
       "slug": "llamaindex",
@@ -543,10 +663,6 @@
     {
       "slug": "smolagents",
       "count": 12
-    },
-    {
-      "slug": "langgraph",
-      "count": 9
     },
     {
       "slug": "pydantic_ai",

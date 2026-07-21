@@ -1,0 +1,175 @@
+{
+  "slug": "ath-maas",
+  "display_name": "ATH-MaaS",
+  "github_org": "ATH-MaaS",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ATH-MaaS/ComfyUI-Copilot",
+          "file": "requirements.txt",
+          "url": "https://github.com/ATH-MaaS/ComfyUI-Copilot/blob/f04a01a9fce8e3cb21f2a21a14fc971d5753dc36/requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "ATH-MaaS/OvisOCR2",
+      "name": "ATH-MaaS/OvisOCR2",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-0.8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/OvisOCR",
+      "name": "ATH-MaaS/OvisOCR",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/OvisOCR",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Ovis2.5-9B",
+      "name": "ATH-MaaS/Ovis2.5-9B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis2.5-9B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-Clip-Llama3-8B",
+      "name": "ATH-MaaS/Ovis-Clip-Llama3-8B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-Clip-Llama3-8B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-Clip-Qwen1_5-7B",
+      "name": "ATH-MaaS/Ovis-Clip-Qwen1_5-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-Clip-Qwen1_5-7B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-Clip-Qwen1_5-14B",
+      "name": "ATH-MaaS/Ovis-Clip-Qwen1_5-14B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-Clip-Qwen1_5-14B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Ovis1.5-Llama3-8B",
+      "name": "ATH-MaaS/Ovis1.5-Llama3-8B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis1.5-Llama3-8B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Ovis1.5-Gemma2-9B",
+      "name": "ATH-MaaS/Ovis1.5-Gemma2-9B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis1.5-Gemma2-9B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Parrot-14B",
+      "name": "ATH-MaaS/Parrot-14B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Parrot-14B",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Parrot-7B",
+      "name": "ATH-MaaS/Parrot-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Parrot-7B",
+      "detected": "2026-07-21"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/OvisOCR2"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/OvisOCR"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis2.5-9B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-Clip-Llama3-8B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-Clip-Qwen1_5-7B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-Clip-Qwen1_5-14B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis1.5-Llama3-8B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis1.5-Gemma2-9B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Parrot-14B"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Parrot-7B"
+    }
+  ]
+}

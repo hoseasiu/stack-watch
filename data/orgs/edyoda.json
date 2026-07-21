@@ -1,0 +1,34 @@
+{
+  "slug": "edyoda",
+  "display_name": "edyoda",
+  "github_org": "edyoda",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "edyoda/AI-Agent-Development-GENAIMD240525",
+          "file": "requirements.txt",
+          "url": "https://github.com/edyoda/AI-Agent-Development-GENAIMD240525/blob/20a7c4417e0d3c06c4af4e36e950a201a2aee536/updated_requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

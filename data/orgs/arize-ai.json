@@ -4,7 +4,7 @@
   "github_org": "Arize-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "smolagents": {
       "confidence": "high",
@@ -42,6 +42,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/Arize-ai/openinference/blob/a22e71817c5139cba790e544da1320d7b8517c31/python/instrumentation/openinference-instrumentation-openai-agents/test-requirements.txt",
           "detected": "2026-07-07"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Arize-ai/openinference",
+          "file": "requirements.txt",
+          "url": "https://github.com/Arize-ai/openinference/blob/6bef1ee136544af1e303802ad821e93c3b47cf1e/python/instrumentation/openinference-instrumentation-openai-agents/test-requirements.txt",
+          "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Arize-ai/openinference",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Arize-ai/openinference/blob/6bef1ee136544af1e303802ad821e93c3b47cf1e/python/openinference-instrumentation/pyproject.toml",
+          "detected": "2026-07-21"
         }
       ]
     }
@@ -68,7 +82,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 4,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -88,6 +102,11 @@
     },
     {
       "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

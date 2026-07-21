@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -537,10 +537,38 @@
       ],
       "posted": "2026-07-07",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4711995005"
+    },
+    {
+      "title": "Forward Deployed Product Manager, Public Sector",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4713648005"
+    },
+    {
+      "title": "Senior Machine Learning Engineer, Agent Oversight",
+      "terms_matched": [
+        "agentic AI",
+        "multi-agent",
+        "tool use"
+      ],
+      "posted": "2026-07-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4714527005"
+    },
+    {
+      "title": "Senior Software Engineer, Agent Oversight",
+      "terms_matched": [
+        "agentic AI",
+        "multi-agent",
+        "tool use"
+      ],
+      "posted": "2026-07-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4714509005"
     }
   ],
   "hf_models": [],
-  "signal_count": 18,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -684,6 +712,22 @@
       "type": "job_posting",
       "terms": [
         "vector database"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "multi-agent",
+        "tool use"
       ]
     }
   ]

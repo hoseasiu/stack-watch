@@ -4,7 +4,7 @@
   "github_org": "stanford-crfm",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -111,9 +111,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stanford-crfm/expanse-gpt2-small-x777",
       "detected": "2026-07-14"
+    },
+    {
+      "id": "stanford-crfm/music-large-800k",
+      "name": "stanford-crfm/music-large-800k",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/music-large-800k",
+      "detected": "2026-07-21"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -169,6 +178,11 @@
       "date": "2026-07-14",
       "type": "hf_model",
       "model": "stanford-crfm/expanse-gpt2-small-x777"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "stanford-crfm/music-large-800k"
     }
   ]
 }

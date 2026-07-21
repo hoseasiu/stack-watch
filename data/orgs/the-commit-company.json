@@ -1,0 +1,34 @@
+{
+  "slug": "the-commit-company",
+  "display_name": "The-Commit-Company",
+  "github_org": "The-Commit-Company",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "The-Commit-Company/raven",
+          "file": "pyproject.toml",
+          "url": "https://github.com/The-Commit-Company/raven/blob/a29a274466b7a060754839b3c8e29bbee012a61d/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

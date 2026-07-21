@@ -1,0 +1,34 @@
+{
+  "slug": "dominodatalab",
+  "display_name": "dominodatalab",
+  "github_org": "dominodatalab",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "dominodatalab/domino-genai-instrumentation-example",
+          "file": "requirements.txt",
+          "url": "https://github.com/dominodatalab/domino-genai-instrumentation-example/blob/b86a269b07729d77e7359a38defb366b853447ec/modified_requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

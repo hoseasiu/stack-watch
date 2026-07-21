@@ -66,6 +66,54 @@
       "display_name": "cisco-outshift-ai-agents",
       "confidence": "high",
       "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "akamai-developers",
+      "display_name": "akamai-developers",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "azure",
+      "display_name": "Azure",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "certora",
+      "display_name": "Certora",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "databricks-industry-solutions",
+      "display_name": "databricks-industry-solutions",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "dryvist",
+      "display_name": "dryvist",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "oracle-devrel",
+      "display_name": "oracle-devrel",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "skillrepos",
+      "display_name": "skillrepos",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "zjunlp",
+      "display_name": "zjunlp",
+      "confidence": "high",
+      "first_seen": "2026-07-21"
     }
   ],
   "signal_history": [
@@ -116,7 +164,51 @@
     {
       "date": "2026-07-07",
       "org": "cisco-outshift-ai-agents"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "akamai-developers"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "azure"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "certora"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "databricks-industry-solutions"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "dryvist"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "langchain-ai"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "neatlogs"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "sambanova"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "skillrepos"
+    },
+    {
+      "date": "2026-07-21",
+      "org": "zjunlp"
     }
   ],
-  "org_count": 11
+  "org_count": 19
 }

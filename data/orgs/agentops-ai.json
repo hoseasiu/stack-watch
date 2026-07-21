@@ -4,7 +4,7 @@
   "github_org": "AgentOps-AI",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "smolagents": {
       "confidence": "high",
@@ -18,17 +18,53 @@
           "detected": "2026-07-02"
         }
       ]
+    },
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "AgentOps-AI/agentops",
+          "file": "pyproject.toml",
+          "url": "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    },
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "AgentOps-AI/agentops",
+          "file": "requirements.txt",
+          "url": "https://github.com/AgentOps-AI/agentops/blob/f8e907b92dabe47232978023fdcb01e2a7d4b752/examples/autogen/requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
       "type": "dependency",
       "framework": "smolagents"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "fw-ai",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -301,10 +301,19 @@
       ],
       "posted": "2026-07-07",
       "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4308305009"
+    },
+    {
+      "title": "Head of GTM Engineering & Systems",
+      "terms_matched": [
+        "agentic AI",
+        "function calling"
+      ],
+      "posted": "2026-07-15",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4280781009"
     }
   ],
   "hf_models": [],
-  "signal_count": 6,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -350,6 +359,14 @@
       "date": "2026-07-14",
       "type": "job_posting",
       "terms": [
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
         "function calling"
       ]
     }

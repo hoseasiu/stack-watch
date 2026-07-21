@@ -4,7 +4,7 @@
   "github_org": "openai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -151,9 +151,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/openai/whisper-tiny",
       "detected": "2026-07-14"
+    },
+    {
+      "id": "openai/imagegpt-small",
+      "name": "openai/imagegpt-small",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/imagegpt-small",
+      "detected": "2026-07-21"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -230,6 +239,11 @@
       "date": "2026-07-14",
       "type": "hf_model",
       "model": "openai/whisper-tiny"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "openai/imagegpt-small"
     }
   ]
 }

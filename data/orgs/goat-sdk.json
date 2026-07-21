@@ -1,0 +1,34 @@
+{
+  "slug": "goat-sdk",
+  "display_name": "goat-sdk",
+  "github_org": "goat-sdk",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "goat-sdk/goat",
+          "file": "pyproject.toml",
+          "url": "https://github.com/goat-sdk/goat/blob/f2eedc2f041589322c0db39d59a67757014910a0/python/src/adapters/openai_agents_sdk/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

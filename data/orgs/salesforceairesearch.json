@@ -1,0 +1,34 @@
+{
+  "slug": "salesforceairesearch",
+  "display_name": "SalesforceAIResearch",
+  "github_org": "SalesforceAIResearch",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "SalesforceAIResearch/MCP-Universe",
+          "file": "pyproject.toml",
+          "url": "https://github.com/SalesforceAIResearch/MCP-Universe/blob/48b453021694d9823d308627fb7f6b7edd29541a/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

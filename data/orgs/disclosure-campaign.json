@@ -1,0 +1,34 @@
+{
+  "slug": "disclosure-campaign",
+  "display_name": "Disclosure-Campaign",
+  "github_org": "Disclosure-Campaign",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Disclosure-Campaign/server",
+          "file": "requirements.txt",
+          "url": "https://github.com/Disclosure-Campaign/server/blob/4040874333b625cd4f6923e0b62cc8bec18a7e4e/fixed_requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "composiohq",
+  "display_name": "ComposioHQ",
+  "github_org": "ComposioHQ",
+  "sector": "unclassified",
+  "first_detected": "2026-07-21",
+  "last_updated": "2026-07-21",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ComposioHQ/composio",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ComposioHQ/composio/blob/1d651b5c8507d5726155ad2ef7058e6eb26cc8bb/pyproject.toml",
+          "detected": "2026-07-21"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "ComposioHQ/composio"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "ComposioHQ/composio",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/ComposioHQ/composio/blob/main/CLAUDE.md",
+        "detected": "2026-07-21"
+      },
+      {
+        "type": "agent_config",
+        "repo": "ComposioHQ/composio",
+        "file": "AGENTS.md",
+        "url": "https://github.com/ComposioHQ/composio/blob/main/AGENTS.md",
+        "detected": "2026-07-21"
+      }
+    ]
+  }
+}

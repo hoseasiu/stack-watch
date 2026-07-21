@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -86,6 +86,26 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/autogen/blob/027ecf0a379bcc1d09956d46d12d44a3ad9cee14/python/packages/autogen-core/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/OpenAIWorkshop",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/OpenAIWorkshop/blob/f6d1a231d745a169fdc4228ce09e5e1c2d49ce18/mcp/requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
+    },
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/bfe0e5c69c53a9f87d6876f99d0a7989db42146d/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-07-21"
         }
       ]
     }
@@ -251,9 +271,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/Florence-2-large",
       "detected": "2026-07-14"
+    },
+    {
+      "id": "microsoft/bitnet-embedding-0.6b",
+      "name": "microsoft/bitnet-embedding-0.6b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/bitnet-embedding-0.6b",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "microsoft/bitnet-embedding-270m",
+      "name": "microsoft/bitnet-embedding-270m",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/bitnet-embedding-270m",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "microsoft/bitnet-b1.58-2B-4T-gguf",
+      "name": "microsoft/bitnet-b1.58-2B-4T-gguf",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/bitnet-b1.58-2B-4T-gguf",
+      "detected": "2026-07-21"
+    },
+    {
+      "id": "microsoft/UserLM-8b",
+      "name": "microsoft/UserLM-8b",
+      "library": null,
+      "base_model": "meta-llama/Llama-3.1-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/UserLM-8b",
+      "detected": "2026-07-21"
     }
   ],
-  "signal_count": 18,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -347,6 +403,36 @@
       "date": "2026-07-14",
       "type": "hf_model",
       "model": "microsoft/Florence-2-large"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "microsoft/bitnet-embedding-0.6b"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "microsoft/bitnet-embedding-270m"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "microsoft/bitnet-b1.58-2B-4T-gguf"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "hf_model",
+      "model": "microsoft/UserLM-8b"
     }
   ]
 }

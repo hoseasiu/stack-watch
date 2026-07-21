@@ -4,7 +4,7 @@
   "github_org": "Azure",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -18,17 +18,53 @@
           "detected": "2026-07-03"
         }
       ]
+    },
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-21",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Azure/azure-sdk-for-python",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure/azure-sdk-for-python/blob/bbfbf0c3e24664dd98c8d28b9b85ca58d233c332/shared_requirements.txt",
+          "detected": "2026-07-21"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "Azure/azure-sdk-for-python"
     }
-  ]
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "Azure/azure-sdk-for-python",
+        "file": "AGENTS.md",
+        "url": "https://github.com/Azure/azure-sdk-for-python/blob/main/AGENTS.md",
+        "detected": "2026-07-21"
+      }
+    ]
+  }
 }

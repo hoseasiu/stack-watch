@@ -4,7 +4,7 @@
   "github_org": "wandb",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-21",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/wandb/agents-course/blob/2f1f774c21676437705d7d10e10fb24f1693d28b/requirements.txt",
           "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "wandb/weave",
+          "file": "pyproject.toml",
+          "url": "https://github.com/wandb/weave/blob/c3c30a9a63a41031469f1353b6d8f3ad5fa35ec5/pyproject.toml",
+          "detected": "2026-07-21"
         }
       ]
     }
@@ -114,7 +121,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 13,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -170,6 +177,36 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "wandb/zephyr-orpo-7b-v0.2"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-21",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "wandb/weave"
     }
-  ]
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "wandb/weave",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/wandb/weave/blob/main/CLAUDE.md",
+        "detected": "2026-07-21"
+      },
+      {
+        "type": "agent_config",
+        "repo": "wandb/weave",
+        "file": "AGENTS.md",
+        "url": "https://github.com/wandb/weave/blob/main/AGENTS.md",
+        "detected": "2026-07-21"
+      }
+    ]
+  }
 }
