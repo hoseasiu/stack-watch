@@ -10,6 +10,10 @@
       "display_name": "agentcoinorg"
     },
     {
+      "slug": "agentiqs",
+      "display_name": "agentiqs"
+    },
+    {
       "slug": "agentops-ai",
       "display_name": "AgentOps-AI"
     },
@@ -40,6 +44,10 @@
     {
       "slug": "alex-templates",
       "display_name": "ALEX-TEMPLATES"
+    },
+    {
+      "slug": "alibaba-nlp",
+      "display_name": "Alibaba-NLP"
     },
     {
       "slug": "allenai",
@@ -138,6 +146,10 @@
       "display_name": "ComposioHQ"
     },
     {
+      "slug": "context-labs",
+      "display_name": "context-labs"
+    },
+    {
       "slug": "corpus-os",
       "display_name": "Corpus-OS"
     },
@@ -226,6 +238,10 @@
       "display_name": "FreedomIntelligence"
     },
     {
+      "slug": "fridonai",
+      "display_name": "FridonAI"
+    },
+    {
       "slug": "fsoft-ai4code",
       "display_name": "FSoft-AI4Code"
     },
@@ -236,6 +252,10 @@
     {
       "slug": "fuzzylabs",
       "display_name": "fuzzylabs"
+    },
+    {
+      "slug": "getsentry",
+      "display_name": "getsentry"
     },
     {
       "slug": "gleanwork",
@@ -378,6 +398,10 @@
       "display_name": "myshell-ai"
     },
     {
+      "slug": "narwhal-lab",
+      "display_name": "Narwhal-Lab"
+    },
+    {
       "slug": "neatlogs",
       "display_name": "neatlogs"
     },
@@ -400,6 +424,10 @@
     {
       "slug": "nvidia",
       "display_name": "NVIDIA"
+    },
+    {
+      "slug": "nvisosecurity",
+      "display_name": "NVISOsecurity"
     },
     {
       "slug": "oceanbase",
@@ -468,6 +496,10 @@
     {
       "slug": "quantaalpha",
       "display_name": "QuantaAlpha"
+    },
+    {
+      "slug": "quarqlabs",
+      "display_name": "quarqlabs"
     },
     {
       "slug": "qx-labs",
@@ -546,6 +578,10 @@
       "display_name": "skillrepos"
     },
     {
+      "slug": "snap-stanford",
+      "display_name": "snap-stanford"
+    },
+    {
       "slug": "snorkel-marlin-repos",
       "display_name": "snorkel-marlin-repos"
     },
@@ -570,6 +606,10 @@
       "display_name": "stepfun-ai"
     },
     {
+      "slug": "stonybrooknlp",
+      "display_name": "StonyBrookNLP"
+    },
+    {
       "slug": "temporalio",
       "display_name": "temporalio"
     },
@@ -592,6 +632,10 @@
     {
       "slug": "theagenticai",
       "display_name": "TheAgenticAI"
+    },
+    {
+      "slug": "traceloop",
+      "display_name": "traceloop"
     },
     {
       "slug": "trusera",
@@ -642,19 +686,19 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 160,
+  "org_count": 171,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 47
+      "count": 54
     },
     {
       "slug": "autogen",
-      "count": 39
+      "count": 42
     },
     {
       "slug": "langgraph",
-      "count": 17
+      "count": 19
     },
     {
       "slug": "llamaindex",

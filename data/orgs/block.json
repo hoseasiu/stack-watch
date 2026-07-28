@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -174,10 +174,58 @@
       ],
       "posted": "2026-07-15",
       "url": "http://block.xyz/careers/jobs/5243440008?gh_jid=5243440008"
+    },
+    {
+      "title": "Growth Manager, Customer Engagement",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-27",
+      "url": "http://block.xyz/careers/jobs/5232832008?gh_jid=5232832008"
+    },
+    {
+      "title": "Senior iOS Engineer, Neighborhoods",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-24",
+      "url": "http://block.xyz/careers/jobs/5370450008?gh_jid=5370450008"
+    },
+    {
+      "title": "Senior Software Engineer, Ledgering",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-21",
+      "url": "http://block.xyz/careers/jobs/5281196008?gh_jid=5281196008"
+    },
+    {
+      "title": "Senior Software Engineer, Ledgering",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-21",
+      "url": "http://block.xyz/careers/jobs/5366105008?gh_jid=5366105008"
+    },
+    {
+      "title": "Staff Data Scientist, Pricing",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-07-22",
+      "url": "http://block.xyz/careers/jobs/5364922008?gh_jid=5364922008"
+    },
+    {
+      "title": "Staff iOS Engineer, Neighborhoods",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-24",
+      "url": "http://block.xyz/careers/jobs/5370444008?gh_jid=5370444008"
     }
   ],
   "hf_models": [],
-  "signal_count": 11,
+  "signal_count": 14,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -254,6 +302,27 @@
       "type": "job_posting",
       "terms": [
         "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
       ]
     }
   ]

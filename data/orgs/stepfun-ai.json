@@ -4,7 +4,7 @@
   "github_org": "stepfun-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -148,9 +148,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stepfun-ai/Step-Audio-2-mini-Base",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "stepfun-ai/GELab-Zero-4B-preview",
+      "name": "stepfun-ai/GELab-Zero-4B-preview",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-VL-4B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/GELab-Zero-4B-preview",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S",
+      "name": "stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S",
+      "detected": "2026-07-28"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -226,6 +244,16 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "stepfun-ai/Step-Audio-2-mini-Base"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "stepfun-ai/GELab-Zero-4B-preview"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S"
     }
   ]
 }

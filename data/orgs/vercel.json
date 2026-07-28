@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -109,10 +109,35 @@
       ],
       "posted": "2026-07-16",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6117209004"
+    },
+    {
+      "title": "AI Accelerator Lead ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-07-21",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6120092004"
+    },
+    {
+      "title": "Senior Accountant (India)",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-21",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6121471004"
+    },
+    {
+      "title": "Technical Account Manager",
+      "terms_matched": [
+        "AI agent",
+        "MCP server"
+      ],
+      "posted": "2026-07-21",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6121381004"
     }
   ],
   "hf_models": [],
-  "signal_count": 7,
+  "signal_count": 10,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -165,6 +190,28 @@
       "type": "job_posting",
       "terms": [
         "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "MCP server"
       ]
     }
   ]

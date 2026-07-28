@@ -4,7 +4,7 @@
   "github_org": "openai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -160,9 +160,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/openai/imagegpt-small",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "openai/clip-vit-large-patch14-336",
+      "name": "openai/clip-vit-large-patch14-336",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/clip-vit-large-patch14-336",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "openai/clip-vit-base-patch16",
+      "name": "openai/clip-vit-base-patch16",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/clip-vit-base-patch16",
+      "detected": "2026-07-28"
     }
   ],
-  "signal_count": 16,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -244,6 +262,16 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "openai/imagegpt-small"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "openai/clip-vit-large-patch14-336"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "openai/clip-vit-base-patch16"
     }
   ]
 }

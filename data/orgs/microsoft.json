@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -93,6 +93,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/microsoft/OpenAIWorkshop/blob/f6d1a231d745a169fdc4228ce09e5e1c2d49ce18/mcp/requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/SecRL",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/SecRL/blob/cb0fc6aedd7a8565e897ab3a8d82fc28d022e8bb/requirements.txt",
+          "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/AutoAdapt",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/AutoAdapt/blob/ef26ff60213a4a2cc50288eaad40bf9287d0a20f/requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     },
@@ -106,6 +120,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/bfe0e5c69c53a9f87d6876f99d0a7989db42146d/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/2a23e34b90ed0d33c3f31e2a67fb74838d56f093/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/2a23e34b90ed0d33c3f31e2a67fb74838d56f093/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/2a23e34b90ed0d33c3f31e2a67fb74838d56f093/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -307,9 +342,99 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/UserLM-8b",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "microsoft/Mage-Flow",
+      "name": "microsoft/Mage-Flow",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-Flow",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Fara1.5-27B",
+      "name": "microsoft/Fara1.5-27B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-27B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Fara1.5-27B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Mage-Flow-Edit-Turbo",
+      "name": "microsoft/Mage-Flow-Edit-Turbo",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit-Turbo",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Mage-Flow-Turbo",
+      "name": "microsoft/Mage-Flow-Turbo",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Turbo",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/VibeVoice-ASR-BitNet",
+      "name": "microsoft/VibeVoice-ASR-BitNet",
+      "library": "ggml",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-BitNet",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Mage-VL",
+      "name": "microsoft/Mage-VL",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-VL",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Mage-Flow-Base",
+      "name": "microsoft/Mage-Flow-Base",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Base",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Mage-Flow-Edit",
+      "name": "microsoft/Mage-Flow-Edit",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-Flow-Edit",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Fara1.5-9B",
+      "name": "microsoft/Fara1.5-9B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-9B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Fara1.5-9B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/MagenticBrain",
+      "name": "microsoft/MagenticBrain",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-14B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/MagenticBrain",
+      "detected": "2026-07-28"
     }
   ],
-  "signal_count": 24,
+  "signal_count": 36,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -433,6 +558,66 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "microsoft/UserLM-8b"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Mage-Flow"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Fara1.5-27B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Mage-Flow-Edit-Turbo"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Mage-Flow-Turbo"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/VibeVoice-ASR-BitNet"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Mage-VL"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Mage-Flow-Base"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Mage-Flow-Edit"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/Fara1.5-9B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "microsoft/MagenticBrain"
     }
   ]
 }

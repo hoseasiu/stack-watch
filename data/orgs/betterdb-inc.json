@@ -4,7 +4,7 @@
   "github_org": "BetterDB-inc",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/BetterDB-inc/monitor/blob/056e5e902faeead367f2c0a2045838e6f77aba56/packages/agent-cache-py/pyproject.toml",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "BetterDB-inc/monitor",
+          "file": "pyproject.toml",
+          "url": "https://github.com/BetterDB-inc/monitor/blob/1f93abcff2761b68eb034076aecd72e991dfe2d5/packages/agent-cache-py/pyproject.toml",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

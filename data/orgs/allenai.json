@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -229,9 +229,81 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OLMoASR",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "allenai/Dense_1b_130B",
+      "name": "allenai/Dense_1b_130B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Dense_1b_130B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/Emo_1b14b_1T",
+      "name": "allenai/Emo_1b14b_1T",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Emo_1b14b_1T",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/StdMoE_1b14b_130B",
+      "name": "allenai/StdMoE_1b14b_130B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/StdMoE_1b14b_130B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/MolmoAct2",
+      "name": "allenai/MolmoAct2",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/MolmoAct2",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/StdMoE_1b14b_1T_Preanneal",
+      "name": "allenai/StdMoE_1b14b_1T_Preanneal",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/StdMoE_1b14b_1T_Preanneal",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/StdMoE_1b14b_1T_EmoAnnealed",
+      "name": "allenai/StdMoE_1b14b_1T_EmoAnnealed",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/StdMoE_1b14b_1T_EmoAnnealed",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/OLMo-2-0425-1B",
+      "name": "allenai/OLMo-2-0425-1B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-0425-1B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/Olmo-3-32B-Think",
+      "name": "allenai/Olmo-3-32B-Think",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-32B-Think-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-32B-Think",
+      "detected": "2026-07-28"
     }
   ],
-  "signal_count": 24,
+  "signal_count": 32,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -352,6 +424,46 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "allenai/OLMoASR"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/Dense_1b_130B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/Emo_1b14b_1T"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/StdMoE_1b14b_130B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/MolmoAct2"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/StdMoE_1b14b_1T_Preanneal"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/StdMoE_1b14b_1T_EmoAnnealed"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-0425-1B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-32B-Think"
     }
   ]
 }

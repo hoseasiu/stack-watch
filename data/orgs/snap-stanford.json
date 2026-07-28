@@ -1,0 +1,77 @@
+{
+  "slug": "snap-stanford",
+  "display_name": "snap-stanford",
+  "github_org": "snap-stanford",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "snap-stanford/optimas",
+          "file": "requirements.txt",
+          "url": "https://github.com/snap-stanford/optimas/blob/71871a2dd98081231d733debd41178ba47e13528/requirements.txt",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "snap-stanford/standard_grpo_think_opinion",
+      "name": "snap-stanford/standard_grpo_think_opinion",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/snap-stanford/standard_grpo_think_opinion",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "snap-stanford/humanlm-opinion",
+      "name": "snap-stanford/humanlm-opinion",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/snap-stanford/humanlm-opinion",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "snap-stanford/humanlm-socsci210-step400",
+      "name": "snap-stanford/humanlm-socsci210-step400",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/snap-stanford/humanlm-socsci210-step400",
+      "detected": "2026-07-28"
+    }
+  ],
+  "signal_count": 4,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "snap-stanford/standard_grpo_think_opinion"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "snap-stanford/humanlm-opinion"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "snap-stanford/humanlm-socsci210-step400"
+    }
+  ]
+}

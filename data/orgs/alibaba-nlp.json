@@ -1,0 +1,175 @@
+{
+  "slug": "alibaba-nlp",
+  "display_name": "Alibaba-NLP",
+  "github_org": "Alibaba-NLP",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Alibaba-NLP/qqr",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Alibaba-NLP/qqr/blob/b10a9640b4562509605d05abf3f930f7fcf884e1/pyproject.toml",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "Alibaba-NLP/gte-multilingual-base",
+      "name": "Alibaba-NLP/gte-multilingual-base",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-base",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/WebSailor-3B",
+      "name": "Alibaba-NLP/WebSailor-3B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/WebSailor-3B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+      "name": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/new-impl",
+      "name": "Alibaba-NLP/new-impl",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/new-impl",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/gte-base-en-v1.5",
+      "name": "Alibaba-NLP/gte-base-en-v1.5",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/gte-large-en-v1.5",
+      "name": "Alibaba-NLP/gte-large-en-v1.5",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-large-en-v1.5",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/gte-Qwen1.5-7B-instruct",
+      "name": "Alibaba-NLP/gte-Qwen1.5-7B-instruct",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen1.5-7B-instruct",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+      "name": "Alibaba-NLP/gte-Qwen2-7B-instruct",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen2-7B-instruct",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+      "name": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/gte-multilingual-reranker-base",
+      "name": "Alibaba-NLP/gte-multilingual-reranker-base",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-reranker-base",
+      "detected": "2026-07-28"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-multilingual-base"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/WebSailor-3B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/new-impl"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-base-en-v1.5"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-large-en-v1.5"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-Qwen1.5-7B-instruct"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-Qwen2-7B-instruct"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-Qwen2-1.5B-instruct"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-multilingual-reranker-base"
+    }
+  ]
+}

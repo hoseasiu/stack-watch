@@ -234,6 +234,24 @@
       "display_name": "ridgesai",
       "confidence": "high",
       "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "narwhal-lab",
+      "display_name": "Narwhal-Lab",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "nvisosecurity",
+      "display_name": "NVISOsecurity",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "snap-stanford",
+      "display_name": "snap-stanford",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
     }
   ],
   "signal_history": [
@@ -420,7 +438,47 @@
     {
       "date": "2026-07-21",
       "org": "ridgesai"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "azure"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "cruiseresearchgroup"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "narwhal-lab"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "nvisosecurity"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "quantaalpha"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "snap-stanford"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "spillwavesolutions"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "zenml-io"
     }
   ],
-  "org_count": 39
+  "org_count": 42
 }

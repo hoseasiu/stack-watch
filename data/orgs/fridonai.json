@@ -1,0 +1,34 @@
+{
+  "slug": "fridonai",
+  "display_name": "FridonAI",
+  "github_org": "FridonAI",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "FridonAI/fridon-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/FridonAI/fridon-ai/blob/b7b998870b837d0b3354fb730582410819ee9d2e/pyproject.toml",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "langgraph"
+    }
+  ]
+}

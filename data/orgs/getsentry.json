@@ -1,0 +1,59 @@
+{
+  "slug": "getsentry",
+  "display_name": "getsentry",
+  "github_org": "getsentry",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "getsentry/sentry-python",
+          "file": "pyproject.toml",
+          "url": "https://github.com/getsentry/sentry-python/blob/54f77b90bef6a761777e43c839b0a8dea704c0ec/pyproject.toml",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "getsentry/sentry-python"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "getsentry/sentry-python",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/getsentry/sentry-python/blob/main/CLAUDE.md",
+        "detected": "2026-07-28"
+      },
+      {
+        "type": "agent_config",
+        "repo": "getsentry/sentry-python",
+        "file": "AGENTS.md",
+        "url": "https://github.com/getsentry/sentry-python/blob/main/AGENTS.md",
+        "detected": "2026-07-28"
+      }
+    ]
+  }
+}

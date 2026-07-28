@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -30,6 +30,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/sambanova/ai-starter-kit/blob/b5c076640e08c2a2b13529709db373ef80f339c1/base-requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/ai-starter-kit",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/ai-starter-kit/blob/89dba571bca7ed30534ff4e9f6aa357689702a90/base-requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     },
@@ -113,7 +120,7 @@
     }
   ],
   "hf_models": [],
-  "signal_count": 9,
+  "signal_count": 10,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -166,6 +173,11 @@
         "multi-agent",
         "RAG pipeline"
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "langgraph"
     }
   ]
 }

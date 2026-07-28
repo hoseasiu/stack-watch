@@ -288,6 +288,48 @@
       "display_name": "vectorize-io",
       "confidence": "high",
       "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "agentiqs",
+      "display_name": "agentiqs",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "alibaba-nlp",
+      "display_name": "Alibaba-NLP",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "azure",
+      "display_name": "Azure",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "context-labs",
+      "display_name": "context-labs",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "quarqlabs",
+      "display_name": "quarqlabs",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "stonybrooknlp",
+      "display_name": "StonyBrookNLP",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "traceloop",
+      "display_name": "traceloop",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
     }
   ],
   "signal_history": [
@@ -502,7 +544,91 @@
     {
       "date": "2026-07-21",
       "org": "wandb"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "agentiqs"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "ai45lab"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "alibaba-nlp"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "azure"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "coinbase"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "context-labs"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "goat-sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "instavm"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "quarqlabs"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "rllm-org"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "stonybrooknlp"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "temporalio"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "ucbepic"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "wandb"
     }
   ],
-  "org_count": 48
+  "org_count": 55
 }

@@ -4,7 +4,7 @@
   "github_org": "ucbepic",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/ucbepic/docetl/blob/4b8cbe491757eceffe92e3e10d49a1d7a058216a/pyproject.toml",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "ucbepic/docetl",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ucbepic/docetl/blob/ae7f10f1ba350f3342e9fc3fa17c3131e0295f8c/pyproject.toml",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

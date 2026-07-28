@@ -1,0 +1,52 @@
+{
+  "slug": "traceloop",
+  "display_name": "traceloop",
+  "github_org": "traceloop",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "traceloop/openllmetry",
+          "file": "pyproject.toml",
+          "url": "https://github.com/traceloop/openllmetry/blob/93429cfb9767e6b51db6cb35f6b70f758117669a/packages/opentelemetry-instrumentation-openai-agents/pyproject.toml",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "traceloop/openllmetry"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "traceloop/openllmetry",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/traceloop/openllmetry/blob/main/CLAUDE.md",
+        "detected": "2026-07-28"
+      }
+    ]
+  }
+}

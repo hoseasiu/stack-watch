@@ -1,0 +1,34 @@
+{
+  "slug": "quarqlabs",
+  "display_name": "quarqlabs",
+  "github_org": "quarqlabs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "quarqlabs/argus",
+          "file": "requirements.txt",
+          "url": "https://github.com/quarqlabs/argus/blob/b56a9bc73ef3676a343dcc90a8103c024c9449a3/requirements.txt",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

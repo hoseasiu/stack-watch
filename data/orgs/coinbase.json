@@ -4,7 +4,7 @@
   "github_org": "coinbase",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/coinbase/agentkit/blob/0fe026bf3f26c9161aa3b3fc4923f1683d519003/python/create-onchain-agent/templates/beginner/pyproject.toml.jinja",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "coinbase/agentkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/coinbase/agentkit/blob/0fe026bf3f26c9161aa3b3fc4923f1683d519003/python/framework-extensions/openai-agents-sdk/pyproject.toml",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -30,10 +37,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

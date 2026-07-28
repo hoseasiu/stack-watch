@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -672,6 +672,38 @@
       ],
       "posted": "2026-01-27",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5075093008"
+    },
+    {
+      "title": "Research Engineer, Agents",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2024-04-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4017544008"
+    },
+    {
+      "title": "Staff Software Engineer, Claude Design",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5229345008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Claude Science",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-07-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368040008"
+    },
+    {
+      "title": "Staff Software Engineer, Environments Infrastructure",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-07-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367436008"
     }
   ],
   "hf_models": [
@@ -685,7 +717,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 21,
+  "signal_count": 23,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -837,6 +869,20 @@
       "type": "job_posting",
       "terms": [
         "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
       ]
     }
   ]

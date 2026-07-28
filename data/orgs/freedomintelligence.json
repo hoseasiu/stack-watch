@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -148,9 +148,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-8B",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-o1-8B",
+      "name": "FreedomIntelligence/HuatuoGPT-o1-8B",
+      "library": null,
+      "base_model": "meta-llama/Llama-3.1-8B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-8B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "FreedomIntelligence/DeEAR_Base",
+      "name": "FreedomIntelligence/DeEAR_Base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/DeEAR_Base",
+      "detected": "2026-07-28"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -226,6 +244,16 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "FreedomIntelligence/HuatuoGPT-3-8B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-o1-8B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/DeEAR_Base"
     }
   ]
 }

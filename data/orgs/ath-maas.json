@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -112,9 +112,63 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ATH-MaaS/Parrot-7B",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "ATH-MaaS/Marco-Mini-Instruct",
+      "name": "ATH-MaaS/Marco-Mini-Instruct",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-Mini-Instruct",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "ATH-MaaS/Marco-DeepResearch-8B",
+      "name": "ATH-MaaS/Marco-DeepResearch-8B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-DeepResearch-8B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "ATH-MaaS/Ovis2.6-30B-A3B",
+      "name": "ATH-MaaS/Ovis2.6-30B-A3B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis2.6-30B-A3B",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "ATH-MaaS/Marco-Nano-Instruct",
+      "name": "ATH-MaaS/Marco-Nano-Instruct",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-Nano-Instruct",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "ATH-MaaS/Marco-DeepResearch-8B-GGUF",
+      "name": "ATH-MaaS/Marco-DeepResearch-8B-GGUF",
+      "library": null,
+      "base_model": "ATH-MaaS/Marco-DeepResearch-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-DeepResearch-8B-GGUF",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "ATH-MaaS/Marco-DeepResearch-8B-i1-GGUF",
+      "name": "ATH-MaaS/Marco-DeepResearch-8B-i1-GGUF",
+      "library": null,
+      "base_model": "ATH-MaaS/Marco-DeepResearch-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-DeepResearch-8B-i1-GGUF",
+      "detected": "2026-07-28"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -170,6 +224,36 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "ATH-MaaS/Parrot-7B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-Mini-Instruct"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-DeepResearch-8B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis2.6-30B-A3B"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-Nano-Instruct"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-DeepResearch-8B-GGUF"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-DeepResearch-8B-i1-GGUF"
     }
   ]
 }

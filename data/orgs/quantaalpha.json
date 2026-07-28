@@ -4,7 +4,7 @@
   "github_org": "QuantaAlpha",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/QuantaAlpha/RepoMaster/blob/9cf59930102970d61d6eb2f702fd936d3cda7f11/requirements.txt",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "QuantaAlpha/RepoMaster",
+          "file": "requirements.txt",
+          "url": "https://github.com/QuantaAlpha/RepoMaster/blob/9cf59930102970d61d6eb2f702fd936d3cda7f11/configs/docker_src/requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-07-28",
       "type": "dependency",
       "framework": "autogen"
     }

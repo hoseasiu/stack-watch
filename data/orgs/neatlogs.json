@@ -4,7 +4,7 @@
   "github_org": "neatlogs",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -30,6 +30,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/neatlogs/neatlogs/blob/c39d567e6c3508c599ddad431b00dd3a14195234/examples/sdk_examples/49_requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "neatlogs/neatlogs",
+          "file": "requirements.txt",
+          "url": "https://github.com/neatlogs/neatlogs/blob/26c0dd13c6b19050ebdecf69c703dfb282ebf36e/examples/sdk_examples/50_requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -57,7 +64,7 @@
   },
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -71,6 +78,11 @@
     },
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-07-28",
       "type": "dependency",
       "framework": "langgraph"
     }

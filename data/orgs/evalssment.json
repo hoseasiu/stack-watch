@@ -4,7 +4,7 @@
   "github_org": "EvAlssment",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/EvAlssment/boxkite/blob/41719fa0aef4fcc2b896660aaaaf287f41300485/examples/openai_agents_sdk/requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "EvAlssment/boxkite",
+          "file": "requirements.txt",
+          "url": "https://github.com/EvAlssment/boxkite/blob/dbb308925b9594b563bd8ccb5919fff2221d2723/examples/openai_agents_sdk/requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

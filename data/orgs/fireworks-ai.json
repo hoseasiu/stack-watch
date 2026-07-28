@@ -4,7 +4,7 @@
   "github_org": "fw-ai",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -310,10 +310,18 @@
       ],
       "posted": "2026-07-15",
       "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4280781009"
+    },
+    {
+      "title": "Member of Technical Staff, Cloud Infrastructure, Singapore",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-06-24",
+      "url": "https://job-boards.greenhouse.io/fireworksai/jobs/4295408009"
     }
   ],
   "hf_models": [],
-  "signal_count": 7,
+  "signal_count": 8,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -367,6 +375,13 @@
       "type": "job_posting",
       "terms": [
         "agentic AI",
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
         "function calling"
       ]
     }

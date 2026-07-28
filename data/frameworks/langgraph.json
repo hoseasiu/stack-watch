@@ -114,6 +114,18 @@
       "display_name": "zjunlp",
       "confidence": "high",
       "first_seen": "2026-07-21"
+    },
+    {
+      "slug": "fridonai",
+      "display_name": "FridonAI",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "getsentry",
+      "display_name": "getsentry",
+      "confidence": "high",
+      "first_seen": "2026-07-28"
     }
   ],
   "signal_history": [
@@ -208,7 +220,35 @@
     {
       "date": "2026-07-21",
       "org": "zjunlp"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "certora"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "fridonai"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "getsentry"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "neatlogs"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "sambanova"
+    },
+    {
+      "date": "2026-07-28",
+      "org": "zjunlp"
     }
   ],
-  "org_count": 19
+  "org_count": 21
 }

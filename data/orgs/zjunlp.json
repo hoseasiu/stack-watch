@@ -4,7 +4,7 @@
   "github_org": "zjunlp",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/zjunlp/MemBase/blob/dd32938985cf6c51409cf0dce01cf4b240cf6217/envs/rag_requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "zjunlp/MemBase",
+          "file": "requirements.txt",
+          "url": "https://github.com/zjunlp/MemBase/blob/dd32938985cf6c51409cf0dce01cf4b240cf6217/envs/evermemos_requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -114,7 +121,7 @@
       "detected": "2026-07-21"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -170,6 +177,11 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "zjunlp/zhixi-13b-lora"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "langgraph"
     }
   ]
 }

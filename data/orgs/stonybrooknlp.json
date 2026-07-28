@@ -1,0 +1,175 @@
+{
+  "slug": "stonybrooknlp",
+  "display_name": "StonyBrookNLP",
+  "github_org": "StonyBrookNLP",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "StonyBrookNLP/appworld",
+          "file": "pyproject.toml",
+          "url": "https://github.com/StonyBrookNLP/appworld/blob/a072b7a86e7c1d5b1d7175659d750ebb9b79f10a/experiments/pyproject.toml",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "StonyBrookNLP/bart-large-drop",
+      "name": "StonyBrookNLP/bart-large-drop",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/bart-large-drop",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/bart-large-iirc-gold",
+      "name": "StonyBrookNLP/bart-large-iirc-gold",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/bart-large-iirc-gold",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/bart-large-iirc-retrieved",
+      "name": "StonyBrookNLP/bart-large-iirc-retrieved",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/bart-large-iirc-retrieved",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/bart-large-numglue",
+      "name": "StonyBrookNLP/bart-large-numglue",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/bart-large-numglue",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/bart-large-tatqa",
+      "name": "StonyBrookNLP/bart-large-tatqa",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/bart-large-tatqa",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/t5-large-drop",
+      "name": "StonyBrookNLP/t5-large-drop",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/t5-large-drop",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/t5-large-iirc-gold",
+      "name": "StonyBrookNLP/t5-large-iirc-gold",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/t5-large-iirc-gold",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/t5-large-iirc-retrieved",
+      "name": "StonyBrookNLP/t5-large-iirc-retrieved",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/t5-large-iirc-retrieved",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/t5-large-numglue",
+      "name": "StonyBrookNLP/t5-large-numglue",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/t5-large-numglue",
+      "detected": "2026-07-28"
+    },
+    {
+      "id": "StonyBrookNLP/t5-large-tatqa",
+      "name": "StonyBrookNLP/t5-large-tatqa",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/StonyBrookNLP/t5-large-tatqa",
+      "detected": "2026-07-28"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/bart-large-drop"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/bart-large-iirc-gold"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/bart-large-iirc-retrieved"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/bart-large-numglue"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/bart-large-tatqa"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/t5-large-drop"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/t5-large-iirc-gold"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/t5-large-iirc-retrieved"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/t5-large-numglue"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "hf_model",
+      "model": "StonyBrookNLP/t5-large-tatqa"
+    }
+  ]
+}

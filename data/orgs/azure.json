@@ -4,7 +4,7 @@
   "github_org": "Azure",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/Azure/agent-innovator-lab/blob/16c802b478b9e9b7f1b5d725803d8be471a1fa7c/requirements.txt",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure/ai-foundry-workshop",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure/ai-foundry-workshop/blob/273c24c4336d0fb8778080646eb49b91e176bc1e/2-notebooks/requirements.txt",
+          "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure/gpt-rag-agentic",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure/gpt-rag-agentic/blob/c7ae34ea568f73db2f4bc1c9094741c563a25153/requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     },
@@ -31,12 +45,25 @@
           "detected": "2026-07-21"
         }
       ]
+    },
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Azure/azure-functions-durable-python",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure/azure-functions-durable-python/blob/ecdc51709a113aede3b60a83269e0f909734d0ca/requirements.txt",
+          "detected": "2026-07-28"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -53,6 +80,16 @@
       "type": "agent_config",
       "framework": null,
       "repo": "Azure/azure-sdk-for-python"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ],
   "agent_config": {

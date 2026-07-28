@@ -1,0 +1,34 @@
+{
+  "slug": "narwhal-lab",
+  "display_name": "Narwhal-Lab",
+  "github_org": "Narwhal-Lab",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "Narwhal-Lab/MagicSkills",
+          "file": "requirements.txt",
+          "url": "https://github.com/Narwhal-Lab/MagicSkills/blob/00f3e8640445b0d91682a670b8ba7cc4465151cb/autogen_example/requirements.txt",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "github_org": "Azure-Samples",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-07-28",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -64,6 +64,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Azure-Samples/AI-Gateway/blob/7ef2909f99b4ca33461650ba469a394f1e4a16bd/labs/mcp-a2a-agents/src/a2a_servers/a2a_ag_mcp_agent/pyproject.toml",
           "detected": "2026-07-07"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/multi-agent-workshop",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/multi-agent-workshop/blob/252f5077ee34c6b710eb8dd2935a915f5a1d9937/requirements.txt",
+          "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/azure-postgresql-openai-langchain-autogen-demo",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/azure-postgresql-openai-langchain-autogen-demo/blob/51d2720a842279a980baaea758ef345c700b05ab/requirements.txt",
+          "detected": "2026-07-28"
         }
       ]
     }
@@ -90,7 +104,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 6,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -123,6 +137,11 @@
       "date": "2026-07-21",
       "type": "dependency",
       "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ]
 }

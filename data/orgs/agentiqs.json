@@ -1,0 +1,34 @@
+{
+  "slug": "agentiqs",
+  "display_name": "agentiqs",
+  "github_org": "agentiqs",
+  "sector": "unclassified",
+  "first_detected": "2026-07-28",
+  "last_updated": "2026-07-28",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-07-28",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "agentiqs/mcp-kit-python",
+          "file": "pyproject.toml",
+          "url": "https://github.com/agentiqs/mcp-kit-python/blob/d818d59effa97b6f1b89ff1cb26df4a18673b16b/examples/openai_agents_sdk/pyproject.toml",
+          "detected": "2026-07-28"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}
