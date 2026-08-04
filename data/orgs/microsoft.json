@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -141,6 +141,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/2a23e34b90ed0d33c3f31e2a67fb74838d56f093/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/8f7a4c9248913419ea09591038634beb41166d53/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/8f7a4c9248913419ea09591038634beb41166d53/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/8f7a4c9248913419ea09591038634beb41166d53/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-08-04"
         }
       ]
     }
@@ -432,9 +453,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/MagenticBrain",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "microsoft/Fara1.5-4B",
+      "name": "microsoft/Fara1.5-4B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-4B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Fara1.5-4B",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "microsoft/Mage-ViT",
+      "name": "microsoft/Mage-ViT",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Mage-ViT",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 36,
+  "signal_count": 39,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -618,6 +657,21 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "microsoft/MagenticBrain"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "microsoft/Fara1.5-4B"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "microsoft/Mage-ViT"
     }
   ]
 }

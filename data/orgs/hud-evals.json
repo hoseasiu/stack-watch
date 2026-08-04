@@ -4,7 +4,7 @@
   "github_org": "hud-evals",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -34,8 +34,27 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 2,
+  "hf_models": [
+    {
+      "id": "hud-evals/pi05-AssembleBench-12k",
+      "name": "hud-evals/pi05-AssembleBench-12k",
+      "library": "lerobot",
+      "base_model": "DAVIAN-Robotics/pi05_droid_jointpos",
+      "confidence": "medium",
+      "url": "https://huggingface.co/hud-evals/pi05-AssembleBench-12k",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "hud-evals/pi05-AssembleBench-cgdagger-r3",
+      "name": "hud-evals/pi05-AssembleBench-cgdagger-r3",
+      "library": "lerobot",
+      "base_model": "DAVIAN-Robotics/pi05_droid_jointpos",
+      "confidence": "medium",
+      "url": "https://huggingface.co/hud-evals/pi05-AssembleBench-cgdagger-r3",
+      "detected": "2026-08-04"
+    }
+  ],
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -47,6 +66,16 @@
       "type": "agent_config",
       "framework": null,
       "repo": "hud-evals/zerodaybench-mlflow-clone"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "hud-evals/pi05-AssembleBench-12k"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "hud-evals/pi05-AssembleBench-cgdagger-r3"
     }
   ]
 }

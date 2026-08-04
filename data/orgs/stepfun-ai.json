@@ -4,7 +4,7 @@
   "github_org": "stepfun-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -166,9 +166,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "stepfun-ai/Step-3.5-Flash-Base",
+      "name": "stepfun-ai/Step-3.5-Flash-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash-Base",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "stepfun-ai/Step-3.7-Flash-FP8",
+      "name": "stepfun-ai/Step-3.7-Flash-FP8",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-FP8",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "stepfun-ai/Step3-VL-10B",
+      "name": "stepfun-ai/Step3-VL-10B",
+      "library": null,
+      "base_model": "stepfun-ai/Step3-VL-10B-Base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step3-VL-10B",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 17,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -254,6 +281,21 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "stepfun-ai/Step-3.5-Flash-GGUF-Q4_K_S"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-3.5-Flash-Base"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-3.7-Flash-FP8"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step3-VL-10B"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "cyberark",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -25,12 +25,25 @@
           "detected": "2026-07-07"
         }
       ]
+    },
+    "langgraph": {
+      "confidence": "high",
+      "first_seen": "2026-08-04",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "cyberark/agentwatch",
+          "file": "pyproject.toml",
+          "url": "https://github.com/cyberark/agentwatch/blob/56012207e0b2570c1a9716b6fec72288c3958d48/pyproject.toml",
+          "detected": "2026-08-04"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -41,6 +54,11 @@
       "date": "2026-07-07",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "dependency",
+      "framework": "langgraph"
     }
   ]
 }

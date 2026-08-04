@@ -4,7 +4,7 @@
   "github_org": "oracle-devrel",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/oracle-devrel/technology-engineering/blob/8d8c96aa47fd530dae637eb83a5ce3482cf4ed47/ai/gen-ai-agents/assistant-secretary-agent/files/local_requirements.txt",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "oracle-devrel/technology-engineering",
+          "file": "requirements.txt",
+          "url": "https://github.com/oracle-devrel/technology-engineering/blob/7cbf6e0922083b1a30c09927ec7b646113d209fa/ai/gen-ai-agents/assistant-secretary-agent/files/local_requirements.txt",
+          "detected": "2026-08-04"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -39,6 +46,11 @@
     },
     {
       "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-08-04",
       "type": "dependency",
       "framework": "langgraph"
     }

@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -573,10 +573,59 @@
       ],
       "posted": "2025-11-18",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4631848005"
+    },
+    {
+      "title": "Engineering Manager, Infrastructure ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-07-30",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4719479005"
+    },
+    {
+      "title": "Frontier Agents Engineer (Applied AI)",
+      "terms_matched": [
+        "AI agent",
+        "multi-agent",
+        "tool use",
+        "vector database"
+      ],
+      "posted": "2026-07-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720573005"
+    },
+    {
+      "title": "Senior Frontier Agents Engineer (Applied AI)",
+      "terms_matched": [
+        "AI agent",
+        "multi-agent",
+        "tool use",
+        "vector database"
+      ],
+      "posted": "2026-07-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720478005"
+    },
+    {
+      "title": "Staff Frontier Agents Engineer (Applied AI)",
+      "terms_matched": [
+        "AI agent",
+        "multi-agent",
+        "tool use",
+        "vector database"
+      ],
+      "posted": "2026-07-31",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4720487005"
+    },
+    {
+      "title": "VP, Research",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-01",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4611448005"
     }
   ],
   "hf_models": [],
-  "signal_count": 21,
+  "signal_count": 23,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -743,6 +792,23 @@
       "type": "job_posting",
       "terms": [
         "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "multi-agent",
+        "tool use",
+        "vector database"
       ]
     }
   ]

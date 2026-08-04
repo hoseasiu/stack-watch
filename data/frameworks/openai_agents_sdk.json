@@ -628,6 +628,54 @@
     {
       "date": "2026-07-28",
       "org": "wandb"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "alibaba-nlp"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "azure"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "context-labs"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "paywithextend"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "rllm-org"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "wandb"
     }
   ],
   "org_count": 55

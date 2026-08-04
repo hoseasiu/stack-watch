@@ -4,7 +4,7 @@
   "github_org": "Alibaba-NLP",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Alibaba-NLP/qqr/blob/b10a9640b4562509605d05abf3f930f7fcf884e1/pyproject.toml",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Alibaba-NLP/qqr",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Alibaba-NLP/qqr/blob/5481780f798d85e1046131dbc224cf345c5daa47/pyproject.toml",
+          "detected": "2026-08-04"
         }
       ]
     }
@@ -112,9 +119,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-reranker-base",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "Alibaba-NLP/UEmbed-9B",
+      "name": "Alibaba-NLP/UEmbed-9B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/UEmbed-9B",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "Alibaba-NLP/UEmbed-2B",
+      "name": "Alibaba-NLP/UEmbed-2B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/UEmbed-2B",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "Alibaba-NLP/gte-reranker-modernbert-base",
+      "name": "Alibaba-NLP/gte-reranker-modernbert-base",
+      "library": "transformers",
+      "base_model": "answerdotai/ModernBERT-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-reranker-modernbert-base",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "Alibaba-NLP/UEmbed-4B",
+      "name": "Alibaba-NLP/UEmbed-4B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/UEmbed-4B",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -170,6 +213,31 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "Alibaba-NLP/gte-multilingual-reranker-base"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/UEmbed-9B"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/UEmbed-2B"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-reranker-modernbert-base"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/UEmbed-4B"
     }
   ]
 }

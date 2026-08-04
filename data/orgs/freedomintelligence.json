@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -166,9 +166,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/DeEAR_Base",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "FreedomIntelligence/Apollo2-2B",
+      "name": "FreedomIntelligence/Apollo2-2B",
+      "library": null,
+      "base_model": "google/gemma-2-2b",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/Apollo2-2B",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 17,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -254,6 +263,11 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "FreedomIntelligence/DeEAR_Base"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/Apollo2-2B"
     }
   ]
 }

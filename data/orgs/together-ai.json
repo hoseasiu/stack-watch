@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-08-04",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -166,9 +166,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/evo-1-131k-base",
       "detected": "2026-07-14"
+    },
+    {
+      "id": "togethercomputer/m2-bert-80M-32k-retrieval",
+      "name": "togethercomputer/m2-bert-80M-32k-retrieval",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/m2-bert-80M-32k-retrieval",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8",
+      "name": "togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8",
+      "library": null,
+      "base_model": "Qwen/Qwen3-Coder-Next-FP8",
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -251,6 +269,16 @@
       "terms": [
         "Claude Code"
       ]
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "togethercomputer/m2-bert-80M-32k-retrieval"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8"
     }
   ]
 }

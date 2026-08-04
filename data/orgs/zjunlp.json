@@ -4,7 +4,7 @@
   "github_org": "zjunlp",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -23,6 +23,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/zjunlp/MemBase/blob/dd32938985cf6c51409cf0dce01cf4b240cf6217/envs/evermemos_requirements.txt",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "zjunlp/MemBase",
+          "file": "requirements.txt",
+          "url": "https://github.com/zjunlp/MemBase/blob/9d1eedbf91e9a129495c233baf59433e54d743f1/envs/rag_requirements.txt",
+          "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "zjunlp/MemBase",
+          "file": "requirements.txt",
+          "url": "https://github.com/zjunlp/MemBase/blob/9d1eedbf91e9a129495c233baf59433e54d743f1/envs/evermemos_requirements.txt",
+          "detected": "2026-08-04"
         }
       ]
     }
@@ -121,7 +135,7 @@
       "detected": "2026-07-21"
     }
   ],
-  "signal_count": 12,
+  "signal_count": 13,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -180,6 +194,11 @@
     },
     {
       "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-08-04",
       "type": "dependency",
       "framework": "langgraph"
     }

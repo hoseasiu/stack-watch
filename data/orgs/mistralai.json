@@ -4,7 +4,7 @@
   "github_org": "mistralai",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -172,9 +172,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mistralai/Codestral-22B-v0.1",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+      "name": "mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-3B-Instruct-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "mistralai/Voxtral-Mini-3B-2507",
+      "name": "mistralai/Voxtral-Mini-3B-2507",
+      "library": "mistral-common",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Voxtral-Mini-3B-2507",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+      "name": "mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-3B-Reasoning-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Ministral-3-3B-Reasoning-2512-GGUF",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 17,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -260,6 +287,21 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "mistralai/Codestral-22B-v0.1"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "mistralai/Ministral-3-3B-Instruct-2512-GGUF"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "mistralai/Voxtral-Mini-3B-2507"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "mistralai/Ministral-3-3B-Reasoning-2512-GGUF"
     }
   ]
 }

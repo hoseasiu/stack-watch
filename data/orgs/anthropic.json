@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -704,6 +704,30 @@
       ],
       "posted": "2026-07-24",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5367436008"
+    },
+    {
+      "title": "Applied AI Architect, National Security",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5079511008"
+    },
+    {
+      "title": "Product Manager, Claude Code",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5251866008"
+    },
+    {
+      "title": "Safeguards Enforcement Analyst, User Well-being",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5374778008"
     }
   ],
   "hf_models": [
@@ -717,7 +741,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 23,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -880,6 +904,13 @@
     },
     {
       "date": "2026-07-28",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-08-04",
       "type": "job_posting",
       "terms": [
         "Claude Code"

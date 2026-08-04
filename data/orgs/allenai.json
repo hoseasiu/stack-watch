@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -301,9 +301,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/Olmo-3-32B-Think",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "allenai/Olmo-3.1-7B-RL-Zero-Code",
+      "name": "allenai/Olmo-3.1-7B-RL-Zero-Code",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-1025-7B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3.1-7B-RL-Zero-Code",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "allenai/OLMo-2-1124-7B",
+      "name": "allenai/OLMo-2-1124-7B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-1124-7B",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "allenai/GraspMolmo",
+      "name": "allenai/GraspMolmo",
+      "library": null,
+      "base_model": "allenai/Molmo-7B-D-0924",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/GraspMolmo",
+      "detected": "2026-08-04"
+    },
+    {
+      "id": "allenai/Olmo-3.1-32B-Instruct",
+      "name": "allenai/Olmo-3.1-32B-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3.1-32B-Instruct-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct",
+      "detected": "2026-08-04"
     }
   ],
-  "signal_count": 32,
+  "signal_count": 36,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -464,6 +500,26 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "allenai/Olmo-3-32B-Think"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3.1-7B-RL-Zero-Code"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-1124-7B"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "allenai/GraspMolmo"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3.1-32B-Instruct"
     }
   ]
 }

@@ -126,6 +126,12 @@
       "display_name": "getsentry",
       "confidence": "high",
       "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "cyberark",
+      "display_name": "cyberark",
+      "confidence": "high",
+      "first_seen": "2026-08-04"
     }
   ],
   "signal_history": [
@@ -248,7 +254,27 @@
     {
       "date": "2026-07-28",
       "org": "zjunlp"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "cyberark"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "neatlogs"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "sambanova"
+    },
+    {
+      "date": "2026-08-04",
+      "org": "zjunlp"
     }
   ],
-  "org_count": 21
+  "org_count": 22
 }

@@ -4,7 +4,7 @@
   "github_org": "context-labs",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-04",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/context-labs/HALO/blob/f4d084b3a26a3087b8452b3d49dee9ac38076b3c/demo/appworld/experiments/pyproject.toml",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "context-labs/HALO",
+          "file": "pyproject.toml",
+          "url": "https://github.com/context-labs/HALO/blob/0b68141633c14f488461aaecdf91a739a411f05d/demo/appworld/experiments/pyproject.toml",
+          "detected": "2026-08-04"
         }
       ]
     }
@@ -114,7 +121,7 @@
       "detected": "2026-07-28"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -170,6 +177,11 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "context-labs/neuralmagic-mistral-nemo-12b-instruct-FP8"
+    },
+    {
+      "date": "2026-08-04",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
     }
   ]
 }
