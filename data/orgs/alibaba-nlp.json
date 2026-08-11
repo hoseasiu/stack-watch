@@ -4,7 +4,7 @@
   "github_org": "Alibaba-NLP",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-11",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -155,9 +155,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/Alibaba-NLP/UEmbed-4B",
       "detected": "2026-08-04"
+    },
+    {
+      "id": "Alibaba-NLP/LaSER-Qwen3-0.6B",
+      "name": "Alibaba-NLP/LaSER-Qwen3-0.6B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-0.6B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/LaSER-Qwen3-0.6B",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "Alibaba-NLP/gme-Qwen2-VL-2B-Instruct",
+      "name": "Alibaba-NLP/gme-Qwen2-VL-2B-Instruct",
+      "library": "sentence-transformers",
+      "base_model": "Qwen/Qwen2-VL-2B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gme-Qwen2-VL-2B-Instruct",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "Alibaba-NLP/gte-modernbert-base",
+      "name": "Alibaba-NLP/gte-modernbert-base",
+      "library": "transformers",
+      "base_model": "answerdotai/ModernBERT-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-modernbert-base",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "Alibaba-NLP/LaSER-Qwen3-8B",
+      "name": "Alibaba-NLP/LaSER-Qwen3-8B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/LaSER-Qwen3-8B",
+      "detected": "2026-08-11"
     }
   ],
-  "signal_count": 16,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -238,6 +274,26 @@
       "date": "2026-08-04",
       "type": "hf_model",
       "model": "Alibaba-NLP/UEmbed-4B"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/LaSER-Qwen3-0.6B"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gme-Qwen2-VL-2B-Instruct"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-modernbert-base"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/LaSER-Qwen3-8B"
     }
   ]
 }

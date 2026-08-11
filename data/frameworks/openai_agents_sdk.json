@@ -330,6 +330,24 @@
       "display_name": "traceloop",
       "confidence": "high",
       "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "aipotheosis-labs",
+      "display_name": "aipotheosis-labs",
+      "confidence": "high",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "slug": "metaculus",
+      "display_name": "Metaculus",
+      "confidence": "high",
+      "first_seen": "2026-08-11"
+    },
+    {
+      "slug": "ulab-uiuc",
+      "display_name": "ulab-uiuc",
+      "confidence": "high",
+      "first_seen": "2026-08-11"
     }
   ],
   "signal_history": [
@@ -676,7 +694,63 @@
     {
       "date": "2026-08-04",
       "org": "wandb"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "aipotheosis-labs"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "masslab-sii"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "metaculus"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "rllm-org"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "ucbepic"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "ulab-uiuc"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "wandb"
     }
   ],
-  "org_count": 55
+  "org_count": 58
 }

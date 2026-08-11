@@ -1,0 +1,34 @@
+{
+  "slug": "ulab-uiuc",
+  "display_name": "ulab-uiuc",
+  "github_org": "ulab-uiuc",
+  "sector": "unclassified",
+  "first_detected": "2026-08-11",
+  "last_updated": "2026-08-11",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-08-11",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ulab-uiuc/tiny-scientist",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ulab-uiuc/tiny-scientist/blob/888c5e3f825392f494891df956f12edfa5a3709a/pyproject.toml",
+          "detected": "2026-08-11"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-08-11",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

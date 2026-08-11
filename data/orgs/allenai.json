@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-11",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -337,9 +337,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/Olmo-3.1-32B-Instruct",
       "detected": "2026-08-04"
+    },
+    {
+      "id": "allenai/MolmoAct2-SO100_101",
+      "name": "allenai/MolmoAct2-SO100_101",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/MolmoAct2-SO100_101",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "allenai/Flex-reddit-2x7B-1T",
+      "name": "allenai/Flex-reddit-2x7B-1T",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Flex-reddit-2x7B-1T",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "allenai/Olmo-3-7B-Think-SFT",
+      "name": "allenai/Olmo-3-7B-Think-SFT",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-1025-7B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Think-SFT",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "allenai/Olmo-3-7B-Instruct-SFT",
+      "name": "allenai/Olmo-3-7B-Instruct-SFT",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-1025-7B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT",
+      "detected": "2026-08-11"
     }
   ],
-  "signal_count": 36,
+  "signal_count": 40,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -520,6 +556,26 @@
       "date": "2026-08-04",
       "type": "hf_model",
       "model": "allenai/Olmo-3.1-32B-Instruct"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "allenai/MolmoAct2-SO100_101"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "allenai/Flex-reddit-2x7B-1T"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-7B-Think-SFT"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-7B-Instruct-SFT"
     }
   ]
 }

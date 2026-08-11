@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-11",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -222,10 +222,28 @@
       ],
       "posted": "2026-07-24",
       "url": "http://block.xyz/careers/jobs/5370444008?gh_jid=5370444008"
+    },
+    {
+      "title": "Software Engineer, Finance Applications",
+      "terms_matched": [
+        "AI agent",
+        "Model Context Protocol",
+        "Claude Code"
+      ],
+      "posted": "2026-02-17",
+      "url": "http://block.xyz/careers/jobs/4901418008?gh_jid=4901418008"
+    },
+    {
+      "title": "Sr. People Tech Analyst",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-05",
+      "url": "http://block.xyz/careers/jobs/5381210008?gh_jid=5381210008"
     }
   ],
   "hf_models": [],
-  "signal_count": 14,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -323,6 +341,22 @@
       "type": "job_posting",
       "terms": [
         "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "Model Context Protocol",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-11",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -162,6 +162,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/8f7a4c9248913419ea09591038634beb41166d53/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/81955d48025c6b11deb3fc9dabf89f74f4145775/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-08-11"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/81955d48025c6b11deb3fc9dabf89f74f4145775/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-08-11"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/81955d48025c6b11deb3fc9dabf89f74f4145775/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-08-11"
         }
       ]
     }
@@ -471,9 +492,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/Mage-ViT",
       "detected": "2026-08-04"
+    },
+    {
+      "id": "microsoft/Phi-3.5-mini-instruct",
+      "name": "microsoft/Phi-3.5-mini-instruct",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "microsoft/deberta-v3-base",
+      "name": "microsoft/deberta-v3-base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/deberta-v3-base",
+      "detected": "2026-08-11"
+    },
+    {
+      "id": "microsoft/resnet-50",
+      "name": "microsoft/resnet-50",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/resnet-50",
+      "detected": "2026-08-11"
     }
   ],
-  "signal_count": 39,
+  "signal_count": 43,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -672,6 +720,26 @@
       "date": "2026-08-04",
       "type": "hf_model",
       "model": "microsoft/Mage-ViT"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "microsoft/Phi-3.5-mini-instruct"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "microsoft/deberta-v3-base"
+    },
+    {
+      "date": "2026-08-11",
+      "type": "hf_model",
+      "model": "microsoft/resnet-50"
     }
   ]
 }

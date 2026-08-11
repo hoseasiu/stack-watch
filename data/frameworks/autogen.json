@@ -478,6 +478,14 @@
     {
       "date": "2026-07-28",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "e2b-dev"
+    },
+    {
+      "date": "2026-08-11",
+      "org": "zenml-io"
     }
   ],
   "org_count": 42

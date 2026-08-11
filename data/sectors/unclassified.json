@@ -30,6 +30,10 @@
       "display_name": "AI45Lab"
     },
     {
+      "slug": "aipotheosis-labs",
+      "display_name": "aipotheosis-labs"
+    },
+    {
       "slug": "aisbreaker",
       "display_name": "aisbreaker"
     },
@@ -370,6 +374,10 @@
       "display_name": "MassLab-SII"
     },
     {
+      "slug": "metaculus",
+      "display_name": "Metaculus"
+    },
+    {
       "slug": "microsoft",
       "display_name": "microsoft"
     },
@@ -646,6 +654,10 @@
       "display_name": "ucbepic"
     },
     {
+      "slug": "ulab-uiuc",
+      "display_name": "ulab-uiuc"
+    },
+    {
       "slug": "unitycatalog",
       "display_name": "unitycatalog"
     },
@@ -686,11 +698,11 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 171,
+  "org_count": 174,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 54
+      "count": 57
     },
     {
       "slug": "autogen",
