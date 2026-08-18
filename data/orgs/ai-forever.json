@@ -1,0 +1,193 @@
+{
+  "slug": "ai-forever",
+  "display_name": "ai-forever",
+  "github_org": "ai-forever",
+  "sector": "unclassified",
+  "first_detected": "2026-08-18",
+  "last_updated": "2026-08-18",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-08-18",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ai-forever/gpt2giga",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ai-forever/gpt2giga/blob/7b3d95dd2b853d555820658b2cc57fcda2af6523/pyproject.toml",
+          "detected": "2026-08-18"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "ai-forever/Real-ESRGAN",
+      "name": "ai-forever/Real-ESRGAN",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/Real-ESRGAN",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/ruRoberta-large",
+      "name": "ai-forever/ruRoberta-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ruRoberta-large",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/RUDOLPH-350M",
+      "name": "ai-forever/RUDOLPH-350M",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/RUDOLPH-350M",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/Sber-VQGAN",
+      "name": "ai-forever/Sber-VQGAN",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/Sber-VQGAN",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/bert-base-NER-reptile-5-datasets",
+      "name": "ai-forever/bert-base-NER-reptile-5-datasets",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/bert-base-NER-reptile-5-datasets",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/ru-clip",
+      "name": "ai-forever/ru-clip",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ru-clip",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/ruBert-base",
+      "name": "ai-forever/ruBert-base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ruBert-base",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/ruBert-large",
+      "name": "ai-forever/ruBert-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ruBert-large",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/ruT5-base",
+      "name": "ai-forever/ruT5-base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ruT5-base",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/ruT5-large",
+      "name": "ai-forever/ruT5-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ruT5-large",
+      "detected": "2026-08-18"
+    }
+  ],
+  "signal_count": 12,
+  "signal_history": [
+    {
+      "date": "2026-08-18",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "ai-forever/gpt2giga"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/Real-ESRGAN"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/ruRoberta-large"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/RUDOLPH-350M"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/Sber-VQGAN"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/bert-base-NER-reptile-5-datasets"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/ru-clip"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/ruBert-base"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/ruBert-large"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/ruT5-base"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ai-forever/ruT5-large"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "ai-forever/gpt2giga",
+        "file": "AGENTS.md",
+        "url": "https://github.com/ai-forever/gpt2giga/blob/main/AGENTS.md",
+        "detected": "2026-08-18"
+      }
+    ]
+  }
+}

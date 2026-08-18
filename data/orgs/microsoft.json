@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -107,6 +107,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/microsoft/AutoAdapt/blob/ef26ff60213a4a2cc50288eaad40bf9287d0a20f/requirements.txt",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/SecRL",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/SecRL/blob/d92d99ebd952d32a91da0bd3a871a9450fcaccbb/requirements.txt",
+          "detected": "2026-08-18"
         }
       ]
     },
@@ -183,6 +190,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/81955d48025c6b11deb3fc9dabf89f74f4145775/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-08-11"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/7d0cef5d9820a865c3c19b07bd39ecf7053b58a1/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-08-18"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/7d0cef5d9820a865c3c19b07bd39ecf7053b58a1/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-08-18"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/7d0cef5d9820a865c3c19b07bd39ecf7053b58a1/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-08-18"
         }
       ]
     }
@@ -519,9 +547,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/resnet-50",
       "detected": "2026-08-11"
+    },
+    {
+      "id": "microsoft/VibeVoice-Realtime-0.5B",
+      "name": "microsoft/VibeVoice-Realtime-0.5B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-0.5B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B",
+      "detected": "2026-08-18"
     }
   ],
-  "signal_count": 43,
+  "signal_count": 46,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -740,6 +777,21 @@
       "date": "2026-08-11",
       "type": "hf_model",
       "model": "microsoft/resnet-50"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "microsoft/VibeVoice-Realtime-0.5B"
     }
   ]
 }

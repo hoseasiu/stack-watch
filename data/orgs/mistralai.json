@@ -4,7 +4,7 @@
   "github_org": "mistralai",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -226,9 +226,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mistralai/Mathstral-7B-v0.1",
       "detected": "2026-08-11"
+    },
+    {
+      "id": "mistralai/Devstral-2-123B-Instruct-2512",
+      "name": "mistralai/Devstral-2-123B-Instruct-2512",
+      "library": "vllm",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512",
+      "detected": "2026-08-18"
     }
   ],
-  "signal_count": 23,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -344,6 +353,11 @@
       "date": "2026-08-11",
       "type": "hf_model",
       "model": "mistralai/Mathstral-7B-v0.1"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "mistralai/Devstral-2-123B-Instruct-2512"
     }
   ]
 }

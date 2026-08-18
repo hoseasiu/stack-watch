@@ -26,6 +26,10 @@
       "display_name": "AI-Citizen"
     },
     {
+      "slug": "ai-forever",
+      "display_name": "ai-forever"
+    },
+    {
       "slug": "ai45lab",
       "display_name": "AI45Lab"
     },
@@ -148,6 +152,10 @@
     {
       "slug": "composiohq",
       "display_name": "ComposioHQ"
+    },
+    {
+      "slug": "conductor-oss",
+      "display_name": "conductor-oss"
     },
     {
       "slug": "context-labs",
@@ -618,6 +626,10 @@
       "display_name": "StonyBrookNLP"
     },
     {
+      "slug": "strukto-ai",
+      "display_name": "strukto-ai"
+    },
+    {
       "slug": "temporalio",
       "display_name": "temporalio"
     },
@@ -698,11 +710,11 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 174,
+  "org_count": 177,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 57
+      "count": 60
     },
     {
       "slug": "autogen",

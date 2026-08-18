@@ -348,6 +348,24 @@
       "display_name": "ulab-uiuc",
       "confidence": "high",
       "first_seen": "2026-08-11"
+    },
+    {
+      "slug": "ai-forever",
+      "display_name": "ai-forever",
+      "confidence": "high",
+      "first_seen": "2026-08-18"
+    },
+    {
+      "slug": "conductor-oss",
+      "display_name": "conductor-oss",
+      "confidence": "high",
+      "first_seen": "2026-08-18"
+    },
+    {
+      "slug": "strukto-ai",
+      "display_name": "strukto-ai",
+      "confidence": "high",
+      "first_seen": "2026-08-18"
     }
   ],
   "signal_history": [
@@ -750,7 +768,63 @@
     {
       "date": "2026-08-11",
       "org": "wandb"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "ai-forever"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "alibaba-nlp"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "conductor-oss"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "datus-ai"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "pocketpaw"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "rllm-org"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "strukto-ai"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "wandb"
     }
   ],
-  "org_count": 58
+  "org_count": 61
 }

@@ -4,7 +4,7 @@
   "github_org": "Azure-Samples",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-08-18",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -78,6 +78,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/Azure-Samples/azure-postgresql-openai-langchain-autogen-demo/blob/51d2720a842279a980baaea758ef345c700b05ab/requirements.txt",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/ai-hub-gateway-solution-accelerator",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator/blob/5dae221f6ae9e2a1f65cecbf3b1afada617dc087/shared/requirements.txt",
+          "detected": "2026-08-18"
         }
       ]
     }
@@ -104,7 +111,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 7,
+  "signal_count": 8,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -140,6 +147,11 @@
     },
     {
       "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-08-18",
       "type": "dependency",
       "framework": "autogen"
     }

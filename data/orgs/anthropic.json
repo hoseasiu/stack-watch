@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -776,6 +776,128 @@
       ],
       "posted": "2026-01-09",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008"
+    },
+    {
+      "title": "AI Operations Engineer, Partnerships",
+      "terms_matched": [
+        "MCP server",
+        "Claude Code",
+        "function calling"
+      ],
+      "posted": "2026-08-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008"
+    },
+    {
+      "title": "Anthropic Fellows Program, AI Safety & Security",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-04-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5183044008"
+    },
+    {
+      "title": "Customer Success Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387027008"
+    },
+    {
+      "title": "Customer Success Manager, DACH",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382792008"
+    },
+    {
+      "title": "Customer Success Manager, Financial Services",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391062008"
+    },
+    {
+      "title": "Customer Success Manager, GSI",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4986159008"
+    },
+    {
+      "title": "Customer Success Manager, HCLS",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5135999008"
+    },
+    {
+      "title": "Customer Success Manager, Semiconductor",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5135996008"
+    },
+    {
+      "title": "Customer Success Manager, Top Accounts",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392957008"
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-08-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5302966008"
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391021008"
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391016008"
+    },
+    {
+      "title": "Head of Community, Enterprise Marketing",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-13",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5388719008"
+    },
+    {
+      "title": "Product Marketing Operations Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385599008"
+    },
+    {
+      "title": "Technical Deployment Lead",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-12-04",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017903008"
     }
   ],
   "hf_models": [
@@ -789,7 +911,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 25,
+  "signal_count": 29,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -969,6 +1091,36 @@
       "type": "job_posting",
       "terms": [
         "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Claude Code",
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
       ]
     }
   ]

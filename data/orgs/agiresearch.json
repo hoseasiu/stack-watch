@@ -4,7 +4,7 @@
   "github_org": "agiresearch",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-08-18",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -29,6 +29,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/agiresearch/AIOS.Agents/blob/5f5ce3343a88bdf919dcadacbfe700cc58ef3031/autogen/autogen_demo_agent/meta_requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "agiresearch/Cerebrum",
+          "file": "requirements.txt",
+          "url": "https://github.com/agiresearch/Cerebrum/blob/ab7e434aa9cf3109ffd819779c06c08569218c71/cerebrum/example/agents/autogen_demo_agent/meta_requirements.txt",
+          "detected": "2026-08-18"
         }
       ]
     }
@@ -36,7 +43,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -45,6 +52,11 @@
     },
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-08-18",
       "type": "dependency",
       "framework": "autogen"
     }

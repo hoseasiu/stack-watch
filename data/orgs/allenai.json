@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -373,9 +373,81 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/Olmo-3-7B-Instruct-SFT",
       "detected": "2026-08-11"
+    },
+    {
+      "id": "allenai/SamudrACE-E3SMv3",
+      "name": "allenai/SamudrACE-E3SMv3",
+      "library": "fme",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/SamudrACE-E3SMv3",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/macaw-3b",
+      "name": "allenai/macaw-3b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/macaw-3b",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/OLMo-7B-0424",
+      "name": "allenai/OLMo-7B-0424",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-7B-0424",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/Molmo-7B-O-0924",
+      "name": "allenai/Molmo-7B-O-0924",
+      "library": "transformers",
+      "base_model": "openai/clip-vit-large-patch14-336",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Molmo-7B-O-0924",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/SERA-32B",
+      "name": "allenai/SERA-32B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/SERA-32B",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/WildDet3D",
+      "name": "allenai/WildDet3D",
+      "library": "wilddet3d",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/WildDet3D",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/Molmo2-ER",
+      "name": "allenai/Molmo2-ER",
+      "library": "transformers",
+      "base_model": "allenai/Molmo2-4B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Molmo2-ER",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/OlmoEarth-v1_2-Small",
+      "name": "allenai/OlmoEarth-v1_2-Small",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Small",
+      "detected": "2026-08-18"
     }
   ],
-  "signal_count": 40,
+  "signal_count": 48,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -576,6 +648,46 @@
       "date": "2026-08-11",
       "type": "hf_model",
       "model": "allenai/Olmo-3-7B-Instruct-SFT"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/SamudrACE-E3SMv3"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/macaw-3b"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/OLMo-7B-0424"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/Molmo-7B-O-0924"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/SERA-32B"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/WildDet3D"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/Molmo2-ER"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "allenai/OlmoEarth-v1_2-Small"
     }
   ]
 }

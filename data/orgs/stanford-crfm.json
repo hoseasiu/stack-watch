@@ -4,7 +4,7 @@
   "github_org": "stanford-crfm",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-08-18",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -120,9 +120,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stanford-crfm/music-large-800k",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "stanford-crfm/BioMedLM",
+      "name": "stanford-crfm/BioMedLM",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stanford-crfm/BioMedLM",
+      "detected": "2026-08-18"
     }
   ],
-  "signal_count": 12,
+  "signal_count": 13,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -183,6 +192,11 @@
       "date": "2026-07-21",
       "type": "hf_model",
       "model": "stanford-crfm/music-large-800k"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "stanford-crfm/BioMedLM"
     }
   ]
 }

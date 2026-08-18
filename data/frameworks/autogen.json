@@ -486,6 +486,22 @@
     {
       "date": "2026-08-11",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "agiresearch"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-08-18",
+      "org": "zenml-io"
     }
   ],
   "org_count": 42

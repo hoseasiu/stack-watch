@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -158,10 +158,26 @@
       ],
       "posted": "2026-08-07",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6134464004"
+    },
+    {
+      "title": "Marketing Operations Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6144467004"
+    },
+    {
+      "title": "Senior Brand Designer",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2025-07-08",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5579560004"
     }
   ],
   "hf_models": [],
-  "signal_count": 13,
+  "signal_count": 14,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -257,6 +273,13 @@
       "type": "job_posting",
       "terms": [
         "AI agent"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
       ]
     }
   ]

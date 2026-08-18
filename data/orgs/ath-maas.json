@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-18",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -175,9 +175,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ATH-MaaS/Lumen_wmt26",
       "detected": "2026-08-11"
+    },
+    {
+      "id": "ATH-MaaS/Marco-Nano-Base",
+      "name": "ATH-MaaS/Marco-Nano-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-Nano-Base",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ATH-MaaS/Marco-Mini-Base",
+      "name": "ATH-MaaS/Marco-Mini-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-Mini-Base",
+      "detected": "2026-08-18"
+    },
+    {
+      "id": "ATH-MaaS/Marco-Mini-Global-Base",
+      "name": "ATH-MaaS/Marco-Mini-Global-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-Mini-Global-Base",
+      "detected": "2026-08-18"
     }
   ],
-  "signal_count": 18,
+  "signal_count": 21,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -268,6 +295,21 @@
       "date": "2026-08-11",
       "type": "hf_model",
       "model": "ATH-MaaS/Lumen_wmt26"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-Nano-Base"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-Mini-Base"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-Mini-Global-Base"
     }
   ]
 }

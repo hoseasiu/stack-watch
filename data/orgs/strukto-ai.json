@@ -1,0 +1,59 @@
+{
+  "slug": "strukto-ai",
+  "display_name": "strukto-ai",
+  "github_org": "strukto-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-08-18",
+  "last_updated": "2026-08-18",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-08-18",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "strukto-ai/mirage",
+          "file": "pyproject.toml",
+          "url": "https://github.com/strukto-ai/mirage/blob/bc0adbd24870d2c71cb966dcd7980b46e56fedb0/python/pyproject.toml",
+          "detected": "2026-08-18"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-08-18",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-18",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "strukto-ai/mirage"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "strukto-ai/mirage",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/strukto-ai/mirage/blob/main/CLAUDE.md",
+        "detected": "2026-08-18"
+      },
+      {
+        "type": "agent_config",
+        "repo": "strukto-ai/mirage",
+        "file": "AGENTS.md",
+        "url": "https://github.com/strukto-ai/mirage/blob/main/AGENTS.md",
+        "detected": "2026-08-18"
+      }
+    ]
+  }
+}
