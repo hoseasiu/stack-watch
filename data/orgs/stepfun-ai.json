@@ -4,7 +4,7 @@
   "github_org": "stepfun-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -220,9 +220,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stepfun-ai/Step3-VL-10B-Base",
       "detected": "2026-08-11"
+    },
+    {
+      "id": "stepfun-ai/Step-Audio-Tokenizer",
+      "name": "stepfun-ai/Step-Audio-Tokenizer",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-Audio-Tokenizer",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "stepfun-ai/Step-Audio-TTS-3B",
+      "name": "stepfun-ai/Step-Audio-TTS-3B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step-Audio-TTS-3B",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "stepfun-ai/stepvideo-t2v",
+      "name": "stepfun-ai/stepvideo-t2v",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
+      "detected": "2026-08-25"
     }
   ],
-  "signal_count": 23,
+  "signal_count": 26,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -338,6 +365,21 @@
       "date": "2026-08-11",
       "type": "hf_model",
       "model": "stepfun-ai/Step3-VL-10B-Base"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-Audio-Tokenizer"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step-Audio-TTS-3B"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "stepfun-ai/stepvideo-t2v"
     }
   ]
 }

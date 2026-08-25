@@ -4,7 +4,7 @@
   "github_org": "dryvist",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/dryvist/ansible-proxmox-ai/blob/8f731320976650e02c6703e7d064352686def135/roles/langgraph_docker/templates/pyproject.toml.j2",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "dryvist/ansible-proxmox-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/dryvist/ansible-proxmox-ai/blob/65205bd39f86de53bdd9b41bf97eca833f7cf15a/roles/langgraph_docker/templates/pyproject.toml.j2",
+          "detected": "2026-08-25"
         }
       ]
     }
@@ -23,7 +30,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -35,6 +42,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "dryvist/ansible-proxmox-ai"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "dependency",
+      "framework": "langgraph"
     }
   ],
   "agent_config": {

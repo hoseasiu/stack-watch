@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -898,6 +898,142 @@
       ],
       "posted": "2025-12-04",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017903008"
+    },
+    {
+      "title": "Applied AI Architect, Public Sector (National Security)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390877008"
+    },
+    {
+      "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-08-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5021015008"
+    },
+    {
+      "title": "BDR Enablement Lead",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390984008"
+    },
+    {
+      "title": "Customer Success Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391102008"
+    },
+    {
+      "title": "Customer Success Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391112008"
+    },
+    {
+      "title": "Economic Mobility Partnerships Manager - Career Pathways",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-05-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5228098008"
+    },
+    {
+      "title": "Manager Applied AI Architecture, Financial Services",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390894008"
+    },
+    {
+      "title": "Manager Applied AI Architecture, Healthcare & Life Sciences",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390890008"
+    },
+    {
+      "title": "Manager, Customer Success GSI",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392821008"
+    },
+    {
+      "title": "Manager of Applied AI Architecture, Commercial",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390865008"
+    },
+    {
+      "title": "Partner Account Manager, DACH",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391241008"
+    },
+    {
+      "title": "Product Manager, Cybersecurity ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5393526008"
+    },
+    {
+      "title": "Security Engineer, Corporate Security",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397319008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Auth & Identity",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398227008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Claude Managed Agents",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5395767008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Platform Connectivity",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394948008"
+    },
+    {
+      "title": "Technical Deployment Lead",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391108008"
     }
   ],
   "hf_models": [
@@ -911,7 +1047,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 29,
+  "signal_count": 33,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1121,6 +1257,34 @@
       "type": "job_posting",
       "terms": [
         "MCP server"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
       ]
     }
   ]

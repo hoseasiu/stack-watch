@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -112,9 +112,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/ruT5-large",
       "detected": "2026-08-18"
+    },
+    {
+      "id": "ai-forever/rugpt3small_based_on_gpt2",
+      "name": "ai-forever/rugpt3small_based_on_gpt2",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/rugpt3small_based_on_gpt2",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "ai-forever/mGPT",
+      "name": "ai-forever/mGPT",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/mGPT",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "ai-forever/ru-en-RoSBERTa",
+      "name": "ai-forever/ru-en-RoSBERTa",
+      "library": "sentence-transformers",
+      "base_model": "ai-forever/ruRoberta-large",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ru-en-RoSBERTa",
+      "detected": "2026-08-25"
     }
   ],
-  "signal_count": 12,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -176,6 +203,21 @@
       "date": "2026-08-18",
       "type": "hf_model",
       "model": "ai-forever/ruT5-large"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "ai-forever/rugpt3small_based_on_gpt2"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "ai-forever/mGPT"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "ai-forever/ru-en-RoSBERTa"
     }
   ],
   "agent_config": {

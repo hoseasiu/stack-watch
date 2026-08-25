@@ -824,6 +824,50 @@
     {
       "date": "2026-08-18",
       "org": "wandb"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "coinbase"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "conductor-oss"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "metaculus"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "strukto-ai"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "wandb"
     }
   ],
   "org_count": 61

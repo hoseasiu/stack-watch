@@ -1,0 +1,34 @@
+{
+  "slug": "raivnlab",
+  "display_name": "RAIVNLab",
+  "github_org": "RAIVNLab",
+  "sector": "unclassified",
+  "first_detected": "2026-08-25",
+  "last_updated": "2026-08-25",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-08-25",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "RAIVNLab/mnms",
+          "file": "requirements.txt",
+          "url": "https://github.com/RAIVNLab/mnms/blob/89037953d58b14b126ad8679b1a5ce68e4fba21f/requirements.txt",
+          "detected": "2026-08-25"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-08-25",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -44,6 +44,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/sambanova/ai-starter-kit/blob/342500a78bf430176805bc1ffead5e3f11e6ddce/base-requirements.txt",
           "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/ai-starter-kit",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/ai-starter-kit/blob/1379ed6e923d0f799eb240d4e6259fe25eb00d18/base-requirements.txt",
+          "detected": "2026-08-25"
         }
       ]
     },
@@ -124,10 +131,26 @@
       ],
       "posted": "2026-07-14",
       "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6115612004"
+    },
+    {
+      "title": "Customer Success Operations Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-18",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6146513004"
+    },
+    {
+      "title": "Network Solutions Architect",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-19",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6147775004"
     }
   ],
   "hf_models": [],
-  "signal_count": 11,
+  "signal_count": 14,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -190,6 +213,25 @@
       "date": "2026-08-04",
       "type": "dependency",
       "framework": "langgraph"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
     }
   ]
 }

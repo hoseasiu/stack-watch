@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -654,10 +654,60 @@
       ],
       "posted": "2026-08-13",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4722512005"
+    },
+    {
+      "title": "Engagement Manager (Homeland Layered Defense), Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726274005"
+    },
+    {
+      "title": "Engagement Manager (Homeland Layered Defense), Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726264005"
+    },
+    {
+      "title": "Senior Software Engineer, AI Operations, GPS",
+      "terms_matched": [
+        "LangChain",
+        "RAG pipeline",
+        "vector database"
+      ],
+      "posted": "2026-08-20",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4725133005"
+    },
+    {
+      "title": "Subcontracts Manager, Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727162005"
+    },
+    {
+      "title": "Technical Program Manager (Homeland Layered Defense), Public Sector ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726276005"
+    },
+    {
+      "title": "Technical Program Manager (Homeland Layered Defense), Public Sector ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-24",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726268005"
     }
   ],
   "hf_models": [],
-  "signal_count": 26,
+  "signal_count": 28,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -861,6 +911,22 @@
       "date": "2026-08-18",
       "type": "job_posting",
       "terms": [
+        "vector database"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "LangChain",
+        "RAG pipeline",
         "vector database"
       ]
     }

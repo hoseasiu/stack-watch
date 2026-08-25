@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -184,9 +184,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/Apollo-0.5B",
       "detected": "2026-08-18"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-o1-72B",
+      "name": "FreedomIntelligence/HuatuoGPT-o1-72B",
+      "library": null,
+      "base_model": "Qwen/Qwen2.5-72B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-o1-72B",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "FreedomIntelligence/HiMed-8B",
+      "name": "FreedomIntelligence/HiMed-8B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HiMed-8B",
+      "detected": "2026-08-25"
     }
   ],
-  "signal_count": 19,
+  "signal_count": 21,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -282,6 +300,16 @@
       "date": "2026-08-18",
       "type": "hf_model",
       "model": "FreedomIntelligence/Apollo-0.5B"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-o1-72B"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HiMed-8B"
     }
   ]
 }

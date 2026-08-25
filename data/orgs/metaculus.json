@@ -4,7 +4,7 @@
   "github_org": "Metaculus",
   "sector": "unclassified",
   "first_detected": "2026-08-11",
-  "last_updated": "2026-08-11",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Metaculus/forecasting-tools/blob/320b093aa8ac77f82aedac459ca18ca439e3b15c/pyproject.toml",
           "detected": "2026-08-11"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Metaculus/forecasting-tools",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Metaculus/forecasting-tools/blob/8d4171b18c2b3d148865f8ba677f2168d4335216/pyproject.toml",
+          "detected": "2026-08-25"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-08-11",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-08-25",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

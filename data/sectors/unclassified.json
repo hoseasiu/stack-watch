@@ -526,6 +526,10 @@
       "display_name": "raga-ai-hub"
     },
     {
+      "slug": "raivnlab",
+      "display_name": "RAIVNLab"
+    },
+    {
       "slug": "redis",
       "display_name": "redis"
     },
@@ -670,6 +674,10 @@
       "display_name": "ulab-uiuc"
     },
     {
+      "slug": "uni-medical",
+      "display_name": "uni-medical"
+    },
+    {
       "slug": "unitycatalog",
       "display_name": "unitycatalog"
     },
@@ -710,7 +718,7 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 177,
+  "org_count": 179,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
@@ -718,7 +726,7 @@
     },
     {
       "slug": "autogen",
-      "count": 42
+      "count": 44
     },
     {
       "slug": "langgraph",

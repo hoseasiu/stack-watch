@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -248,10 +248,18 @@
       ],
       "posted": "2026-08-11",
       "url": "http://block.xyz/careers/jobs/5369947008?gh_jid=5369947008"
+    },
+    {
+      "title": "Senior ML/AI Modeler, Risk Automation Machine Learning",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-19",
+      "url": "http://block.xyz/careers/jobs/5394441008?gh_jid=5394441008"
     }
   ],
   "hf_models": [],
-  "signal_count": 17,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -372,6 +380,13 @@
       "type": "job_posting",
       "terms": [
         "AI agent"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
       ]
     }
   ]

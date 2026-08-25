@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -202,9 +202,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ATH-MaaS/Marco-Mini-Global-Base",
       "detected": "2026-08-18"
+    },
+    {
+      "id": "ATH-MaaS/Ovis1.6-Gemma2-9B",
+      "name": "ATH-MaaS/Ovis1.6-Gemma2-9B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis1.6-Gemma2-9B",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "ATH-MaaS/Ovis1.6-Gemma2-9B-GPTQ-Int4",
+      "name": "ATH-MaaS/Ovis1.6-Gemma2-9B-GPTQ-Int4",
+      "library": "transformers",
+      "base_model": "ATH-MaaS/Ovis1.6-Gemma2-9B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis1.6-Gemma2-9B-GPTQ-Int4",
+      "detected": "2026-08-25"
     }
   ],
-  "signal_count": 21,
+  "signal_count": 23,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -310,6 +328,16 @@
       "date": "2026-08-18",
       "type": "hf_model",
       "model": "ATH-MaaS/Marco-Mini-Global-Base"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis1.6-Gemma2-9B"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis1.6-Gemma2-9B-GPTQ-Int4"
     }
   ]
 }

@@ -252,6 +252,18 @@
       "display_name": "snap-stanford",
       "confidence": "high",
       "first_seen": "2026-07-28"
+    },
+    {
+      "slug": "raivnlab",
+      "display_name": "RAIVNLab",
+      "confidence": "high",
+      "first_seen": "2026-08-25"
+    },
+    {
+      "slug": "uni-medical",
+      "display_name": "uni-medical",
+      "confidence": "high",
+      "first_seen": "2026-08-25"
     }
   ],
   "signal_history": [
@@ -502,7 +514,23 @@
     {
       "date": "2026-08-18",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "raivnlab"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "uni-medical"
+    },
+    {
+      "date": "2026-08-25",
+      "org": "zenml-io"
     }
   ],
-  "org_count": 42
+  "org_count": 44
 }

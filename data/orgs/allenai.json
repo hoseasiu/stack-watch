@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -445,9 +445,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OlmoEarth-v1_2-Small",
       "detected": "2026-08-18"
+    },
+    {
+      "id": "allenai/unifiedqa-t5-3b",
+      "name": "allenai/unifiedqa-t5-3b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/unifiedqa-t5-3b",
+      "detected": "2026-08-25"
+    },
+    {
+      "id": "allenai/unifiedqa-v2-t5-3b-1363200",
+      "name": "allenai/unifiedqa-v2-t5-3b-1363200",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/unifiedqa-v2-t5-3b-1363200",
+      "detected": "2026-08-25"
     }
   ],
-  "signal_count": 48,
+  "signal_count": 50,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -688,6 +706,16 @@
       "date": "2026-08-18",
       "type": "hf_model",
       "model": "allenai/OlmoEarth-v1_2-Small"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "allenai/unifiedqa-t5-3b"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "allenai/unifiedqa-v2-t5-3b-1363200"
     }
   ]
 }

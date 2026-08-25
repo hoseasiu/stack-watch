@@ -4,7 +4,7 @@
   "github_org": "zjunlp",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-08-25",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -161,9 +161,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/zjunlp/zhixi-13b-lora",
       "detected": "2026-07-21"
+    },
+    {
+      "id": "zjunlp/LabVLA-5B-Base",
+      "name": "zjunlp/LabVLA-5B-Base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/LabVLA-5B-Base",
+      "detected": "2026-08-25"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -239,6 +248,11 @@
       "date": "2026-08-18",
       "type": "dependency",
       "framework": "langgraph"
+    },
+    {
+      "date": "2026-08-25",
+      "type": "hf_model",
+      "model": "zjunlp/LabVLA-5B-Base"
     }
   ]
 }
