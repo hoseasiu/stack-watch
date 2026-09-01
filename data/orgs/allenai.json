@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -463,9 +463,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/unifiedqa-v2-t5-3b-1363200",
       "detected": "2026-08-25"
+    },
+    {
+      "id": "allenai/satlas-pretrain",
+      "name": "allenai/satlas-pretrain",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/satlas-pretrain",
+      "detected": "2026-09-01"
+    },
+    {
+      "id": "allenai/OLMo-2-0425-1B-Instruct",
+      "name": "allenai/OLMo-2-0425-1B-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-0425-1B-RLVR1",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct",
+      "detected": "2026-09-01"
     }
   ],
-  "signal_count": 50,
+  "signal_count": 52,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -716,6 +734,16 @@
       "date": "2026-08-25",
       "type": "hf_model",
       "model": "allenai/unifiedqa-v2-t5-3b-1363200"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "hf_model",
+      "model": "allenai/satlas-pretrain"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-0425-1B-Instruct"
     }
   ]
 }

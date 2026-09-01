@@ -4,7 +4,7 @@
   "github_org": "SpillwaveSolutions",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/SpillwaveSolutions/agent-brain/blob/7ff264c0f5d4f9e2c2ea74b547dd282e1667f5c7/framework-matrix/autogen/requirements.txt",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "SpillwaveSolutions/agent-brain",
+          "file": "requirements.txt",
+          "url": "https://github.com/SpillwaveSolutions/agent-brain/blob/1be43242d120c520d04be30de10c675c5dfe9032/framework-matrix/autogen/requirements.txt",
+          "detected": "2026-09-01"
         }
       ]
     }
@@ -49,7 +56,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -64,6 +71,11 @@
     },
     {
       "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-01",
       "type": "dependency",
       "framework": "autogen"
     }

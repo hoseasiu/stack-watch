@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -256,10 +256,43 @@
       ],
       "posted": "2026-08-19",
       "url": "http://block.xyz/careers/jobs/5394441008?gh_jid=5394441008"
+    },
+    {
+      "title": "People Intelligence Architect",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-08-26",
+      "url": "http://block.xyz/careers/jobs/5406274008?gh_jid=5406274008"
+    },
+    {
+      "title": "Staff Software Engineer, Go-to-Market Systems & AI",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-31",
+      "url": "http://block.xyz/careers/jobs/5411025008?gh_jid=5411025008"
+    },
+    {
+      "title": "Staff Software Engineer, Go-to-Market Systems & AI",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-31",
+      "url": "http://block.xyz/careers/jobs/5406249008?gh_jid=5406249008"
+    },
+    {
+      "title": "Staff Software Engineer, Go-to-Market Systems & AI",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-08-31",
+      "url": "http://block.xyz/careers/jobs/5406251008?gh_jid=5406251008"
     }
   ],
   "hf_models": [],
-  "signal_count": 18,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -387,6 +420,21 @@
       "type": "job_posting",
       "terms": [
         "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

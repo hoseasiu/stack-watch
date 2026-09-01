@@ -474,6 +474,10 @@
       "display_name": "oracle-devrel"
     },
     {
+      "slug": "owasp",
+      "display_name": "OWASP"
+    },
+    {
       "slug": "pachterlab",
       "display_name": "pachterlab"
     },
@@ -718,7 +722,7 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 179,
+  "org_count": 180,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
@@ -726,7 +730,7 @@
     },
     {
       "slug": "autogen",
-      "count": 44
+      "count": 45
     },
     {
       "slug": "langgraph",

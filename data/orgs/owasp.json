@@ -1,0 +1,34 @@
+{
+  "slug": "owasp",
+  "display_name": "OWASP",
+  "github_org": "OWASP",
+  "sector": "unclassified",
+  "first_detected": "2026-09-01",
+  "last_updated": "2026-09-01",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-09-01",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "OWASP/www-project-top-10-for-large-language-model-applications",
+          "file": "requirements.txt",
+          "url": "https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/99f4395589bdbd120ae961f9cd179e79d7f9b27f/initiatives/agent_security_initiative/code_samples/top_10_for_llms/frameworks/autogen/autogen_refund_demo/requirements.txt",
+          "detected": "2026-09-01"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-09-01",
+      "type": "dependency",
+      "framework": "autogen"
+    }
+  ]
+}

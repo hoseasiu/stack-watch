@@ -868,6 +868,42 @@
     {
       "date": "2026-08-25",
       "org": "wandb"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "conductor-oss"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "strukto-ai"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "wandb"
     }
   ],
   "org_count": 61

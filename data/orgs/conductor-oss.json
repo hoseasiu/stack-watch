@@ -4,7 +4,7 @@
   "github_org": "conductor-oss",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/conductor-oss/python-sdk/blob/a1b2ecb6dd203533ef122267a4c493d2fae6afad/pyproject.toml",
           "detected": "2026-08-25"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "conductor-oss/python-sdk",
+          "file": "pyproject.toml",
+          "url": "https://github.com/conductor-oss/python-sdk/blob/c99e2cf9871c21f7a64d823126ee1b77989b00ad/pyproject.toml",
+          "detected": "2026-09-01"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -39,6 +46,11 @@
     },
     {
       "date": "2026-08-25",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-01",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

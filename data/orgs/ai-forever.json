@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -139,9 +139,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/ru-en-RoSBERTa",
       "detected": "2026-08-25"
+    },
+    {
+      "id": "ai-forever/FRIDA",
+      "name": "ai-forever/FRIDA",
+      "library": "sentence-transformers",
+      "base_model": "ai-forever/FRED-T5-1.7B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/FRIDA",
+      "detected": "2026-09-01"
     }
   ],
-  "signal_count": 15,
+  "signal_count": 16,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -218,6 +227,11 @@
       "date": "2026-08-25",
       "type": "hf_model",
       "model": "ai-forever/ru-en-RoSBERTa"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "hf_model",
+      "model": "ai-forever/FRIDA"
     }
   ],
   "agent_config": {

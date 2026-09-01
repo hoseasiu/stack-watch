@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -202,9 +202,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/HiMed-8B",
       "detected": "2026-08-25"
+    },
+    {
+      "id": "FreedomIntelligence/Apollo2-9B",
+      "name": "FreedomIntelligence/Apollo2-9B",
+      "library": null,
+      "base_model": "google/gemma-2-9b",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/Apollo2-9B",
+      "detected": "2026-09-01"
     }
   ],
-  "signal_count": 21,
+  "signal_count": 22,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -310,6 +319,11 @@
       "date": "2026-08-25",
       "type": "hf_model",
       "model": "FreedomIntelligence/HiMed-8B"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/Apollo2-9B"
     }
   ]
 }

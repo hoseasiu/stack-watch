@@ -4,7 +4,7 @@
   "github_org": "Azure-Samples",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -92,6 +92,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator/blob/5dae221f6ae9e2a1f65cecbf3b1afada617dc087/validation/requirements.txt",
           "detected": "2026-08-25"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/ai-hub-gateway-solution-accelerator",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator/blob/0d7b077209014c8843fcb34a688def87f7d96b6c/shared/requirements.txt",
+          "detected": "2026-09-01"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/ai-hub-gateway-solution-accelerator",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator/blob/0d7b077209014c8843fcb34a688def87f7d96b6c/validation/requirements.txt",
+          "detected": "2026-09-01"
         }
       ]
     }
@@ -118,7 +132,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 9,
+  "signal_count": 10,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -164,6 +178,11 @@
     },
     {
       "date": "2026-08-25",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-01",
       "type": "dependency",
       "framework": "autogen"
     }

@@ -264,6 +264,12 @@
       "display_name": "uni-medical",
       "confidence": "high",
       "first_seen": "2026-08-25"
+    },
+    {
+      "slug": "owasp",
+      "display_name": "OWASP",
+      "confidence": "high",
+      "first_seen": "2026-09-01"
     }
   ],
   "signal_history": [
@@ -530,7 +536,23 @@
     {
       "date": "2026-08-25",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "mlflow"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "owasp"
+    },
+    {
+      "date": "2026-09-01",
+      "org": "spillwavesolutions"
     }
   ],
-  "org_count": 44
+  "org_count": 45
 }

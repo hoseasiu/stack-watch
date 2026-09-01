@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1034,6 +1034,64 @@
       ],
       "posted": "2026-08-19",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391108008"
+    },
+    {
+      "title": "AI Engineer, GTM Claudification ",
+      "terms_matched": [
+        "MCP server",
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-08-25",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390966008"
+    },
+    {
+      "title": "Discovery Operations Lead, Litigation & Regulatory",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-25",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400362008"
+    },
+    {
+      "title": "Growth Account Executive, Startups",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391309008"
+    },
+    {
+      "title": "Head of Policy Design, Societal Harms",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-28",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5407418008"
+    },
+    {
+      "title": "Manager, Applied AI Architect, Enterprise Tech",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-25",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387754008"
+    },
+    {
+      "title": "Product Manager, Beneficial Deployments (Labs)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5407337008"
+    },
+    {
+      "title": "Product Manager, Claude Science",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-08-31",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394887008"
     }
   ],
   "hf_models": [
@@ -1047,7 +1105,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 33,
+  "signal_count": 37,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1282,6 +1340,36 @@
     },
     {
       "date": "2026-08-25",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-09-01",
       "type": "job_posting",
       "terms": [
         "multi-agent"

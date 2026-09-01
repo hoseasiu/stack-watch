@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -704,10 +704,18 @@
       ],
       "posted": "2026-08-24",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4726268005"
+    },
+    {
+      "title": "Deployment Strategist - DHS/DOJ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-08-26",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727671005"
     }
   ],
   "hf_models": [],
-  "signal_count": 28,
+  "signal_count": 29,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -928,6 +936,13 @@
         "LangChain",
         "RAG pipeline",
         "vector database"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
       ]
     }
   ]

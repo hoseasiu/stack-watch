@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-01",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -232,6 +232,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/b5705588883fac48b88cbe6fd0bd7d48c798453e/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-08-25"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/359a2332f57d9000924baba269ed24e4e15ad8b0/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-09-01"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/359a2332f57d9000924baba269ed24e4e15ad8b0/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-09-01"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/359a2332f57d9000924baba269ed24e4e15ad8b0/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-09-01"
         }
       ]
     }
@@ -586,9 +607,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/mdeberta-v3-base",
       "detected": "2026-08-25"
+    },
+    {
+      "id": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+      "name": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+      "library": "open_clip",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
+      "detected": "2026-09-01"
     }
   ],
-  "signal_count": 48,
+  "signal_count": 50,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -832,6 +862,16 @@
       "date": "2026-08-25",
       "type": "hf_model",
       "model": "microsoft/mdeberta-v3-base"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "hf_model",
+      "model": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224"
     }
   ]
 }
