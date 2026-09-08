@@ -4,7 +4,7 @@
   "github_org": "rllm-org",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -44,6 +44,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/rllm-org/rllm/blob/9beb6e0f676a46d38858991fd79ac5f8e0b16d4c/cookbooks/agent_frameworks/pyproject.toml",
           "detected": "2026-08-18"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "rllm-org/rllm",
+          "file": "pyproject.toml",
+          "url": "https://github.com/rllm-org/rllm/blob/3b40c37cf6a262cf4d28cc987ebe4f4cf797956c/cookbooks/agent_frameworks/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -51,7 +58,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -75,6 +82,11 @@
     },
     {
       "date": "2026-08-18",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-08",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

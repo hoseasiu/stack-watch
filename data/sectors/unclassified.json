@@ -178,6 +178,10 @@
       "display_name": "D-o-c-labs"
     },
     {
+      "slug": "dapr",
+      "display_name": "dapr"
+    },
+    {
       "slug": "databricks-industry-solutions",
       "display_name": "databricks-industry-solutions"
     },
@@ -270,6 +274,10 @@
       "display_name": "getsentry"
     },
     {
+      "slug": "getzep",
+      "display_name": "getzep"
+    },
+    {
       "slug": "gleanwork",
       "display_name": "gleanwork"
     },
@@ -296,6 +304,10 @@
     {
       "slug": "guestrin-lab",
       "display_name": "guestrin-lab"
+    },
+    {
+      "slug": "headroomlabs-ai",
+      "display_name": "headroomlabs-ai"
     },
     {
       "slug": "hewlettpackard",
@@ -470,6 +482,10 @@
       "display_name": "OpenCSGs"
     },
     {
+      "slug": "oracle",
+      "display_name": "oracle"
+    },
+    {
       "slug": "oracle-devrel",
       "display_name": "oracle-devrel"
     },
@@ -502,6 +518,10 @@
       "display_name": "Poly186-AI-DAO"
     },
     {
+      "slug": "prismorsec",
+      "display_name": "PrismorSec"
+    },
+    {
       "slug": "project-baize",
       "display_name": "project-baize"
     },
@@ -512,6 +532,10 @@
     {
       "slug": "qmiai",
       "display_name": "QmiAI"
+    },
+    {
+      "slug": "qualixar",
+      "display_name": "qualixar"
     },
     {
       "slug": "quantaalpha",
@@ -594,6 +618,10 @@
       "display_name": "sfu-db"
     },
     {
+      "slug": "shadow-weave",
+      "display_name": "Shadow-Weave"
+    },
+    {
       "slug": "shotgun-sh",
       "display_name": "shotgun-sh"
     },
@@ -662,6 +690,10 @@
       "display_name": "TheAgenticAI"
     },
     {
+      "slug": "thehackersplaybook",
+      "display_name": "thehackersplaybook"
+    },
+    {
       "slug": "traceloop",
       "display_name": "traceloop"
     },
@@ -672,6 +704,10 @@
     {
       "slug": "ucbepic",
       "display_name": "ucbepic"
+    },
+    {
+      "slug": "ucf-crcv",
+      "display_name": "UCF-CRCV"
     },
     {
       "slug": "ulab-uiuc",
@@ -722,7 +758,7 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 180,
+  "org_count": 189,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
@@ -730,11 +766,11 @@
     },
     {
       "slug": "autogen",
-      "count": 45
+      "count": 52
     },
     {
       "slug": "langgraph",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "llamaindex",
@@ -751,6 +787,10 @@
     {
       "slug": "dify",
       "count": 4
+    },
+    {
+      "slug": "crewai",
+      "count": 1
     }
   ]
 }

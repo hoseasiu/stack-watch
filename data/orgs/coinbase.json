@@ -4,7 +4,7 @@
   "github_org": "coinbase",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -51,6 +51,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/coinbase/agentkit/blob/455a6c5a29375de290da0f3b440119ec7f511440/python/framework-extensions/openai-agents-sdk/pyproject.toml",
           "detected": "2026-08-25"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "coinbase/agentkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/coinbase/agentkit/blob/2e6dbaf725b9ec5f3b53003278100b0e655c214d/python/create-onchain-agent/templates/chatbot/pyproject.toml.jinja",
+          "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "coinbase/agentkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/coinbase/agentkit/blob/2e6dbaf725b9ec5f3b53003278100b0e655c214d/python/create-onchain-agent/templates/beginner/pyproject.toml.jinja",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -58,7 +72,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -72,6 +86,11 @@
     },
     {
       "date": "2026-08-25",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-08",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

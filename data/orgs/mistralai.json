@@ -4,7 +4,7 @@
   "github_org": "mistralai",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -271,9 +271,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mistralai/Mistral-Large-3-675B-Instruct-2512",
       "detected": "2026-09-01"
+    },
+    {
+      "id": "mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+      "name": "mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+      "library": "vllm",
+      "base_model": "mistralai/Ministral-3-14B-Instruct-2512",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Ministral-3-14B-Instruct-2512-GGUF",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 28,
+  "signal_count": 29,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -414,6 +423,11 @@
       "date": "2026-09-01",
       "type": "hf_model",
       "model": "mistralai/Mistral-Large-3-675B-Instruct-2512"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "mistralai/Ministral-3-14B-Instruct-2512-GGUF"
     }
   ]
 }

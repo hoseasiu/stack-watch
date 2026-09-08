@@ -4,7 +4,7 @@
   "github_org": "agentcoinorg",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/agentcoinorg/AutoTx/blob/b8783065314b4ea55301d34254f92c7228bb769b/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "agentcoinorg/predictionprophet",
+          "file": "pyproject.toml",
+          "url": "https://github.com/agentcoinorg/predictionprophet/blob/f691e1711c5af6ecb744fc65aeb851b39f5136e3/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-08",
       "type": "dependency",
       "framework": "autogen"
     }

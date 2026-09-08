@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -211,9 +211,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/Apollo2-9B",
       "detected": "2026-09-01"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL",
+      "name": "FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL",
+      "library": null,
+      "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "FreedomIntelligence/HiMed-Verifier",
+      "name": "FreedomIntelligence/HiMed-Verifier",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HiMed-Verifier",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 22,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -324,6 +342,16 @@
       "date": "2026-09-01",
       "type": "hf_model",
       "model": "FreedomIntelligence/Apollo2-9B"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-Vision-7B-Qwen2.5VL"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HiMed-Verifier"
     }
   ]
 }

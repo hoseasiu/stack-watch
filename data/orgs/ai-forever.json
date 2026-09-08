@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -148,9 +148,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/FRIDA",
       "detected": "2026-09-01"
+    },
+    {
+      "id": "ai-forever/Pollux-4B-Judge",
+      "name": "ai-forever/Pollux-4B-Judge",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-4B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/Pollux-4B-Judge",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 16,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -232,6 +241,11 @@
       "date": "2026-09-01",
       "type": "hf_model",
       "model": "ai-forever/FRIDA"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "ai-forever/Pollux-4B-Judge"
     }
   ],
   "agent_config": {

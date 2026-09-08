@@ -270,6 +270,48 @@
       "display_name": "OWASP",
       "confidence": "high",
       "first_seen": "2026-09-01"
+    },
+    {
+      "slug": "getzep",
+      "display_name": "getzep",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "headroomlabs-ai",
+      "display_name": "headroomlabs-ai",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "oracle",
+      "display_name": "oracle",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "prismorsec",
+      "display_name": "PrismorSec",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "qualixar",
+      "display_name": "qualixar",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "shadow-weave",
+      "display_name": "Shadow-Weave",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "ucf-crcv",
+      "display_name": "UCF-CRCV",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
     }
   ],
   "signal_history": [
@@ -552,7 +594,87 @@
     {
       "date": "2026-09-01",
       "org": "spillwavesolutions"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "agentcoinorg"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "allenai"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "getzep"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "headroomlabs-ai"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "nvidia"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "openagents-org"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "oracle"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "panaversity"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "prismorsec"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "qualixar"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "salt-nlp"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "shadow-weave"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "spillwavesolutions"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "ucf-crcv"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "unitycatalog"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "zenml-io"
     }
   ],
-  "org_count": 45
+  "org_count": 52
 }

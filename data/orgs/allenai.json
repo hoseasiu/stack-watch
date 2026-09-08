@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/allenai/autodiscovery-neurips/blob/5d453af00734ec25af12d793fa4b00b7e138f116/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "allenai/autodiscovery-neurips",
+          "file": "pyproject.toml",
+          "url": "https://github.com/allenai/autodiscovery-neurips/blob/66aa2d513cafdb23bf38313ebef522ade93f8cd9/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -481,9 +488,63 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OLMo-2-0425-1B-Instruct",
       "detected": "2026-09-01"
+    },
+    {
+      "id": "allenai/scibert_scivocab_uncased",
+      "name": "allenai/scibert_scivocab_uncased",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/scibert_scivocab_uncased",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "allenai/kaleido-xxl",
+      "name": "allenai/kaleido-xxl",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/kaleido-xxl",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "allenai/paloma-1b-baseline-pile",
+      "name": "allenai/paloma-1b-baseline-pile",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/paloma-1b-baseline-pile",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "allenai/DataDecide-dolma1_7-1B",
+      "name": "allenai/DataDecide-dolma1_7-1B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/DataDecide-dolma1_7-1B",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "allenai/ACE2S-SHiELD-plus",
+      "name": "allenai/ACE2S-SHiELD-plus",
+      "library": "fme",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/ACE2S-SHiELD-plus",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "allenai/bidaf-elmo",
+      "name": "allenai/bidaf-elmo",
+      "library": "allennlp",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/bidaf-elmo",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 52,
+  "signal_count": 59,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -744,6 +805,41 @@
       "date": "2026-09-01",
       "type": "hf_model",
       "model": "allenai/OLMo-2-0425-1B-Instruct"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "allenai/scibert_scivocab_uncased"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "allenai/kaleido-xxl"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "allenai/paloma-1b-baseline-pile"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "allenai/DataDecide-dolma1_7-1B"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "allenai/ACE2S-SHiELD-plus"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "allenai/bidaf-elmo"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -712,10 +712,42 @@
       ],
       "posted": "2026-08-26",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4727671005"
+    },
+    {
+      "title": "Senior Product Design Manager, Enterprise",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-09-03",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729620005"
+    },
+    {
+      "title": "Software Engineering Intern (Summer 2027) ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-04",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005"
+    },
+    {
+      "title": "Software Engineer - New Grad",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-04",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730836005"
+    },
+    {
+      "title": "Staff Software Engineer, RL Environments  ",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-09-02",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729820005"
     }
   ],
   "hf_models": [],
-  "signal_count": 29,
+  "signal_count": 32,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -943,6 +975,27 @@
       "type": "job_posting",
       "terms": [
         "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
       ]
     }
   ]

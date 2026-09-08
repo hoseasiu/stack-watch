@@ -132,6 +132,12 @@
       "display_name": "cyberark",
       "confidence": "high",
       "first_seen": "2026-08-04"
+    },
+    {
+      "slug": "dapr",
+      "display_name": "dapr",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
     }
   ],
   "signal_history": [
@@ -326,7 +332,11 @@
     {
       "date": "2026-09-01",
       "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "dapr"
     }
   ],
-  "org_count": 22
+  "org_count": 23
 }

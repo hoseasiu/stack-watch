@@ -4,7 +4,7 @@
   "github_org": "Alibaba-NLP",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -198,9 +198,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/Alibaba-NLP/LaSER-Qwen3-8B",
       "detected": "2026-08-11"
+    },
+    {
+      "id": "Alibaba-NLP/core-reranker-2b",
+      "name": "Alibaba-NLP/core-reranker-2b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/core-reranker-2b",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "Alibaba-NLP/core-emb-2b",
+      "name": "Alibaba-NLP/core-emb-2b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/core-emb-2b",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "Alibaba-NLP/core-reranker-8b",
+      "name": "Alibaba-NLP/core-reranker-8b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/core-reranker-8b",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "Alibaba-NLP/core-emb-8b",
+      "name": "Alibaba-NLP/core-emb-8b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/core-emb-8b",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 21,
+  "signal_count": 25,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -306,6 +342,26 @@
       "date": "2026-08-18",
       "type": "dependency",
       "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/core-reranker-2b"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/core-emb-2b"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/core-reranker-8b"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/core-emb-8b"
     }
   ]
 }

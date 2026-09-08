@@ -12,6 +12,12 @@
       "display_name": "SambaNova Systems",
       "confidence": "high",
       "first_seen": "2026-06-30"
+    },
+    {
+      "slug": "thehackersplaybook",
+      "display_name": "thehackersplaybook",
+      "confidence": "high",
+      "first_seen": "2026-09-08"
     }
   ],
   "signal_history": [
@@ -22,7 +28,15 @@
     {
       "date": "2026-06-30",
       "org": "sambanova"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "sambanova"
+    },
+    {
+      "date": "2026-09-08",
+      "org": "thehackersplaybook"
     }
   ],
-  "org_count": 2
+  "org_count": 3
 }

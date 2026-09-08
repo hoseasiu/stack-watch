@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -114,6 +114,27 @@
           "file": "requirements.txt",
           "url": "https://github.com/microsoft/SecRL/blob/d92d99ebd952d32a91da0bd3a871a9450fcaccbb/requirements.txt",
           "detected": "2026-08-18"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/semantic-kernel",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/semantic-kernel/blob/872d29ea75c6d65c88630c0298c7c8b8396a25e9/python/pyproject.toml",
+          "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/359a2332f57d9000924baba269ed24e4e15ad8b0/policy-engine/sdk/python/pyproject.toml",
+          "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/AIOpsLab",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/AIOpsLab/blob/ddf7e40619689dad75eaf8f2174e263c4157ec76/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     },
@@ -616,9 +637,54 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224",
       "detected": "2026-09-01"
+    },
+    {
+      "id": "microsoft/VibeVoice-ASR-Streaming-7B",
+      "name": "microsoft/VibeVoice-ASR-Streaming-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-7B",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "microsoft/VibeVoice-ASR-Streaming-1.5B",
+      "name": "microsoft/VibeVoice-ASR-Streaming-1.5B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/VibeVoice-ASR-Streaming-1.5B",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "microsoft/colipri",
+      "name": "microsoft/colipri",
+      "library": "colipri",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/colipri",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "microsoft/trocr-base-handwritten",
+      "name": "microsoft/trocr-base-handwritten",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/trocr-base-handwritten",
+      "detected": "2026-09-08"
+    },
+    {
+      "id": "microsoft/OmniParser-v2.0",
+      "name": "microsoft/OmniParser-v2.0",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/OmniParser-v2.0",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 50,
+  "signal_count": 56,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -872,6 +938,36 @@
       "date": "2026-09-01",
       "type": "hf_model",
       "model": "microsoft/BiomedCLIP-PubMedBERT_256-vit_base_patch16_224"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "microsoft/VibeVoice-ASR-Streaming-7B"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "microsoft/VibeVoice-ASR-Streaming-1.5B"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "microsoft/colipri"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "microsoft/trocr-base-handwritten"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "microsoft/OmniParser-v2.0"
     }
   ]
 }

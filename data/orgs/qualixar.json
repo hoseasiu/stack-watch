@@ -1,0 +1,52 @@
+{
+  "slug": "qualixar",
+  "display_name": "qualixar",
+  "github_org": "qualixar",
+  "sector": "unclassified",
+  "first_detected": "2026-09-08",
+  "last_updated": "2026-09-08",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-09-08",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "qualixar/superlocalmemory",
+          "file": "pyproject.toml",
+          "url": "https://github.com/qualixar/superlocalmemory/blob/07a431ed3894ad6b28f144db8a1a8c7d8c839a86/ide/integrations/autogen/pyproject.toml",
+          "detected": "2026-09-08"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "qualixar/superlocalmemory"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "qualixar/superlocalmemory",
+        "file": "AGENTS.md",
+        "url": "https://github.com/qualixar/superlocalmemory/blob/main/AGENTS.md",
+        "detected": "2026-09-08"
+      }
+    ]
+  }
+}

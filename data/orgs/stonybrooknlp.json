@@ -4,7 +4,7 @@
   "github_org": "StonyBrookNLP",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/StonyBrookNLP/appworld/blob/a072b7a86e7c1d5b1d7175659d750ebb9b79f10a/experiments/pyproject.toml",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "StonyBrookNLP/appworld",
+          "file": "pyproject.toml",
+          "url": "https://github.com/StonyBrookNLP/appworld/blob/42b5bcf3cd334fee33f0c37c02070a9f5807add5/experiments/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -114,7 +121,7 @@
       "detected": "2026-07-28"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -170,6 +177,11 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "StonyBrookNLP/t5-large-tatqa"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
     }
   ]
 }

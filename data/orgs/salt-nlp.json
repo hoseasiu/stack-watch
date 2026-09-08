@@ -4,7 +4,7 @@
   "github_org": "SALT-NLP",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/SALT-NLP/collaborative-gym/blob/c34b3a83b48b87dc7c4d4dd9862a6fe3e5dd4af6/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "SALT-NLP/collaborative-gym",
+          "file": "requirements.txt",
+          "url": "https://github.com/SALT-NLP/collaborative-gym/blob/58972c0702412f293e303c3e49b6cc896db2467a/requirements.txt",
+          "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "SALT-NLP/collaborative-gym",
+          "file": "pyproject.toml",
+          "url": "https://github.com/SALT-NLP/collaborative-gym/blob/58972c0702412f293e303c3e49b6cc896db2467a/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -121,7 +135,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -177,6 +191,11 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "SALT-NLP/CultureBank-Question-Generator"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ]
 }

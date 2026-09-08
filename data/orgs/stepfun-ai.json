@@ -4,7 +4,7 @@
   "github_org": "stepfun-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -247,9 +247,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stepfun-ai/stepvideo-t2v",
       "detected": "2026-08-25"
+    },
+    {
+      "id": "stepfun-ai/Step1X-Edit-v1p2-preview",
+      "name": "stepfun-ai/Step1X-Edit-v1p2-preview",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step1X-Edit-v1p2-preview",
+      "detected": "2026-09-08"
     }
   ],
-  "signal_count": 26,
+  "signal_count": 27,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -380,6 +389,11 @@
       "date": "2026-08-25",
       "type": "hf_model",
       "model": "stepfun-ai/stepvideo-t2v"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step1X-Edit-v1p2-preview"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-08",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1092,6 +1092,40 @@
       ],
       "posted": "2026-08-31",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5394887008"
+    },
+    {
+      "title": "Head of Technical Training",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-09-04",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5415529008"
+    },
+    {
+      "title": "Lead Technical Instructor",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-09-04",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5415537008"
+    },
+    {
+      "title": "Sales Enablement Lead, GTM Onboarding",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-01",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390972008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Claude Science",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-09-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412734008"
     }
   ],
   "hf_models": [
@@ -1105,7 +1139,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 37,
+  "signal_count": 40,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1370,6 +1404,28 @@
     },
     {
       "date": "2026-09-01",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-08",
       "type": "job_posting",
       "terms": [
         "multi-agent"

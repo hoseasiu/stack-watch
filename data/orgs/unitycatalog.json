@@ -4,7 +4,7 @@
   "github_org": "unitycatalog",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-09-08",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/unitycatalog/unitycatalog/blob/b9068ed725703737bae18f99289da4be9f76ae36/ai/integrations/autogen/pyproject.toml",
           "detected": "2026-07-07"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "unitycatalog/unitycatalog",
+          "file": "pyproject.toml",
+          "url": "https://github.com/unitycatalog/unitycatalog/blob/1962fdd1b0eff8bf922372d5f1920692b613dd3a/ai/integrations/autogen/pyproject.toml",
+          "detected": "2026-09-08"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -41,6 +48,36 @@
       "date": "2026-07-07",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-08",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "unitycatalog/unitycatalog"
     }
-  ]
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "unitycatalog/unitycatalog",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/unitycatalog/unitycatalog/blob/main/CLAUDE.md",
+        "detected": "2026-09-08"
+      },
+      {
+        "type": "agent_config",
+        "repo": "unitycatalog/unitycatalog",
+        "file": "AGENTS.md",
+        "url": "https://github.com/unitycatalog/unitycatalog/blob/main/AGENTS.md",
+        "detected": "2026-09-08"
+      }
+    ]
+  }
 }
