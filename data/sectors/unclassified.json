@@ -222,6 +222,10 @@
       "display_name": "downtimelabs"
     },
     {
+      "slug": "dragonhpc",
+      "display_name": "DragonHPC"
+    },
+    {
       "slug": "dryvist",
       "display_name": "dryvist"
     },
@@ -378,8 +382,16 @@
       "display_name": "LiveCodeBench"
     },
     {
+      "slug": "llmquant",
+      "display_name": "LLMQuant"
+    },
+    {
       "slug": "log2timeline",
       "display_name": "log2timeline"
+    },
+    {
+      "slug": "magnivorg",
+      "display_name": "MagnivOrg"
     },
     {
       "slug": "mapbox",
@@ -670,6 +682,10 @@
       "display_name": "temporalio"
     },
     {
+      "slug": "tencentcloudadp",
+      "display_name": "TencentCloudADP"
+    },
+    {
       "slug": "tencentmusic",
       "display_name": "tencentmusic"
     },
@@ -738,6 +754,10 @@
       "display_name": "vegu-ai"
     },
     {
+      "slug": "vllm-project",
+      "display_name": "vllm-project"
+    },
+    {
       "slug": "vstorm-co",
       "display_name": "vstorm-co"
     },
@@ -758,11 +778,11 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 189,
+  "org_count": 194,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 60
+      "count": 65
     },
     {
       "slug": "autogen",
@@ -770,7 +790,7 @@
     },
     {
       "slug": "langgraph",
-      "count": 21
+      "count": 22
     },
     {
       "slug": "llamaindex",

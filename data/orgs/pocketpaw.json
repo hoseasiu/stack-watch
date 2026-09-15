@@ -4,7 +4,7 @@
   "github_org": "pocketpaw",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/pocketpaw/pocketpaw/blob/3285fa410d620c84e5355d9b24474646f8a45b58/pyproject.toml",
           "detected": "2026-08-18"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "pocketpaw/pocketpaw",
+          "file": "pyproject.toml",
+          "url": "https://github.com/pocketpaw/pocketpaw/blob/374d9f068703f8955cc60ed1655477655f2fefa7/pyproject.toml",
+          "detected": "2026-09-15"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -45,6 +52,11 @@
     },
     {
       "date": "2026-08-18",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-15",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

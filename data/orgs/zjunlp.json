@@ -4,7 +4,7 @@
   "github_org": "zjunlp",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -65,6 +65,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/zjunlp/MemBase/blob/d2aca6c7abcb1d67b331586cb834495d037fa3a6/envs/evermemos_requirements.txt",
           "detected": "2026-08-18"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "zjunlp/MemBase",
+          "file": "requirements.txt",
+          "url": "https://github.com/zjunlp/MemBase/blob/a9ba9495d48541d3e68588ff097294cc7a1201bc/envs/rag_requirements.txt",
+          "detected": "2026-09-15"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "zjunlp/MemBase",
+          "file": "requirements.txt",
+          "url": "https://github.com/zjunlp/MemBase/blob/a9ba9495d48541d3e68588ff097294cc7a1201bc/envs/evermemos_requirements.txt",
+          "detected": "2026-09-15"
         }
       ]
     }
@@ -170,9 +184,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/zjunlp/LabVLA-5B-Base",
       "detected": "2026-08-25"
+    },
+    {
+      "id": "zjunlp/MolGen-7b",
+      "name": "zjunlp/MolGen-7b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/MolGen-7b",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 16,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -253,6 +276,16 @@
       "date": "2026-08-25",
       "type": "hf_model",
       "model": "zjunlp/LabVLA-5B-Base"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "zjunlp/MolGen-7b"
     }
   ]
 }

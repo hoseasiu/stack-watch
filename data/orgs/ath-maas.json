@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/ATH-MaaS/ComfyUI-Copilot/blob/f04a01a9fce8e3cb21f2a21a14fc971d5753dc36/requirements.txt",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "ATH-MaaS/ComfyUI-Copilot",
+          "file": "requirements.txt",
+          "url": "https://github.com/ATH-MaaS/ComfyUI-Copilot/blob/a5aa6acd992fe3b42b9482d30899cdf314cdbe1c/requirements.txt",
+          "detected": "2026-09-15"
         }
       ]
     }
@@ -240,7 +247,7 @@
       "detected": "2026-09-08"
     }
   ],
-  "signal_count": 25,
+  "signal_count": 26,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -366,6 +373,11 @@
       "date": "2026-09-08",
       "type": "hf_model",
       "model": "ATH-MaaS/Ovis-U1-3B"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
     }
   ]
 }

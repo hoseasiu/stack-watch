@@ -366,6 +366,36 @@
       "display_name": "strukto-ai",
       "confidence": "high",
       "first_seen": "2026-08-18"
+    },
+    {
+      "slug": "fsoft-ai4code",
+      "display_name": "FSoft-AI4Code",
+      "confidence": "high",
+      "first_seen": "2026-09-15"
+    },
+    {
+      "slug": "llmquant",
+      "display_name": "LLMQuant",
+      "confidence": "high",
+      "first_seen": "2026-09-15"
+    },
+    {
+      "slug": "magnivorg",
+      "display_name": "MagnivOrg",
+      "confidence": "high",
+      "first_seen": "2026-09-15"
+    },
+    {
+      "slug": "tencentcloudadp",
+      "display_name": "TencentCloudADP",
+      "confidence": "high",
+      "first_seen": "2026-09-15"
+    },
+    {
+      "slug": "vllm-project",
+      "display_name": "vllm-project",
+      "confidence": "high",
+      "first_seen": "2026-09-15"
     }
   ],
   "signal_history": [
@@ -944,7 +974,79 @@
     {
       "date": "2026-09-08",
       "org": "wandb"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "ath-maas"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "azure"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "conductor-oss"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "context-labs"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "fsoft-ai4code"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "llmquant"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "magnivorg"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "pocketpaw"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "strukto-ai"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "tencentcloudadp"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "vllm-project"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "wandb"
     }
   ],
-  "org_count": 61
+  "org_count": 66
 }

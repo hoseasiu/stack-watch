@@ -4,7 +4,7 @@
   "github_org": "Azure",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -63,6 +63,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/Azure/azure-functions-durable-python/blob/2c052f6ee5337ecb4e8460dd1175129a5215017c/requirements.txt",
           "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure/azure-functions-durable-python",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure/azure-functions-durable-python/blob/badf8016eb8186958ebd07908576deb1bb33e945/requirements.txt",
+          "detected": "2026-09-15"
         }
       ]
     }
@@ -70,7 +77,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 6,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -100,6 +107,11 @@
     },
     {
       "date": "2026-08-04",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-15",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

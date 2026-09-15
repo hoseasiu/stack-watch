@@ -4,7 +4,7 @@
   "github_org": "openai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -196,9 +196,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/openai/whisper-large-v2",
       "detected": "2026-09-01"
+    },
+    {
+      "id": "openai/whisper-tiny.en",
+      "name": "openai/whisper-tiny.en",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/whisper-tiny.en",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 20,
+  "signal_count": 21,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -300,6 +309,11 @@
       "date": "2026-09-01",
       "type": "hf_model",
       "model": "openai/whisper-large-v2"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "openai/whisper-tiny.en"
     }
   ]
 }

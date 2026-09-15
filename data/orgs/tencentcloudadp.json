@@ -1,0 +1,52 @@
+{
+  "slug": "tencentcloudadp",
+  "display_name": "TencentCloudADP",
+  "github_org": "TencentCloudADP",
+  "sector": "unclassified",
+  "first_detected": "2026-09-15",
+  "last_updated": "2026-09-15",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-09-15",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "TencentCloudADP/youtu-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/TencentCloudADP/youtu-agent/blob/c2caa539f4c95ae1c39ed24dc8a99cb3651e1d5d/pyproject.toml",
+          "detected": "2026-09-15"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "TencentCloudADP/youtu-agent"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "TencentCloudADP/youtu-agent",
+        "file": "AGENTS.md",
+        "url": "https://github.com/TencentCloudADP/youtu-agent/blob/main/AGENTS.md",
+        "detected": "2026-09-15"
+      }
+    ]
+  }
+}

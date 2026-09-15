@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -107,6 +107,15 @@
       ],
       "posted": "2026-09-06",
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5222294007"
+    },
+    {
+      "title": "Senior Software Engineer — Infra Agent Systems",
+      "terms_matched": [
+        "AI agent",
+        "tool use"
+      ],
+      "posted": "2026-09-10",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5233669007"
     }
   ],
   "hf_models": [
@@ -235,9 +244,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/Aurora-Spec-Qwen3-Coder-Next-FP8",
       "detected": "2026-08-04"
+    },
+    {
+      "id": "togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2",
+      "name": "togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 20,
+  "signal_count": 22,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -348,6 +366,19 @@
     },
     {
       "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2"
+    },
+    {
+      "date": "2026-09-15",
       "type": "job_posting",
       "terms": [
         "AI agent",

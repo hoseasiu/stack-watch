@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -157,9 +157,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/Pollux-4B-Judge",
       "detected": "2026-09-08"
+    },
+    {
+      "id": "ai-forever/ruGPT-3.5-13B",
+      "name": "ai-forever/ruGPT-3.5-13B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/ruGPT-3.5-13B",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 17,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -246,6 +255,11 @@
       "date": "2026-09-08",
       "type": "hf_model",
       "model": "ai-forever/Pollux-4B-Judge"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "ai-forever/ruGPT-3.5-13B"
     }
   ],
   "agent_config": {

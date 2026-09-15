@@ -4,7 +4,7 @@
   "github_org": "Alibaba-NLP",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -234,9 +234,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/Alibaba-NLP/core-emb-8b",
       "detected": "2026-09-08"
+    },
+    {
+      "id": "Alibaba-NLP/gte-multilingual-mlm-base",
+      "name": "Alibaba-NLP/gte-multilingual-mlm-base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-mlm-base",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 25,
+  "signal_count": 26,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -362,6 +371,11 @@
       "date": "2026-09-08",
       "type": "hf_model",
       "model": "Alibaba-NLP/core-emb-8b"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gte-multilingual-mlm-base"
     }
   ]
 }

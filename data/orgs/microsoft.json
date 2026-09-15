@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -135,6 +135,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/AIOpsLab/blob/ddf7e40619689dad75eaf8f2174e263c4157ec76/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/OpenAIWorkshop",
+          "file": "requirements.txt",
+          "url": "https://github.com/microsoft/OpenAIWorkshop/blob/99f643913663aa9b7e64f0eb74c0f03c49f5090b/mcp/requirements.txt",
+          "detected": "2026-09-15"
         }
       ]
     },
@@ -274,6 +281,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/359a2332f57d9000924baba269ed24e4e15ad8b0/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-09-01"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/a926ad9e536954ba1daed450b1f984d0615cb7fd/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-09-15"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/a926ad9e536954ba1daed450b1f984d0615cb7fd/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-09-15"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/a926ad9e536954ba1daed450b1f984d0615cb7fd/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-09-15"
         }
       ]
     }
@@ -682,9 +710,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/OmniParser-v2.0",
       "detected": "2026-09-08"
+    },
+    {
+      "id": "microsoft/STELLAR",
+      "name": "microsoft/STELLAR",
+      "library": "stellar",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/STELLAR",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 56,
+  "signal_count": 59,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -968,6 +1005,21 @@
       "date": "2026-09-08",
       "type": "hf_model",
       "model": "microsoft/OmniParser-v2.0"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "microsoft/STELLAR"
     }
   ]
 }

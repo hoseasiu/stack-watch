@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -542,9 +542,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/bidaf-elmo",
       "detected": "2026-09-08"
+    },
+    {
+      "id": "allenai/OLMo-7B",
+      "name": "allenai/OLMo-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-7B",
+      "detected": "2026-09-15"
+    },
+    {
+      "id": "allenai/FlexOlmo-7x7B-1T",
+      "name": "allenai/FlexOlmo-7x7B-1T",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/FlexOlmo-7x7B-1T",
+      "detected": "2026-09-15"
+    },
+    {
+      "id": "allenai/Olmo-3-7B-RL-Zero-IF",
+      "name": "allenai/Olmo-3-7B-RL-Zero-IF",
+      "library": "transformers",
+      "base_model": "allenai/Olmo-3-1025-7B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-IF",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 59,
+  "signal_count": 62,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -840,6 +867,21 @@
       "date": "2026-09-08",
       "type": "hf_model",
       "model": "allenai/bidaf-elmo"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "allenai/OLMo-7B"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "allenai/FlexOlmo-7x7B-1T"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "allenai/Olmo-3-7B-RL-Zero-IF"
     }
   ]
 }

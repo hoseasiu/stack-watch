@@ -138,6 +138,12 @@
       "display_name": "dapr",
       "confidence": "high",
       "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "dragonhpc",
+      "display_name": "DragonHPC",
+      "confidence": "high",
+      "first_seen": "2026-09-15"
     }
   ],
   "signal_history": [
@@ -336,7 +342,19 @@
     {
       "date": "2026-09-08",
       "org": "dapr"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "certora"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "dragonhpc"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "zjunlp"
     }
   ],
-  "org_count": 23
+  "org_count": 24
 }

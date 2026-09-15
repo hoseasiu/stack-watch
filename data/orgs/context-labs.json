@@ -4,7 +4,7 @@
   "github_org": "context-labs",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/context-labs/HALO/blob/0b68141633c14f488461aaecdf91a739a411f05d/demo/appworld/experiments/pyproject.toml",
           "detected": "2026-08-04"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "context-labs/HALO",
+          "file": "pyproject.toml",
+          "url": "https://github.com/context-labs/HALO/blob/b7f8509745d67b499b4e80efe20ea37c03426a74/pyproject.toml",
+          "detected": "2026-09-15"
         }
       ]
     }
@@ -121,7 +128,7 @@
       "detected": "2026-07-28"
     }
   ],
-  "signal_count": 12,
+  "signal_count": 13,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -180,6 +187,11 @@
     },
     {
       "date": "2026-08-04",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-15",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

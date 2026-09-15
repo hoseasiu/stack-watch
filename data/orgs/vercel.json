@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-08-18",
+  "last_updated": "2026-09-15",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -174,10 +174,18 @@
       ],
       "posted": "2025-07-08",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/5579560004"
+    },
+    {
+      "title": "Senior Partner Programs Manager",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-09-11",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6188894004"
     }
   ],
   "hf_models": [],
-  "signal_count": 14,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -280,6 +288,13 @@
       "type": "job_posting",
       "terms": [
         "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

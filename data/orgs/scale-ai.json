@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -744,10 +744,66 @@
       ],
       "posted": "2026-09-02",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4729820005"
+    },
+    {
+      "title": "Contributor Experience Manager, Community",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-09",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4731928005"
+    },
+    {
+      "title": "Senior Machine Learning Engineer, Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-10",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4732798005"
+    },
+    {
+      "title": "Software Engineering Intern (Summer 2027) ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730834005"
+    },
+    {
+      "title": "Software Engineering Intern (Summer 2027) ",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730846005"
+    },
+    {
+      "title": "Software Engineer - New Grad",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730851005"
+    },
+    {
+      "title": "Software Engineer - New Grad",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-09-14",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730862005"
+    },
+    {
+      "title": "Staff Machine Learning Engineer, Public Sector",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-01-30",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654382005"
     }
   ],
   "hf_models": [],
-  "signal_count": 32,
+  "signal_count": 34,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -996,6 +1052,20 @@
       "type": "job_posting",
       "terms": [
         "tool use"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
       ]
     }
   ]

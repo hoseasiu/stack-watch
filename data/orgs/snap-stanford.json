@@ -4,7 +4,7 @@
   "github_org": "snap-stanford",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-09-15",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -49,9 +49,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/snap-stanford/humanlm-socsci210-step400",
       "detected": "2026-07-28"
+    },
+    {
+      "id": "snap-stanford/cellrater-metadata",
+      "name": "snap-stanford/cellrater-metadata",
+      "library": "cellrater",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/snap-stanford/cellrater-metadata",
+      "detected": "2026-09-15"
+    },
+    {
+      "id": "snap-stanford/cellrater-gex",
+      "name": "snap-stanford/cellrater-gex",
+      "library": "cellrater",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/snap-stanford/cellrater-gex",
+      "detected": "2026-09-15"
     }
   ],
-  "signal_count": 4,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -72,6 +90,16 @@
       "date": "2026-07-28",
       "type": "hf_model",
       "model": "snap-stanford/humanlm-socsci210-step400"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "snap-stanford/cellrater-metadata"
+    },
+    {
+      "date": "2026-09-15",
+      "type": "hf_model",
+      "model": "snap-stanford/cellrater-gex"
     }
   ]
 }

@@ -674,6 +674,22 @@
     {
       "date": "2026-09-08",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "mlflow"
+    },
+    {
+      "date": "2026-09-15",
+      "org": "uni-medical"
     }
   ],
   "org_count": 52

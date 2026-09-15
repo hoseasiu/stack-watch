@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-15",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1126,6 +1126,71 @@
       ],
       "posted": "2026-09-03",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412734008"
+    },
+    {
+      "title": "AI Deployment Specialist, Beneficial Deployments",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398438008"
+    },
+    {
+      "title": "Applied AI Architect, Beneficial Deployments (Life Sciences)",
+      "terms_matched": [
+        "MCP server",
+        "Claude Code"
+      ],
+      "posted": "2026-09-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5413642008"
+    },
+    {
+      "title": "Customer Success Manager, Beneficial Deployments - Life Sciences",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416026008"
+    },
+    {
+      "title": "Forward Deployed Engineer",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-09-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008"
+    },
+    {
+      "title": "Head of Regulated Industries, Customer Success",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416020008"
+    },
+    {
+      "title": "Manager, Account Executive - Financial Services",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5282833008"
+    },
+    {
+      "title": "Manager, Customer Success – Strategic Consumer Tech",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421539008"
+    },
+    {
+      "title": "Technical Architect ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-11",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421566008"
     }
   ],
   "hf_models": [
@@ -1139,7 +1204,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 40,
+  "signal_count": 43,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1429,6 +1494,28 @@
       "type": "job_posting",
       "terms": [
         "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
       ]
     }
   ]
