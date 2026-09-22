@@ -4,7 +4,7 @@
   "github_org": "Alibaba-NLP",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-22",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -243,9 +243,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/Alibaba-NLP/gte-multilingual-mlm-base",
       "detected": "2026-09-15"
+    },
+    {
+      "id": "Alibaba-NLP/gme-Qwen2-VL-7B-Instruct",
+      "name": "Alibaba-NLP/gme-Qwen2-VL-7B-Instruct",
+      "library": "sentence-transformers",
+      "base_model": "Qwen/Qwen2-VL-7B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/Alibaba-NLP/gme-Qwen2-VL-7B-Instruct",
+      "detected": "2026-09-22"
     }
   ],
-  "signal_count": 26,
+  "signal_count": 27,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -376,6 +385,11 @@
       "date": "2026-09-15",
       "type": "hf_model",
       "model": "Alibaba-NLP/gte-multilingual-mlm-base"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "Alibaba-NLP/gme-Qwen2-VL-7B-Instruct"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-22",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -800,10 +800,18 @@
       ],
       "posted": "2026-01-30",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4654382005"
+    },
+    {
+      "title": "Engineering Manager, Customer Platform (GenAI)",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4733702005"
     }
   ],
   "hf_models": [],
-  "signal_count": 34,
+  "signal_count": 35,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -1066,6 +1074,13 @@
       "type": "job_posting",
       "terms": [
         "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
       ]
     }
   ]

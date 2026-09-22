@@ -690,6 +690,14 @@
     {
       "date": "2026-09-15",
       "org": "uni-medical"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "mlflow"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "zenml-io"
     }
   ],
   "org_count": 52

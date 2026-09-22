@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-22",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -569,9 +569,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/Olmo-3-7B-RL-Zero-IF",
       "detected": "2026-09-15"
+    },
+    {
+      "id": "allenai/macaw-11b",
+      "name": "allenai/macaw-11b",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/macaw-11b",
+      "detected": "2026-09-22"
     }
   ],
-  "signal_count": 62,
+  "signal_count": 63,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -882,6 +891,11 @@
       "date": "2026-09-15",
       "type": "hf_model",
       "model": "allenai/Olmo-3-7B-RL-Zero-IF"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "allenai/macaw-11b"
     }
   ]
 }

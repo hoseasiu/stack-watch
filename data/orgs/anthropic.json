@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-22",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1191,6 +1191,78 @@
       ],
       "posted": "2026-09-11",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421566008"
+    },
+    {
+      "title": "Associate Solutions Architect",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5425724008"
+    },
+    {
+      "title": "Copywriter, Developer",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008"
+    },
+    {
+      "title": "Customer Success ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424402008"
+    },
+    {
+      "title": "Customer Success Manager, Commercial ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421558008"
+    },
+    {
+      "title": "Customer Success Manager, Enterprise Tech",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424388008"
+    },
+    {
+      "title": "Customer Success Manager, Public Sector (National Security) ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427479008"
+    },
+    {
+      "title": "Manager, Customer Success - Commercial ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5422436008"
+    },
+    {
+      "title": "Manager, Customer Success – Cyber",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421541008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Distributed Systems ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-09-15",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424404008"
     }
   ],
   "hf_models": [
@@ -1204,7 +1276,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 43,
+  "signal_count": 45,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1516,6 +1588,20 @@
       "type": "job_posting",
       "terms": [
         "MCP server"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

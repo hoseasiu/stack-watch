@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-22",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -166,9 +166,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/ruGPT-3.5-13B",
       "detected": "2026-09-15"
+    },
+    {
+      "id": "ai-forever/SMITH-Exp",
+      "name": "ai-forever/SMITH-Exp",
+      "library": "transformers",
+      "base_model": "ai-sage/GigaChat3.1-10B-A1.8B-bf16",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/SMITH-Exp",
+      "detected": "2026-09-22"
+    },
+    {
+      "id": "ai-forever/Zarya-0.6B",
+      "name": "ai-forever/Zarya-0.6B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/Zarya-0.6B",
+      "detected": "2026-09-22"
+    },
+    {
+      "id": "ai-forever/Zarya-4B",
+      "name": "ai-forever/Zarya-4B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/Zarya-4B",
+      "detected": "2026-09-22"
     }
   ],
-  "signal_count": 18,
+  "signal_count": 21,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -260,6 +287,21 @@
       "date": "2026-09-15",
       "type": "hf_model",
       "model": "ai-forever/ruGPT-3.5-13B"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "ai-forever/SMITH-Exp"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "ai-forever/Zarya-0.6B"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "ai-forever/Zarya-4B"
     }
   ],
   "agent_config": {

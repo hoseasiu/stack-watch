@@ -1046,6 +1046,42 @@
     {
       "date": "2026-09-15",
       "org": "wandb"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "pocketpaw"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "strukto-ai"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-09-22",
+      "org": "wandb"
     }
   ],
   "org_count": 66

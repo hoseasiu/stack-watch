@@ -4,7 +4,7 @@
   "github_org": "zenml-io",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-22",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -51,6 +51,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/zenml-io/zenml/blob/6b3c269a0c0df70da74a276fd1bd5a5d0bf494f6/examples/agent_framework_integrations/autogen/requirements.txt",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "zenml-io/zenml",
+          "file": "requirements.txt",
+          "url": "https://github.com/zenml-io/zenml/blob/cc064f1005e444fade353aa521bbce8988a45874/examples/agent_framework_integrations/autogen/requirements.txt",
+          "detected": "2026-09-22"
         }
       ]
     }
@@ -77,7 +84,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 7,
+  "signal_count": 8,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -112,6 +119,11 @@
     },
     {
       "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-22",
       "type": "dependency",
       "framework": "autogen"
     }

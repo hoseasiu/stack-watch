@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-22",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -116,6 +116,24 @@
       ],
       "posted": "2026-09-10",
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5233669007"
+    },
+    {
+      "title": "Research Intern, Frontier Agents (Summer 2027)",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-09-18",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238468007"
+    },
+    {
+      "title": "Research Intern, Frontier Agents (Winter 2027)",
+      "terms_matched": [
+        "agentic AI",
+        "AI agent"
+      ],
+      "posted": "2026-09-18",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238467007"
     }
   ],
   "hf_models": [
@@ -255,7 +273,7 @@
       "detected": "2026-09-15"
     }
   ],
-  "signal_count": 22,
+  "signal_count": 23,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -383,6 +401,14 @@
       "terms": [
         "AI agent",
         "tool use"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "AI agent"
       ]
     }
   ]

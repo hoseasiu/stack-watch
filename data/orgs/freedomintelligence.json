@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-22",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -229,9 +229,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/HiMed-Verifier",
       "detected": "2026-09-08"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-3-9B",
+      "name": "FreedomIntelligence/HuatuoGPT-3-9B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-9B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-9B",
+      "detected": "2026-09-22"
+    },
+    {
+      "id": "FreedomIntelligence/AceGPT-v2-8B-Chat",
+      "name": "FreedomIntelligence/AceGPT-v2-8B-Chat",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/AceGPT-v2-8B-Chat",
+      "detected": "2026-09-22"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-3-Grader-8B",
+      "name": "FreedomIntelligence/HuatuoGPT-3-Grader-8B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-Grader-8B",
+      "detected": "2026-09-22"
     }
   ],
-  "signal_count": 24,
+  "signal_count": 27,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -352,6 +379,21 @@
       "date": "2026-09-08",
       "type": "hf_model",
       "model": "FreedomIntelligence/HiMed-Verifier"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-3-9B"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/AceGPT-v2-8B-Chat"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-3-Grader-8B"
     }
   ]
 }
