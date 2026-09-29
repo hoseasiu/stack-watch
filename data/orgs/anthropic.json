@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1263,6 +1263,79 @@
       ],
       "posted": "2026-09-15",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424404008"
+    },
+    {
+      "title": "Applied AI Architect, Public Sector ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-23",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382518008"
+    },
+    {
+      "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-09-28",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008"
+    },
+    {
+      "title": "Customer Success",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433878008"
+    },
+    {
+      "title": "GTM Enablement Trainer, Claude Products",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-09-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5428790008"
+    },
+    {
+      "title": "Product Designer, Claude Developer Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-28",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397654008"
+    },
+    {
+      "title": "Product Designer, Design Systems",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5428124008"
+    },
+    {
+      "title": "Product Designer, Safeguards",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-09-25",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5428014008"
+    },
+    {
+      "title": "Research Operations, Reinforcement Learning",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-09-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5422117008"
+    },
+    {
+      "title": "Software Engineer, Labs",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2025-12-08",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017202008"
     }
   ],
   "hf_models": [
@@ -1276,7 +1349,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 45,
+  "signal_count": 49,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1599,6 +1672,35 @@
     },
     {
       "date": "2026-09-22",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-09-29",
       "type": "job_posting",
       "terms": [
         "AI agent"

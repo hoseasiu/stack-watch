@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -578,9 +578,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/macaw-11b",
       "detected": "2026-09-22"
+    },
+    {
+      "id": "allenai/OLMo-1B",
+      "name": "allenai/OLMo-1B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-1B",
+      "detected": "2026-09-29"
+    },
+    {
+      "id": "allenai/bidaf",
+      "name": "allenai/bidaf",
+      "library": "allennlp",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/bidaf",
+      "detected": "2026-09-29"
     }
   ],
-  "signal_count": 63,
+  "signal_count": 65,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -896,6 +914,16 @@
       "date": "2026-09-22",
       "type": "hf_model",
       "model": "allenai/macaw-11b"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "allenai/OLMo-1B"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "allenai/bidaf"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "headroomlabs-ai",
   "sector": "unclassified",
   "first_detected": "2026-09-08",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/headroomlabs-ai/headroom/blob/e67b3c8a29443a60d6b0018fb22f525c5cd7e709/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "headroomlabs-ai/headroom",
+          "file": "pyproject.toml",
+          "url": "https://github.com/headroomlabs-ai/headroom/blob/f519fa8b97aa9ccef369f5973f1d476af2a65edf/pyproject.toml",
+          "detected": "2026-09-29"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-29",
       "type": "dependency",
       "framework": "autogen"
     }

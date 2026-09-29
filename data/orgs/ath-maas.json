@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -245,9 +245,54 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ATH-MaaS/Ovis-U1-3B",
       "detected": "2026-09-08"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-Omni-Embedding-3B",
+      "name": "ATH-MaaS/Ovis-Omni-Embedding-3B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-Omni-Embedding-3B",
+      "detected": "2026-09-29"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-VL-Embedding-2B",
+      "name": "ATH-MaaS/Ovis-VL-Embedding-2B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-VL-Embedding-2B",
+      "detected": "2026-09-29"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-VL-Embedding-9B",
+      "name": "ATH-MaaS/Ovis-VL-Embedding-9B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-VL-Embedding-9B",
+      "detected": "2026-09-29"
+    },
+    {
+      "id": "ATH-MaaS/Marco-MT-Algharb",
+      "name": "ATH-MaaS/Marco-MT-Algharb",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Marco-MT-Algharb",
+      "detected": "2026-09-29"
+    },
+    {
+      "id": "ATH-MaaS/Ovis2.6-80B-A3B",
+      "name": "ATH-MaaS/Ovis2.6-80B-A3B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis2.6-80B-A3B",
+      "detected": "2026-09-29"
     }
   ],
-  "signal_count": 26,
+  "signal_count": 31,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -378,6 +423,31 @@
       "date": "2026-09-15",
       "type": "dependency",
       "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-Omni-Embedding-3B"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-VL-Embedding-2B"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-VL-Embedding-9B"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Marco-MT-Algharb"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis2.6-80B-A3B"
     }
   ]
 }

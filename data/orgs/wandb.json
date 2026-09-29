@@ -4,7 +4,7 @@
   "github_org": "wandb",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -86,6 +86,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/wandb/weave/blob/51c0b97a1c2169bb2ef4d9554ef26ecfc2e2a220/pyproject.toml",
           "detected": "2026-09-22"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "wandb/weave",
+          "file": "pyproject.toml",
+          "url": "https://github.com/wandb/weave/blob/e1f58c90975b12aa188aa07d3e491859ee560b42/pyproject.toml",
+          "detected": "2026-09-29"
         }
       ]
     }
@@ -184,7 +191,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 22,
+  "signal_count": 23,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -294,6 +301,11 @@
     },
     {
       "date": "2026-09-22",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-29",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

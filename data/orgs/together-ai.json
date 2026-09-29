@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -271,9 +271,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/Llama-3.1-8B-Dragonfly-Med-v2",
       "detected": "2026-09-15"
+    },
+    {
+      "id": "togethercomputer/Tev1-4B-experimental",
+      "name": "togethercomputer/Tev1-4B-experimental",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-4B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/Tev1-4B-experimental",
+      "detected": "2026-09-29"
+    },
+    {
+      "id": "togethercomputer/Tev1-0.8B-experimental",
+      "name": "togethercomputer/Tev1-0.8B-experimental",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-0.8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/Tev1-0.8B-experimental",
+      "detected": "2026-09-29"
     }
   ],
-  "signal_count": 23,
+  "signal_count": 25,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -410,6 +428,16 @@
         "agentic AI",
         "AI agent"
       ]
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "togethercomputer/Tev1-4B-experimental"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "togethercomputer/Tev1-0.8B-experimental"
     }
   ]
 }

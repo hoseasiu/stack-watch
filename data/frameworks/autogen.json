@@ -698,6 +698,46 @@
     {
       "date": "2026-09-22",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "headroomlabs-ai"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "mlflow"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "openagents-org"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "owasp"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "spillwavesolutions"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "unitycatalog"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "vectorize-io"
     }
   ],
   "org_count": 52

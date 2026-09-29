@@ -396,6 +396,12 @@
       "display_name": "vllm-project",
       "confidence": "high",
       "first_seen": "2026-09-15"
+    },
+    {
+      "slug": "kubernetes-sigs",
+      "display_name": "kubernetes-sigs",
+      "confidence": "high",
+      "first_seen": "2026-09-29"
     }
   ],
   "signal_history": [
@@ -1082,7 +1088,39 @@
     {
       "date": "2026-09-22",
       "org": "wandb"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "kubernetes-sigs"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "strukto-ai"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-09-29",
+      "org": "wandb"
     }
   ],
-  "org_count": 66
+  "org_count": 67
 }

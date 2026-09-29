@@ -4,7 +4,7 @@
   "github_org": "FreedomIntelligence",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -256,9 +256,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-Grader-8B",
       "detected": "2026-09-22"
+    },
+    {
+      "id": "FreedomIntelligence/HuatuoGPT-3-27B",
+      "name": "FreedomIntelligence/HuatuoGPT-3-27B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.8-27B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/FreedomIntelligence/HuatuoGPT-3-27B",
+      "detected": "2026-09-29"
     }
   ],
-  "signal_count": 27,
+  "signal_count": 28,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -394,6 +403,11 @@
       "date": "2026-09-22",
       "type": "hf_model",
       "model": "FreedomIntelligence/HuatuoGPT-3-Grader-8B"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "FreedomIntelligence/HuatuoGPT-3-27B"
     }
   ]
 }

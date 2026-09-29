@@ -346,6 +346,10 @@
       "display_name": "kayba-ai"
     },
     {
+      "slug": "kubernetes-sigs",
+      "display_name": "kubernetes-sigs"
+    },
+    {
       "slug": "kungfuai",
       "display_name": "kungfuai"
     },
@@ -778,11 +782,11 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 194,
+  "org_count": 195,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 65
+      "count": 66
     },
     {
       "slug": "autogen",

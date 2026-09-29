@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -171,10 +171,19 @@
       ],
       "posted": "2026-09-14",
       "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6191763004"
+    },
+    {
+      "title": "Senior Developer Advocate, AI Content & Community",
+      "terms_matched": [
+        "agentic AI",
+        "tool use"
+      ],
+      "posted": "2026-09-23",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6206856004"
     }
   ],
   "hf_models": [],
-  "signal_count": 17,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -275,6 +284,14 @@
       "date": "2026-09-22",
       "type": "dependency",
       "framework": "langgraph"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "tool use"
+      ]
     }
   ]
 }

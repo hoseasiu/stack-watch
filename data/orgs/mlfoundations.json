@@ -4,7 +4,7 @@
   "github_org": "mlfoundations",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-09-29",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -111,9 +111,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mlfoundations/Gelato-30B-A3B",
       "detected": "2026-07-14"
+    },
+    {
+      "id": "mlfoundations/dcvlm-8b-model",
+      "name": "mlfoundations/dcvlm-8b-model",
+      "library": "transformers",
+      "base_model": "OpenGVLab/InternViT-300M-448px",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mlfoundations/dcvlm-8b-model",
+      "detected": "2026-09-29"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -169,6 +178,11 @@
       "date": "2026-07-14",
       "type": "hf_model",
       "model": "mlfoundations/Gelato-30B-A3B"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "hf_model",
+      "model": "mlfoundations/dcvlm-8b-model"
     }
   ]
 }

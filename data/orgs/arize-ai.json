@@ -4,7 +4,7 @@
   "github_org": "Arize-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "smolagents": {
       "confidence": "high",
@@ -36,6 +36,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Arize-ai/openinference/blob/e9ab1229a523b4e356ef0baab7e917e7aeaee272/python/instrumentation/openinference-instrumentation-autogen-agentchat/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Arize-ai/openinference",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Arize-ai/openinference/blob/b738fcdf46a77b65d7275608404982fe9cf6ce2c/python/instrumentation/openinference-instrumentation-autogen-agentchat/pyproject.toml",
+          "detected": "2026-09-29"
         }
       ]
     },
@@ -89,7 +96,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 6,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -119,6 +126,11 @@
     },
     {
       "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-29",
       "type": "dependency",
       "framework": "autogen"
     }

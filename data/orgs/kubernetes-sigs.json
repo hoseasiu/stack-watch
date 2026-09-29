@@ -1,0 +1,59 @@
+{
+  "slug": "kubernetes-sigs",
+  "display_name": "kubernetes-sigs",
+  "github_org": "kubernetes-sigs",
+  "sector": "unclassified",
+  "first_detected": "2026-09-29",
+  "last_updated": "2026-09-29",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-09-29",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "kubernetes-sigs/agent-sandbox",
+          "file": "pyproject.toml",
+          "url": "https://github.com/kubernetes-sigs/agent-sandbox/blob/387f5d7011dc08bdc74d566a4eeb06f61e08ff2e/clients/integrations/openai/pyproject.toml",
+          "detected": "2026-09-29"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-09-29",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "kubernetes-sigs/agent-sandbox"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "kubernetes-sigs/agent-sandbox",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/kubernetes-sigs/agent-sandbox/blob/main/CLAUDE.md",
+        "detected": "2026-09-29"
+      },
+      {
+        "type": "agent_config",
+        "repo": "kubernetes-sigs/agent-sandbox",
+        "file": "AGENTS.md",
+        "url": "https://github.com/kubernetes-sigs/agent-sandbox/blob/main/AGENTS.md",
+        "detected": "2026-09-29"
+      }
+    ]
+  }
+}

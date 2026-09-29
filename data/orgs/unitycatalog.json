@@ -4,7 +4,7 @@
   "github_org": "unitycatalog",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -30,6 +30,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/unitycatalog/unitycatalog/blob/1962fdd1b0eff8bf922372d5f1920692b613dd3a/ai/integrations/autogen/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "unitycatalog/unitycatalog",
+          "file": "pyproject.toml",
+          "url": "https://github.com/unitycatalog/unitycatalog/blob/758cda404dfd1d2cb9251828968a7a0abd30dc0c/ai/integrations/autogen/pyproject.toml",
+          "detected": "2026-09-29"
         }
       ]
     }
@@ -37,7 +44,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 4,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -59,6 +66,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "unitycatalog/unitycatalog"
+    },
+    {
+      "date": "2026-09-29",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ],
   "agent_config": {

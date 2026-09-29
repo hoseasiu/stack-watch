@@ -4,7 +4,7 @@
   "github_org": "mlflow",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-29",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -37,6 +37,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/mlflow/mlflow/blob/c2a3bb11fe76381c9b6873bb764272d2ebfb9479/requirements/extra-ml-requirements.txt",
           "detected": "2026-09-22"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "mlflow/mlflow",
+          "file": "requirements.txt",
+          "url": "https://github.com/mlflow/mlflow/blob/35ee5306f1c7da2b62877be7c6166e84627c98f9/requirements/extra-ml-requirements.txt",
+          "detected": "2026-09-29"
         }
       ]
     }
@@ -44,7 +51,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -69,6 +76,11 @@
     },
     {
       "date": "2026-09-22",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-09-29",
       "type": "dependency",
       "framework": "autogen"
     }
