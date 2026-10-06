@@ -4,7 +4,7 @@
   "github_org": "strukto-ai",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-06",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -58,6 +58,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/strukto-ai/mirage/blob/e119237f0499e73fdefb9ed28d68ecefc06ca99c/python/pyproject.toml",
           "detected": "2026-09-29"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "strukto-ai/mirage",
+          "file": "pyproject.toml",
+          "url": "https://github.com/strukto-ai/mirage/blob/2f2478c337bc25519561ad301768442b6930da8f/python/pyproject.toml",
+          "detected": "2026-10-06"
         }
       ]
     }
@@ -65,7 +72,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 8,
+  "signal_count": 9,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -105,6 +112,11 @@
     },
     {
       "date": "2026-09-29",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-10-06",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

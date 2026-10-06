@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-06",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -351,6 +351,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/c07577d9785d4f64225a7b367cb2a978e9fc784d/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-09-29"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/aa52fe11f10e4463881d7d716b55a96ee476a735/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-10-06"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/aa52fe11f10e4463881d7d716b55a96ee476a735/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-10-06"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/aa52fe11f10e4463881d7d716b55a96ee476a735/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-10-06"
         }
       ]
     }
@@ -813,9 +834,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/rho-base",
       "detected": "2026-09-29"
+    },
+    {
+      "id": "microsoft/FrogNano-4B-2609",
+      "name": "microsoft/FrogNano-4B-2609",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/FrogNano-4B-2609",
+      "detected": "2026-10-06"
+    },
+    {
+      "id": "microsoft/TRELLIS-text-xlarge",
+      "name": "microsoft/TRELLIS-text-xlarge",
+      "library": "trellis",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/TRELLIS-text-xlarge",
+      "detected": "2026-10-06"
     }
   ],
-  "signal_count": 67,
+  "signal_count": 70,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1154,6 +1193,21 @@
       "date": "2026-09-29",
       "type": "hf_model",
       "model": "microsoft/rho-base"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "microsoft/FrogNano-4B-2609"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "microsoft/TRELLIS-text-xlarge"
     }
   ]
 }

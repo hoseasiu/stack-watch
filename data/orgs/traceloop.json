@@ -4,7 +4,7 @@
   "github_org": "traceloop",
   "sector": "unclassified",
   "first_detected": "2026-07-28",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-06",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -37,6 +37,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/traceloop/openllmetry/blob/32a2aa8bd6d74abea9c812798f9a556af598a157/packages/opentelemetry-instrumentation-openai-agents/pyproject.toml",
           "detected": "2026-09-29"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "traceloop/openllmetry",
+          "file": "pyproject.toml",
+          "url": "https://github.com/traceloop/openllmetry/blob/0409856fa7aaed1ffb00a77da0ed2fdbde4a9f44/packages/opentelemetry-instrumentation-openai-agents/pyproject.toml",
+          "detected": "2026-10-06"
         }
       ]
     }
@@ -44,7 +51,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-07-28",
@@ -69,6 +76,11 @@
     },
     {
       "date": "2026-09-29",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-10-06",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

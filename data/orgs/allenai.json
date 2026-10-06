@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-06",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -596,9 +596,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/bidaf",
       "detected": "2026-09-29"
+    },
+    {
+      "id": "allenai/AstaBrief_8B",
+      "name": "allenai/AstaBrief_8B",
+      "library": null,
+      "base_model": "allenai/AstaBrief_8B_SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/AstaBrief_8B",
+      "detected": "2026-10-06"
+    },
+    {
+      "id": "allenai/AstaBrief_8B_SFT",
+      "name": "allenai/AstaBrief_8B_SFT",
+      "library": null,
+      "base_model": "Qwen/Qwen3-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/AstaBrief_8B_SFT",
+      "detected": "2026-10-06"
+    },
+    {
+      "id": "allenai/OLMo-2-0325-32B-DPO",
+      "name": "allenai/OLMo-2-0325-32B-DPO",
+      "library": null,
+      "base_model": "allenai/OLMo-2-0325-32B-SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-0325-32B-DPO",
+      "detected": "2026-10-06"
+    },
+    {
+      "id": "allenai/BAR-2x7B-Code",
+      "name": "allenai/BAR-2x7B-Code",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/BAR-2x7B-Code",
+      "detected": "2026-10-06"
     }
   ],
-  "signal_count": 65,
+  "signal_count": 69,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -924,6 +960,26 @@
       "date": "2026-09-29",
       "type": "hf_model",
       "model": "allenai/bidaf"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "allenai/AstaBrief_8B"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "allenai/AstaBrief_8B_SFT"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-0325-32B-DPO"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "allenai/BAR-2x7B-Code"
     }
   ]
 }

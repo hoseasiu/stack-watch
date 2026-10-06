@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-06",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -202,9 +202,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/ZaryaOrthrus-1.7B",
       "detected": "2026-09-29"
+    },
+    {
+      "id": "ai-forever/FRIDA-Decisions",
+      "name": "ai-forever/FRIDA-Decisions",
+      "library": "frida-decisions",
+      "base_model": "ai-forever/FRIDA",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/FRIDA-Decisions",
+      "detected": "2026-10-06"
+    },
+    {
+      "id": "ai-forever/sage-fredt5-distilled-95m",
+      "name": "ai-forever/sage-fredt5-distilled-95m",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/sage-fredt5-distilled-95m",
+      "detected": "2026-10-06"
     }
   ],
-  "signal_count": 22,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -316,6 +334,16 @@
       "date": "2026-09-29",
       "type": "hf_model",
       "model": "ai-forever/ZaryaOrthrus-1.7B"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "ai-forever/FRIDA-Decisions"
+    },
+    {
+      "date": "2026-10-06",
+      "type": "hf_model",
+      "model": "ai-forever/sage-fredt5-distilled-95m"
     }
   ],
   "agent_config": {

@@ -394,6 +394,10 @@
       "display_name": "log2timeline"
     },
     {
+      "slug": "loopgain-ai",
+      "display_name": "loopgain-ai"
+    },
+    {
       "slug": "magnivorg",
       "display_name": "MagnivOrg"
     },
@@ -782,11 +786,11 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 195,
+  "org_count": 196,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "autogen",

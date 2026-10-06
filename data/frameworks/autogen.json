@@ -738,6 +738,10 @@
     {
       "date": "2026-09-29",
       "org": "vectorize-io"
+    },
+    {
+      "date": "2026-10-06",
+      "org": "azure"
     }
   ],
   "org_count": 52

@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-10-06",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -307,10 +307,36 @@
       ],
       "posted": "2026-09-04",
       "url": "http://block.xyz/careers/jobs/5406194008?gh_jid=5406194008"
+    },
+    {
+      "title": "Security Engineer, Business Continuity & Risk",
+      "terms_matched": [
+        "agentic AI",
+        "Model Context Protocol",
+        "tool use"
+      ],
+      "posted": "2026-10-01",
+      "url": "http://block.xyz/careers/jobs/5427789008?gh_jid=5427789008"
+    },
+    {
+      "title": "Senior Data Engineer, Product",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-01",
+      "url": "http://block.xyz/careers/jobs/5440102008?gh_jid=5440102008"
+    },
+    {
+      "title": "Software Engineer, Program Engineering",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-09-30",
+      "url": "http://block.xyz/careers/jobs/5427880008?gh_jid=5427880008"
     }
   ],
   "hf_models": [],
-  "signal_count": 22,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -466,6 +492,22 @@
     },
     {
       "date": "2026-09-08",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-06",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI",
+        "Model Context Protocol",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-10-06",
       "type": "job_posting",
       "terms": [
         "AI agent"
