@@ -4,7 +4,7 @@
   "github_org": "uni-medical",
   "sector": "unclassified",
   "first_detected": "2026-08-25",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-10-13",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/uni-medical/MedSegAgent/blob/359ef8bf2a3df1c76dfb6bfa220751e87218472c/requirements.txt",
           "detected": "2026-09-15"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "uni-medical/MedSegAgent",
+          "file": "requirements.txt",
+          "url": "https://github.com/uni-medical/MedSegAgent/blob/08dfcf3bffd45a8594d8fc06cc1b3af903fe93d8/requirements.txt",
+          "detected": "2026-10-13"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-08-25",
@@ -39,6 +46,11 @@
     },
     {
       "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-10-13",
       "type": "dependency",
       "framework": "autogen"
     }

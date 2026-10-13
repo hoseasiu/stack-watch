@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-13",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -298,9 +298,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/Aurora-Spec-Minimax-M2.1",
       "detected": "2026-10-06"
+    },
+    {
+      "id": "togethercomputer/HybridAgent-14B-Agentic",
+      "name": "togethercomputer/HybridAgent-14B-Agentic",
+      "library": null,
+      "base_model": "Qwen/Qwen3-14B-Base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic",
+      "detected": "2026-10-13"
     }
   ],
-  "signal_count": 26,
+  "signal_count": 27,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -452,6 +461,11 @@
       "date": "2026-10-06",
       "type": "hf_model",
       "model": "togethercomputer/Aurora-Spec-Minimax-M2.1"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "togethercomputer/HybridAgent-14B-Agentic"
     }
   ]
 }

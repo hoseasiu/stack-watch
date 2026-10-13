@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-13",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -372,6 +372,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/aa52fe11f10e4463881d7d716b55a96ee476a735/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-10-06"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/47abed7446d47e74cfa76d01a5913bb873ffcad9/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-10-13"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/47abed7446d47e74cfa76d01a5913bb873ffcad9/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-10-13"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/47abed7446d47e74cfa76d01a5913bb873ffcad9/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-10-13"
         }
       ]
     }
@@ -852,9 +873,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/TRELLIS-text-xlarge",
       "detected": "2026-10-06"
+    },
+    {
+      "id": "microsoft/AesCode-8B",
+      "name": "microsoft/AesCode-8B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-VL-8B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/AesCode-8B",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "microsoft/AesCode-32B",
+      "name": "microsoft/AesCode-32B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-VL-32B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/AesCode-32B",
+      "detected": "2026-10-13"
     }
   ],
-  "signal_count": 70,
+  "signal_count": 73,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1208,6 +1247,21 @@
       "date": "2026-10-06",
       "type": "hf_model",
       "model": "microsoft/TRELLIS-text-xlarge"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "microsoft/AesCode-8B"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "microsoft/AesCode-32B"
     }
   ]
 }

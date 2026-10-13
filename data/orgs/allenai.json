@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-13",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/allenai/autodiscovery-neurips/blob/66aa2d513cafdb23bf38313ebef522ade93f8cd9/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "allenai/neurodiscoverybench",
+          "file": "requirements.txt",
+          "url": "https://github.com/allenai/neurodiscoverybench/blob/0b0a95574f48f221f703ed69bab3f6111a417442/requirements.txt",
+          "detected": "2026-10-13"
         }
       ]
     }
@@ -632,9 +639,72 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/BAR-2x7B-Code",
       "detected": "2026-10-06"
+    },
+    {
+      "id": "allenai/specter2_base",
+      "name": "allenai/specter2_base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/specter2_base",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/MolmoE-1B-0924",
+      "name": "allenai/MolmoE-1B-0924",
+      "library": "transformers",
+      "base_model": "allenai/OLMoE-1B-7B-0924",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/MolmoE-1B-0924",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/Molmo2-8B",
+      "name": "allenai/Molmo2-8B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-8B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Molmo2-8B",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/Bwen-8B-Stage1",
+      "name": "allenai/Bwen-8B-Stage1",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-8B-Base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Bwen-8B-Stage1",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/Bwen-8B",
+      "name": "allenai/Bwen-8B",
+      "library": "transformers",
+      "base_model": "allenai/Bwen-8B-Stage1",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Bwen-8B",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/OLMo-7B-Instruct",
+      "name": "allenai/OLMo-7B-Instruct",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-7B-Instruct",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/Molmo-7B-D-0924",
+      "name": "allenai/Molmo-7B-D-0924",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2-7B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+      "detected": "2026-10-13"
     }
   ],
-  "signal_count": 69,
+  "signal_count": 77,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -980,6 +1050,46 @@
       "date": "2026-10-06",
       "type": "hf_model",
       "model": "allenai/BAR-2x7B-Code"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/specter2_base"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/MolmoE-1B-0924"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/Molmo2-8B"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/Bwen-8B-Stage1"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/Bwen-8B"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/OLMo-7B-Instruct"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "allenai/Molmo-7B-D-0924"
     }
   ]
 }

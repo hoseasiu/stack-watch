@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-10-13",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -290,9 +290,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ATH-MaaS/Ovis2.6-80B-A3B",
       "detected": "2026-09-29"
+    },
+    {
+      "id": "ATH-MaaS/Ovis-Image-7B",
+      "name": "ATH-MaaS/Ovis-Image-7B",
+      "library": "diffusers",
+      "base_model": "ATH-MaaS/Ovis2.5-2B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Ovis-Image-7B",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "ATH-MaaS/Qwen-MT-Lumen",
+      "name": "ATH-MaaS/Qwen-MT-Lumen",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/Qwen-MT-Lumen",
+      "detected": "2026-10-13"
     }
   ],
-  "signal_count": 31,
+  "signal_count": 33,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -448,6 +466,16 @@
       "date": "2026-09-29",
       "type": "hf_model",
       "model": "ATH-MaaS/Ovis2.6-80B-A3B"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Ovis-Image-7B"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "ATH-MaaS/Qwen-MT-Lumen"
     }
   ]
 }

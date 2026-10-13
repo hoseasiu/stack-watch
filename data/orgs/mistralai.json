@@ -4,7 +4,7 @@
   "github_org": "mistralai",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-13",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -316,9 +316,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1",
       "detected": "2026-10-06"
+    },
+    {
+      "id": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
+      "name": "mistralai/Voxtral-Mini-4B-Realtime-Arabic",
+      "library": "vllm",
+      "base_model": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-Arabic",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "mistralai/LIDstral-Arabic",
+      "name": "mistralai/LIDstral-Arabic",
+      "library": "fasttext",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/LIDstral-Arabic",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "name": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "library": "vllm",
+      "base_model": "mistralai/Mistral-Small-3.1-24B-Base-2503",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "detected": "2026-10-13"
+    },
+    {
+      "id": "mistralai/Mistral-7B-v0.3",
+      "name": "mistralai/Mistral-7B-v0.3",
+      "library": "vllm",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-7B-v0.3",
+      "detected": "2026-10-13"
     }
   ],
-  "signal_count": 33,
+  "signal_count": 37,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -484,6 +520,26 @@
       "date": "2026-10-06",
       "type": "hf_model",
       "model": "mistralai/Mixtral-8x7B-Instruct-v0.1"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "mistralai/Voxtral-Mini-4B-Realtime-Arabic"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "mistralai/LIDstral-Arabic"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "date": "2026-10-13",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-7B-v0.3"
     }
   ]
 }

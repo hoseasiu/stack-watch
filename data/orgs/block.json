@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-13",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -333,10 +333,42 @@
       ],
       "posted": "2026-09-30",
       "url": "http://block.xyz/careers/jobs/5427880008?gh_jid=5427880008"
+    },
+    {
+      "title": "Growth Manager, Activation & Habituation",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-06",
+      "url": "http://block.xyz/careers/jobs/5445635008?gh_jid=5445635008"
+    },
+    {
+      "title": "Senior Data Engineer, Product",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-08",
+      "url": "http://block.xyz/careers/jobs/5442647008?gh_jid=5442647008"
+    },
+    {
+      "title": "Staff Software Engineer, Payments Acquiring",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-08",
+      "url": "http://block.xyz/careers/jobs/5447957008?gh_jid=5447957008"
+    },
+    {
+      "title": "Staff Software Engineer, Payments Acquiring",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-08",
+      "url": "http://block.xyz/careers/jobs/5372210008?gh_jid=5372210008"
     }
   ],
   "hf_models": [],
-  "signal_count": 24,
+  "signal_count": 26,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -508,6 +540,20 @@
     },
     {
       "date": "2026-10-06",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-10-13",
       "type": "job_posting",
       "terms": [
         "AI agent"

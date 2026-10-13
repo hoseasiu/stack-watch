@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-10-13",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -182,10 +182,44 @@
       ],
       "posted": "2026-09-11",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6188894004"
+    },
+    {
+      "title": "Product Manager, Software Factory",
+      "terms_matched": [
+        "AI agent",
+        "multi-agent",
+        "Claude Code"
+      ],
+      "posted": "2026-09-29",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6210353004"
+    },
+    {
+      "title": "Senior Accountant",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-09",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6196563004"
+    },
+    {
+      "title": "Software Engineer, Trust & Safety",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2025-09-12",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5649459004"
+    },
+    {
+      "title": "Solutions Architect ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-02-18",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5806749004"
     }
   ],
   "hf_models": [],
-  "signal_count": 15,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -292,6 +326,22 @@
     },
     {
       "date": "2026-09-15",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "multi-agent",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-10-13",
       "type": "job_posting",
       "terms": [
         "AI agent"
