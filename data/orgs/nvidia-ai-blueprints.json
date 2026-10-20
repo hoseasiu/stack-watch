@@ -1,0 +1,59 @@
+{
+  "slug": "nvidia-ai-blueprints",
+  "display_name": "NVIDIA-AI-Blueprints",
+  "github_org": "NVIDIA-AI-Blueprints",
+  "sector": "unclassified",
+  "first_detected": "2026-10-20",
+  "last_updated": "2026-10-20",
+  "frameworks": {
+    "crewai": {
+      "confidence": "high",
+      "first_seen": "2026-10-20",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "NVIDIA-AI-Blueprints/deep-researcher-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/NVIDIA-AI-Blueprints/deep-researcher-agent/blob/951a1a1114e9818073ddbe2a5fdbfa824751f4d3/pyproject.toml",
+          "detected": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "crewai"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "NVIDIA-AI-Blueprints/deep-researcher-agent"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "NVIDIA-AI-Blueprints/deep-researcher-agent",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/NVIDIA-AI-Blueprints/deep-researcher-agent/blob/main/CLAUDE.md",
+        "detected": "2026-10-20"
+      },
+      {
+        "type": "agent_config",
+        "repo": "NVIDIA-AI-Blueprints/deep-researcher-agent",
+        "file": "AGENTS.md",
+        "url": "https://github.com/NVIDIA-AI-Blueprints/deep-researcher-agent/blob/main/AGENTS.md",
+        "detected": "2026-10-20"
+      }
+    ]
+  }
+}

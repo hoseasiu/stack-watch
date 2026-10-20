@@ -4,7 +4,7 @@
   "github_org": "Certora",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -37,6 +37,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/Certora/CertoraProver/blob/63fdea80a35b36ebfe0cff5dff9009b90e91966c/scripts/python_lint/python_lint_requirements.txt",
           "detected": "2026-09-15"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Certora/CertoraProver",
+          "file": "requirements.txt",
+          "url": "https://github.com/Certora/CertoraProver/blob/f5f77783430449791186f7812ebd53addf22cabd/scripts/python_lint/python_lint_requirements.txt",
+          "detected": "2026-10-20"
         }
       ]
     }
@@ -44,7 +51,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 4,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -63,6 +70,11 @@
     },
     {
       "date": "2026-09-15",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-10-20",
       "type": "dependency",
       "framework": "langgraph"
     }

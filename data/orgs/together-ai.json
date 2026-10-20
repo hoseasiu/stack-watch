@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -307,9 +307,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic",
       "detected": "2026-10-13"
+    },
+    {
+      "id": "togethercomputer/HybridAgent-8B-Agentic",
+      "name": "togethercomputer/HybridAgent-8B-Agentic",
+      "library": null,
+      "base_model": "Qwen/Qwen3-8B-Base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/HybridAgent-8B-Agentic",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 27,
+  "signal_count": 28,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -466,6 +475,11 @@
       "date": "2026-10-13",
       "type": "hf_model",
       "model": "togethercomputer/HybridAgent-14B-Agentic"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "togethercomputer/HybridAgent-8B-Agentic"
     }
   ]
 }

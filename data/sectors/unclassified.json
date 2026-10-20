@@ -114,6 +114,10 @@
       "display_name": "BetterDB-inc"
     },
     {
+      "slug": "brightdata",
+      "display_name": "brightdata"
+    },
+    {
       "slug": "build-on-aws",
       "display_name": "build-on-aws"
     },
@@ -286,6 +290,10 @@
       "display_name": "gleanwork"
     },
     {
+      "slug": "gnosis",
+      "display_name": "gnosis"
+    },
+    {
       "slug": "goat-sdk",
       "display_name": "goat-sdk"
     },
@@ -366,6 +374,10 @@
       "display_name": "langgenius"
     },
     {
+      "slug": "langgraph-gui",
+      "display_name": "LangGraph-GUI"
+    },
+    {
       "slug": "lastmile-ai",
       "display_name": "lastmile-ai"
     },
@@ -400,6 +412,10 @@
     {
       "slug": "magnivorg",
       "display_name": "MagnivOrg"
+    },
+    {
+      "slug": "maida-ai",
+      "display_name": "maida-ai"
     },
     {
       "slug": "mapbox",
@@ -466,12 +482,20 @@
       "display_name": "nndl"
     },
     {
+      "slug": "nolabs-ai",
+      "display_name": "nolabs-ai"
+    },
+    {
       "slug": "nordquant",
       "display_name": "nordquant"
     },
     {
       "slug": "nvidia",
       "display_name": "NVIDIA"
+    },
+    {
+      "slug": "nvidia-ai-blueprints",
+      "display_name": "NVIDIA-AI-Blueprints"
     },
     {
       "slug": "nvisosecurity",
@@ -686,6 +710,10 @@
       "display_name": "strukto-ai"
     },
     {
+      "slug": "sunblaze-ucb",
+      "display_name": "sunblaze-ucb"
+    },
+    {
       "slug": "temporalio",
       "display_name": "temporalio"
     },
@@ -716,6 +744,10 @@
     {
       "slug": "thehackersplaybook",
       "display_name": "thehackersplaybook"
+    },
+    {
+      "slug": "traccia-ai",
+      "display_name": "traccia-ai"
     },
     {
       "slug": "traceloop",
@@ -778,6 +810,10 @@
       "display_name": "wortai"
     },
     {
+      "slug": "yuezhiai",
+      "display_name": "yuezhiai"
+    },
+    {
       "slug": "zenml-io",
       "display_name": "zenml-io"
     },
@@ -786,15 +822,15 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 196,
+  "org_count": 205,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 67
+      "count": 68
     },
     {
       "slug": "autogen",
-      "count": 52
+      "count": 53
     },
     {
       "slug": "langgraph",
@@ -809,16 +845,16 @@
       "count": 12
     },
     {
+      "slug": "crewai",
+      "count": 11
+    },
+    {
       "slug": "pydantic_ai",
       "count": 8
     },
     {
       "slug": "dify",
       "count": 4
-    },
-    {
-      "slug": "crewai",
-      "count": 1
     }
   ]
 }

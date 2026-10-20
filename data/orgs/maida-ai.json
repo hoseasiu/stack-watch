@@ -1,0 +1,34 @@
+{
+  "slug": "maida-ai",
+  "display_name": "maida-ai",
+  "github_org": "maida-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-10-20",
+  "last_updated": "2026-10-20",
+  "frameworks": {
+    "crewai": {
+      "confidence": "high",
+      "first_seen": "2026-10-20",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "maida-ai/maida",
+          "file": "pyproject.toml",
+          "url": "https://github.com/maida-ai/maida/blob/236a0bbc333e8a278e9dee04fce242c2975333a9/pyproject.toml",
+          "detected": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "crewai"
+    }
+  ]
+}

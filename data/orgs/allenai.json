@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -702,9 +702,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
       "detected": "2026-10-13"
+    },
+    {
+      "id": "allenai/HiRO-ACEv2",
+      "name": "allenai/HiRO-ACEv2",
+      "library": "fme",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/HiRO-ACEv2",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "allenai/longformer-scico",
+      "name": "allenai/longformer-scico",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/longformer-scico",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "allenai/OLMo-2-0325-32B-Instruct",
+      "name": "allenai/OLMo-2-0325-32B-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-0325-32B-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 77,
+  "signal_count": 80,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1090,6 +1117,21 @@
       "date": "2026-10-13",
       "type": "hf_model",
       "model": "allenai/Molmo-7B-D-0924"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "allenai/HiRO-ACEv2"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "allenai/longformer-scico"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-0325-32B-Instruct"
     }
   ]
 }

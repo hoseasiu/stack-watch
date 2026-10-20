@@ -1,0 +1,52 @@
+{
+  "slug": "nolabs-ai",
+  "display_name": "nolabs-ai",
+  "github_org": "nolabs-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-10-20",
+  "last_updated": "2026-10-20",
+  "frameworks": {
+    "crewai": {
+      "confidence": "high",
+      "first_seen": "2026-10-20",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "nolabs-ai/AgentUp",
+          "file": "pyproject.toml",
+          "url": "https://github.com/nolabs-ai/AgentUp/blob/19b5711f10b26f965eafd1d0a99da450dbc2e053/pyproject.toml",
+          "detected": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "crewai"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "nolabs-ai/AgentUp"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "nolabs-ai/AgentUp",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/nolabs-ai/AgentUp/blob/main/CLAUDE.md",
+        "detected": "2026-10-20"
+      }
+    ]
+  }
+}

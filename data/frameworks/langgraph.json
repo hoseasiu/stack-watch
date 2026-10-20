@@ -362,6 +362,18 @@
     {
       "date": "2026-09-22",
       "org": "sambanova"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "certora"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "sambanova"
     }
   ],
   "org_count": 24

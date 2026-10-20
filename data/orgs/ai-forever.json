@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -229,9 +229,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/kandinsky-4-t2v-flash",
       "detected": "2026-10-13"
+    },
+    {
+      "id": "ai-forever/rudalle-Malevich",
+      "name": "ai-forever/rudalle-Malevich",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/rudalle-Malevich",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 25,
+  "signal_count": 26,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -358,6 +367,11 @@
       "date": "2026-10-13",
       "type": "hf_model",
       "model": "ai-forever/kandinsky-4-t2v-flash"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "ai-forever/rudalle-Malevich"
     }
   ],
   "agent_config": {

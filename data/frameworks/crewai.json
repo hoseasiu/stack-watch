@@ -18,6 +18,66 @@
       "display_name": "thehackersplaybook",
       "confidence": "high",
       "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "brightdata",
+      "display_name": "brightdata",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "gleanwork",
+      "display_name": "gleanwork",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "gnosis",
+      "display_name": "gnosis",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "langgraph-gui",
+      "display_name": "LangGraph-GUI",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "maida-ai",
+      "display_name": "maida-ai",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "nolabs-ai",
+      "display_name": "nolabs-ai",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "nvidia-ai-blueprints",
+      "display_name": "NVIDIA-AI-Blueprints",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "paywithextend",
+      "display_name": "paywithextend",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "splx-ai",
+      "display_name": "splx-ai",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "traccia-ai",
+      "display_name": "traccia-ai",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
     }
   ],
   "signal_history": [
@@ -36,7 +96,51 @@
     {
       "date": "2026-09-08",
       "org": "thehackersplaybook"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "brightdata"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "gleanwork"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "gnosis"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "langgraph-gui"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "maida-ai"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "nolabs-ai"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "nvidia-ai-blueprints"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "paywithextend"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "sambanova"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "splx-ai"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "traccia-ai"
     }
   ],
-  "org_count": 3
+  "org_count": 13
 }

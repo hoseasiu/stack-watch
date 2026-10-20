@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -216,10 +216,18 @@
       ],
       "posted": "2026-02-18",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/5806749004"
+    },
+    {
+      "title": "GTM Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-15",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6225825004"
     }
   ],
   "hf_models": [],
-  "signal_count": 17,
+  "signal_count": 18,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -342,6 +350,13 @@
     },
     {
       "date": "2026-10-13",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-20",
       "type": "job_posting",
       "terms": [
         "AI agent"

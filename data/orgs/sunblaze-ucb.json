@@ -1,0 +1,175 @@
+{
+  "slug": "sunblaze-ucb",
+  "display_name": "sunblaze-ucb",
+  "github_org": "sunblaze-ucb",
+  "sector": "unclassified",
+  "first_detected": "2026-10-20",
+  "last_updated": "2026-10-20",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-10-20",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "sunblaze-ucb/progent",
+          "file": "requirements.txt",
+          "url": "https://github.com/sunblaze-ucb/progent/blob/5be7b63fa96f70bc19b72fbcee81f1c0bcc1a565/real-world-agents/requirements.txt",
+          "detected": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "sunblaze-ucb/Qwen2.5-1.5B-Intuitor-MATH-1EPOCH",
+      "name": "sunblaze-ucb/Qwen2.5-1.5B-Intuitor-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-1.5B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/Qwen2.5-1.5B-Intuitor-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/Qwen2.5-3B-Intuitor-MATH-1EPOCH",
+      "name": "sunblaze-ucb/Qwen2.5-3B-Intuitor-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-3B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/Qwen2.5-3B-Intuitor-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/Qwen2.5-3B-GRPO-MATH-1EPOCH",
+      "name": "sunblaze-ucb/Qwen2.5-3B-GRPO-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-3B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/Qwen2.5-3B-GRPO-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH",
+      "name": "sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2.5-1.5B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/Qwen3-14B-Intuitor-MATH-1EPOCH",
+      "name": "sunblaze-ucb/Qwen3-14B-Intuitor-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-14B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/Qwen3-14B-Intuitor-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH",
+      "name": "sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-1124-7B-SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH",
+      "name": "sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-1124-7B-SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/Qwen3-14B-GRPO-MATH-1EPOCH",
+      "name": "sunblaze-ucb/Qwen3-14B-GRPO-MATH-1EPOCH",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3-14B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/Qwen3-14B-GRPO-MATH-1EPOCH",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH-SYSP",
+      "name": "sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH-SYSP",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-1124-7B-SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH-SYSP",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH-SYSP",
+      "name": "sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH-SYSP",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-1124-7B-SFT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH-SYSP",
+      "detected": "2026-10-20"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/Qwen2.5-1.5B-Intuitor-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/Qwen2.5-3B-Intuitor-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/Qwen2.5-3B-GRPO-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/Qwen2.5-1.5B-GRPO-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/Qwen3-14B-Intuitor-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/Qwen3-14B-GRPO-MATH-1EPOCH"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/OLMo-2-7B-SFT-Intuitor-MATH-1EPOCH-SYSP"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "sunblaze-ucb/OLMo-2-7B-SFT-GRPO-MATH-1EPOCH-SYSP"
+    }
+  ]
+}

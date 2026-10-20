@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -149,6 +149,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/semantic-kernel/blob/bb601cc093eb42271f411658a8b7dc080b68eb32/python/pyproject.toml",
           "detected": "2026-09-29"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/semantic-kernel",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/semantic-kernel/blob/7a92cd4e7c2712370b8d85b687a474b2e858cdcc/python/pyproject.toml",
+          "detected": "2026-10-20"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/AIOpsLab",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/AIOpsLab/blob/576c3f080c7ae2459a972afd4a2f8d5f01828430/pyproject.toml",
+          "detected": "2026-10-20"
         }
       ]
     },
@@ -891,9 +905,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/AesCode-32B",
       "detected": "2026-10-13"
+    },
+    {
+      "id": "microsoft/UserRepGen-4B",
+      "name": "microsoft/UserRepGen-4B",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.5-4B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/UserRepGen-4B",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "microsoft/trocr-base-printed",
+      "name": "microsoft/trocr-base-printed",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/trocr-base-printed",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 73,
+  "signal_count": 76,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1262,6 +1294,21 @@
       "date": "2026-10-13",
       "type": "hf_model",
       "model": "microsoft/AesCode-32B"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "microsoft/UserRepGen-4B"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "microsoft/trocr-base-printed"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "respanai",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "dify": {
       "confidence": "high",
@@ -41,8 +41,18 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 3,
+  "hf_models": [
+    {
+      "id": "respanai/span-02",
+      "name": "respanai/span-02",
+      "library": null,
+      "base_model": "google/gemma-4-26B-A4B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/respanai/span-02",
+      "detected": "2026-10-20"
+    }
+  ],
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -59,6 +69,11 @@
       "date": "2026-07-14",
       "type": "dependency",
       "framework": "dify"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "respanai/span-02"
     }
   ]
 }

@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1456,6 +1456,121 @@
       ],
       "posted": "2026-10-07",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434369008"
+    },
+    {
+      "title": "Anthropic STEM Fellow",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452403008"
+    },
+    {
+      "title": "Applied AI Demo Engineer",
+      "terms_matched": [
+        "Model Context Protocol",
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-10-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5455961008"
+    },
+    {
+      "title": "Applied AI Engineer, Beneficial Deployments (Clinical Development, Rare and Neglected Diseases)",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-10-06",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
+    },
+    {
+      "title": "Applied AI Engineer, Startups (Life Sciences)",
+      "terms_matched": [
+        "MCP server"
+      ],
+      "posted": "2026-10-15",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454650008"
+    },
+    {
+      "title": "Applied AI Engineer, Startups (Physical AI)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-15",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454673008"
+    },
+    {
+      "title": "Customer Success Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456491008"
+    },
+    {
+      "title": "Customer Success Manager, Enterprise Tech",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454800008"
+    },
+    {
+      "title": "Manager, Applied AI Architects - Digital Natives, EMEA",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424305008"
+    },
+    {
+      "title": "Manager of Applied AI Architecture, Industries ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456581008"
+    },
+    {
+      "title": "Partner Account Manager, AI-Native/Boutique SI Partners",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452909008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Memory & Search",
+      "terms_matched": [
+        "Claude Code",
+        "tool use"
+      ],
+      "posted": "2026-10-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456453008"
+    },
+    {
+      "title": "Staff+ Software Engineer, VectorDB",
+      "terms_matched": [
+        "vector database"
+      ],
+      "posted": "2026-10-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458044008"
+    },
+    {
+      "title": "Tabletop Exercise Lead, The Anthropic Institute",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456016008"
+    },
+    {
+      "title": "Technical Program Manager, SOX Compliance",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-15",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453550008"
     }
   ],
   "hf_models": [
@@ -1469,7 +1584,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 55,
+  "signal_count": 61,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1863,6 +1978,51 @@
     },
     {
       "date": "2026-10-13",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "Model Context Protocol",
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "MCP server"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "vector database"
+      ]
+    },
+    {
+      "date": "2026-10-20",
       "type": "job_posting",
       "terms": [
         "AI agent"

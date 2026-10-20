@@ -1,0 +1,34 @@
+{
+  "slug": "gnosis",
+  "display_name": "gnosis",
+  "github_org": "gnosis",
+  "sector": "unclassified",
+  "first_detected": "2026-10-20",
+  "last_updated": "2026-10-20",
+  "frameworks": {
+    "crewai": {
+      "confidence": "high",
+      "first_seen": "2026-10-20",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "gnosis/prediction-market-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/gnosis/prediction-market-agent/blob/de67c4cdb00b8c77e5f03eec127ad5f241e849e7/pyproject.toml",
+          "detected": "2026-10-20"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "crewai"
+    }
+  ]
+}

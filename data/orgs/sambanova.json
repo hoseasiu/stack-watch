@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -58,6 +58,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/sambanova/ai-starter-kit/blob/840956bda2c6930f3522eaeed4d59b8e71c10e31/base-requirements.txt",
           "detected": "2026-09-22"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/ai-starter-kit",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/ai-starter-kit/blob/8f58380ff748a59cd79d4f7e94bdb326066647ff/base-requirements.txt",
+          "detected": "2026-10-20"
         }
       ]
     },
@@ -78,6 +85,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/sambanova/ai-starter-kit/blob/1379ed6e923d0f799eb240d4e6259fe25eb00d18/base-requirements.txt",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/ai-starter-kit",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/ai-starter-kit/blob/8f58380ff748a59cd79d4f7e94bdb326066647ff/base-requirements.txt",
+          "detected": "2026-10-20"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "sambanova/integrations",
+          "file": "requirements.txt",
+          "url": "https://github.com/sambanova/integrations/blob/d67831f1f53293598ba94edd75c28ff044b6c819/base-requirements.txt",
+          "detected": "2026-10-20"
         }
       ]
     },
@@ -195,10 +216,18 @@
       ],
       "posted": "2026-09-29",
       "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6211407004"
+    },
+    {
+      "title": "Principal Product Manager",
+      "terms_matched": [
+        "function calling"
+      ],
+      "posted": "2026-10-15",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6225005004"
     }
   ],
   "hf_models": [],
-  "signal_count": 19,
+  "signal_count": 22,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -319,6 +348,23 @@
         "multi-agent",
         "OpenAI Agents SDK",
         "tool use",
+        "function calling"
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "crewai"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
         "function calling"
       ]
     }

@@ -4,7 +4,7 @@
   "github_org": "ATH-MaaS",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -308,9 +308,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ATH-MaaS/Qwen-MT-Lumen",
       "detected": "2026-10-13"
+    },
+    {
+      "id": "ATH-MaaS/CaptchaMind-7B",
+      "name": "ATH-MaaS/CaptchaMind-7B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ATH-MaaS/CaptchaMind-7B",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 33,
+  "signal_count": 34,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -476,6 +485,11 @@
       "date": "2026-10-13",
       "type": "hf_model",
       "model": "ATH-MaaS/Qwen-MT-Lumen"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "ATH-MaaS/CaptchaMind-7B"
     }
   ]
 }

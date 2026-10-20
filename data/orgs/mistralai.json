@@ -4,7 +4,7 @@
   "github_org": "mistralai",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-20",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -352,9 +352,63 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mistralai/Mistral-7B-v0.3",
       "detected": "2026-10-13"
+    },
+    {
+      "id": "mistralai/Timestral-209M",
+      "name": "mistralai/Timestral-209M",
+      "library": "timestral",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "mistralai/Timestral-5M",
+      "name": "mistralai/Timestral-5M",
+      "library": "timestral",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Timestral-5M",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "mistralai/Timestral-123M",
+      "name": "mistralai/Timestral-123M",
+      "library": "timestral",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Timestral-123M",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "mistralai/Timestral-28M",
+      "name": "mistralai/Timestral-28M",
+      "library": "timestral",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Timestral-28M",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "mistralai/Mistral-Large-Instruct-2411",
+      "name": "mistralai/Mistral-Large-Instruct-2411",
+      "library": "vllm",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-Instruct-2411",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "mistralai/Devstral-Small-2507_gguf",
+      "name": "mistralai/Devstral-Small-2507_gguf",
+      "library": "llama.cpp",
+      "base_model": "mistralai/Devstral-Small-2507",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Devstral-Small-2507_gguf",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 37,
+  "signal_count": 43,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -540,6 +594,36 @@
       "date": "2026-10-13",
       "type": "hf_model",
       "model": "mistralai/Mistral-7B-v0.3"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "mistralai/Timestral-209M"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "mistralai/Timestral-5M"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "mistralai/Timestral-123M"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "mistralai/Timestral-28M"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-Large-Instruct-2411"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "mistralai/Devstral-Small-2507_gguf"
     }
   ]
 }

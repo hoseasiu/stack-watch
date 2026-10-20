@@ -312,6 +312,12 @@
       "display_name": "UCF-CRCV",
       "confidence": "high",
       "first_seen": "2026-09-08"
+    },
+    {
+      "slug": "sunblaze-ucb",
+      "display_name": "sunblaze-ucb",
+      "confidence": "high",
+      "first_seen": "2026-10-20"
     }
   ],
   "signal_history": [
@@ -750,7 +756,51 @@
     {
       "date": "2026-10-13",
       "org": "uni-medical"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "getzep"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "headroomlabs-ai"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "openagents-org"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "owasp"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "panaversity"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "sunblaze-ucb"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "unitycatalog"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-10-20",
+      "org": "zenml-io"
     }
   ],
-  "org_count": 52
+  "org_count": 53
 }

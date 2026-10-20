@@ -4,7 +4,7 @@
   "github_org": "openai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-10-20",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -205,9 +205,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/openai/whisper-tiny.en",
       "detected": "2026-09-15"
+    },
+    {
+      "id": "openai/imagegpt-large",
+      "name": "openai/imagegpt-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/imagegpt-large",
+      "detected": "2026-10-20"
+    },
+    {
+      "id": "openai/imagegpt-medium",
+      "name": "openai/imagegpt-medium",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/openai/imagegpt-medium",
+      "detected": "2026-10-20"
     }
   ],
-  "signal_count": 21,
+  "signal_count": 23,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -314,6 +332,16 @@
       "date": "2026-09-15",
       "type": "hf_model",
       "model": "openai/whisper-tiny.en"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "openai/imagegpt-large"
+    },
+    {
+      "date": "2026-10-20",
+      "type": "hf_model",
+      "model": "openai/imagegpt-medium"
     }
   ]
 }
