@@ -4,7 +4,7 @@
   "github_org": "vectorize-io",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -141,6 +141,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/vectorize-io/hindsight/blob/f843f173bb41f001e322cc83c917371639e47fbf/hindsight-integrations/openai-agents/pyproject.toml",
           "detected": "2026-10-13"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "vectorize-io/hindsight",
+          "file": "pyproject.toml",
+          "url": "https://github.com/vectorize-io/hindsight/blob/5a672f0cdb89f4a3b841770cce2036a5b28b799d/hindsight-integrations/openai-agents/pyproject.toml",
+          "detected": "2026-10-27"
         }
       ]
     }
@@ -167,7 +174,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 19,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -264,6 +271,11 @@
       "date": "2026-10-20",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
     }
   ]
 }

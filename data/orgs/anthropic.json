@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1571,6 +1571,78 @@
       ],
       "posted": "2026-10-15",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453550008"
+    },
+    {
+      "title": "Applied AI Architect, Public Sector (Federal Civilan)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5455627008"
+    },
+    {
+      "title": "Applied AI Architect, Public Sector (GovTech)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-22",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5460211008"
+    },
+    {
+      "title": "Customer  Success Manager",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-21",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5451376008"
+    },
+    {
+      "title": "Customer Success Manager, Southern Europe",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-01-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063099008"
+    },
+    {
+      "title": "Enforcement Analyst, Agentic Alignment",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-24",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462893008"
+    },
+    {
+      "title": "Manager, Cybersecurity Sales Specialist",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008"
+    },
+    {
+      "title": "Manager, Sales Development, Enterprise",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-20",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454142008"
+    },
+    {
+      "title": "Security Data Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-26",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462966008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Safeguards Data ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-08-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5379140008"
     }
   ],
   "hf_models": [
@@ -1584,7 +1656,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 61,
+  "signal_count": 63,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -2023,6 +2095,20 @@
     },
     {
       "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-10-27",
       "type": "job_posting",
       "terms": [
         "AI agent"

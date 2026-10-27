@@ -4,7 +4,7 @@
   "github_org": "stepfun-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -310,9 +310,18 @@
       "confidence": "medium",
       "url": "https://huggingface.co/stepfun-ai/StepFun-Formalizer-32B",
       "detected": "2026-10-20"
+    },
+    {
+      "id": "stepfun-ai/Step1X-3D",
+      "name": "stepfun-ai/Step1X-3D",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/stepfun-ai/Step1X-3D",
+      "detected": "2026-10-27"
     }
   ],
-  "signal_count": 33,
+  "signal_count": 34,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -478,6 +487,11 @@
       "date": "2026-10-20",
       "type": "hf_model",
       "model": "stepfun-ai/StepFun-Formalizer-32B"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "stepfun-ai/Step1X-3D"
     }
   ]
 }

@@ -1208,6 +1208,50 @@
     {
       "date": "2026-10-20",
       "org": "yuezhiai"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "coinbase"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "kubernetes-sigs"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "temporalio"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "wandb"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "yuezhiai"
     }
   ],
   "org_count": 69

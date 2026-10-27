@@ -800,6 +800,34 @@
     {
       "date": "2026-10-20",
       "org": "zenml-io"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "azure"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "headroomlabs-ai"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "oracle"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "owasp"
+    },
+    {
+      "date": "2026-10-27",
+      "org": "sunblaze-ucb"
     }
   ],
   "org_count": 53

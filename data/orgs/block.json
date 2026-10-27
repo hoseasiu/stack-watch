@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-27",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -365,10 +365,27 @@
       ],
       "posted": "2026-10-08",
       "url": "http://block.xyz/careers/jobs/5372210008?gh_jid=5372210008"
+    },
+    {
+      "title": "Compliance Technology Program Lead",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-20",
+      "url": "http://block.xyz/careers/jobs/5440263008?gh_jid=5440263008"
+    },
+    {
+      "title": "Senior Software Engineer, Developer Experience",
+      "terms_matched": [
+        "AI agent",
+        "tool use"
+      ],
+      "posted": "2026-10-23",
+      "url": "http://block.xyz/careers/jobs/5453094008?gh_jid=5453094008"
     }
   ],
   "hf_models": [],
-  "signal_count": 26,
+  "signal_count": 28,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -557,6 +574,21 @@
       "type": "job_posting",
       "terms": [
         "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "tool use"
       ]
     }
   ]

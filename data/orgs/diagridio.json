@@ -4,7 +4,7 @@
   "github_org": "diagridio",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -86,6 +86,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/diagridio/python-ai/blob/1539bde5771943d43f932db431332f51c90018f5/examples/openai_agents/pyproject.toml",
           "detected": "2026-09-22"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "diagridio/python-ai",
+          "file": "pyproject.toml",
+          "url": "https://github.com/diagridio/python-ai/blob/cbd4f9099df4a621947232d027186012f3c98c0d/examples/openai_agents/pyproject.toml",
+          "detected": "2026-10-27"
         }
       ]
     }
@@ -93,7 +100,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 13,
+  "signal_count": 14,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -159,6 +166,11 @@
     },
     {
       "date": "2026-09-22",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-10-27",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

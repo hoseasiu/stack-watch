@@ -4,7 +4,7 @@
   "github_org": "ai-forever",
   "sector": "unclassified",
   "first_detected": "2026-08-18",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -238,9 +238,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/ai-forever/rudalle-Malevich",
       "detected": "2026-10-20"
+    },
+    {
+      "id": "ai-forever/sbert_large_nlu_ru",
+      "name": "ai-forever/sbert_large_nlu_ru",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/sbert_large_nlu_ru",
+      "detected": "2026-10-27"
+    },
+    {
+      "id": "ai-forever/FiMMIA-Audio",
+      "name": "ai-forever/FiMMIA-Audio",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/ai-forever/FiMMIA-Audio",
+      "detected": "2026-10-27"
     }
   ],
-  "signal_count": 26,
+  "signal_count": 28,
   "signal_history": [
     {
       "date": "2026-08-18",
@@ -372,6 +390,16 @@
       "date": "2026-10-20",
       "type": "hf_model",
       "model": "ai-forever/rudalle-Malevich"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "ai-forever/sbert_large_nlu_ru"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "ai-forever/FiMMIA-Audio"
     }
   ],
   "agent_config": {

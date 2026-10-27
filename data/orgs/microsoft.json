@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -163,6 +163,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/AIOpsLab/blob/576c3f080c7ae2459a972afd4a2f8d5f01828430/pyproject.toml",
           "detected": "2026-10-20"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/semantic-kernel",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/semantic-kernel/blob/bce5801599cf7d380b3f491f327155cc2c56bd41/python/pyproject.toml",
+          "detected": "2026-10-27"
         }
       ]
     },
@@ -407,6 +414,27 @@
           "file": "pyproject.toml",
           "url": "https://github.com/microsoft/agent-governance-toolkit/blob/47abed7446d47e74cfa76d01a5913bb873ffcad9/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
           "detected": "2026-10-13"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/fcc8eb13854701c4b85b80dd756e3fde94b127a9/agent-governance-python/agent-governance-toolkit-integrations/pyproject.toml",
+          "detected": "2026-10-27"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/fcc8eb13854701c4b85b80dd756e3fde94b127a9/agent-governance-python/agentmesh-integrations/openai-agents-trust/pyproject.toml",
+          "detected": "2026-10-27"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "microsoft/agent-governance-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/microsoft/agent-governance-toolkit/blob/fcc8eb13854701c4b85b80dd756e3fde94b127a9/agent-governance-python/agentmesh-integrations/openai-agents-agentmesh/pyproject.toml",
+          "detected": "2026-10-27"
         }
       ]
     }
@@ -923,9 +951,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/trocr-base-printed",
       "detected": "2026-10-20"
+    },
+    {
+      "id": "microsoft/Sentiment-Analysis-7B",
+      "name": "microsoft/Sentiment-Analysis-7B",
+      "library": "transformers",
+      "base_model": "mistralai/Mistral-7B-Instruct-v0.2",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Sentiment-Analysis-7B",
+      "detected": "2026-10-27"
+    },
+    {
+      "id": "microsoft/bioemu2",
+      "name": "microsoft/bioemu2",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/bioemu2",
+      "detected": "2026-10-27"
     }
   ],
-  "signal_count": 76,
+  "signal_count": 80,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1309,6 +1355,26 @@
       "date": "2026-10-20",
       "type": "hf_model",
       "model": "microsoft/trocr-base-printed"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "microsoft/Sentiment-Analysis-7B"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "microsoft/bioemu2"
     }
   ]
 }

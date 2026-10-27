@@ -4,7 +4,7 @@
   "github_org": "Azure",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -37,6 +37,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/Azure/agent-app-agentic/blob/c7ae34ea568f73db2f4bc1c9094741c563a25153/requirements.txt",
           "detected": "2026-10-06"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure/agent-app-agentic",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure/agent-app-agentic/blob/7e0147e56ded71aa166d598013db6c3ee8368164/requirements.txt",
+          "detected": "2026-10-27"
         }
       ]
     },
@@ -84,7 +91,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 8,
+  "signal_count": 9,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -124,6 +131,11 @@
     },
     {
       "date": "2026-10-06",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-10-27",
       "type": "dependency",
       "framework": "autogen"
     }

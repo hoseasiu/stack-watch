@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-27",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -729,9 +729,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct",
       "detected": "2026-10-20"
+    },
+    {
+      "id": "allenai/OlmoEarth-v1_3-Base",
+      "name": "allenai/OlmoEarth-v1_3-Base",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OlmoEarth-v1_3-Base",
+      "detected": "2026-10-27"
+    },
+    {
+      "id": "allenai/Molmo-72B-0924",
+      "name": "allenai/Molmo-72B-0924",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen2-72B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Molmo-72B-0924",
+      "detected": "2026-10-27"
+    },
+    {
+      "id": "allenai/biomed_roberta_base",
+      "name": "allenai/biomed_roberta_base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/biomed_roberta_base",
+      "detected": "2026-10-27"
+    },
+    {
+      "id": "allenai/OLMo-2-1124-7B-Instruct",
+      "name": "allenai/OLMo-2-1124-7B-Instruct",
+      "library": "transformers",
+      "base_model": "allenai/OLMo-2-1124-7B-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
+      "detected": "2026-10-27"
     }
   ],
-  "signal_count": 80,
+  "signal_count": 84,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1132,6 +1168,26 @@
       "date": "2026-10-20",
       "type": "hf_model",
       "model": "allenai/OLMo-2-0325-32B-Instruct"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "allenai/OlmoEarth-v1_3-Base"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "allenai/Molmo-72B-0924"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "allenai/biomed_roberta_base"
+    },
+    {
+      "date": "2026-10-27",
+      "type": "hf_model",
+      "model": "allenai/OLMo-2-1124-7B-Instruct"
     }
   ]
 }
