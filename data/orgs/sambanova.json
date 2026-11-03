@@ -4,7 +4,7 @@
   "github_org": "sambanova",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -224,10 +224,26 @@
       ],
       "posted": "2026-10-15",
       "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6225005004"
+    },
+    {
+      "title": "Compiler Engineer - New Grad",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-27",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224835004"
+    },
+    {
+      "title": "Senior Principal Model Bring-up Engineer ",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-10-29",
+      "url": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6232108004"
     }
   ],
   "hf_models": [],
-  "signal_count": 22,
+  "signal_count": 24,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -366,6 +382,20 @@
       "type": "job_posting",
       "terms": [
         "function calling"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
       ]
     }
   ]

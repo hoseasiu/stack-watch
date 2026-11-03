@@ -1,0 +1,34 @@
+{
+  "slug": "thirdlayerinc",
+  "display_name": "thirdlayerinc",
+  "github_org": "thirdlayerinc",
+  "sector": "unclassified",
+  "first_detected": "2026-11-03",
+  "last_updated": "2026-11-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-11-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "thirdlayerinc/autoagent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/thirdlayerinc/autoagent/blob/eb3f185dc9faac276955b4fe5feb93c8f836b644/pyproject.toml",
+          "detected": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "github_org": "vllm-project",
   "sector": "unclassified",
   "first_detected": "2026-09-15",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -22,13 +22,154 @@
   },
   "model_providers": {},
   "job_signals": [],
-  "hf_models": [],
-  "signal_count": 1,
+  "hf_models": [
+    {
+      "id": "vllm-project/ColUltraVBERT",
+      "name": "vllm-project/ColUltraVBERT",
+      "library": "sentence-transformers",
+      "base_model": "athrael-soju/UltraVBERT",
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/ColUltraVBERT",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/tiny-random-BambaForCausalLM",
+      "name": "vllm-project/tiny-random-BambaForCausalLM",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/tiny-random-BambaForCausalLM",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/tiny-random-LlamaForCausalLM",
+      "name": "vllm-project/tiny-random-LlamaForCausalLM",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/tiny-random-LlamaForCausalLM",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/tiny-random-Gemma2ForCausalLM",
+      "name": "vllm-project/tiny-random-Gemma2ForCausalLM",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/tiny-random-Gemma2ForCausalLM",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/Ilama-3.2-1B",
+      "name": "vllm-project/Ilama-3.2-1B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/Ilama-3.2-1B",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/tiny-random-DeepseekV2ForCausalLM",
+      "name": "vllm-project/tiny-random-DeepseekV2ForCausalLM",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/tiny-random-DeepseekV2ForCausalLM",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/mamba2-codestral-v0.1-tiny-random",
+      "name": "vllm-project/mamba2-codestral-v0.1-tiny-random",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/mamba2-codestral-v0.1-tiny-random",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/tiny-qwen3-moe-fp8-per-block",
+      "name": "vllm-project/tiny-qwen3-moe-fp8-per-block",
+      "library": null,
+      "base_model": "amd-quark/tiny-random-qwen3_moe",
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/tiny-qwen3-moe-fp8-per-block",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/Qwen3-30B-A3B-MXFP8",
+      "name": "vllm-project/Qwen3-30B-A3B-MXFP8",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/Qwen3-30B-A3B-MXFP8",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "vllm-project/FireRedASR2-LLM-vllm",
+      "name": "vllm-project/FireRedASR2-LLM-vllm",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/vllm-project/FireRedASR2-LLM-vllm",
+      "detected": "2026-11-03"
+    }
+  ],
+  "signal_count": 11,
   "signal_history": [
     {
       "date": "2026-09-15",
       "type": "dependency",
       "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/ColUltraVBERT"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/tiny-random-BambaForCausalLM"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/tiny-random-LlamaForCausalLM"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/tiny-random-Gemma2ForCausalLM"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/Ilama-3.2-1B"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/tiny-random-DeepseekV2ForCausalLM"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/mamba2-codestral-v0.1-tiny-random"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/tiny-qwen3-moe-fp8-per-block"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/Qwen3-30B-A3B-MXFP8"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "vllm-project/FireRedASR2-LLM-vllm"
     }
   ]
 }

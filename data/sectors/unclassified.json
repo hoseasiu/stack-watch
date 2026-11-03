@@ -22,6 +22,10 @@
       "display_name": "agiresearch"
     },
     {
+      "slug": "agoda-com",
+      "display_name": "agoda-com"
+    },
+    {
       "slug": "ai-citizen",
       "display_name": "AI-Citizen"
     },
@@ -60,6 +64,10 @@
     {
       "slug": "allenai",
       "display_name": "allenai"
+    },
+    {
+      "slug": "amd",
+      "display_name": "amd"
     },
     {
       "slug": "anosys-ai",
@@ -124,6 +132,10 @@
     {
       "slug": "cabcode-id",
       "display_name": "cabcode-id"
+    },
+    {
+      "slug": "caviraoss",
+      "display_name": "CaviraOSS"
     },
     {
       "slug": "celestoai",
@@ -746,6 +758,10 @@
       "display_name": "thehackersplaybook"
     },
     {
+      "slug": "thirdlayerinc",
+      "display_name": "thirdlayerinc"
+    },
+    {
       "slug": "traccia-ai",
       "display_name": "traccia-ai"
     },
@@ -822,15 +838,15 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 205,
+  "org_count": 209,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 68
+      "count": 70
     },
     {
       "slug": "autogen",
-      "count": 53
+      "count": 55
     },
     {
       "slug": "langgraph",

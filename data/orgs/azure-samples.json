@@ -4,7 +4,7 @@
   "github_org": "Azure-Samples",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -148,6 +148,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Azure-Samples/AI-Gateway/blob/1679e3137d2fe7592d2a668d77ff71550d35b69e/pyproject.toml",
           "detected": "2026-09-29"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/ai-hub-gateway-solution-accelerator",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/ai-hub-gateway-solution-accelerator/blob/81599b31dfbaee20ebd3a6d2ba9b07dde3c31814/shared/requirements.txt",
+          "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Azure-Samples/healthcare-agent-orchestrator",
+          "file": "requirements.txt",
+          "url": "https://github.com/Azure-Samples/healthcare-agent-orchestrator/blob/29955d0f81a994215006a9fa46d17d61702949c1/src/requirements.txt",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -174,7 +188,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 14,
+  "signal_count": 15,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -245,6 +259,11 @@
     },
     {
       "date": "2026-09-29",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-03",
       "type": "dependency",
       "framework": "autogen"
     }

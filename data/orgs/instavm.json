@@ -4,7 +4,7 @@
   "github_org": "instavm",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-28",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/instavm/open-skills/blob/6480335953c341fa4ce709e67f67b6e66a06ed50/requirements.txt",
           "detected": "2026-07-28"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "instavm/coderunner",
+          "file": "requirements.txt",
+          "url": "https://github.com/instavm/coderunner/blob/e8a4b58bb2f734dbc36af7b62c4264bae380f081/requirements.txt",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -39,6 +46,11 @@
     },
     {
       "date": "2026-07-28",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-03",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

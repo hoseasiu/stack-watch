@@ -318,6 +318,18 @@
       "display_name": "sunblaze-ucb",
       "confidence": "high",
       "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "amd",
+      "display_name": "amd",
+      "confidence": "high",
+      "first_seen": "2026-11-03"
+    },
+    {
+      "slug": "caviraoss",
+      "display_name": "CaviraOSS",
+      "confidence": "high",
+      "first_seen": "2026-11-03"
     }
   ],
   "signal_history": [
@@ -828,7 +840,43 @@
     {
       "date": "2026-10-27",
       "org": "sunblaze-ucb"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "amd"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "caviraoss"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "headroomlabs-ai"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "owasp"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "theagenticai"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "vectorize-io"
     }
   ],
-  "org_count": 53
+  "org_count": 55
 }

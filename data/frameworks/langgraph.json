@@ -378,6 +378,22 @@
     {
       "date": "2026-10-27",
       "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "dragonhpc"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "langchain-ai"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "neatlogs"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "oracle-devrel"
     }
   ],
   "org_count": 24

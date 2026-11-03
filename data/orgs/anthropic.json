@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-11-03",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1643,6 +1643,87 @@
       ],
       "posted": "2026-08-14",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5379140008"
+    },
+    {
+      "title": "AI Outcomes Manager, Strategic Tech (Spanish-speaking)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5465639008"
+    },
+    {
+      "title": "Autonomous Systems Security Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462972008"
+    },
+    {
+      "title": "Customer Success Manager, Beneficial Deployments EMEA",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-30",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462040008"
+    },
+    {
+      "title": "Manager, Enterprise Sales - Asset & Wealth Management",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5464894008"
+    },
+    {
+      "title": "Senior Engineer, Bioinformatics",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-29",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467083008"
+    },
+    {
+      "title": "Staff / Senior Data Center Security Engineer",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-29",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5419154008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Deployment",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-28",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5466480008"
+    },
+    {
+      "title": "Tech Lead Manager, Core Apps Data Scientist",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-10-27",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5464493008"
+    },
+    {
+      "title": "Technical Deployment Lead",
+      "terms_matched": [
+        "AI agent",
+        "tool use"
+      ],
+      "posted": "2026-11-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467153008"
+    },
+    {
+      "title": "Technical Deployment Lead",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-11-02",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467159008"
     }
   ],
   "hf_models": [
@@ -1656,7 +1737,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 63,
+  "signal_count": 67,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -2112,6 +2193,35 @@
       "type": "job_posting",
       "terms": [
         "AI agent"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
       ]
     }
   ]

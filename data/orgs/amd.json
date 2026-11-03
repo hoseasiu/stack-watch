@@ -1,0 +1,175 @@
+{
+  "slug": "amd",
+  "display_name": "amd",
+  "github_org": "amd",
+  "sector": "unclassified",
+  "first_detected": "2026-11-03",
+  "last_updated": "2026-11-03",
+  "frameworks": {
+    "autogen": {
+      "confidence": "high",
+      "first_seen": "2026-11-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "amd/HPCTrainingExamples",
+          "file": "requirements.txt",
+          "url": "https://github.com/amd/HPCTrainingExamples/blob/83cb7dabe0340794ed8bb12bcca5a6e374846441/MLExamples/icf_4agent/requirements.txt",
+          "detected": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "amd/Qwen3.6-35B-A3B_rai_1.9.0_m_1.0.1_npu",
+      "name": "amd/Qwen3.6-35B-A3B_rai_1.9.0_m_1.0.1_npu",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Qwen3.6-35B-A3B_rai_1.9.0_m_1.0.1_npu",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
+      "name": "amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.8-27B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Qwen3.8-27B-Quark-AWQ-MXFP4",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/realesrgan-x4plus-anime-6b",
+      "name": "amd/realesrgan-x4plus-anime-6b",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/realesrgan-x4plus-anime-6b",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Instella-MoE-16B-A3B-Think",
+      "name": "amd/Instella-MoE-16B-A3B-Think",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Instella-MoE-16B-A3B-Think",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Qwen3.8-27B-Quark-AWQ-INT4-W4A16",
+      "name": "amd/Qwen3.8-27B-Quark-AWQ-INT4-W4A16",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.8-27B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Qwen3.8-27B-Quark-AWQ-INT4-W4A16",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Qwen3.8-Flash-Next-Quark-MXFP4",
+      "name": "amd/Qwen3.8-Flash-Next-Quark-MXFP4",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.8-Flash-Next",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Qwen3.8-Flash-Next-Quark-MXFP4",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Qwen3.6-35B-A3B-w4a16-llmcompressor",
+      "name": "amd/Qwen3.6-35B-A3B-w4a16-llmcompressor",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.6-35B-A3B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Qwen3.6-35B-A3B-w4a16-llmcompressor",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Qwen3.8-Flash-Next-Quark-MXFP4-AttnFP8-PLEFP8",
+      "name": "amd/Qwen3.8-Flash-Next-Quark-MXFP4-AttnFP8-PLEFP8",
+      "library": "transformers",
+      "base_model": "Qwen/Qwen3.8-Flash-Next",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Qwen3.8-Flash-Next-Quark-MXFP4-AttnFP8-PLEFP8",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/Mistral-Large-4-1T-A52B-Quark-MXFP4",
+      "name": "amd/Mistral-Large-4-1T-A52B-Quark-MXFP4",
+      "library": null,
+      "base_model": "mistralai/Mistral-Large-4-1T-A52B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Mistral-Large-4-1T-A52B-Quark-MXFP4",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/MiniMax-M3.1-Flash-Quark-MXFP4",
+      "name": "amd/MiniMax-M3.1-Flash-Quark-MXFP4",
+      "library": null,
+      "base_model": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/MiniMax-M3.1-Flash-Quark-MXFP4",
+      "detected": "2026-11-03"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Qwen3.6-35B-A3B_rai_1.9.0_m_1.0.1_npu"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Qwen3.8-27B-Quark-AWQ-MXFP4"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/realesrgan-x4plus-anime-6b"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Instella-MoE-16B-A3B-Think"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Qwen3.8-27B-Quark-AWQ-INT4-W4A16"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Qwen3.8-Flash-Next-Quark-MXFP4"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Qwen3.6-35B-A3B-w4a16-llmcompressor"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Qwen3.8-Flash-Next-Quark-MXFP4-AttnFP8-PLEFP8"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/Mistral-Large-4-1T-A52B-Quark-MXFP4"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "amd/MiniMax-M3.1-Flash-Quark-MXFP4"
+    }
+  ]
+}

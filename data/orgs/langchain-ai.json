@@ -4,7 +4,7 @@
   "github_org": "langchain-ai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -30,6 +30,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/langchain-ai/langgraph-swarm-py/blob/5442a15cdd0ed210589148900c9960c24c489d04/pyproject.toml",
           "detected": "2026-09-22"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "langchain-ai/langgraph-swarm-py",
+          "file": "pyproject.toml",
+          "url": "https://github.com/langchain-ai/langgraph-swarm-py/blob/8956b138bbb475b00c98d040176dbb8da667c612/pyproject.toml",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -37,7 +44,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -51,6 +58,11 @@
     },
     {
       "date": "2026-09-22",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-11-03",
       "type": "dependency",
       "framework": "langgraph"
     }

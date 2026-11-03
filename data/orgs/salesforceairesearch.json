@@ -4,7 +4,7 @@
   "github_org": "SalesforceAIResearch",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/SalesforceAIResearch/MCP-Universe/blob/48b453021694d9823d308627fb7f6b7edd29541a/pyproject.toml",
           "detected": "2026-07-21"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "SalesforceAIResearch/MCP-Universe",
+          "file": "pyproject.toml",
+          "url": "https://github.com/SalesforceAIResearch/MCP-Universe/blob/0df6c42717f2a618d34f5b271efd05be462b9e4d/pyproject.toml",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-21",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-03",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

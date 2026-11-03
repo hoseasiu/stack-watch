@@ -4,7 +4,7 @@
   "github_org": "yuezhiai",
   "sector": "unclassified",
   "first_detected": "2026-10-20",
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/yuezhiai/jonex/blob/9dfe346fec068ff16c21f84a7a3e180eb256e41d/Reference/OpenKB/openkb-requirements.txt",
           "detected": "2026-10-27"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "yuezhiai/jonex",
+          "file": "requirements.txt",
+          "url": "https://github.com/yuezhiai/jonex/blob/13f93d97c838df42d9c0a370c70ddd81f4b72386/Reference/OpenKB/openkb-requirements.txt",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-10-20",
@@ -39,6 +46,11 @@
     },
     {
       "date": "2026-10-27",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-03",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

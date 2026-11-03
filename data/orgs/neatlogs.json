@@ -4,7 +4,7 @@
   "github_org": "neatlogs",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-09-01",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -107,6 +107,20 @@
           "file": "requirements.txt",
           "url": "https://github.com/neatlogs/neatlogs/blob/ec739e3ab10d48078a1244521bd13a8fcb853af4/examples/sdk_examples/49_requirements.txt",
           "detected": "2026-09-01"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "neatlogs/neatlogs",
+          "file": "requirements.txt",
+          "url": "https://github.com/neatlogs/neatlogs/blob/53bf276fe1abd5a8c359749fdc0fe2603d666aa3/examples/sdk_examples/50_requirements.txt",
+          "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "neatlogs/neatlogs",
+          "file": "requirements.txt",
+          "url": "https://github.com/neatlogs/neatlogs/blob/53bf276fe1abd5a8c359749fdc0fe2603d666aa3/examples/sdk_examples/49_requirements.txt",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -134,7 +148,7 @@
   },
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 9,
+  "signal_count": 10,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -178,6 +192,11 @@
     },
     {
       "date": "2026-09-01",
+      "type": "dependency",
+      "framework": "langgraph"
+    },
+    {
+      "date": "2026-11-03",
       "type": "dependency",
       "framework": "langgraph"
     }

@@ -4,7 +4,7 @@
   "github_org": "temporalio",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -30,6 +30,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/temporalio/ai-integrations/blob/c664a348bd46be30fe02cfd6ebc503ecd44f94cf/python/openai_agents/pyproject.toml",
           "detected": "2026-10-27"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "temporalio/ai-integrations",
+          "file": "pyproject.toml",
+          "url": "https://github.com/temporalio/ai-integrations/blob/017d88aa001bf40541e852d1173af4369f0989c7/python/openai_agents/pyproject.toml",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -37,7 +44,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -65,6 +72,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "temporalio/ai-integrations"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
     }
   ],
   "agent_config": {

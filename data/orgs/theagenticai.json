@@ -4,7 +4,7 @@
   "github_org": "TheAgenticAI",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-03",
+  "last_updated": "2026-11-03",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/TheAgenticAI/TheAgenticBrowser/blob/71daa285d65584333e0c69b963360f8b74fd980f/requirements.txt",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "TheAgenticAI/CortexON",
+          "file": "requirements.txt",
+          "url": "https://github.com/TheAgenticAI/CortexON/blob/3b00aab495861d6a7826c317101f8e069a3677f0/ta-browser/requirements.txt",
+          "detected": "2026-11-03"
         }
       ]
     }
@@ -114,7 +121,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 12,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -170,6 +177,11 @@
       "date": "2026-07-03",
       "type": "hf_model",
       "model": "TheAgenticAI/EAGLE1-LLAMA-3.3-70B"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ]
 }

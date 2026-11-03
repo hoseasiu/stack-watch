@@ -1,0 +1,59 @@
+{
+  "slug": "agoda-com",
+  "display_name": "agoda-com",
+  "github_org": "agoda-com",
+  "sector": "unclassified",
+  "first_detected": "2026-11-03",
+  "last_updated": "2026-11-03",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-11-03",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "agoda-com/api-agent",
+          "file": "pyproject.toml",
+          "url": "https://github.com/agoda-com/api-agent/blob/ff5c5a98fb974c1417018a0f3be633058928f77a/pyproject.toml",
+          "detected": "2026-11-03"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "agoda-com/api-agent"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "agoda-com/api-agent",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/agoda-com/api-agent/blob/main/CLAUDE.md",
+        "detected": "2026-11-03"
+      },
+      {
+        "type": "agent_config",
+        "repo": "agoda-com/api-agent",
+        "file": "AGENTS.md",
+        "url": "https://github.com/agoda-com/api-agent/blob/main/AGENTS.md",
+        "detected": "2026-11-03"
+      }
+    ]
+  }
+}

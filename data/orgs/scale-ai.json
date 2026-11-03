@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-03",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -844,10 +844,21 @@
       ],
       "posted": "2026-10-16",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4744402005"
+    },
+    {
+      "title": "Frontier Agent Engineering Manager, Enterprise",
+      "terms_matched": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
+      ],
+      "posted": "2026-10-27",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4747506005"
     }
   ],
   "hf_models": [],
-  "signal_count": 39,
+  "signal_count": 40,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -1149,6 +1160,16 @@
       "terms": [
         "AI agent",
         "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "type": "job_posting",
+      "terms": [
+        "LangChain",
+        "AI agent",
+        "multi-agent",
+        "vector database"
       ]
     }
   ]

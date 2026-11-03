@@ -414,6 +414,18 @@
       "display_name": "yuezhiai",
       "confidence": "high",
       "first_seen": "2026-10-20"
+    },
+    {
+      "slug": "agoda-com",
+      "display_name": "agoda-com",
+      "confidence": "high",
+      "first_seen": "2026-11-03"
+    },
+    {
+      "slug": "thirdlayerinc",
+      "display_name": "thirdlayerinc",
+      "confidence": "high",
+      "first_seen": "2026-11-03"
     }
   ],
   "signal_history": [
@@ -1252,7 +1264,67 @@
     {
       "date": "2026-10-27",
       "org": "yuezhiai"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "agoda-com"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "diagridio"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "instavm"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "kubernetes-sigs"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "salesforceairesearch"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "temporalio"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "thirdlayerinc"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "ucbepic"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "wandb"
+    },
+    {
+      "date": "2026-11-03",
+      "org": "yuezhiai"
     }
   ],
-  "org_count": 69
+  "org_count": 71
 }

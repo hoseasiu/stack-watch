@@ -4,7 +4,7 @@
   "github_org": "mistralai",
   "sector": "unclassified",
   "first_detected": "2026-07-14",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-03",
   "frameworks": {},
   "model_providers": {
     "mistral": {
@@ -406,9 +406,27 @@
       "confidence": "medium",
       "url": "https://huggingface.co/mistralai/Devstral-Small-2507_gguf",
       "detected": "2026-10-20"
+    },
+    {
+      "id": "mistralai/Mistral-Large-4-1T-A52B",
+      "name": "mistralai/Mistral-Large-4-1T-A52B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "detected": "2026-11-03"
+    },
+    {
+      "id": "mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "name": "mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "library": null,
+      "base_model": "mistralai/Mistral-Large-4-1T-A52B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4",
+      "detected": "2026-11-03"
     }
   ],
-  "signal_count": 43,
+  "signal_count": 45,
   "signal_history": [
     {
       "date": "2026-07-14",
@@ -624,6 +642,16 @@
       "date": "2026-10-20",
       "type": "hf_model",
       "model": "mistralai/Devstral-Small-2507_gguf"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-Large-4-1T-A52B"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "hf_model",
+      "model": "mistralai/Mistral-Large-4-1T-A52B-NVFP4"
     }
   ]
 }
