@@ -4,7 +4,7 @@
   "github_org": "zjunlp",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "langgraph": {
       "confidence": "high",
@@ -193,9 +193,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/zjunlp/MolGen-7b",
       "detected": "2026-09-15"
+    },
+    {
+      "id": "zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r10",
+      "name": "zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r10",
+      "library": null,
+      "base_model": "Qwen/Qwen2.5-14B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r10",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r30",
+      "name": "zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r30",
+      "library": null,
+      "base_model": "Qwen/Qwen2.5-14B-Instruct",
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r30",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r30",
+      "name": "zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r30",
+      "library": null,
+      "base_model": "Qwen/Qwen3-4B-Thinking-2507",
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r30",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r10",
+      "name": "zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r10",
+      "library": null,
+      "base_model": "Qwen/Qwen3-4B-Thinking-2507",
+      "confidence": "medium",
+      "url": "https://huggingface.co/zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r10",
+      "detected": "2026-11-10"
     }
   ],
-  "signal_count": 18,
+  "signal_count": 22,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -286,6 +322,26 @@
       "date": "2026-09-15",
       "type": "hf_model",
       "model": "zjunlp/MolGen-7b"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r10"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "zjunlp/Cortex-Baseline-SHINE-Qwen2.5-14B-r30"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r30"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "zjunlp/Cortex-Baseline-SHINE-Qwen3-4B-Thinking-2507-r10"
     }
   ]
 }

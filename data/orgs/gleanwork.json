@@ -4,7 +4,7 @@
   "github_org": "gleanwork",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -29,6 +29,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/gleanwork/glean-agent-toolkit/blob/4638542142ce4fe49d68ca64967b7b9482472260/pyproject.toml",
           "detected": "2026-10-20"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "gleanwork/glean-agent-toolkit",
+          "file": "pyproject.toml",
+          "url": "https://github.com/gleanwork/glean-agent-toolkit/blob/029cf61a70c2e32911d079e6c1bcd8228b5c89de/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -48,7 +55,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -63,6 +70,11 @@
     },
     {
       "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "crewai"
+    },
+    {
+      "date": "2026-11-10",
       "type": "dependency",
       "framework": "crewai"
     }

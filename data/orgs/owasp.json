@@ -4,7 +4,7 @@
   "github_org": "OWASP",
   "sector": "unclassified",
   "first_detected": "2026-09-01",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -44,6 +44,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/OWASP/www-project-agent-memory-guard/blob/d722d428c983fb26fa48d9238ac661b0c8c2a3e4/pyproject.toml",
           "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "OWASP/www-project-agent-memory-guard",
+          "file": "pyproject.toml",
+          "url": "https://github.com/OWASP/www-project-agent-memory-guard/blob/e71036dcdbf852768ccc6e5a4e9e021bb4d56a90/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -51,7 +58,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 6,
   "signal_history": [
     {
       "date": "2026-09-01",
@@ -75,6 +82,11 @@
     },
     {
       "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-10",
       "type": "dependency",
       "framework": "autogen"
     }

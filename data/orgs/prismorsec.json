@@ -4,7 +4,7 @@
   "github_org": "PrismorSec",
   "sector": "unclassified",
   "first_detected": "2026-09-08",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,20 @@
           "file": "pyproject.toml",
           "url": "https://github.com/PrismorSec/prismor/blob/ea841e3b0487564e168dcedfa1e4ebe8cb08da1f/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "PrismorSec/prismor",
+          "file": "pyproject.toml",
+          "url": "https://github.com/PrismorSec/prismor/blob/b92a27d852564a9e137ae8ce4ae4993b79351034/adapters/autogen-core/pyproject.toml",
+          "detected": "2026-11-10"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "PrismorSec/prismor",
+          "file": "pyproject.toml",
+          "url": "https://github.com/PrismorSec/prismor/blob/b92a27d852564a9e137ae8ce4ae4993b79351034/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -30,7 +44,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-09-08",
@@ -42,6 +56,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "PrismorSec/prismor"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "dependency",
+      "framework": "autogen"
     }
   ],
   "agent_config": {

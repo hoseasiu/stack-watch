@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -765,9 +765,54 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OLMo-2-1124-7B-Instruct",
       "detected": "2026-10-27"
+    },
+    {
+      "id": "allenai/maniflow-tb",
+      "name": "allenai/maniflow-tb",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/maniflow-tb",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "allenai/Molmo2-4B-tb",
+      "name": "allenai/Molmo2-4B-tb",
+      "library": null,
+      "base_model": "allenai/Molmo2-4B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Molmo2-4B-tb",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "allenai/OLMoE-1B-7B-0924-GGUF",
+      "name": "allenai/OLMoE-1B-7B-0924-GGUF",
+      "library": "gguf",
+      "base_model": "allenai/OLMoE-1B-7B-0924",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0924-GGUF",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-8B",
+      "name": "allenai/Llama-3.1-Tulu-3-8B",
+      "library": "transformers",
+      "base_model": "allenai/Llama-3.1-Tulu-3-8B-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-8B",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "allenai/OLMoE-1B-7B-0125-Instruct-GGUF",
+      "name": "allenai/OLMoE-1B-7B-0125-Instruct-GGUF",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0125-Instruct-GGUF",
+      "detected": "2026-11-10"
     }
   ],
-  "signal_count": 84,
+  "signal_count": 89,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1188,6 +1233,31 @@
       "date": "2026-10-27",
       "type": "hf_model",
       "model": "allenai/OLMo-2-1124-7B-Instruct"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "allenai/maniflow-tb"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "allenai/Molmo2-4B-tb"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "allenai/OLMoE-1B-7B-0924-GGUF"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "allenai/Llama-3.1-Tulu-3-8B"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "allenai/OLMoE-1B-7B-0125-Instruct-GGUF"
     }
   ]
 }

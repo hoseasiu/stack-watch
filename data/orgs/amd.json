@@ -4,7 +4,7 @@
   "github_org": "amd",
   "sector": "unclassified",
   "first_detected": "2026-11-03",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/amd/HPCTrainingExamples/blob/83cb7dabe0340794ed8bb12bcca5a6e374846441/MLExamples/icf_4agent/requirements.txt",
           "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "amd/HPCTrainingExamples",
+          "file": "requirements.txt",
+          "url": "https://github.com/amd/HPCTrainingExamples/blob/4cd4cfbc9d7f5dbff0cc71e1f9eb3497f2a04dcc/MLExamples/icf_4agent/requirements.txt",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -112,9 +119,81 @@
       "confidence": "medium",
       "url": "https://huggingface.co/amd/MiniMax-M3.1-Flash-Quark-MXFP4",
       "detected": "2026-11-03"
+    },
+    {
+      "id": "amd/SemanticFPN",
+      "name": "amd/SemanticFPN",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/SemanticFPN",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/ReasonLite-0.6B",
+      "name": "amd/ReasonLite-0.6B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/ReasonLite-0.6B",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/realesrgan-512x512-tiles-amdnpu",
+      "name": "amd/realesrgan-512x512-tiles-amdnpu",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/realesrgan-512x512-tiles-amdnpu",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/Gemma-4-12B-it_gpuep_1.0_gpu_128",
+      "name": "amd/Gemma-4-12B-it_gpuep_1.0_gpu_128",
+      "library": null,
+      "base_model": "google/gemma-4-12B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Gemma-4-12B-it_gpuep_1.0_gpu_128",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/GLM-5.3-Quark-MXFP4-AttnFP8",
+      "name": "amd/GLM-5.3-Quark-MXFP4-AttnFP8",
+      "library": "transformers",
+      "base_model": "zai-org/GLM-5.3",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/GLM-5.3-Quark-MXFP4-AttnFP8",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/Muse-Spark-Open-816B-A42B-Quark-MXFP4",
+      "name": "amd/Muse-Spark-Open-816B-A42B-Quark-MXFP4",
+      "library": null,
+      "base_model": "meta-models/Muse-Spark-Open-816B-A42B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Muse-Spark-Open-816B-A42B-Quark-MXFP4",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/DynamicChunkingDiT",
+      "name": "amd/DynamicChunkingDiT",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/DynamicChunkingDiT",
+      "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/yolov8m",
+      "name": "amd/yolov8m",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/yolov8m",
+      "detected": "2026-11-10"
     }
   ],
-  "signal_count": 11,
+  "signal_count": 20,
   "signal_history": [
     {
       "date": "2026-11-03",
@@ -170,6 +249,51 @@
       "date": "2026-11-03",
       "type": "hf_model",
       "model": "amd/MiniMax-M3.1-Flash-Quark-MXFP4"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/SemanticFPN"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/ReasonLite-0.6B"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/realesrgan-512x512-tiles-amdnpu"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/Gemma-4-12B-it_gpuep_1.0_gpu_128"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/GLM-5.3-Quark-MXFP4-AttnFP8"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/Muse-Spark-Open-816B-A42B-Quark-MXFP4"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/DynamicChunkingDiT"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "hf_model",
+      "model": "amd/yolov8m"
     }
   ]
 }

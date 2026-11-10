@@ -1,0 +1,59 @@
+{
+  "slug": "ag-ui-protocol",
+  "display_name": "ag-ui-protocol",
+  "github_org": "ag-ui-protocol",
+  "sector": "unclassified",
+  "first_detected": "2026-11-10",
+  "last_updated": "2026-11-10",
+  "frameworks": {
+    "openai_agents_sdk": {
+      "confidence": "high",
+      "first_seen": "2026-11-10",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ag-ui-protocol/ag-ui",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ag-ui-protocol/ag-ui/blob/ecc6ba16d3e6384d4fb248a1b6ceb735ef8b1fb9/integrations/openai-agents/python/pyproject.toml",
+          "detected": "2026-11-10"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-11-10",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "ag-ui-protocol/ag-ui"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "ag-ui-protocol/ag-ui",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/ag-ui-protocol/ag-ui/blob/main/CLAUDE.md",
+        "detected": "2026-11-10"
+      },
+      {
+        "type": "agent_config",
+        "repo": "ag-ui-protocol/ag-ui",
+        "file": "AGENTS.md",
+        "url": "https://github.com/ag-ui-protocol/ag-ui/blob/main/AGENTS.md",
+        "detected": "2026-11-10"
+      }
+    ]
+  }
+}

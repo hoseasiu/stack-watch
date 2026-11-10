@@ -2,6 +2,10 @@
   "sector": "unclassified",
   "orgs": [
     {
+      "slug": "ag-ui-protocol",
+      "display_name": "ag-ui-protocol"
+    },
+    {
       "slug": "agentbay-ai",
       "display_name": "agentbay-ai"
     },
@@ -838,11 +842,11 @@
       "display_name": "zjunlp"
     }
   ],
-  "org_count": 209,
+  "org_count": 210,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
-      "count": 70
+      "count": 71
     },
     {
       "slug": "autogen",
@@ -862,7 +866,7 @@
     },
     {
       "slug": "crewai",
-      "count": 11
+      "count": 12
     },
     {
       "slug": "pydantic_ai",

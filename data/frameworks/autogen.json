@@ -876,6 +876,66 @@
     {
       "date": "2026-11-03",
       "org": "vectorize-io"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "amd"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "arize-ai"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "azure-samples"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "getzep"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "headroomlabs-ai"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "nvidia"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "openagents-org"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "owasp"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "panaversity"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "prismorsec"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "shadow-weave"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "unitycatalog"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "zenml-io"
     }
   ],
   "org_count": 55

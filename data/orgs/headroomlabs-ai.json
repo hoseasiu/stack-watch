@@ -4,7 +4,7 @@
   "github_org": "headroomlabs-ai",
   "sector": "unclassified",
   "first_detected": "2026-09-08",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -44,6 +44,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/headroomlabs-ai/headroom/blob/7e0094d6c8b97492468b846855fea5c4acce9fec/pyproject.toml",
           "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "headroomlabs-ai/headroom",
+          "file": "pyproject.toml",
+          "url": "https://github.com/headroomlabs-ai/headroom/blob/1da8930ab47a2fc5339ded97e5a41bfe6fc419eb/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -51,7 +58,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 5,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-09-08",
@@ -77,6 +84,29 @@
       "date": "2026-11-03",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-10",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "headroomlabs-ai/headroom"
     }
-  ]
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "headroomlabs-ai/headroom",
+        "file": "AGENTS.md",
+        "url": "https://github.com/headroomlabs-ai/headroom/blob/main/AGENTS.md",
+        "detected": "2026-11-10"
+      }
+    ]
+  }
 }

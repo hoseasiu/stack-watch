@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-10",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1724,6 +1724,102 @@
       ],
       "posted": "2026-11-02",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467159008"
+    },
+    {
+      "title": "Applied AI Architect, Beneficial Deployments (Global & Public Health)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5471361008"
+    },
+    {
+      "title": "Applied AI Architect, Democratic Partnerships ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-06",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473198008"
+    },
+    {
+      "title": "Applied AI Architect, International Policy",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-06",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473195008"
+    },
+    {
+      "title": "Applied AI Architect, Public Sector (State & Local Government)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5455618008"
+    },
+    {
+      "title": "Head of ASEAN, Applied AI",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424312008"
+    },
+    {
+      "title": "Head of Technology Partnerships",
+      "terms_matched": [
+        "Model Context Protocol"
+      ],
+      "posted": "2026-08-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391155008"
+    },
+    {
+      "title": "Partner Account Manager, ANZ",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5475150008"
+    },
+    {
+      "title": "Political Economist, Rule of Law",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-06",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5474544008"
+    },
+    {
+      "title": "Research Scientist, Discovery (Engineering & Applied Sciences)",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-11-05",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468937008"
+    },
+    {
+      "title": "Research Scientist, Discovery (Engineering & Applied Sciences)",
+      "terms_matched": [
+        "multi-agent"
+      ],
+      "posted": "2026-11-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468930008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Platform Intelligence",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-11-03",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5472201008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Safeguards Evals ",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-11-09",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477379008"
     }
   ],
   "hf_models": [
@@ -1737,7 +1833,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 67,
+  "signal_count": 72,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -2222,6 +2318,41 @@
       "type": "job_posting",
       "terms": [
         "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "type": "job_posting",
+      "terms": [
+        "Model Context Protocol"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
       ]
     }
   ]

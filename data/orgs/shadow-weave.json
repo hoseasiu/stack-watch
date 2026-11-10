@@ -4,7 +4,7 @@
   "github_org": "Shadow-Weave",
   "sector": "unclassified",
   "first_detected": "2026-09-08",
-  "last_updated": "2026-09-08",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/Shadow-Weave/HMS/blob/9ba0184d482f8bccf5ad5b97f85395fe6a292083/interface/adapters/autogen/pyproject.toml",
           "detected": "2026-09-08"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "Shadow-Weave/HMS",
+          "file": "pyproject.toml",
+          "url": "https://github.com/Shadow-Weave/HMS/blob/3d7c9d28da8a72c7e8e406f14d4f3da0f0d09705/interface/adapters/autogen/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-09-08",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-10",
       "type": "dependency",
       "framework": "autogen"
     }

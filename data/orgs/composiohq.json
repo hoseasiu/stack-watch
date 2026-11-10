@@ -4,7 +4,7 @@
   "github_org": "ComposioHQ",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -114,6 +114,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/ComposioHQ/composio/blob/a0c51b01ea6325ca46b1fb3393fe574dffa57ffe/pyproject.toml",
           "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "ComposioHQ/composio",
+          "file": "pyproject.toml",
+          "url": "https://github.com/ComposioHQ/composio/blob/e7c4aac1e3b1fd05019d17a6e1010891c0917e6e/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -121,7 +128,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 16,
+  "signal_count": 17,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -201,6 +208,11 @@
     },
     {
       "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-10",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

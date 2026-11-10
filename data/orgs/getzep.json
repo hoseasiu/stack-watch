@@ -4,7 +4,7 @@
   "github_org": "getzep",
   "sector": "unclassified",
   "first_detected": "2026-09-08",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/getzep/zep/blob/3997767fccf83bbea7b54ad5f73554f2e5bcd54e/integrations/autogen/python/pyproject.toml",
           "detected": "2026-10-20"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "getzep/zep",
+          "file": "pyproject.toml",
+          "url": "https://github.com/getzep/zep/blob/65b52058b7d034ba05623c85a909e82a8d1ac2ef/integrations/autogen/python/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -30,7 +37,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-09-08",
@@ -39,6 +46,11 @@
     },
     {
       "date": "2026-10-20",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-10",
       "type": "dependency",
       "framework": "autogen"
     }

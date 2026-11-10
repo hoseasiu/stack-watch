@@ -4,7 +4,7 @@
   "github_org": "kubernetes-sigs",
   "sector": "unclassified",
   "first_detected": "2026-09-29",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-10",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -44,6 +44,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/kubernetes-sigs/agent-sandbox/blob/400df364753adb9e36a61f93c506166856998590/clients/integrations/openai/pyproject.toml",
           "detected": "2026-11-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "kubernetes-sigs/agent-sandbox",
+          "file": "pyproject.toml",
+          "url": "https://github.com/kubernetes-sigs/agent-sandbox/blob/580cb3e6d291722632dc7a6c8d686fca88d8a37a/clients/integrations/openai/pyproject.toml",
+          "detected": "2026-11-10"
         }
       ]
     }
@@ -51,7 +58,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 6,
+  "signal_count": 7,
   "signal_history": [
     {
       "date": "2026-09-29",
@@ -81,6 +88,11 @@
     },
     {
       "date": "2026-11-03",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-10",
       "type": "dependency",
       "framework": "openai_agents_sdk"
     }

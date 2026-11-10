@@ -394,6 +394,14 @@
     {
       "date": "2026-11-03",
       "org": "oracle-devrel"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "dryvist"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "neatlogs"
     }
   ],
   "org_count": 24

@@ -426,6 +426,12 @@
       "display_name": "thirdlayerinc",
       "confidence": "high",
       "first_seen": "2026-11-03"
+    },
+    {
+      "slug": "ag-ui-protocol",
+      "display_name": "ag-ui-protocol",
+      "confidence": "high",
+      "first_seen": "2026-11-10"
     }
   ],
   "signal_history": [
@@ -1324,7 +1330,43 @@
     {
       "date": "2026-11-03",
       "org": "yuezhiai"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "ag-ui-protocol"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "betterdb-inc"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "composiohq"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "kubernetes-sigs"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "microsoft"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "temporalio"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "traceloop"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "vectorize-io"
+    },
+    {
+      "date": "2026-11-10",
+      "org": "wandb"
     }
   ],
-  "org_count": 71
+  "org_count": 72
 }
