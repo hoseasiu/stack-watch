@@ -1,0 +1,34 @@
+{
+  "slug": "gair-nlp",
+  "display_name": "GAIR-NLP",
+  "github_org": "GAIR-NLP",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "GAIR-NLP/DeepResearcher",
+          "file": "requirements.txt",
+          "url": "https://github.com/GAIR-NLP/DeepResearcher/blob/4c156b5213fca2dd042e40d30fdd29d0028c1045/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "smolagents"
+    }
+  ]
+}

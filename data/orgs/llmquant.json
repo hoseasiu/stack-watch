@@ -4,7 +4,7 @@
   "github_org": "LLMQuant",
   "sector": "unclassified",
   "first_detected": "2026-09-15",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -18,12 +18,25 @@
           "detected": "2026-09-15"
         }
       ]
+    },
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "LLMQuant/quant-mind",
+          "file": "pyproject.toml",
+          "url": "https://github.com/LLMQuant/quant-mind/blob/10e9dbd0c7254edc5a091b852122ebe72e06092a/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-09-15",
@@ -35,6 +48,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "LLMQuant/quant-mind"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
     }
   ],
   "agent_config": {

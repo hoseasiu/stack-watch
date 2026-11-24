@@ -1,0 +1,34 @@
+{
+  "slug": "dataarctech",
+  "display_name": "DataArcTech",
+  "github_org": "DataArcTech",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "DataArcTech/ToG-3",
+          "file": "requirements.txt",
+          "url": "https://github.com/DataArcTech/ToG-3/blob/a6d4c1c2b2f0a2b625180b7e7913cae13ed2bf4d/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

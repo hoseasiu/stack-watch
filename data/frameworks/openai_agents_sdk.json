@@ -1366,6 +1366,26 @@
     {
       "date": "2026-11-10",
       "org": "wandb"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "arklexai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "evalssment"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "salesforceairesearch"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "vllm-project"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "yuezhiai"
     }
   ],
   "org_count": 72

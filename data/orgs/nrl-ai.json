@@ -1,0 +1,175 @@
+{
+  "slug": "nrl-ai",
+  "display_name": "nrl-ai",
+  "github_org": "nrl-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "nrl-ai/llama-assistant",
+          "file": "requirements.txt",
+          "url": "https://github.com/nrl-ai/llama-assistant/blob/d06708e16f76c5d43c688769980360735d0dbba2/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "nrl-ai/edgevox-models",
+      "name": "nrl-ai/edgevox-models",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/edgevox-models",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vietnamese-embedding",
+      "name": "nrl-ai/vietnamese-embedding",
+      "library": "sentence-transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vietnamese-embedding",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vietnamese-embedding-bge-m3",
+      "name": "nrl-ai/vietnamese-embedding-bge-m3",
+      "library": "sentence-transformers",
+      "base_model": "BAAI/bge-m3",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vietnamese-embedding-bge-m3",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/bge-reranker-v2-m3-mirror",
+      "name": "nrl-ai/bge-reranker-v2-m3-mirror",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/bge-reranker-v2-m3-mirror",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/viranker-mirror",
+      "name": "nrl-ai/viranker-mirror",
+      "library": "transformers",
+      "base_model": "BAAI/bge-m3",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/viranker-mirror",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vn-diacritic-vit5-base",
+      "name": "nrl-ai/vn-diacritic-vit5-base",
+      "library": "transformers",
+      "base_model": "VietAI/vit5-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vn-diacritic-vit5-base",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vn-diacritic-small",
+      "name": "nrl-ai/vn-diacritic-small",
+      "library": "transformers",
+      "base_model": "vinai/bartpho-syllable-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vn-diacritic-small",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vn-spell-correction-base",
+      "name": "nrl-ai/vn-spell-correction-base",
+      "library": "transformers",
+      "base_model": "VietAI/vit5-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vn-spell-correction-base",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vn-spell-correction-small",
+      "name": "nrl-ai/vn-spell-correction-small",
+      "library": "transformers",
+      "base_model": "vinai/bartpho-syllable-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vn-spell-correction-small",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "nrl-ai/vn-spell-correction-small-onnx-int8",
+      "name": "nrl-ai/vn-spell-correction-small-onnx-int8",
+      "library": "transformers",
+      "base_model": "nrl-ai/vn-spell-correction-small",
+      "confidence": "medium",
+      "url": "https://huggingface.co/nrl-ai/vn-spell-correction-small-onnx-int8",
+      "detected": "2026-11-24"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/edgevox-models"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vietnamese-embedding"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vietnamese-embedding-bge-m3"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/bge-reranker-v2-m3-mirror"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/viranker-mirror"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vn-diacritic-vit5-base"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vn-diacritic-small"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vn-spell-correction-base"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vn-spell-correction-small"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "nrl-ai/vn-spell-correction-small-onnx-int8"
+    }
+  ]
+}

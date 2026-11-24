@@ -4,7 +4,7 @@
   "github_org": "skillrepos",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "smolagents": {
       "confidence": "high",
@@ -31,12 +31,25 @@
           "detected": "2026-07-21"
         }
       ]
+    },
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "skillrepos/ato-agents",
+          "file": "requirements.txt",
+          "url": "https://github.com/skillrepos/ato-agents/blob/3d47b6964c9d655d2f41eae66cc401d878a3a273/requirements/requirements.txt.new",
+          "detected": "2026-11-24"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
@@ -47,6 +60,11 @@
       "date": "2026-07-21",
       "type": "dependency",
       "framework": "langgraph"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
     }
   ]
 }

@@ -84,6 +84,126 @@
       "display_name": "ontorag",
       "confidence": "high",
       "first_seen": "2026-07-07"
+    },
+    {
+      "slug": "agentsafelabs",
+      "display_name": "AgentSafeLabs",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "aigc-apps",
+      "display_name": "aigc-apps",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "aiplanethub",
+      "display_name": "aiplanethub",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "cloud-code-ai",
+      "display_name": "Cloud-Code-AI",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "corpus-os",
+      "display_name": "Corpus-OS",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "dataarctech",
+      "display_name": "DataArcTech",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "datawhalechina",
+      "display_name": "datawhalechina",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "eunomia-bpf",
+      "display_name": "eunomia-bpf",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "googleapis",
+      "display_name": "googleapis",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "idc-neu",
+      "display_name": "iDC-NEU",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "iflytek",
+      "display_name": "iflytek",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "linkedinlearning",
+      "display_name": "LinkedInLearning",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "llmquant",
+      "display_name": "LLMQuant",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "nrl-ai",
+      "display_name": "nrl-ai",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "opendatalab",
+      "display_name": "opendatalab",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "qrev-ai",
+      "display_name": "qrev-ai",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "skillrepos",
+      "display_name": "skillrepos",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "stable-lab",
+      "display_name": "stable-lab",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "trypromptly",
+      "display_name": "trypromptly",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "vectorinstitute",
+      "display_name": "VectorInstitute",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
     }
   ],
   "signal_history": [
@@ -146,7 +266,99 @@
     {
       "date": "2026-07-07",
       "org": "sambanova"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "agentsafelabs"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "aigc-apps"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "aiplanethub"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "cewebbr"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "cloud-code-ai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "corpus-os"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "dataarctech"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "datawhalechina"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "eunomia-bpf"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "googleapis"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "idc-neu"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "iflytek"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "linkedinlearning"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "llmquant"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "nrl-ai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "ontorag"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "opendatalab"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "qrev-ai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "run-llama"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "skillrepos"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "stable-lab"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "trypromptly"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "vectorinstitute"
     }
   ],
-  "org_count": 14
+  "org_count": 34
 }

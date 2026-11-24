@@ -1,0 +1,174 @@
+{
+  "slug": "mit-han-lab",
+  "display_name": "mit-han-lab",
+  "github_org": "mit-han-lab",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {},
+  "model_providers": {
+    "openai": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "mit-han-lab/streaming-vlm",
+          "file": "requirements.txt",
+          "url": "https://github.com/mit-han-lab/streaming-vlm/blob/a940d8cbfa14eefe651b7f4adeb81825c28cc6c6/ovo_requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "mit-han-lab/Qwen3.8-27B-PEAR",
+      "name": "mit-han-lab/Qwen3.8-27B-PEAR",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/Qwen3.8-27B-PEAR",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-125m-smoothquant",
+      "name": "mit-han-lab/opt-125m-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-125m-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-1.3b-smoothquant",
+      "name": "mit-han-lab/opt-1.3b-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-1.3b-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-2.7b-smoothquant",
+      "name": "mit-han-lab/opt-2.7b-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-2.7b-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-6.7b-smoothquant",
+      "name": "mit-han-lab/opt-6.7b-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-6.7b-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-13b-smoothquant",
+      "name": "mit-han-lab/opt-13b-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-13b-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-30b-smoothquant",
+      "name": "mit-han-lab/opt-30b-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-30b-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/opt-66b-smoothquant",
+      "name": "mit-han-lab/opt-66b-smoothquant",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/opt-66b-smoothquant",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/fastcomposer",
+      "name": "mit-han-lab/fastcomposer",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/fastcomposer",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "mit-han-lab/vicuna-7b-v1.3-4bit-g128-awq",
+      "name": "mit-han-lab/vicuna-7b-v1.3-4bit-g128-awq",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/mit-han-lab/vicuna-7b-v1.3-4bit-g128-awq",
+      "detected": "2026-11-24"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "openai"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/Qwen3.8-27B-PEAR"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-125m-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-1.3b-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-2.7b-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-6.7b-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-13b-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-30b-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/opt-66b-smoothquant"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/fastcomposer"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "mit-han-lab/vicuna-7b-v1.3-4bit-g128-awq"
+    }
+  ]
+}

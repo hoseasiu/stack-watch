@@ -1,0 +1,34 @@
+{
+  "slug": "spoo-me",
+  "display_name": "spoo-me",
+  "github_org": "spoo-me",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "spoo-me/spoo",
+          "file": "requirements.txt",
+          "url": "https://github.com/spoo-me/spoo/blob/92f2b7269d7e394a0b8048f1deece0e0caf74763/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    }
+  ]
+}

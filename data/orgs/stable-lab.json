@@ -1,0 +1,34 @@
+{
+  "slug": "stable-lab",
+  "display_name": "stable-lab",
+  "github_org": "stable-lab",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "stable-lab/MAGE",
+          "file": "pyproject.toml",
+          "url": "https://github.com/stable-lab/MAGE/blob/90c96366c518d32bd7b81703bdef3cc46eeaeaf9/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

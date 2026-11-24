@@ -1,0 +1,34 @@
+{
+  "slug": "idc-neu",
+  "display_name": "iDC-NEU",
+  "github_org": "iDC-NEU",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "iDC-NEU/YiGraph",
+          "file": "pyproject.toml",
+          "url": "https://github.com/iDC-NEU/YiGraph/blob/bf26554c7b3a50daa1eca901261c22f5a9c67994/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

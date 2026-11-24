@@ -1,0 +1,34 @@
+{
+  "slug": "agentsafelabs",
+  "display_name": "AgentSafeLabs",
+  "github_org": "AgentSafeLabs",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "AgentSafeLabs/safelabs-eval",
+          "file": "pyproject.toml",
+          "url": "https://github.com/AgentSafeLabs/safelabs-eval/blob/99655d6d9e181028a674f1b29be7dbe11935b066/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

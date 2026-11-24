@@ -4,7 +4,7 @@
   "github_org": "scaleai",
   "sector": "ai-infra",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-24",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -882,10 +882,50 @@
       ],
       "posted": "2026-11-05",
       "url": "https://job-boards.greenhouse.io/scaleai/jobs/4750028005"
+    },
+    {
+      "title": "Account Executive, Air Force",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-11-13",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4753839005"
+    },
+    {
+      "title": "Account Executive, Army",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-11-13",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4753822005"
+    },
+    {
+      "title": "Account Executive, Defense Intelligence Agency (DIA)",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-11-19",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4756303005"
+    },
+    {
+      "title": "Account Executive, Navy",
+      "terms_matched": [
+        "agentic AI"
+      ],
+      "posted": "2026-11-12",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4753798005"
+    },
+    {
+      "title": "Senior Engineering Manager, Kuwait",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-12",
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4753437005"
     }
   ],
   "hf_models": [],
-  "signal_count": 43,
+  "signal_count": 45,
   "signal_history": [
     {
       "date": "2026-06-06",
@@ -1221,6 +1261,20 @@
         "AI agent",
         "MCP server",
         "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "agentic AI"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

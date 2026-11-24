@@ -4,7 +4,7 @@
   "github_org": "run-llama",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/run-llama/llama_index/blob/e1e1b4552648c5e22f97c2231562d8688bd2a16e/llama-index-integrations/embeddings/llama-index-embeddings-gaudi/examples/requirements.txt",
           "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "run-llama/notebookllama",
+          "file": "pyproject.toml",
+          "url": "https://github.com/run-llama/notebookllama/blob/849e221a7e0d01ce5ceb84527335a2950f753f7f/pyproject.toml",
+          "detected": "2026-11-24"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-11-24",
       "type": "dependency",
       "framework": "llamaindex"
     }

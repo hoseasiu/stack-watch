@@ -1,0 +1,52 @@
+{
+  "slug": "datascienceuibk",
+  "display_name": "DataScienceUIBK",
+  "github_org": "DataScienceUIBK",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "DataScienceUIBK/Rankify",
+          "file": "requirements.txt",
+          "url": "https://github.com/DataScienceUIBK/Rankify/blob/31159db2e71e6f27ec75f5001955ef5c1bd16812/rankify/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "DataScienceUIBK/Rankify"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "DataScienceUIBK/Rankify",
+        "file": ".cursorrules",
+        "url": "https://github.com/DataScienceUIBK/Rankify/blob/main/.cursorrules",
+        "detected": "2026-11-24"
+      }
+    ]
+  }
+}

@@ -4,7 +4,7 @@
   "github_org": "open-telemetry",
   "sector": "unclassified",
   "first_detected": "2026-07-21",
-  "last_updated": "2026-07-21",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -18,12 +18,25 @@
           "detected": "2026-07-21"
         }
       ]
+    },
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "open-telemetry/opentelemetry-python-genai",
+          "file": "requirements.txt",
+          "url": "https://github.com/open-telemetry/opentelemetry-python-genai/blob/11701165267c471fcd5b6e7e5b75b49767869028/docs-requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
     }
   },
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 4,
   "signal_history": [
     {
       "date": "2026-07-21",
@@ -35,6 +48,17 @@
       "type": "agent_config",
       "framework": null,
       "repo": "open-telemetry/opentelemetry-python-contrib"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "open-telemetry/opentelemetry-python-genai"
     }
   ],
   "agent_config": {
@@ -53,6 +77,20 @@
         "file": "AGENTS.md",
         "url": "https://github.com/open-telemetry/opentelemetry-python-contrib/blob/main/AGENTS.md",
         "detected": "2026-07-21"
+      },
+      {
+        "type": "agent_config",
+        "repo": "open-telemetry/opentelemetry-python-genai",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/open-telemetry/opentelemetry-python-genai/blob/main/CLAUDE.md",
+        "detected": "2026-11-24"
+      },
+      {
+        "type": "agent_config",
+        "repo": "open-telemetry/opentelemetry-python-genai",
+        "file": "AGENTS.md",
+        "url": "https://github.com/open-telemetry/opentelemetry-python-genai/blob/main/AGENTS.md",
+        "detected": "2026-11-24"
       }
     ]
   }

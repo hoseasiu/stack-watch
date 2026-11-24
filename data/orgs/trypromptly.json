@@ -1,0 +1,34 @@
+{
+  "slug": "trypromptly",
+  "display_name": "trypromptly",
+  "github_org": "trypromptly",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "trypromptly/LLMStack",
+          "file": "pyproject.toml",
+          "url": "https://github.com/trypromptly/LLMStack/blob/701348426fadd0536de8b72536216a9c0365f25b/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "zora-core",
+  "display_name": "ZORA-CORE",
+  "github_org": "ZORA-CORE",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {},
+  "model_providers": {
+    "openai": {
+      "confidence": "high",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "ZORA-CORE/ZORA-CORE",
+          "file": "requirements.txt",
+          "url": "https://github.com/ZORA-CORE/ZORA-CORE/blob/56b0d4d509e5e2dc17dd262b5c23a9a227dc5ac4/openai_requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "openai"
+    }
+  ]
+}

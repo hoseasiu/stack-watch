@@ -4,7 +4,7 @@
   "github_org": "allenai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -810,9 +810,45 @@
       "confidence": "medium",
       "url": "https://huggingface.co/allenai/OLMoE-1B-7B-0125-Instruct-GGUF",
       "detected": "2026-11-10"
+    },
+    {
+      "id": "allenai/RoboTracker",
+      "name": "allenai/RoboTracker",
+      "library": null,
+      "base_model": "aharley/alltracker",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/RoboTracker",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "allenai/RoboTracker-Warp",
+      "name": "allenai/RoboTracker-Warp",
+      "library": null,
+      "base_model": "facebook/cowtracker",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/RoboTracker-Warp",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-70B",
+      "name": "allenai/Llama-3.1-Tulu-3-70B",
+      "library": "transformers",
+      "base_model": "allenai/Llama-3.1-Tulu-3-70B-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-70B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "allenai/Llama-3.1-Tulu-3-405B",
+      "name": "allenai/Llama-3.1-Tulu-3-405B",
+      "library": "transformers",
+      "base_model": "allenai/Llama-3.1-Tulu-3-405B-DPO",
+      "confidence": "medium",
+      "url": "https://huggingface.co/allenai/Llama-3.1-Tulu-3-405B",
+      "detected": "2026-11-24"
     }
   ],
-  "signal_count": 89,
+  "signal_count": 93,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1258,6 +1294,26 @@
       "date": "2026-11-10",
       "type": "hf_model",
       "model": "allenai/OLMoE-1B-7B-0125-Instruct-GGUF"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "allenai/RoboTracker"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "allenai/RoboTracker-Warp"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "allenai/Llama-3.1-Tulu-3-70B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "allenai/Llama-3.1-Tulu-3-405B"
     }
   ]
 }

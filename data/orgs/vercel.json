@@ -4,7 +4,7 @@
   "github_org": "vercel",
   "sector": "dev-tools",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-24",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -224,10 +224,42 @@
       ],
       "posted": "2026-10-15",
       "url": "https://job-boards.greenhouse.io/vercel/jobs/6225825004"
+    },
+    {
+      "title": "Internal Communications Manager ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-10-21",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6231047004"
+    },
+    {
+      "title": "Manager, Technical Account Management",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-23",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6269284004"
+    },
+    {
+      "title": "Software Engineer, Runtimes ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-19",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6150691004"
+    },
+    {
+      "title": "Solutions Architect",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-02-09",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5796302004"
     }
   ],
   "hf_models": [],
-  "signal_count": 18,
+  "signal_count": 19,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -357,6 +389,13 @@
     },
     {
       "date": "2026-10-20",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-11-24",
       "type": "job_posting",
       "terms": [
         "AI agent"

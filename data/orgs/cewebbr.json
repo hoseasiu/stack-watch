@@ -4,7 +4,7 @@
   "github_org": "cewebbr",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/cewebbr/cordata/blob/d9e50cbf2d29f0a125a663e91c567e0f75a8eb20/openai_requirements.txt",
           "detected": "2026-07-07"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "cewebbr/cordata",
+          "file": "requirements.txt",
+          "url": "https://github.com/cewebbr/cordata/blob/06e793ea51de638530795d9eb138e4ebbb5d308a/openai_requirements.txt",
+          "detected": "2026-11-24"
         }
       ]
     }
@@ -23,10 +30,15 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 2,
   "signal_history": [
     {
       "date": "2026-07-07",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-11-24",
       "type": "dependency",
       "framework": "llamaindex"
     }

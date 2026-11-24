@@ -72,6 +72,54 @@
       "display_name": "skillrepos",
       "confidence": "high",
       "first_seen": "2026-07-02"
+    },
+    {
+      "slug": "ababdotai",
+      "display_name": "ababdotai",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "datascienceuibk",
+      "display_name": "DataScienceUIBK",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "flagopen",
+      "display_name": "FlagOpen",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "gair-nlp",
+      "display_name": "GAIR-NLP",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "ironsecco",
+      "display_name": "IronSecCo",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "narwhal-lab",
+      "display_name": "Narwhal-Lab",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "open-telemetry",
+      "display_name": "open-telemetry",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "togethercomputer",
+      "display_name": "togethercomputer",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
     }
   ],
   "signal_history": [
@@ -122,7 +170,55 @@
     {
       "date": "2026-07-02",
       "org": "skillrepos"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "ababdotai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "apify"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "aws-samples"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "datascienceuibk"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "flagopen"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "gair-nlp"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "gradio-app"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "ironsecco"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "narwhal-lab"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "nndl"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "open-telemetry"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "togethercomputer"
     }
   ],
-  "org_count": 12
+  "org_count": 20
 }

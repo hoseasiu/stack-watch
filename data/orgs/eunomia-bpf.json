@@ -1,0 +1,52 @@
+{
+  "slug": "eunomia-bpf",
+  "display_name": "eunomia-bpf",
+  "github_org": "eunomia-bpf",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "eunomia-bpf/GPTtrace",
+          "file": "pyproject.toml",
+          "url": "https://github.com/eunomia-bpf/GPTtrace/blob/a1f83c7bf87c1114e97f714efb751bd510ea5d82/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "eunomia-bpf/GPTtrace"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "eunomia-bpf/GPTtrace",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/eunomia-bpf/GPTtrace/blob/main/CLAUDE.md",
+        "detected": "2026-11-24"
+      }
+    ]
+  }
+}

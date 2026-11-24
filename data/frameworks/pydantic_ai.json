@@ -48,6 +48,54 @@
       "display_name": "vstorm-co",
       "confidence": "high",
       "first_seen": "2026-07-14"
+    },
+    {
+      "slug": "aws-samples",
+      "display_name": "aws-samples",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "axwise-gmbh",
+      "display_name": "AxWise-GmbH",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "codescan-ai",
+      "display_name": "codescan-ai",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "gestaogovbr",
+      "display_name": "gestaogovbr",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "spoo-me",
+      "display_name": "spoo-me",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "stevecad",
+      "display_name": "stevecad",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "sylvianai",
+      "display_name": "SylvianAI",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
+    },
+    {
+      "slug": "theagenticai",
+      "display_name": "TheAgenticAI",
+      "confidence": "high",
+      "first_seen": "2026-11-24"
     }
   ],
   "signal_history": [
@@ -82,7 +130,39 @@
     {
       "date": "2026-07-14",
       "org": "vstorm-co"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "aws-samples"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "axwise-gmbh"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "codescan-ai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "gestaogovbr"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "spoo-me"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "stevecad"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "sylvianai"
+    },
+    {
+      "date": "2026-11-24",
+      "org": "theagenticai"
     }
   ],
-  "org_count": 8
+  "org_count": 16
 }

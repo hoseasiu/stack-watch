@@ -2,6 +2,10 @@
   "sector": "unclassified",
   "orgs": [
     {
+      "slug": "ababdotai",
+      "display_name": "ababdotai"
+    },
+    {
       "slug": "ag-ui-protocol",
       "display_name": "ag-ui-protocol"
     },
@@ -22,6 +26,10 @@
       "display_name": "AgentOps-AI"
     },
     {
+      "slug": "agentsafelabs",
+      "display_name": "AgentSafeLabs"
+    },
+    {
       "slug": "agiresearch",
       "display_name": "agiresearch"
     },
@@ -40,6 +48,14 @@
     {
       "slug": "ai45lab",
       "display_name": "AI45Lab"
+    },
+    {
+      "slug": "aigc-apps",
+      "display_name": "aigc-apps"
+    },
+    {
+      "slug": "aiplanethub",
+      "display_name": "aiplanethub"
     },
     {
       "slug": "aipotheosis-labs",
@@ -114,6 +130,10 @@
       "display_name": "aws-samples"
     },
     {
+      "slug": "axwise-gmbh",
+      "display_name": "AxWise-GmbH"
+    },
+    {
       "slug": "azure",
       "display_name": "Azure"
     },
@@ -158,8 +178,16 @@
       "display_name": "cisco-outshift-ai-agents"
     },
     {
+      "slug": "cloud-code-ai",
+      "display_name": "Cloud-Code-AI"
+    },
+    {
       "slug": "cmjatai",
       "display_name": "cmjatai"
+    },
+    {
+      "slug": "codescan-ai",
+      "display_name": "codescan-ai"
     },
     {
       "slug": "coinbase",
@@ -202,6 +230,10 @@
       "display_name": "dapr"
     },
     {
+      "slug": "dataarctech",
+      "display_name": "DataArcTech"
+    },
+    {
       "slug": "databricks-industry-solutions",
       "display_name": "databricks-industry-solutions"
     },
@@ -212,6 +244,10 @@
     {
       "slug": "datamllab",
       "display_name": "datamllab"
+    },
+    {
+      "slug": "datascienceuibk",
+      "display_name": "DataScienceUIBK"
     },
     {
       "slug": "datastax",
@@ -270,8 +306,16 @@
       "display_name": "EmergenceAI"
     },
     {
+      "slug": "eunomia-bpf",
+      "display_name": "eunomia-bpf"
+    },
+    {
       "slug": "evalssment",
       "display_name": "EvAlssment"
+    },
+    {
+      "slug": "flagopen",
+      "display_name": "FlagOpen"
     },
     {
       "slug": "freedomintelligence",
@@ -294,6 +338,14 @@
       "display_name": "fuzzylabs"
     },
     {
+      "slug": "gair-nlp",
+      "display_name": "GAIR-NLP"
+    },
+    {
+      "slug": "gestaogovbr",
+      "display_name": "gestaogovbr"
+    },
+    {
       "slug": "getsentry",
       "display_name": "getsentry"
     },
@@ -312,6 +364,10 @@
     {
       "slug": "goat-sdk",
       "display_name": "goat-sdk"
+    },
+    {
+      "slug": "googleapis",
+      "display_name": "googleapis"
     },
     {
       "slug": "googlecloudplatform",
@@ -346,6 +402,10 @@
       "display_name": "hud-evals"
     },
     {
+      "slug": "idc-neu",
+      "display_name": "iDC-NEU"
+    },
+    {
       "slug": "iflytek",
       "display_name": "iflytek"
     },
@@ -356,6 +416,10 @@
     {
       "slug": "instavm",
       "display_name": "instavm"
+    },
+    {
+      "slug": "ironsecco",
+      "display_name": "IronSecCo"
     },
     {
       "slug": "jeff-app-com",
@@ -404,6 +468,10 @@
     {
       "slug": "lemony-ai",
       "display_name": "lemony-ai"
+    },
+    {
+      "slug": "linkedinlearning",
+      "display_name": "LinkedInLearning"
     },
     {
       "slug": "lithos-ai",
@@ -462,6 +530,10 @@
       "display_name": "mistralai"
     },
     {
+      "slug": "mit-han-lab",
+      "display_name": "mit-han-lab"
+    },
+    {
       "slug": "mle-dojo",
       "display_name": "MLE-Dojo"
     },
@@ -506,6 +578,10 @@
       "display_name": "nordquant"
     },
     {
+      "slug": "nrl-ai",
+      "display_name": "nrl-ai"
+    },
+    {
       "slug": "nvidia",
       "display_name": "NVIDIA"
     },
@@ -540,6 +616,10 @@
     {
       "slug": "opencsgs",
       "display_name": "OpenCSGs"
+    },
+    {
+      "slug": "opendatalab",
+      "display_name": "opendatalab"
     },
     {
       "slug": "oracle",
@@ -592,6 +672,10 @@
     {
       "slug": "qmiai",
       "display_name": "QmiAI"
+    },
+    {
+      "slug": "qrev-ai",
+      "display_name": "qrev-ai"
     },
     {
       "slug": "qualixar",
@@ -710,12 +794,24 @@
       "display_name": "splx-ai"
     },
     {
+      "slug": "spoo-me",
+      "display_name": "spoo-me"
+    },
+    {
+      "slug": "stable-lab",
+      "display_name": "stable-lab"
+    },
+    {
       "slug": "stanford-crfm",
       "display_name": "stanford-crfm"
     },
     {
       "slug": "stepfun-ai",
       "display_name": "stepfun-ai"
+    },
+    {
+      "slug": "stevecad",
+      "display_name": "stevecad"
     },
     {
       "slug": "stonybrooknlp",
@@ -728,6 +824,10 @@
     {
       "slug": "sunblaze-ucb",
       "display_name": "sunblaze-ucb"
+    },
+    {
+      "slug": "sylvianai",
+      "display_name": "SylvianAI"
     },
     {
       "slug": "temporalio",
@@ -766,6 +866,10 @@
       "display_name": "thirdlayerinc"
     },
     {
+      "slug": "togethercomputer",
+      "display_name": "togethercomputer"
+    },
+    {
       "slug": "traccia-ai",
       "display_name": "traccia-ai"
     },
@@ -776,6 +880,10 @@
     {
       "slug": "trusera",
       "display_name": "Trusera"
+    },
+    {
+      "slug": "trypromptly",
+      "display_name": "trypromptly"
     },
     {
       "slug": "ucbepic",
@@ -804,6 +912,10 @@
     {
       "slug": "usc-fortis",
       "display_name": "USC-FORTIS"
+    },
+    {
+      "slug": "vectorinstitute",
+      "display_name": "VectorInstitute"
     },
     {
       "slug": "vectorize-io",
@@ -840,9 +952,13 @@
     {
       "slug": "zjunlp",
       "display_name": "zjunlp"
+    },
+    {
+      "slug": "zora-core",
+      "display_name": "ZORA-CORE"
     }
   ],
-  "org_count": 210,
+  "org_count": 239,
   "top_frameworks": [
     {
       "slug": "openai_agents_sdk",
@@ -853,24 +969,24 @@
       "count": 55
     },
     {
+      "slug": "llamaindex",
+      "count": 33
+    },
+    {
       "slug": "langgraph",
       "count": 22
     },
     {
-      "slug": "llamaindex",
-      "count": 13
+      "slug": "smolagents",
+      "count": 20
     },
     {
-      "slug": "smolagents",
-      "count": 12
+      "slug": "pydantic_ai",
+      "count": 16
     },
     {
       "slug": "crewai",
       "count": 12
-    },
-    {
-      "slug": "pydantic_ai",
-      "count": 8
     },
     {
       "slug": "dify",

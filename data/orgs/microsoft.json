@@ -4,7 +4,7 @@
   "github_org": "microsoft",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -1057,9 +1057,36 @@
       "confidence": "medium",
       "url": "https://huggingface.co/microsoft/UserLM-2.0",
       "detected": "2026-11-03"
+    },
+    {
+      "id": "microsoft/Aion-1.0-Instruct-2.3B",
+      "name": "microsoft/Aion-1.0-Instruct-2.3B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "name": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "library": "onnxruntime-genai",
+      "base_model": "microsoft/Aion-1.0-Instruct-2.3B",
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "microsoft/wavlm-large",
+      "name": "microsoft/wavlm-large",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/microsoft/wavlm-large",
+      "detected": "2026-11-24"
     }
   ],
-  "signal_count": 86,
+  "signal_count": 89,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -1493,6 +1520,21 @@
       "date": "2026-11-10",
       "type": "dependency",
       "framework": "autogen"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "microsoft/Aion-1.0-Instruct-2.3B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "microsoft/Aion-1.0-Instruct-2.3B-ONNX-WebGPU"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "microsoft/wavlm-large"
     }
   ]
 }

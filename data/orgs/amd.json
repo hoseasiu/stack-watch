@@ -4,7 +4,7 @@
   "github_org": "amd",
   "sector": "unclassified",
   "first_detected": "2026-11-03",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "autogen": {
       "confidence": "high",
@@ -23,6 +23,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/amd/HPCTrainingExamples/blob/4cd4cfbc9d7f5dbff0cc71e1f9eb3497f2a04dcc/MLExamples/icf_4agent/requirements.txt",
           "detected": "2026-11-10"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "amd/HPCTrainingExamples",
+          "file": "requirements.txt",
+          "url": "https://github.com/amd/HPCTrainingExamples/blob/eff5b63b348d7682ddf6ccd36476448d9910fb60/MLExamples/icf_4agent/requirements.txt",
+          "detected": "2026-11-24"
         }
       ]
     }
@@ -191,9 +198,72 @@
       "confidence": "medium",
       "url": "https://huggingface.co/amd/yolov8m",
       "detected": "2026-11-10"
+    },
+    {
+      "id": "amd/stable-diffusion-1.5_io32_amdgpu",
+      "name": "amd/stable-diffusion-1.5_io32_amdgpu",
+      "library": "diffusers",
+      "base_model": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/stable-diffusion-1.5_io32_amdgpu",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "amd/Micro-World-I2W",
+      "name": "amd/Micro-World-I2W",
+      "library": "diffusers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Micro-World-I2W",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "amd/MiniMax-M2.7-BF16",
+      "name": "amd/MiniMax-M2.7-BF16",
+      "library": "transformers",
+      "base_model": "MiniMaxAI/MiniMax-M2.7",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/MiniMax-M2.7-BF16",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "amd/GLM-5.2-MXFP4",
+      "name": "amd/GLM-5.2-MXFP4",
+      "library": null,
+      "base_model": "zai-org/GLM-5.2",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/GLM-5.2-MXFP4",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "amd/Instella-MoE-16B-A3B-Base",
+      "name": "amd/Instella-MoE-16B-A3B-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Instella-MoE-16B-A3B-Base",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "amd/Instella-MoE-16B-A3B-DPO",
+      "name": "amd/Instella-MoE-16B-A3B-DPO",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/Instella-MoE-16B-A3B-DPO",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "amd/gemma-4-26B-A4B-it-w8a8-llmcompressor",
+      "name": "amd/gemma-4-26B-A4B-it-w8a8-llmcompressor",
+      "library": "transformers",
+      "base_model": "RedHatAI/gemma-4-26B-A4B-it",
+      "confidence": "medium",
+      "url": "https://huggingface.co/amd/gemma-4-26B-A4B-it-w8a8-llmcompressor",
+      "detected": "2026-11-24"
     }
   ],
-  "signal_count": 20,
+  "signal_count": 28,
   "signal_history": [
     {
       "date": "2026-11-03",
@@ -294,6 +364,46 @@
       "date": "2026-11-10",
       "type": "hf_model",
       "model": "amd/yolov8m"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "autogen"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/stable-diffusion-1.5_io32_amdgpu"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/Micro-World-I2W"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/MiniMax-M2.7-BF16"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/GLM-5.2-MXFP4"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/Instella-MoE-16B-A3B-Base"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/Instella-MoE-16B-A3B-DPO"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "amd/gemma-4-26B-A4B-it-w8a8-llmcompressor"
     }
   ]
 }

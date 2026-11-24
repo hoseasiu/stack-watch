@@ -1,0 +1,52 @@
+{
+  "slug": "stevecad",
+  "display_name": "stevecad",
+  "github_org": "stevecad",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "stevecad/steve",
+          "file": "requirements.txt",
+          "url": "https://github.com/stevecad/steve/blob/62699cc678ddc2203a18ed2f156a951eb7c7c101/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 2,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "stevecad/steve"
+    }
+  ],
+  "agent_config": {
+    "confidence": "high",
+    "evidence": [
+      {
+        "type": "agent_config",
+        "repo": "stevecad/steve",
+        "file": "AGENTS.md",
+        "url": "https://github.com/stevecad/steve/blob/main/AGENTS.md",
+        "detected": "2026-11-24"
+      }
+    ]
+  }
+}

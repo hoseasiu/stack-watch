@@ -4,7 +4,7 @@
   "github_org": "block",
   "sector": "fintech",
   "first_detected": "2026-06-30",
-  "last_updated": "2026-11-03",
+  "last_updated": "2026-11-24",
   "frameworks": {},
   "model_providers": {},
   "agent_config": {
@@ -399,10 +399,26 @@
       ],
       "posted": "2026-10-29",
       "url": "http://block.xyz/careers/jobs/5461961008?gh_jid=5461961008"
+    },
+    {
+      "title": "Engagement Marketing Lead, Commerce & Lending",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-17",
+      "url": "http://block.xyz/careers/jobs/5484041008?gh_jid=5484041008"
+    },
+    {
+      "title": "Staff Data Engineer, Advanced Insights & Modeling",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-12",
+      "url": "http://block.xyz/careers/jobs/5473605008?gh_jid=5473605008"
     }
   ],
   "hf_models": [],
-  "signal_count": 30,
+  "signal_count": 32,
   "signal_history": [
     {
       "date": "2026-06-30",
@@ -621,6 +637,20 @@
       "type": "job_posting",
       "terms": [
         "tool use"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
       ]
     }
   ]

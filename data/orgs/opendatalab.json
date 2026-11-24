@@ -1,0 +1,175 @@
+{
+  "slug": "opendatalab",
+  "display_name": "opendatalab",
+  "github_org": "opendatalab",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "opendatalab/OHR-Bench",
+          "file": "requirements.txt",
+          "url": "https://github.com/opendatalab/OHR-Bench/blob/1f421eb428f9f5b8ac0bc8064d6ad1f13fab7af7/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+      "name": "opendatalab/MinerU2.5-Pro-2605-1.2B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/MinerU2.5-Pro-2605-1.2B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/MinerU2.5-Pro-2604-1.2B",
+      "name": "opendatalab/MinerU2.5-Pro-2604-1.2B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/MinerU2.5-Pro-2604-1.2B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/PDF-Extract-Kit",
+      "name": "opendatalab/PDF-Extract-Kit",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/PDF-Extract-Kit",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/PDF-Extract-Kit-1.0",
+      "name": "opendatalab/PDF-Extract-Kit-1.0",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/PDF-Extract-Kit-1.0",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/belt_road_hungarian_beta1",
+      "name": "opendatalab/belt_road_hungarian_beta1",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/belt_road_hungarian_beta1",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/MinerU2.0-2505-0.9B",
+      "name": "opendatalab/MinerU2.0-2505-0.9B",
+      "library": null,
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/MinerU2.0-2505-0.9B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/meta-rater-professionalism-rating",
+      "name": "opendatalab/meta-rater-professionalism-rating",
+      "library": "transformers",
+      "base_model": "answerdotai/ModernBERT-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/meta-rater-professionalism-rating",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/meta-rater-reasoning-rating",
+      "name": "opendatalab/meta-rater-reasoning-rating",
+      "library": "transformers",
+      "base_model": "answerdotai/ModernBERT-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/meta-rater-reasoning-rating",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/meta-rater-readability-rating",
+      "name": "opendatalab/meta-rater-readability-rating",
+      "library": "transformers",
+      "base_model": "answerdotai/ModernBERT-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/meta-rater-readability-rating",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "opendatalab/meta-rater-cleanliness-rating",
+      "name": "opendatalab/meta-rater-cleanliness-rating",
+      "library": "transformers",
+      "base_model": "answerdotai/ModernBERT-base",
+      "confidence": "medium",
+      "url": "https://huggingface.co/opendatalab/meta-rater-cleanliness-rating",
+      "detected": "2026-11-24"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/MinerU2.5-Pro-2605-1.2B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/MinerU2.5-Pro-2604-1.2B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/PDF-Extract-Kit"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/PDF-Extract-Kit-1.0"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/belt_road_hungarian_beta1"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/MinerU2.0-2505-0.9B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/meta-rater-professionalism-rating"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/meta-rater-reasoning-rating"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/meta-rater-readability-rating"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "opendatalab/meta-rater-cleanliness-rating"
+    }
+  ]
+}

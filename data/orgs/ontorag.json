@@ -4,7 +4,7 @@
   "github_org": "ontorag",
   "sector": "unclassified",
   "first_detected": "2026-07-07",
-  "last_updated": "2026-07-07",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "llamaindex": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "requirements.txt",
           "url": "https://github.com/ontorag/ontorag/blob/27d94c39f9fcac5340c75aaa449f0afb362b0d29/_requirements.txt",
           "detected": "2026-07-07"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "ontorag/ontorag",
+          "file": "requirements.txt",
+          "url": "https://github.com/ontorag/ontorag/blob/21d98a0a5a83aa2f2b69f2993139cd233fd3bd0e/_requirements.txt",
+          "detected": "2026-11-24"
         }
       ]
     }
@@ -23,7 +30,7 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 2,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-07",
@@ -35,6 +42,11 @@
       "type": "agent_config",
       "framework": null,
       "repo": "ontorag/ontorag"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
     }
   ],
   "agent_config": {

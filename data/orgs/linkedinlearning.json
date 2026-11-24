@@ -1,0 +1,34 @@
+{
+  "slug": "linkedinlearning",
+  "display_name": "LinkedInLearning",
+  "github_org": "LinkedInLearning",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "LinkedInLearning/fundamentals-of-ai-engineering-principles-and-practical-applications-6026542",
+          "file": "requirements.txt",
+          "url": "https://github.com/LinkedInLearning/fundamentals-of-ai-engineering-principles-and-practical-applications-6026542/blob/f667013695480f4c6b2a616137f5fafafa060aad/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

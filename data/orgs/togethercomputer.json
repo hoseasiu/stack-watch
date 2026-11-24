@@ -1,0 +1,175 @@
+{
+  "slug": "togethercomputer",
+  "display_name": "togethercomputer",
+  "github_org": "togethercomputer",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "smolagents": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "togethercomputer/open_deep_research",
+          "file": "requirements.txt",
+          "url": "https://github.com/togethercomputer/open_deep_research/blob/832c05b3beaf0015512c9e45edbb9eadb449f079/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [
+    {
+      "id": "togethercomputer/GPT-JT-6B-v0",
+      "name": "togethercomputer/GPT-JT-6B-v0",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-JT-6B-v0",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/GPT-JT-6B-v1",
+      "name": "togethercomputer/GPT-JT-6B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-JT-6B-v1",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "name": "togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-NeoXT-Chat-Base-20B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/GPT-JT-Moderation-6B",
+      "name": "togethercomputer/GPT-JT-Moderation-6B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/GPT-JT-Moderation-6B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/Pythia-Chat-Base-7B",
+      "name": "togethercomputer/Pythia-Chat-Base-7B",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/Pythia-Chat-Base-7B",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-7B-Base",
+      "name": "togethercomputer/RedPajama-INCITE-7B-Base",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Base",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "name": "togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Base-3B-v1",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-7B-Chat",
+      "name": "togethercomputer/RedPajama-INCITE-7B-Chat",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "name": "togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Chat-3B-v1",
+      "detected": "2026-11-24"
+    },
+    {
+      "id": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "name": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "library": "transformers",
+      "base_model": null,
+      "confidence": "medium",
+      "url": "https://huggingface.co/togethercomputer/RedPajama-INCITE-Instruct-3B-v1",
+      "detected": "2026-11-24"
+    }
+  ],
+  "signal_count": 11,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-JT-6B-v0"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-JT-6B-v1"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-NeoXT-Chat-Base-20B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/GPT-JT-Moderation-6B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/Pythia-Chat-Base-7B"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-7B-Base"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-Base-3B-v1"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-7B-Chat"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-Chat-3B-v1"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "hf_model",
+      "model": "togethercomputer/RedPajama-INCITE-Instruct-3B-v1"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "github_org": "arklexai",
   "sector": "unclassified",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-07-14",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "openai_agents_sdk": {
       "confidence": "high",
@@ -16,6 +16,13 @@
           "file": "pyproject.toml",
           "url": "https://github.com/arklexai/Agent-First-Organization/blob/ea22ff3e0c44b613408e688a3044209a64db35a9/pyproject.toml",
           "detected": "2026-07-03"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "arklexai/arksim",
+          "file": "requirements.txt",
+          "url": "https://github.com/arklexai/arksim/blob/2faa6e48977d4c08bb6f97a070663eb4233a6f10/examples/customer-service/google_adk/requirements.txt",
+          "detected": "2026-11-24"
         }
       ]
     }
@@ -29,6 +36,13 @@
         "file": "CLAUDE.md",
         "url": "https://github.com/arklexai/Agent-First-Organization/blob/main/CLAUDE.md",
         "detected": "2026-07-03"
+      },
+      {
+        "type": "agent_config",
+        "repo": "arklexai/arksim",
+        "file": "CLAUDE.md",
+        "url": "https://github.com/arklexai/arksim/blob/main/CLAUDE.md",
+        "detected": "2026-11-24"
       }
     ]
   },
@@ -48,7 +62,7 @@
   },
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 3,
+  "signal_count": 5,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -65,6 +79,17 @@
       "date": "2026-07-14",
       "type": "dependency",
       "framework": "google"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "openai_agents_sdk"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "agent_config",
+      "framework": null,
+      "repo": "arklexai/arksim"
     }
   ]
 }

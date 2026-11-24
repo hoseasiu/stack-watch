@@ -4,7 +4,7 @@
   "github_org": "aws-samples",
   "sector": "unclassified",
   "first_detected": "2026-07-02",
-  "last_updated": "2026-07-02",
+  "last_updated": "2026-11-24",
   "frameworks": {
     "smolagents": {
       "confidence": "high",
@@ -16,6 +16,26 @@
           "file": "requirements.txt",
           "url": "https://github.com/aws-samples/fsi-genai-bootcamp/blob/446d8f9018e70883359ad2bfaf1cbcf859cf7f28/03_agents/99_misc/01_smolagents_intro/requirements.txt",
           "detected": "2026-07-02"
+        },
+        {
+          "type": "dependency_file",
+          "repo": "aws-samples/fsi-genai-bootcamp",
+          "file": "requirements.txt",
+          "url": "https://github.com/aws-samples/fsi-genai-bootcamp/blob/1d84a58ebc22af2774b519fb34c1c35fbee7ce1e/03_agents/99_misc/01_smolagents_intro/requirements.txt",
+          "detected": "2026-11-24"
+        }
+      ]
+    },
+    "pydantic_ai": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "aws-samples/sample-serverless-pydantic-agents",
+          "file": "requirements.txt",
+          "url": "https://github.com/aws-samples/sample-serverless-pydantic-agents/blob/f930e68f7399e9db4c860bf2c36e7d124c8ee83d/lambda-requirements.txt",
+          "detected": "2026-11-24"
         }
       ]
     }
@@ -23,10 +43,20 @@
   "model_providers": {},
   "job_signals": [],
   "hf_models": [],
-  "signal_count": 1,
+  "signal_count": 3,
   "signal_history": [
     {
       "date": "2026-07-02",
+      "type": "dependency",
+      "framework": "smolagents"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "pydantic_ai"
+    },
+    {
+      "date": "2026-11-24",
       "type": "dependency",
       "framework": "smolagents"
     }

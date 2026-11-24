@@ -4,7 +4,7 @@
   "github_org": "togethercomputer",
   "sector": "ai-infra",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-11-24",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -134,6 +134,22 @@
       ],
       "posted": "2026-09-18",
       "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238467007"
+    },
+    {
+      "title": "Forward Deployed Engineer, Applied AI",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-11-23",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5302781007"
+    },
+    {
+      "title": "Manager, Solutions Architect ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-21",
+      "url": "https://job-boards.greenhouse.io/togetherai/jobs/5300653007"
     }
   ],
   "hf_models": [
@@ -318,7 +334,7 @@
       "detected": "2026-10-20"
     }
   ],
-  "signal_count": 28,
+  "signal_count": 30,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -480,6 +496,20 @@
       "date": "2026-10-20",
       "type": "hf_model",
       "model": "togethercomputer/HybridAgent-8B-Agentic"
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
     }
   ]
 }

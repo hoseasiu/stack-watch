@@ -1,0 +1,34 @@
+{
+  "slug": "qrev-ai",
+  "display_name": "qrev-ai",
+  "github_org": "qrev-ai",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "qrev-ai/qrev",
+          "file": "pyproject.toml",
+          "url": "https://github.com/qrev-ai/qrev/blob/3a15bb26a6e926eec6cc541ca94106bd52170ca5/ai/projects/storage/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

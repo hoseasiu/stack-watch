@@ -1,0 +1,34 @@
+{
+  "slug": "vectorinstitute",
+  "display_name": "VectorInstitute",
+  "github_org": "VectorInstitute",
+  "sector": "unclassified",
+  "first_detected": "2026-11-24",
+  "last_updated": "2026-11-24",
+  "frameworks": {
+    "llamaindex": {
+      "confidence": "high",
+      "first_seen": "2026-11-24",
+      "evidence": [
+        {
+          "type": "dependency_file",
+          "repo": "VectorInstitute/fed-rag",
+          "file": "pyproject.toml",
+          "url": "https://github.com/VectorInstitute/fed-rag/blob/bfd05d94647d66f4c78260fd5b422e5ef72fe69d/pyproject.toml",
+          "detected": "2026-11-24"
+        }
+      ]
+    }
+  },
+  "model_providers": {},
+  "job_signals": [],
+  "hf_models": [],
+  "signal_count": 1,
+  "signal_history": [
+    {
+      "date": "2026-11-24",
+      "type": "dependency",
+      "framework": "llamaindex"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "github_org": "anthropics",
   "sector": "ai-lab",
   "first_detected": "2026-07-03",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-24",
   "frameworks": {},
   "model_providers": {},
   "job_signals": [
@@ -1820,6 +1820,132 @@
       ],
       "posted": "2026-11-09",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477379008"
+    },
+    {
+      "title": "Applied AI Architect, Beneficial Deployment",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5486780008"
+    },
+    {
+      "title": "Applied AI Architect, Beneficial Deployments (Non-Profits)",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5484035008"
+    },
+    {
+      "title": "Applied AI Architect, Technology Partnerships",
+      "terms_matched": [
+        "MCP server",
+        "Model Context Protocol",
+        "tool use"
+      ],
+      "posted": "2026-11-23",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5491480008"
+    },
+    {
+      "title": "Applied AI Engineer, Commercial",
+      "terms_matched": [
+        "multi-agent",
+        "MCP server",
+        "Claude Code"
+      ],
+      "posted": "2026-11-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5483945008"
+    },
+    {
+      "title": "Developer Relations, Platform",
+      "terms_matched": [
+        "tool use"
+      ],
+      "posted": "2026-11-17",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5206870008"
+    },
+    {
+      "title": "Docs Lead, Platform ",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5482310008"
+    },
+    {
+      "title": "Engineering Manager, Billing Platform",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-14",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5469291008"
+    },
+    {
+      "title": "Enterprise Account Executive, Enterprise Account Executive, Hedge Funds & Quantitative Trading",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-18",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5484875008"
+    },
+    {
+      "title": "Finance Systems Production Support Lead",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-19",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5483403008"
+    },
+    {
+      "title": "Partner Support Operations Lead",
+      "terms_matched": [
+        "AI agent",
+        "Claude Code"
+      ],
+      "posted": "2026-11-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453322008"
+    },
+    {
+      "title": "Principal Engineer, Privacy",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-10",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477753008"
+    },
+    {
+      "title": "Resale Operations Lead",
+      "terms_matched": [
+        "Claude Code"
+      ],
+      "posted": "2026-11-12",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5468548008"
+    },
+    {
+      "title": "Research Engineer, AI Monitoring",
+      "terms_matched": [
+        "AI agent",
+        "Claude Code"
+      ],
+      "posted": "2026-11-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477416008"
+    },
+    {
+      "title": "Security Engineer, RF and Technical Surveillance Countermeasures",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-10",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5476579008"
+    },
+    {
+      "title": "Staff+ Software Engineer, Deployment",
+      "terms_matched": [
+        "AI agent"
+      ],
+      "posted": "2026-11-16",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5484144008"
     }
   ],
   "hf_models": [
@@ -1833,7 +1959,7 @@
       "detected": "2026-07-03"
     }
   ],
-  "signal_count": 72,
+  "signal_count": 78,
   "signal_history": [
     {
       "date": "2026-07-03",
@@ -2353,6 +2479,53 @@
       "type": "job_posting",
       "terms": [
         "tool use"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "MCP server",
+        "Model Context Protocol",
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "multi-agent",
+        "MCP server",
+        "Claude Code"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "tool use"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "AI agent"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "type": "job_posting",
+      "terms": [
+        "AI agent",
+        "Claude Code"
       ]
     }
   ]
